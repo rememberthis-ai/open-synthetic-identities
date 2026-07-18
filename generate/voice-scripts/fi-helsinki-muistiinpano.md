@@ -1,0 +1,5 @@
+# Helsingin työpajan muistiinpano
+
+Muistiinpano Helsingin työpajasta: asiakas haluaa esityksen suomeksi ja englanniksi.
+Kuitti kioskilta menee kirjanpitoon matkakuluna. Seuraava tapaaminen sovitaan
+elokuulle.

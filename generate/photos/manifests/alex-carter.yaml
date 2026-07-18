@@ -1,0 +1,92 @@
+# Photo manifest — alex-carter (pilot slice; full eras appended after pilot verifies)
+# Schema: see ../PLAN.md. Every entry fully determines one photo.
+
+- file: 2025-07-05-frankenjura-jonas-belay-01
+  era: balance
+  datetime: 2025-07-05T10:41:00+02:00
+  location: { name: "Frankenjura, Bavaria", lat: 49.7500, lon: 11.3500 }
+  camera: iphone-15-pro
+  cast: [jonas]
+  scene: "rock climber on limestone crag belaying, forest below, morning light, candid phone shot from the base"
+  style: candid-phone
+
+- file: 2025-07-05-frankenjura-camp-evening-02
+  era: balance
+  datetime: 2025-07-05T20:15:00+02:00
+  location: { name: "Frankenjura, Bavaria", lat: 49.7512, lon: 11.3467 }
+  camera: iphone-15-pro
+  cast: [alex, jonas]
+  scene: "two friends at a campervan table with camping stove and map, golden hour, candid"
+  style: candid-phone
+
+- file: 2025-08-16-tempelhof-mira-kite-01
+  era: balance
+  datetime: 2025-08-16T15:02:00+02:00
+  location: { name: "Tempelhofer Feld, Berlin", lat: 52.4736, lon: 13.4018 }
+  camera: iphone-15-pro
+  cast: [sam, mira]
+  scene: "parent and six-year-old flying a red kite on a vast open airfield park, summer, candid"
+  style: candid-phone
+
+- file: 2025-09-22-madrid-conference-hall-01
+  era: balance
+  datetime: 2025-09-22T09:48:00+02:00
+  location: { name: "Calle Mayor, Madrid", lat: 40.4155, lon: -3.7074 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "conference lanyard and coffee on a cafe table, Spanish street visible through window, morning"
+  style: candid-phone
+
+- file: 2026-03-11-werkraum-desk-01
+  era: balance
+  datetime: 2026-03-11T11:20:00+01:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-15-pro
+  cast: [alex]
+  scene: "designer at a standing desk in an airy coworking loft, external monitor with wireframes, plants, candid over-the-shoulder"
+  style: candid-phone
+
+- file: 2026-05-30-helsinki-harbour-01
+  era: balance
+  datetime: 2026-05-30T18:33:00+03:00
+  location: { name: "Kauppatori, Helsinki", lat: 60.1675, lon: 24.9525 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "Helsinki market square and harbour ferries in low evening sun, tourist phone shot"
+  style: landscape
+
+- file: 2026-06-14-brew-and-bean-priya-lunch-01
+  era: balance
+  datetime: 2026-06-14T12:56:00+02:00
+  location: { name: "Torstraße, Berlin-Mitte", lat: 52.5296, lon: 13.4004 }
+  camera: iphone-15-pro
+  cast: [alex, priya]
+  scene: "two colleagues laughing over lunch at a small cafe table, notebooks and coffee, candid"
+  style: candid-phone
+
+- file: 2026-06-14-receipt-brew-and-bean-01
+  era: receipts
+  datetime: 2026-06-14T13:04:00+02:00
+  location: { name: "Torstraße, Berlin-Mitte", lat: 52.5296, lon: 13.4004 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260622-brew-and-bean.png photographed on a wooden cafe table next to an empty espresso cup, slight perspective, soft shadow"
+  style: receipt
+
+- file: 2026-06-24-mira-school-gate-01
+  era: balance
+  datetime: 2026-06-24T08:12:00+02:00
+  location: { name: "Bergmannkiez, Berlin", lat: 52.4886, lon: 13.3990 }
+  camera: iphone-15-pro
+  cast: [alex, mira]
+  scene: "parent walking a seven-year-old with a too-big backpack to a school gate, morning light, candid from behind"
+  style: candid-phone
+
+- file: 2026-06-28-studio-moodboard-01
+  era: balance
+  datetime: 2026-06-28T16:44:00+02:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "printed brand moodboards pinned to a cork wall, serif logotype sketches, studio lighting"
+  style: posed

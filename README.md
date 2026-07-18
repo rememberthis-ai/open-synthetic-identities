@@ -26,6 +26,9 @@ open-synthetic-identities/
     gen_receipts.py       # renders synthetic receipt images (thermal-paper style)
     gen_statement_csv.py  # generates bank-statement CSVs matching the receipts
     voice-scripts/        # fictional voice-memo scripts (English + multilingual set)
+    photos/               # AI-generated photo-library pipeline (PLAN.md = full spec)
+      PLAN.md             # cast sheets, scene manifests, EXIF/GPS stamping, per-era cameras
+      manifests/          # per-identity scene manifests (the manifest IS the dataset spec)
   fixtures/
     clerkai/              # receipts (PNG), statements (CSV), period-close run state
     transcriber/          # audio fixtures + expected transcripts

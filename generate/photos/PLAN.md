@@ -152,8 +152,14 @@ evening with the resumable generator. Cheap enough to iterate; still — iterate
 
 ## Sequencing
 
-1. Cast sheets (alex + sam + mira first — they carry most scenes)
-2. 10-photo pilot slice (one era) → verify look, EXIF, import, indexing end-to-end
+1. **Done** — Cast sheets (alex + sam + mira, plus pilot-minimal single looks
+   for jonas + priya). `generate/photos/cast/`, `CHARACTERS.md`.
+2. **Done (this repo's scope)** — 10-photo pilot slice (`generate.py` +
+   `stamp_exif.py` → `generate/photos/library/alex-carter/`). Look + EXIF/GPS/
+   camera metadata verified; `osxphotos import` + app indexing verification
+   still needs the demo macOS account (private monorepo, not yet set up) —
+   see `generate/photos/library/README.md` for exactly what's
+   verified vs. not.
 3. Full alex-carter era batches + receipt subset → verification checklist
 4. sam-okafor overlap set, test-minimal
 5. Hand off to the marketing-assets capture rig (private monorepo,

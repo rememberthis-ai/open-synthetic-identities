@@ -68,7 +68,31 @@ Age progression:
   sleepy newborn-portrait expression — minimal identity signal by nature,
   kept consistent mainly via skin tone and hair texture.
 
-## Not yet generated (after alex/sam/mira, per PLAN.md sequencing)
+## Jonas Weber (pilot-minimal — single look only)
 
-Jonas Weber, Priya Sharma, Rosa Carter — descriptions to be written when
-their cast sheets are generated.
+Tanned, sun-weathered skin from outdoor climbing, short practical
+dark-blonde hair, athletic wiry build, easygoing warm expression, light
+stubble. Wardrobe: technical outdoor gear (softshell jackets, climbing
+harness in relevant scenes).
+
+Generated at a single "balance"-era look (`age-38.png`) only — just enough
+for the pilot manifest's two Jonas entries (climbing trip, 2025-07). Jonas
+appears across all eras (2014–2026, university friend), so a full age
+progression (mirroring Alex's 26/29/32/35/38 spread) is deferred to the
+post-pilot cast-sheet pass.
+
+## Priya Sharma (pilot-minimal — single look only)
+
+Deep-brown skin tone, sleek dark hair in a low bun, sharp confident
+professional expression, tailored business-casual wardrobe (blazers,
+neutral tones), small gold stud earrings — reads as a senior agency client.
+
+Generated at a single "balance"-era look (`age-36.png`) only — just enough
+for the pilot manifest's one Priya entry (client lunch, 2026-06). Priya only
+appears 2022–2026 (Carter Studio era onward), so a shorter age progression
+(two variants, not five) will suffice when generated properly post-pilot.
+
+## Not yet generated (after the pilot verifies, per PLAN.md sequencing)
+
+Rosa Carter (Alex's mother) — not needed by the pilot manifest; description
+to be written when her cast sheet is generated.

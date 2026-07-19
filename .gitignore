@@ -1,0 +1,6 @@
+# Generated scratch — raw pre-EXIF-stamp images, per generate/photos/PLAN.md's
+# pipeline. The committed artifact is generate/photos/library/ (post-stamp).
+generate/photos/raw/
+
+__pycache__/
+*.pyc

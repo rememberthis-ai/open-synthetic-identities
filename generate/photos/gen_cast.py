@@ -16,18 +16,10 @@ Usage:
   python3 gen_cast.py [--character alex|sam|mira] [--force]
 """
 import argparse
-import base64
-import json
-import os
-import sys
 import time
-import urllib.error
-import urllib.request
 from pathlib import Path
 
-REPLICATE_API = "https://api.replicate.com/v1"
-FLUX_CREATE = "black-forest-labs/flux-1.1-pro"
-FLUX_KONTEXT = "black-forest-labs/flux-kontext-pro"
+from replicate_client import FLUX_CREATE, FLUX_KONTEXT, image_data_uri, replicate_predict
 
 OUT_ROOT = Path(__file__).parent / "cast"
 
@@ -209,67 +201,31 @@ CHARACTERS = {
             },
         ],
     },
+    # Minimal single-look entries — only the "balance" era (2025-2026)
+    # portrait each pilot-slice manifest entry needs. Full age progressions
+    # (matching their real appearance spans) are deferred to the post-pilot
+    # cast-sheet pass per PLAN.md sequencing; see CHARACTERS.md.
+    "jonas": {
+        "base_file": "age-38.png",
+        "base_prompt": (
+            "A 38-year-old adult, tanned sun-weathered skin from outdoor "
+            "climbing, short practical dark-blonde hair, athletic wiry "
+            "build, easygoing warm expression, light stubble, wearing a "
+            "faded green outdoor softshell jacket. " + PORTRAIT_SUFFIX
+        ),
+        "variants": [],
+    },
+    "priya": {
+        "base_file": "age-36.png",
+        "base_prompt": (
+            "A 36-year-old adult, deep-brown skin tone, sleek dark hair in "
+            "a low bun, sharp confident professional expression, wearing a "
+            "tailored charcoal blazer over a cream blouse, small gold stud "
+            "earrings. " + PORTRAIT_SUFFIX
+        ),
+        "variants": [],
+    },
 }
-
-
-def replicate_predict(model_path: str, input_data: dict) -> bytes:
-    """POST a prediction, handle 429/retry_after, poll to completion, fetch
-    the output image bytes. Mirrors the genai-game-assets skill's canonical
-    retry loop (JS reference), ported to stdlib-only Python."""
-    token = os.environ.get("REPLICATE_API_TOKEN")
-    if not token:
-        sys.exit("REPLICATE_API_TOKEN not set")
-    url = f"{REPLICATE_API}/models/{model_path}/predictions"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
-    body = json.dumps({"input": input_data}).encode()
-
-    result = None
-    while result is None:
-        req = urllib.request.Request(url, data=body, headers=headers, method="POST")
-        try:
-            with urllib.request.urlopen(req) as resp:
-                result = json.loads(resp.read())
-        except urllib.error.HTTPError as e:
-            payload = e.read()
-            if e.code == 429:
-                wait = 11
-                try:
-                    j = json.loads(payload)
-                    if isinstance(j.get("retry_after"), (int, float)):
-                        wait = j["retry_after"] + 1
-                except Exception:
-                    pass
-                print(f"    rate-limited, waiting {wait:.0f}s...")
-                time.sleep(wait)
-                continue
-            raise RuntimeError(f"Replicate {e.code}: {payload[:300]!r}")
-
-    poll_req_headers = {"Authorization": f"Bearer {token}"}
-    while result.get("status") not in ("succeeded", "failed"):
-        time.sleep(2)
-        poll = urllib.request.Request(
-            f"{REPLICATE_API}/predictions/{result['id']}", headers=poll_req_headers
-        )
-        with urllib.request.urlopen(poll) as resp:
-            result = json.loads(resp.read())
-
-    if result["status"] == "failed":
-        raise RuntimeError(f"prediction failed: {result.get('error')}")
-
-    output = result["output"]
-    out_url = output[0] if isinstance(output, list) else output
-    if not out_url:
-        raise RuntimeError("no image URL returned")
-    with urllib.request.urlopen(out_url) as resp:
-        return resp.read()
-
-
-def image_data_uri(path: Path) -> str:
-    data = base64.b64encode(path.read_bytes()).decode()
-    return f"data:image/png;base64,{data}"
 
 
 def generate_character(name: str, spec: dict, force: bool) -> None:

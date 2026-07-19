@@ -35,6 +35,11 @@ Every scene image that includes a character is generated with kontext against th
 character's era-appropriate variant. Cast sheets are regenerated **only** when a
 character's look must change — they are the consistency anchor; treat as frozen.
 
+**Status: alex/sam/mira generated** (`generate/photos/gen_cast.py`, appearance
+descriptions in `generate/photos/CHARACTERS.md`, status detail in
+`generate/photos/cast/README.md`). Jonas/Priya/Rosa not yet generated — next in
+sequence once the pilot slice (below) verifies the mechanism end-to-end.
+
 ## Scene manifests (step 2 — the dataset spec)
 
 One YAML manifest per identity at `generate/photos/manifests/<identity>.yaml`. Each

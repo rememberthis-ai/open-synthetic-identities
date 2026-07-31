@@ -1,0 +1,5 @@
+# Miras Schulausflug
+
+Kurze Notiz: Miras Klasse macht am Donnerstag einen Ausflug in den Tierpark. Sie
+braucht ein Lunchpaket, feste Schuhe und zwölf Euro im Umschlag. Abgabe des Zettels
+bis Dienstag — nicht vergessen zu unterschreiben.

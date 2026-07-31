@@ -1,0 +1,43 @@
+# Voice-memo manifest — alex-carter (demo identity)
+#
+# Language rule — two KINDS of memo, and the kind decides the language:
+#   1. Alex DICTATING a note to self  -> always English, wherever Alex is.
+#      (A note-to-self is not in Finnish because the trip was to Helsinki.)
+#   2. Alex RECORDING a meeting held in another language, to transcribe and
+#      process afterwards -> that language, spoken by the other party. This is
+#      the honest reason a recording library is multilingual — and it's the
+#      product's actual use case. Titles on these stay in Alex's own words
+#      (English), because Alex is the one naming the recording.
+# Alex has lived in Berlin since 2016, so German meetings are routine; Sam
+# lives and teaches in Berlin. Nothing here is in a language its speaker
+# doesn't speak.
+#
+# Multilingual OCR is showcased separately and naturally by the RECEIPTS
+# (fi/sv/es/de merchants print in their own language — see
+# fixtures/clerkai/receipts/). Broader multi-language ASR belongs to a future
+# second identity, not to making Alex a polyglot.
+#
+# Schema: file (stem, matches the .m4a), datetime (ISO8601), title, language.
+# Dates are aligned to the photo manifest's eras/places so memos and photos
+# interleave sensibly on the Timeline.
+
+- file: en-climbing-trip
+  datetime: 2025-07-04T19:10:00+02:00
+  title: "Frankenjura trip planning"
+  language: en
+- file: de-mira-schulausflug
+  datetime: 2025-09-15T07:45:00+02:00
+  title: "Miras Schulausflug"
+  language: de
+- file: de-steuerberater-termin
+  datetime: 2026-06-18T16:05:00+02:00
+  title: "Tax advisor meeting — Herr Fischer"
+  language: de
+- file: en-northlight-debrief
+  datetime: 2026-06-14T17:30:00+02:00
+  title: "Northlight rebrand debrief"
+  language: en
+- file: en-expense-context-lunch
+  datetime: 2026-06-14T13:20:00+02:00
+  title: "Client lunch context"
+  language: en

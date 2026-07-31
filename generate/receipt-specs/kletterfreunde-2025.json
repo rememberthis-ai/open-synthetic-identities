@@ -1,0 +1,22 @@
+[
+  {
+    "merchant": "Vertikal Sport Berlin",
+    "when": "2025-06-14T11:20",
+    "total": 624.90,
+    "items": [
+      ["Seil 60m", 189.00],
+      ["Seil 60m", 189.00],
+      ["Karabiner-Set 12er", 128.90],
+      ["Expressen 8er", 118.00]
+    ]
+  },
+  {
+    "merchant": "Gasthaus Alte Wand",
+    "when": "2025-12-05T21:40",
+    "total": 214.60,
+    "items": [
+      ["Buffet 18 Pers.", 198.00],
+      ["Getränke", 16.60]
+    ]
+  }
+]

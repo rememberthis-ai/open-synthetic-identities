@@ -1,0 +1,47 @@
+[
+  {
+    "merchant": "Nimbus Cloud Hosting",
+    "when": "2026-04-02T02:10",
+    "total": 45.00,
+    "items": [
+      ["Compute S plan (monthly)", 24.00],
+      ["Object storage 250GB", 6.00],
+      ["Managed DB starter", 15.00]
+    ]
+  },
+  {
+    "merchant": "Fontrack Pro",
+    "when": "2026-04-03T06:02",
+    "total": 18.00,
+    "items": [["Pro seat (monthly)", 18.00]]
+  },
+  {
+    "merchant": "Bürobedarf Kern",
+    "when": "2026-04-09T11:24",
+    "total": 24.90,
+    "items": [
+      ["Notizbuch A5", 8.90],
+      ["Fineliner 0.4 (4er)", 9.90],
+      ["Druckerpapier A4 500Bl", 6.10]
+    ]
+  },
+  {
+    "merchant": "Brew & Bean",
+    "when": "2026-04-14T13:05",
+    "total": 16.40,
+    "items": [
+      ["Lunch special", 12.60],
+      ["Flat white", 3.80]
+    ]
+  },
+  {
+    "merchant": "RailLink",
+    "when": "2026-04-20T07:41",
+    "total": 186.60,
+    "items": [
+      ["Berlin-Amsterdam return", 174.80],
+      ["Seat reservation out", 5.90],
+      ["Seat reservation return", 5.90]
+    ]
+  }
+]

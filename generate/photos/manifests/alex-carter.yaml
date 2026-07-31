@@ -1,0 +1,676 @@
+# Photo manifest — alex-carter (HERO SLICE — full 5-era coverage for marketing)
+# Schema: see ../PLAN.md. Every entry fully determines one photo.
+# Cameras per era: 5s (2014-16), 7 (2016-18), XS (2019-21), 13-pro (2022-24), 15-pro (2025-26).
+# Dates cluster into believable bursts (trips = same-day multiples) with gaps between.
+
+# ============================================================
+# ERA: manchester (2014–2016) — iPhone 5s — uni tail + first agency job
+# Cast: alex (age-26), jonas (climbing), rosa (mother, Manchester)
+# ============================================================
+
+- file: 2014-06-28-manchester-graduation-01
+  era: manchester
+  datetime: 2014-06-28T14:30:00+01:00
+  location: { name: "University of Manchester", lat: 53.4668, lon: -2.2339 }
+  camera: iphone-5s
+  cast: [alex]
+  scene: "a graduate in a cap and gown outside a red-brick Victorian university building, holding a rolled diploma, proud candid, overcast British afternoon"
+  style: candid-phone
+
+- file: 2014-06-28-manchester-graduation-rosa-02
+  era: manchester
+  datetime: 2014-06-28T15:10:00+01:00
+  location: { name: "University of Manchester", lat: 53.4668, lon: -2.2339 }
+  camera: iphone-5s
+  cast: [alex, rosa]
+  scene: "a proud mother and her graduate child arm in arm outside a university building, graduation gown, warm candid, overcast light"
+  style: candid-phone
+
+- file: 2014-09-13-stanage-climb-jonas-01
+  era: manchester
+  datetime: 2014-09-13T11:20:00+01:00
+  location: { name: "Stanage Edge, Peak District", lat: 53.3389, lon: -1.6339 }
+  camera: iphone-5s
+  cast: [jonas]
+  scene: "a young man mid-climb on a gritstone edge, chalk bag at his waist, moorland stretching behind, bright overcast, candid from below"
+  style: candid-phone
+
+- file: 2014-09-13-stanage-summit-02
+  era: manchester
+  datetime: 2014-09-13T13:05:00+01:00
+  location: { name: "Stanage Edge, Peak District", lat: 53.3389, lon: -1.6339 }
+  camera: iphone-5s
+  cast: [alex, jonas]
+  scene: "two friends sitting on a rocky outcrop eating sandwiches, climbing rope coiled beside them, wide Peak District moor behind, windswept candid"
+  style: candid-phone
+
+- file: 2014-11-02-northern-quarter-cafe-01
+  era: manchester
+  datetime: 2014-11-02T10:45:00+00:00
+  location: { name: "Northern Quarter, Manchester", lat: 53.4839, lon: -2.2340 }
+  camera: iphone-5s
+  cast: [alex]
+  scene: "a person sketching in a notebook at a window seat of a small independent coffee shop, flat white on the table, rainy street outside, candid"
+  style: candid-phone
+
+- file: 2015-02-15-didsbury-sunday-lunch-01
+  era: manchester
+  datetime: 2015-02-15T13:30:00+00:00
+  location: { name: "Didsbury, Manchester", lat: 53.4106, lon: -2.2306 }
+  camera: iphone-5s
+  cast: [rosa]
+  scene: "an older woman laughing at a laid Sunday-roast table in a cozy suburban dining room, warm indoor light, candid family moment"
+  style: candid-phone
+
+- file: 2015-05-24-castlefield-canal-01
+  era: manchester
+  datetime: 2015-05-24T16:20:00+01:00
+  location: { name: "Castlefield, Manchester", lat: 53.4757, lon: -2.2536 }
+  camera: iphone-5s
+  cast: []
+  scene: "converted red-brick canal warehouses reflected in still water under a railway viaduct, late spring evening, tourist snapshot"
+  style: landscape
+
+- file: 2015-07-11-first-agency-desk-01
+  era: manchester
+  datetime: 2015-07-11T09:50:00+01:00
+  location: { name: "Northern Quarter, Manchester", lat: 53.4841, lon: -2.2352 }
+  camera: iphone-5s
+  cast: [alex]
+  scene: "a junior designer at a cluttered agency desk with an old iMac and printed layouts pinned above, exposed-brick office, morning, candid over-the-shoulder"
+  style: candid-phone
+
+- file: 2015-10-03-peak-district-hike-jonas-01
+  era: manchester
+  datetime: 2015-10-03T12:40:00+01:00
+  location: { name: "Kinder Scout, Peak District", lat: 53.3850, lon: -1.8720 }
+  camera: iphone-5s
+  cast: [alex, jonas]
+  scene: "two friends in walking gear on a windswept moorland plateau, autumn heather, grey-gold light, candid selfie-style arm outstretched"
+  style: candid-phone
+
+- file: 2016-01-17-whitworth-park-snow-01
+  era: manchester
+  datetime: 2016-01-17T10:15:00+00:00
+  location: { name: "Whitworth Park, Manchester", lat: 53.4560, lon: -2.2300 }
+  camera: iphone-5s
+  cast: []
+  scene: "a thin layer of snow over a Victorian city park with bare trees and a red-brick gallery behind, quiet winter morning, phone snapshot"
+  style: landscape
+
+- file: 2016-04-09-didsbury-garden-rosa-01
+  era: manchester
+  datetime: 2016-04-09T15:00:00+01:00
+  location: { name: "Didsbury, Manchester", lat: 53.4106, lon: -2.2306 }
+  camera: iphone-5s
+  cast: [alex, rosa]
+  scene: "an adult child and their mother having tea in a small spring garden, daffodils, mismatched mugs, warm candid"
+  style: candid-phone
+
+- file: 2016-06-19-leaving-drinks-01
+  era: manchester
+  datetime: 2016-06-19T20:30:00+01:00
+  location: { name: "Northern Quarter, Manchester", lat: 53.4835, lon: -2.2345 }
+  camera: iphone-5s
+  cast: [alex, jonas]
+  scene: "friends raising pints in a dim characterful pub, string lights, warm blur, farewell-drinks candid"
+  style: candid-phone
+
+# ============================================================
+# ERA: berlin-move (2016–2018) — iPhone 7 — new city; Sam appears mid-2017
+# Cast: alex (age-29), sam (age-29, from 2017)
+# ============================================================
+
+- file: 2016-09-05-kreuzberg-empty-flat-01
+  era: berlin-move
+  datetime: 2016-09-05T17:40:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-7
+  cast: [alex]
+  scene: "a person sitting on the floor of an empty high-ceilinged apartment among moving boxes, late afternoon light through tall windows, candid"
+  style: candid-phone
+
+- file: 2016-09-25-mauerpark-flea-01
+  era: berlin-move
+  datetime: 2016-09-25T14:10:00+02:00
+  location: { name: "Mauerpark, Berlin", lat: 52.5410, lon: 13.4020 }
+  camera: iphone-7
+  cast: []
+  scene: "a busy Sunday flea market in a city park, vinyl crates and vintage lamps on blankets, crowds, warm early-autumn light, street photo"
+  style: candid-phone
+
+- file: 2016-11-12-landwehr-canal-autumn-01
+  era: berlin-move
+  datetime: 2016-11-12T11:30:00+01:00
+  location: { name: "Landwehrkanal, Berlin", lat: 52.4950, lon: 13.4300 }
+  camera: iphone-7
+  cast: []
+  scene: "golden autumn leaves over a still canal lined with old trees and moored boats, soft overcast, city snapshot"
+  style: landscape
+
+- file: 2017-03-18-neukolln-cafe-sam-meet-01
+  era: berlin-move
+  datetime: 2017-03-18T16:20:00+01:00
+  location: { name: "Weserstraße, Berlin-Neukölln", lat: 52.4870, lon: 13.4290 }
+  camera: iphone-7
+  cast: [sam]
+  scene: "a person with short locs and tortoiseshell glasses laughing across a small marble café table, flat white and a book, warm window light, candid"
+  style: candid-phone
+
+- file: 2017-06-24-tempelhof-picnic-sam-01
+  era: berlin-move
+  datetime: 2017-06-24T18:00:00+02:00
+  location: { name: "Tempelhofer Feld, Berlin", lat: 52.4736, lon: 13.4018 }
+  camera: iphone-7
+  cast: [alex, sam]
+  scene: "two people on a picnic blanket on a vast former-airfield park at golden hour, bikes laid down beside them, relaxed candid"
+  style: candid-phone
+
+- file: 2017-08-12-spree-summer-01
+  era: berlin-move
+  datetime: 2017-08-12T15:30:00+02:00
+  location: { name: "Spree, Friedrichshain, Berlin", lat: 52.5020, lon: 13.4540 }
+  camera: iphone-7
+  cast: []
+  scene: "people sitting on a riverbank wall by the Spree with an old iron bridge behind, bright summer haze, city snapshot"
+  style: landscape
+
+- file: 2017-10-07-prenzlauerberg-market-sam-01
+  era: berlin-move
+  datetime: 2017-10-07T11:15:00+02:00
+  location: { name: "Kollwitzplatz, Prenzlauer Berg, Berlin", lat: 52.5380, lon: 13.4190 }
+  camera: iphone-7
+  cast: [alex, sam]
+  scene: "two people choosing vegetables at a busy weekend farmers' market, canvas tote bags, crisp autumn light, candid"
+  style: candid-phone
+
+- file: 2017-12-16-kreuzberg-flat-cooking-01
+  era: berlin-move
+  datetime: 2017-12-16T19:45:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-7
+  cast: [sam]
+  scene: "a person cooking at a stove in a warm cluttered apartment kitchen, steam rising, string lights, cozy winter-evening candid"
+  style: candid-phone
+
+- file: 2018-04-21-mauerpark-karaoke-01
+  era: berlin-move
+  datetime: 2018-04-21T17:00:00+02:00
+  location: { name: "Mauerpark, Berlin", lat: 52.5410, lon: 13.4020 }
+  camera: iphone-7
+  cast: []
+  scene: "a big crowd on grassy amphitheatre steps watching outdoor karaoke in a park, spring sun, phone snapshot from the back"
+  style: candid-phone
+
+- file: 2018-07-08-mueggelsee-day-sam-01
+  era: berlin-move
+  datetime: 2018-07-08T13:20:00+02:00
+  location: { name: "Müggelsee, Berlin", lat: 52.4380, lon: 13.6450 }
+  camera: iphone-7
+  cast: [alex, sam]
+  scene: "two people on a wooden lake jetty in swimwear with towels, dark-green forest lake behind, bright summer, relaxed candid"
+  style: candid-phone
+
+- file: 2018-09-30-kreuzberg-canal-market-01
+  era: berlin-move
+  datetime: 2018-09-30T12:50:00+02:00
+  location: { name: "Maybachufer, Berlin", lat: 52.4917, lon: 13.4260 }
+  camera: iphone-7
+  cast: [sam]
+  scene: "a person browsing fabric and produce stalls along a canal-side market, tote bag over shoulder, dappled autumn light, candid"
+  style: candid-phone
+
+- file: 2018-11-25-brandenburg-gate-visit-01
+  era: berlin-move
+  datetime: 2018-11-25T16:10:00+01:00
+  location: { name: "Brandenburger Tor, Berlin", lat: 52.5163, lon: 13.3777 }
+  camera: iphone-7
+  cast: []
+  scene: "the Brandenburg Gate at blue-hour with early Christmas lights and a few tourists, cold clear evening, city snapshot"
+  style: landscape
+
+# ============================================================
+# ERA: mira-arrives (2019–2021) — iPhone XS — family density peak
+# Cast: alex (age-32), sam (age-32), mira (0→2), rosa (visits)
+# ============================================================
+
+- file: 2019-03-12-charite-newborn-01
+  era: mira-arrives
+  datetime: 2019-03-12T14:22:00+01:00
+  location: { name: "Charité, Berlin", lat: 52.5236, lon: 13.3782 }
+  camera: iphone-xs
+  cast: [sam, mira]
+  scene: "a new parent cradling a swaddled newborn in a hospital room, soft window light, exhausted tender candid"
+  style: candid-phone
+
+- file: 2019-03-15-home-first-days-01
+  era: mira-arrives
+  datetime: 2019-03-15T10:05:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-xs
+  cast: [alex, mira]
+  scene: "a parent holding a tiny newborn against their chest by a sunlit apartment window, muslin cloth over the shoulder, quiet candid"
+  style: candid-phone
+
+- file: 2019-05-04-goerlitzer-pram-01
+  era: mira-arrives
+  datetime: 2019-05-04T15:30:00+02:00
+  location: { name: "Görlitzer Park, Berlin", lat: 52.4977, lon: 13.4370 }
+  camera: iphone-xs
+  cast: [sam, mira]
+  scene: "a parent pushing a pram through a green city park on a bright spring afternoon, blossom overhead, relaxed candid from the side"
+  style: candid-phone
+
+- file: 2019-06-30-manchester-rosa-baby-01
+  era: mira-arrives
+  datetime: 2019-06-30T14:00:00+01:00
+  location: { name: "Didsbury, Manchester", lat: 53.4106, lon: -2.2306 }
+  camera: iphone-xs
+  cast: [rosa, mira]
+  scene: "a grandmother holding a three-month-old baby in a sunny suburban garden, delighted candid, summer greenery"
+  style: candid-phone
+
+- file: 2019-09-22-viktoriapark-autumn-01
+  era: mira-arrives
+  datetime: 2019-09-22T16:15:00+02:00
+  location: { name: "Viktoriapark, Berlin", lat: 52.4889, lon: 13.3776 }
+  camera: iphone-xs
+  cast: [alex, mira]
+  scene: "a parent holding a baby up to look at a park waterfall on a hill, autumn leaves, warm low sun, candid from behind"
+  style: candid-phone
+
+- file: 2019-12-24-home-first-christmas-01
+  era: mira-arrives
+  datetime: 2019-12-24T18:30:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-xs
+  cast: [sam, mira]
+  scene: "a parent and a baby by a small decorated Christmas tree in a warm living room, fairy lights, cozy evening candid"
+  style: candid-phone
+
+- file: 2020-03-20-home-lockdown-desk-01
+  era: mira-arrives
+  datetime: 2020-03-20T11:00:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-xs
+  cast: [alex, mira]
+  scene: "a parent working at a laptop at a kitchen table with a one-year-old on their lap, cluttered home-office scene, flat daylight, candid"
+  style: candid-phone
+
+- file: 2020-06-14-tempelhof-first-steps-01
+  era: mira-arrives
+  datetime: 2020-06-14T17:20:00+02:00
+  location: { name: "Tempelhofer Feld, Berlin", lat: 52.4736, lon: 13.4018 }
+  camera: iphone-xs
+  cast: [sam, mira]
+  scene: "a parent crouched with arms out as a toddler takes wobbly first steps on a vast open airfield park, golden hour, joyful candid"
+  style: candid-phone
+
+- file: 2020-09-05-hasenheide-playground-01
+  era: mira-arrives
+  datetime: 2020-09-05T15:40:00+02:00
+  location: { name: "Hasenheide, Berlin", lat: 52.4860, lon: 13.4160 }
+  camera: iphone-xs
+  cast: [alex, mira]
+  scene: "a parent pushing a toddler on a wooden playground swing under big trees, late-summer light, candid"
+  style: candid-phone
+
+- file: 2021-03-12-home-second-birthday-01
+  era: mira-arrives
+  datetime: 2021-03-12T16:00:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-xs
+  cast: [sam, mira]
+  scene: "a two-year-old in a paper hat reaching for a small birthday cake with two candles, parent steadying the plate, warm indoor candid"
+  style: candid-phone
+
+- file: 2021-07-18-mueggelsee-family-01
+  era: mira-arrives
+  datetime: 2021-07-18T13:10:00+02:00
+  location: { name: "Müggelsee, Berlin", lat: 52.4380, lon: 13.6450 }
+  camera: iphone-xs
+  cast: [alex, sam, mira]
+  scene: "two parents and a small child paddling at the edge of a forest lake, bucket and spade, bright summer, happy family candid"
+  style: candid-phone
+
+- file: 2021-10-03-manchester-rosa-visit-01
+  era: mira-arrives
+  datetime: 2021-10-03T14:30:00+01:00
+  location: { name: "Didsbury, Manchester", lat: 53.4106, lon: -2.2306 }
+  camera: iphone-xs
+  cast: [rosa, mira]
+  scene: "a grandmother and a toddler baking together at a flour-dusted kitchen counter, autumn light, warm candid"
+  style: candid-phone
+
+- file: 2021-12-05-home-mira-drawing-01
+  era: mira-arrives
+  datetime: 2021-12-05T10:30:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-xs
+  cast: [mira]
+  scene: "a small child intently crayon-drawing at a low table covered in paper, morning window light, candid from above"
+  style: candid-phone
+
+# ============================================================
+# ERA: carter-studio (2022–2024) — iPhone 13 Pro — going solo
+# Cast: alex (age-35), sam (age-35), mira (2→4), priya (client, from 2022)
+# ============================================================
+
+- file: 2022-02-14-werkraum-first-day-01
+  era: carter-studio
+  datetime: 2022-02-14T09:30:00+01:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-13-pro
+  cast: [alex]
+  scene: "a designer setting up a fresh desk in a bright airy coworking loft, empty monitor and a single plant, exposed concrete, morning, candid"
+  style: candid-phone
+
+- file: 2022-05-19-amsterdam-canal-01
+  era: carter-studio
+  datetime: 2022-05-19T18:40:00+02:00
+  location: { name: "Brouwersgracht, Amsterdam", lat: 52.3820, lon: 4.8910 }
+  camera: iphone-13-pro
+  cast: []
+  scene: "narrow Amsterdam canal houses and bicycles along a bridge at golden hour, still water reflections, travel snapshot"
+  style: landscape
+
+- file: 2022-05-20-amsterdam-conference-priya-01
+  era: carter-studio
+  datetime: 2022-05-20T13:15:00+02:00
+  location: { name: "Westergas, Amsterdam", lat: 52.3860, lon: 4.8730 }
+  camera: iphone-13-pro
+  cast: [alex, priya]
+  scene: "two colleagues with conference lanyards talking over coffee in a converted industrial venue, laptops and totes, daylight, candid"
+  style: candid-phone
+
+- file: 2022-09-08-werkraum-client-call-01
+  era: carter-studio
+  datetime: 2022-09-08T15:00:00+02:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-13-pro
+  cast: [alex]
+  scene: "a designer on a video call at a standing desk, wireframes on an external monitor, coworking loft with plants behind, candid over-the-shoulder"
+  style: candid-phone
+
+- file: 2022-11-26-home-mira-preschool-art-01
+  era: carter-studio
+  datetime: 2022-11-26T17:30:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-13-pro
+  cast: [sam, mira]
+  scene: "a parent admiring a three-year-old's finger-paintings taped to a fridge, warm kitchen evening, candid"
+  style: candid-phone
+
+- file: 2023-03-25-lisbon-tram-01
+  era: carter-studio
+  datetime: 2023-03-25T11:50:00+00:00
+  location: { name: "Alfama, Lisbon", lat: 38.7128, lon: -9.1300 }
+  camera: iphone-13-pro
+  cast: []
+  scene: "a yellow vintage tram climbing a narrow tiled Lisbon street in bright spring sun, laundry lines above, travel snapshot"
+  style: landscape
+
+- file: 2023-03-26-lisbon-rooftop-priya-01
+  era: carter-studio
+  datetime: 2023-03-26T19:20:00+00:00
+  location: { name: "Miradouro, Lisbon", lat: 38.7160, lon: -9.1310 }
+  camera: iphone-13-pro
+  cast: [alex, priya]
+  scene: "two colleagues toasting small glasses at a rooftop viewpoint over terracotta Lisbon rooftops at sunset, relaxed candid"
+  style: candid-phone
+
+- file: 2023-06-17-tempelhof-mira-bike-01
+  era: carter-studio
+  datetime: 2023-06-17T16:00:00+02:00
+  location: { name: "Tempelhofer Feld, Berlin", lat: 52.4736, lon: 13.4018 }
+  camera: iphone-13-pro
+  cast: [alex, mira]
+  scene: "a parent jogging alongside a four-year-old learning to ride a balance bike on a wide airfield path, summer, joyful candid"
+  style: candid-phone
+
+- file: 2023-09-30-werkraum-team-dinner-01
+  era: carter-studio
+  datetime: 2023-09-30T20:30:00+02:00
+  location: { name: "Oranienstraße, Berlin-Kreuzberg", lat: 52.5000, lon: 13.4230 }
+  camera: iphone-13-pro
+  cast: [alex, priya]
+  scene: "a long restaurant table of people mid-dinner with wine and shared plates, warm pendant lights, celebratory candid"
+  style: candid-phone
+
+- file: 2023-12-24-home-family-christmas-01
+  era: carter-studio
+  datetime: 2023-12-24T18:00:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-13-pro
+  cast: [alex, sam, mira]
+  scene: "two parents and a four-year-old decorating a Christmas tree together in a warm living room, fairy lights, cozy candid"
+  style: candid-phone
+
+- file: 2024-04-13-frankenjura-return-jonas-01
+  era: carter-studio
+  datetime: 2024-04-13T12:20:00+02:00
+  location: { name: "Frankenjura, Bavaria", lat: 49.7500, lon: 11.3500 }
+  camera: iphone-13-pro
+  cast: [alex, jonas]
+  scene: "two friends racking up climbing gear at the base of a limestone crag in spring forest, ropes and quickdraws, candid"
+  style: candid-phone
+
+- file: 2024-07-06-mira-first-school-01
+  era: carter-studio
+  datetime: 2024-07-06T14:00:00+02:00
+  location: { name: "Bergmannkiez, Berlin", lat: 52.4886, lon: 13.3990 }
+  camera: iphone-13-pro
+  cast: [sam, mira]
+  scene: "a five-year-old holding an oversized cardboard Schultüte cone on their first day of school, proud parent beside, bright candid"
+  style: candid-phone
+
+- file: 2024-10-19-werkraum-studio-wall-01
+  era: carter-studio
+  datetime: 2024-10-19T15:30:00+02:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-13-pro
+  cast: [alex]
+  scene: "a designer pinning printed brand concepts to a large cork wall in a coworking studio, considered posed-candid, daylight"
+  style: candid-phone
+
+# ============================================================
+# ERA: balance (2025–2026) — iPhone 15 Pro — the current era (9 exist below + new)
+# Cast: alex (age-38), sam (age-38), mira (age-7), jonas, priya
+# ============================================================
+
+- file: 2025-04-05-stockholm-gamla-stan-01
+  era: balance
+  datetime: 2025-04-05T15:20:00+02:00
+  location: { name: "Gamla Stan, Stockholm", lat: 59.3251, lon: 18.0711 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "colorful narrow old-town townhouses on a Stockholm square in crisp spring light, cobblestones, travel snapshot"
+  style: landscape
+
+- file: 2025-05-17-berlin-home-breakfast-01
+  era: balance
+  datetime: 2025-05-17T09:15:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-15-pro
+  cast: [sam, mira]
+  scene: "a parent and a seven-year-old eating breakfast at a sunny kitchen table, cereal and orange juice, relaxed weekend candid"
+  style: candid-phone
+
+- file: 2025-07-05-frankenjura-jonas-belay-01
+  era: balance
+  datetime: 2025-07-05T10:41:00+02:00
+  location: { name: "Frankenjura, Bavaria", lat: 49.7500, lon: 11.3500 }
+  camera: iphone-15-pro
+  cast: [jonas]
+  scene: "rock climber on limestone crag belaying, forest below, morning light, candid phone shot from the base"
+  style: candid-phone
+
+- file: 2025-07-05-frankenjura-camp-evening-02
+  era: balance
+  datetime: 2025-07-05T20:15:00+02:00
+  location: { name: "Frankenjura, Bavaria", lat: 49.7512, lon: 11.3467 }
+  camera: iphone-15-pro
+  cast: [alex, jonas]
+  scene: "two friends at a campervan table with camping stove and map, golden hour, candid"
+  style: candid-phone
+
+- file: 2025-08-16-tempelhof-mira-kite-01
+  era: balance
+  datetime: 2025-08-16T15:02:00+02:00
+  location: { name: "Tempelhofer Feld, Berlin", lat: 52.4736, lon: 13.4018 }
+  camera: iphone-15-pro
+  cast: [sam, mira]
+  scene: "parent and six-year-old flying a red kite on a vast open airfield park, summer, candid"
+  style: candid-phone
+
+- file: 2025-09-22-madrid-conference-hall-01
+  era: balance
+  datetime: 2025-09-22T09:48:00+02:00
+  location: { name: "Calle Mayor, Madrid", lat: 40.4155, lon: -3.7074 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "conference lanyard and coffee on a cafe table, Spanish street visible through window, morning"
+  style: candid-phone
+
+- file: 2025-11-30-berlin-home-baking-01
+  era: balance
+  datetime: 2025-11-30T16:30:00+01:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4986, lon: 13.4030 }
+  camera: iphone-15-pro
+  cast: [alex, mira]
+  scene: "a parent and a seven-year-old rolling out gingerbread dough at a floury kitchen counter, first Advent candle, warm candid"
+  style: candid-phone
+
+- file: 2026-03-11-werkraum-desk-01
+  era: balance
+  datetime: 2026-03-11T11:20:00+01:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-15-pro
+  cast: [alex]
+  scene: "designer at a standing desk in an airy coworking loft, external monitor with wireframes, plants, candid over-the-shoulder"
+  style: candid-phone
+
+- file: 2026-05-30-helsinki-harbour-01
+  era: balance
+  datetime: 2026-05-30T18:33:00+03:00
+  location: { name: "Kauppatori, Helsinki", lat: 60.1675, lon: 24.9525 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "Helsinki market square and harbour ferries in low evening sun, tourist phone shot"
+  style: landscape
+
+- file: 2026-05-31-helsinki-workshop-01
+  era: balance
+  datetime: 2026-05-31T10:20:00+03:00
+  location: { name: "Punavuori, Helsinki", lat: 60.1610, lon: 24.9400 }
+  camera: iphone-15-pro
+  cast: [alex]
+  scene: "a designer presenting wireframes to a small workshop group in a bright Nordic meeting room, sticky notes on glass, candid"
+  style: candid-phone
+
+- file: 2026-06-14-brew-and-bean-priya-lunch-01
+  era: balance
+  datetime: 2026-06-14T12:56:00+02:00
+  location: { name: "Torstraße, Berlin-Mitte", lat: 52.5296, lon: 13.4004 }
+  camera: iphone-15-pro
+  cast: [alex, priya]
+  scene: "two colleagues laughing over lunch at a small cafe table, notebooks and coffee, candid"
+  style: candid-phone
+
+- file: 2026-06-24-mira-school-gate-01
+  era: balance
+  datetime: 2026-06-24T08:12:00+02:00
+  location: { name: "Bergmannkiez, Berlin", lat: 52.4886, lon: 13.3990 }
+  camera: iphone-15-pro
+  cast: [alex, mira]
+  scene: "parent walking a seven-year-old with a too-big backpack to a school gate, morning light, candid from behind"
+  style: candid-phone
+
+- file: 2026-06-28-studio-moodboard-01
+  era: balance
+  datetime: 2026-06-28T16:44:00+02:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "printed brand moodboards pinned to a cork wall, serif logotype sketches, studio lighting"
+  style: posed
+
+# ============================================================
+# RECEIPT COMPOSITES (2026-06) — iPhone 15 Pro — OCR-discoverable for Clerk.AI
+# Each COMPOSITEs an existing rendered scan from fixtures/clerkai/receipts/
+# into a photographed context. GPS = merchant city, datetime ~ receipt time.
+# Only PHYSICAL/paper receipts (SaaS invoices like Nimbus/Fontrack are
+# bank-line-only, not photographed).
+# ============================================================
+
+- file: 2026-06-02-receipt-buerobedarf-kern-01
+  era: receipts
+  datetime: 2026-06-02T17:20:00+02:00
+  location: { name: "Moritzplatz, Berlin-Kreuzberg", lat: 52.5033, lon: 13.4103 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260602-bürobedarf-kern.png photographed on a light wooden desk beside a stack of notebooks and a pen, slight perspective, soft window shadow"
+  style: receipt
+
+- file: 2026-06-03-receipt-k-kulma-kioski-01
+  era: receipts
+  datetime: 2026-06-03T12:10:00+03:00
+  location: { name: "Punavuori, Helsinki", lat: 60.1610, lon: 24.9400 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260603-k-kulma-kioski.png photographed held in one hand over a café table with a coffee cup blurred behind, natural indoor light"
+  style: receipt
+
+- file: 2026-06-05-receipt-kaffebaren-soder-01
+  era: receipts
+  datetime: 2026-06-05T14:35:00+02:00
+  location: { name: "Södermalm, Stockholm", lat: 59.3140, lon: 18.0720 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260605-kaffebaren-söder.png photographed on a marble café tabletop next to a flat white and a phone, slight angle, soft shadow"
+  style: receipt
+
+- file: 2026-06-07-receipt-raillink-01
+  era: receipts
+  datetime: 2026-06-07T08:05:00+02:00
+  location: { name: "Berlin Hauptbahnhof", lat: 52.5250, lon: 13.3690 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260607-raillink.png photographed on a train seat-back tray table with a blurred station platform through the window, morning light"
+  style: receipt
+
+- file: 2026-06-10-receipt-werkraum-01
+  era: receipts
+  datetime: 2026-06-10T10:40:00+02:00
+  location: { name: "Ritterstraße, Berlin-Kreuzberg", lat: 52.5027, lon: 13.4102 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260610-werkraum-kollektiv.png photographed on a concrete coworking desk beside a laptop corner and a plant, flat daylight"
+  style: receipt
+
+- file: 2026-06-14-receipt-brew-and-bean-01
+  era: receipts
+  datetime: 2026-06-14T13:04:00+02:00
+  location: { name: "Torstraße, Berlin-Mitte", lat: 52.5296, lon: 13.4004 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260622-brew-and-bean.png photographed on a wooden cafe table next to an empty espresso cup, slight perspective, soft shadow"
+  style: receipt
+
+- file: 2026-06-14-receipt-baeckerei-sonnenschein-01
+  era: receipts
+  datetime: 2026-06-14T08:30:00+02:00
+  location: { name: "Bergmannkiez, Berlin", lat: 52.4886, lon: 13.3990 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260614-bäckerei-sonnenschein.png photographed on a bakery counter beside a paper bag and a coffee, warm morning light, slight angle"
+  style: receipt
+
+- file: 2026-06-15-receipt-cafe-del-sol-01
+  era: receipts
+  datetime: 2026-06-15T14:50:00+02:00
+  location: { name: "Calle Mayor, Madrid", lat: 40.4155, lon: -3.7074 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts/20260615-café-del-sol.png photographed on a sunny outdoor café table beside a cortado and sunglasses, bright shadow, slight perspective"
+  style: receipt

@@ -1,0 +1,42 @@
+[
+  {
+    "merchant": "Nimbus Cloud Hosting",
+    "when": "2026-03-02T02:10",
+    "total": 45.00,
+    "items": [
+      ["Compute S plan (monthly)", 24.00],
+      ["Object storage 250GB", 6.00],
+      ["Managed DB starter", 15.00]
+    ]
+  },
+  {
+    "merchant": "Fontrack Pro",
+    "when": "2026-03-03T06:02",
+    "total": 18.00,
+    "items": [["Pro seat (monthly)", 18.00]]
+  },
+  {
+    "merchant": "RailLink",
+    "when": "2026-03-05T08:12",
+    "total": 64.80,
+    "items": [
+      ["Berlin-Hamburg return", 58.90],
+      ["Seat reservation", 5.90]
+    ]
+  },
+  {
+    "merchant": "Brew & Bean",
+    "when": "2026-03-12T12:48",
+    "total": 34.20,
+    "items": [
+      ["Lunch special x2", 27.80],
+      ["Flat white x2", 6.40]
+    ]
+  },
+  {
+    "merchant": "Bürobedarf Kern",
+    "when": "2026-03-24T16:03",
+    "total": 9.60,
+    "items": [["Fineliner 0.4 (4er)", 9.60]]
+  }
+]

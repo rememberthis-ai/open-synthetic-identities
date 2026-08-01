@@ -2,8 +2,8 @@
 kind: period_close_run
 period: 2026-03
 phase: draft
-steps: '[{"key":"confirm","label":"Confirm period","state":"done"},{"key":"collect","label":"Collect statements & invoices","state":"done","detail":"Meridian Business statement, 8 lines"},{"key":"receipts","label":"Collect receipts","state":"done","detail":"5 found, 5 kept"},{"key":"match","label":"Match & judgment calls","state":"done","detail":"7 matched, 1 excluded as personal"},{"key":"assemble","label":"Assemble packet","state":"done","detail":"index.md + statement + 5 receipts"},{"key":"draft","label":"Draft accountant email","state":"done","detail":"Sent 2 April; Anlass nachgereicht 13 April"}]'
-current_activity: "Books closed — accountant satisfied"
+steps: '[{"key": "setup", "label": "Setup", "state": "done"}, {"key": "collect", "label": "Collect", "state": "done", "detail": "statement in, 8 lines"}, {"key": "receipts", "label": "Receipts", "state": "done", "detail": "5 found, 5 kept"}, {"key": "match", "label": "Match", "state": "done", "detail": "7 matched, 1 personal"}, {"key": "assemble", "label": "Assemble", "state": "done", "detail": "statement + 5 receipts staged"}, {"key": "draft", "label": "Draft", "state": "done", "detail": "sent 2 April, closed 14 April"}]'
+current_activity: "Closed — nothing outstanding"
 status: done
 accountant: "M. Fischer Steuerberatung"
 started_at: "2026-04-02T08:35:00Z"

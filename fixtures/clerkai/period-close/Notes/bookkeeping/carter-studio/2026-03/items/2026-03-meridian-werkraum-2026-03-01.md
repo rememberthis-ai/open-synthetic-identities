@@ -13,6 +13,7 @@ status: matched
 source: "Meridian Business statement"
 instrument: "Carter Studio's account"
 allocation: "carter-studio"
+why: "No invoice is issued — the desk is a standing monthly agreement, and you told me so. Said as much in the email."
 updated_at: "2026-04-02T09:24:00Z"
 ---
 

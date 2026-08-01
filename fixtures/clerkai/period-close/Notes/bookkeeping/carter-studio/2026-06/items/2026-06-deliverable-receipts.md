@@ -3,7 +3,7 @@ line_key: "2026-06:deliverable:receipts"
 period: "2026-06"
 kind: deliverable
 sort_order: 2
-label: "Receipts"
+label: "A receipt for each line"
 source: "Photos"
 status: collecting
 detail: "4 photographed receipts picked up, 2 awaiting review"

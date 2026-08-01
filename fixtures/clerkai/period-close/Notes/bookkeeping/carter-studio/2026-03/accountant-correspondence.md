@@ -19,8 +19,8 @@ M. Fischer
 Anlass nachgereicht. Clerk fand den Zusammenhang in der Sprachnotiz vom
 12. März ("client lunch with Priya, the rebrand kickoff, expense not personal"):
 Arbeitsessen mit Priya Sharma (Northlight Agency) zum Rebrand-Kickoff,
-2 Teilnehmer. Der Anlass steht jetzt in der Transaktionszeile und als Nachtrag
-in `index.md`; die aktualisierte Anlage ist an die Kanzlei gegangen.
+2 Teilnehmer. Der Anlass steht jetzt bei der Buchung und als Nachtrag in der
+Aufstellung; die aktualisierte Anlage ist an die Kanzlei gegangen.
 
 ## Accountant reply · 2026-04-14T16:58:00Z
 

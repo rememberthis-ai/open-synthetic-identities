@@ -3,10 +3,10 @@ line_key: "2026-04:deliverable:invoices"
 period: "2026-04"
 kind: deliverable
 sort_order: 4
-label: "Vendor invoices"
-source: "Nimbus, Fontrack, Werkraum"
+label: "Invoices from your suppliers"
+source: "Supplier invoices by email"
 status: done
-detail: "3 monthly invoices collected"
+detail: "2 monthly invoices — the desk issues none"
 updated_at: "2026-05-04T09:28:00Z"
 ---
 

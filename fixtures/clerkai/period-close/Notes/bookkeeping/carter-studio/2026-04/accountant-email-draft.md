@@ -17,6 +17,11 @@ ist der private Haushalt, nicht das Studio. Die Bewirtung bei Brew & Bean am
 14. April war eine Rebrand-Abstimmung mit Northlight; den Anlass habe ich auf
 dem Beleg vermerkt.
 
+Zu jeder Buchung liegt ein Beleg bei — mit einer Ausnahme: die Miete an das
+Werkraum Kollektiv (240,00 €, 1. April). Für den Dauerarbeitsplatz wird keine
+monatliche Rechnung gestellt; es gilt die laufende Vereinbarung, und die
+Abbuchung steht im Kontoauszug.
+
 Anlagen in zeitlicher Reihenfolge:
 
 1. 2026-04-02-nimbus-cloud-hosting-beleg.png
@@ -26,7 +31,11 @@ Anlagen in zeitlicher Reihenfolge:
 5. 2026-04-20-raillink-beleg.png
 6. 2026-04-meridian-business-kontoauszug.csv
 
-Der vollständige Ordner liegt unter `Notes/bookkeeping/carter-studio/2026-04/`.
+Nachtrag vom 6. Mai, auf Ihre Rückfrage: Vellum & Co sitzt in Wien. Es handelt
+sich um eine sonstige Leistung an ein Unternehmen im EU-Ausland, die
+Steuerschuld geht über; die USt-IdNr. lautet ATU72104588. Die Rechnung
+INV-2026-04B wird mit dem fehlenden Hinweis korrigiert und geht erneut an
+Vellum.
 
 Bei Rückfragen melde ich mich gern.
 

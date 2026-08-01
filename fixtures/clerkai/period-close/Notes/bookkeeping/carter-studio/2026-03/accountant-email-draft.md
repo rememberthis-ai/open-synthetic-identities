@@ -11,6 +11,11 @@ Ausgaben 411,60 €, Endsaldo zum 31. März 3.679,25 €.
 Nicht enthalten: die Abschlagszahlung an die Stadtwerke Berlin (86,00 €) — das
 ist der private Haushalt, nicht das Studio.
 
+Zu jeder Buchung liegt ein Beleg bei — mit einer Ausnahme: die Miete an das
+Werkraum Kollektiv (240,00 €, 1. März). Für den Dauerarbeitsplatz wird keine
+monatliche Rechnung gestellt; es gilt die laufende Vereinbarung, und die
+Abbuchung steht im Kontoauszug.
+
 Anlagen in zeitlicher Reihenfolge:
 
 1. 2026-03-02-nimbus-cloud-hosting-beleg.png
@@ -19,8 +24,6 @@ Anlagen in zeitlicher Reihenfolge:
 4. 2026-03-12-brew-and-bean-beleg.png
 5. 2026-03-24-buerobedarf-kern-beleg.png
 6. 2026-03-meridian-business-kontoauszug.csv
-
-Der vollständige Ordner liegt unter `Notes/bookkeeping/carter-studio/2026-03/`.
 
 Bei Rückfragen melde ich mich gern.
 

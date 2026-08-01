@@ -9,9 +9,9 @@ rest is history.
 
 | Set of books | Period | `status` | `phase` | What it shows |
 |---|---|---|---|---|
-| Carter Studio UG | **2026-06** | `paused` | `match` | The live run, and the **allocation view**: 31 rows, the instrument settles 26, five left to decide. 2 candidates awaiting Keep/Drop, 2 open question cards |
-| Carter Studio UG | **2026-05** | `review` | `draft` | Packet assembled + accountant email **drafted, not yet sent** |
-| Carter Studio UG | **2026-04** | `sent` | `draft` | Emailed, **awaiting their reply** — the paste-reply field, empty, plus "Mark books as closed" |
+| Carter Studio UG | **2026-06** | `paused` | `match` | The live run — a **thin letter, mostly grey**, two files staged. Plus the **allocation view**: 31 rows, the instrument settles 26, five left to decide. 2 candidates awaiting Keep/Drop, 2 open question cards |
+| Carter Studio UG | **2026-05** | `review` | `draft` | **Nothing grey left** — every row a staged file, and the send block showing |
+| Carter Studio UG | **2026-04** | `sent` | `draft` | Emailed, **and they came back** — the reply thread, and *Is April finished?* not yet pressed |
 | Carter Studio UG | **2026-03** | `done` | `draft` | **Books closed**, with the reply loop on file in `accountant-correspondence.md` |
 | Kletterfreunde Kreuzberg e.V. | **2025** | `done` | `draft` | The club's **annual** Kassenbericht, closed in May 2026 before the members' meeting — and the one period whose recipient is **not an accountant** |
 
@@ -99,7 +99,7 @@ Notes/bookkeeping/
       attachments-to-send/        # the packet's files under the names the
                                   #   email lists them by
       accountant-correspondence.md # what went out and came back
-                                  #   (carter-studio/2026-03 only)
+                                  #   (carter-studio 2026-03 and 2026-04)
 Registry/alex-carter/questions/
   q-*.md                      # the two open question cards June is blocked on
 ```
@@ -115,9 +115,14 @@ totals from `generate/receipt-specs/` (see "Regenerating").
 
 ## What each state shows
 
-**2026-06 — `paused`, the live run.**
-- **Deliverables checklist** (`kind: deliverable`): bank statement done, client
-  invoice matched, receipts still collecting, vendor invoices not started.
+**2026-06 — `paused`, the live run, and the mid-collection letter.**
+- **A thin `accountant-email-draft.md`**, written at the start of the run rather
+  than the end, with two files staged in `attachments-to-send/` — the statement,
+  and the one receipt already settled to this set of books. Everything else is
+  still grey. The RailLink receipt is deliberately NOT staged here: it is
+  allocated to the club, and a letter belongs to exactly one set of books.
+- **Checklist rows** (`kind: deliverable`): bank statement done, client
+  invoice matched, receipts still collecting, supplier invoices not started.
 - **Matched ledger lines** (`status: matched`): coworking rent, hosting, the
   Fontrack Pro subscription (matched to an actual receipt image), the
   Northlight income line.
@@ -129,22 +134,35 @@ totals from `generate/receipt-specs/` (see "Regenerating").
   question cards via `question_slug` — a new-vendor check (Hallo Mobilfunk
   GmbH) and a personal-vs-business call (Supermercado Listo groceries).
 
-**2026-05 — `review`.** All four deliverables done, 7 matched transactions,
-1 excluded as personal (Stadtwerke), packet assembled, German email drafted and
-awaiting the user's send.
+**2026-05 — `review`, and nothing left grey.** All four checklist rows `done`,
+7 matched transactions, 1 excluded as personal (Stadtwerke), and every one of
+the six files the letter lists really present in `attachments-to-send/` under
+exactly the name the letter gives it. That last part is what makes it the
+send-state period: the send block appears only once nothing above it is grey, so
+a single missing file makes this period unshootable and nothing says so.
 
-**2026-04 — `sent`.** Same shape, plus: the email went out on 4 May and the run
-is parked waiting for M. Fischer. Deliberately has **no**
-`accountant-correspondence.md` — marking a run sent doesn't write one (the app
-only appends on a pasted reply), so the reply field renders empty, which is the
-whole point of this period. Second client (Vellum & Co) shows a resolved
-new-payer judgment call in the packet's *Open question* column.
+**2026-04 — `sent`, and the reply is in.** The email went out on 4 May;
+M. Fischer wrote back on the 6th asking whether Vellum & Co — a new payer, and
+the studio's first client outside Germany — was domestic or EU, because an EU
+business customer means the tax liability transfers and he needs the VAT number
+for the quarterly listing. Alex answered in their own words (*"Vellum sitzt in
+Wien"*), Clerk found the VAT number on Vellum's order, wrote back, and recorded
+that Vellum is an EU client so it never has to ask again.
+
+**This period used to be deliberately reply-LESS**, on the grounds that an empty
+paste-reply field is what makes the field read as an affordance. Both halves of
+that reasoning have gone: there is no dedicated reply field any more (one box at
+the foot of the period does *paste their reply* and *tell me something* alike,
+always in the same place), and a `sent` run WITH a reply is exactly what the app
+produces the moment somebody pastes one. It is the state the finished-period
+screen is drawn from — sent, answered, and not yet filed — and nothing else in
+the fixture reaches it.
 
 **2026-03 — `done`.** The full loop, and the only period where the accountant
 actually answered: Fischer asked for the Bewirtungs-Anlass on the 12 March
 Brew & Bean lunch (§ 4 Abs. 5 Nr. 2 EStG needs occasion + participants), Clerk
 recovered it from Alex's own voice memo of that day, the Anlass went into the
-ledger row and an `index.md` Nachtrag, and Fischer confirmed. That exchange is
+ledger row and the assembled list, and Fischer confirmed. That exchange is
 `accountant-correspondence.md` — the three entries are exactly the shape the
 app appends (`Accountant reply` / `Note` / `Accountant reply`).
 
@@ -161,6 +179,35 @@ says so — that is the whole not-hardcoded-recipient principle, on screen.
 > (the run view's *"Afterwards"* thread), so the exchange
 > now shows as a conversation: the accountant's two messages on their side,
 > Clerk's note italic and unadorned between them.
+
+## The two states the marketing shoot needs
+
+Two frames of the how-it-works story could not be shot from synthetic data, and
+both are fixture states rather than screens:
+
+| Frame | Wants | Period |
+|---|---|---|
+| the send state | a period with **nothing grey** — every row a real staged file, and the send block revealed | **carter-studio/2026-05** |
+| the finished period | **sent, and they replied** — the thread, and *Is April finished?* unpressed | **carter-studio/2026-04** |
+
+The rest of the fixture exists to make those two legible: March is what filing
+looks like afterwards, June is what the same screen looks like while it is still
+mostly grey, and the club is the second tab.
+
+**The letter is the period, so it is written FIRST and mostly empty.** June
+used to be the proof of the old order: mid-run, and with no draft file at all,
+because the workflow wrote the letter at `review`. It now ships a **thin** one —
+recipient, subject, greeting, sign-off, and a plain sentence saying what is still
+being collected — and it stages files as it gets them rather than in a batch at
+the end, so `attachments-to-send/` holds the statement and the one receipt that
+is already settled. That is what makes June the mid-collection frame: two solid
+rows and the rest grey.
+
+**Solid rows come from the STAGED FOLDER, not from the letter's own numbered
+list.** The app lists what is really in `attachments-to-send/` and ghosts the
+checklist rows that have nothing there yet. So a filename typed into the draft
+with no file behind it does not produce a row — it produces a discrepancy
+between the letter the user reads and the folder they send.
 
 ## Restoring into a vault
 
@@ -214,6 +261,18 @@ spec can't invent an inconsistent merchant).
 
 ## Invariants worth re-checking after any edit
 
+**Five of them are now a script, not a memory:**
+
+```bash
+python3 generate/check_bookkeeping_fixture.py
+```
+
+It asserts the letter/staged-folder agreement, the no-paths and no-our-words
+rules over everything a person reads, that every `receipt_path` resolves, and
+that each closed month has exactly one nameable document-less movement. Run it
+after editing any fixture file; the rest of this list is still yours to check.
+
+
 - **Balances chain across periods** — each period's closing balance is the
   next's opening. Break it and a reader comparing two screenshots sees a
   company whose money doesn't add up.
@@ -225,3 +284,19 @@ spec can't invent an inconsistent merchant).
 - **`index.md`'s summary arithmetic** — income, expenses, net, opening and
   closing — is recomputed, not carried over. 
 - **Hallo Mobilfunk stays June-only**, or June's new-vendor card is a lie.
+- **Every filename in a letter is a file that exists**, in that period's
+  `attachments-to-send/`, spelled identically. The app makes an openable link
+  out of each one, so a name with no file behind it is the single lie the letter
+  can tell — and it looks exactly like a correct row until somebody clicks it.
+- **Nothing a person reads carries a path or an internal filename.** Not a
+  deliverable `label` or `detail`, not `current_activity`, not a question, and
+  not the letter — the recipient of that email has no `Notes/bookkeeping/`.
+- **No word that is ours rather than theirs** in those same places: not
+  *packet*, *deliverables*, *round*, *set of books* or *reconcile*, and never one
+  of our own bank names. The company's own name, the period's own name, and the
+  files' own names are what belong there.
+- **Exactly one movement per closed month has no document at all** (the
+  Werkraum desk, which issues no monthly invoice, and Alex said so). That is
+  what the finished period leads with, so it has to be nameable and singular —
+  the income lines point at the statement and say in `why` where the real
+  invoice lives, rather than looking like three more gaps.

@@ -13,6 +13,11 @@ ist der private Haushalt, nicht das Studio. Die Bewirtung bei Brew & Bean am
 18. Mai war ein Arbeitsessen mit Northlight zum Rebrand-Projekt; den Anlass habe
 ich auf dem Beleg vermerkt.
 
+Zu jeder Buchung liegt ein Beleg bei — mit einer Ausnahme: die Miete an das
+Werkraum Kollektiv (240,00 €, 1. Mai). Für den Dauerarbeitsplatz wird keine
+monatliche Rechnung gestellt; es gilt die laufende Vereinbarung, und die
+Abbuchung steht im Kontoauszug.
+
 Anlagen in zeitlicher Reihenfolge:
 
 1. 2026-05-03-nimbus-cloud-hosting-beleg.png
@@ -21,8 +26,6 @@ Anlagen in zeitlicher Reihenfolge:
 4. 2026-05-18-brew-and-bean-beleg.png
 5. 2026-05-26-raillink-beleg.png
 6. 2026-05-meridian-business-kontoauszug.csv
-
-Der vollständige Ordner liegt unter `Notes/bookkeeping/carter-studio/2026-05/`.
 
 Bei Rückfragen melde ich mich gern.
 

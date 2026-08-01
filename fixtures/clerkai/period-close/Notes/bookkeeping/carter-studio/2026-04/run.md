@@ -2,12 +2,12 @@
 kind: period_close_run
 period: 2026-04
 phase: draft
-steps: '[{"key":"confirm","label":"Confirm period","state":"done"},{"key":"collect","label":"Collect statements & invoices","state":"done","detail":"Meridian Business statement, 9 lines"},{"key":"receipts","label":"Collect receipts","state":"done","detail":"5 found, 5 kept"},{"key":"match","label":"Match & judgment calls","state":"done","detail":"8 matched, 1 excluded as personal"},{"key":"assemble","label":"Assemble packet","state":"done","detail":"index.md + statement + 5 receipts"},{"key":"draft","label":"Draft accountant email","state":"done","detail":"Sent to M. Fischer on 4 May"}]'
-current_activity: "Sent to accountant — awaiting reply"
+steps: '[{"key": "setup", "label": "Setup", "state": "done"}, {"key": "collect", "label": "Collect", "state": "done", "detail": "statement in, 9 lines"}, {"key": "receipts", "label": "Receipts", "state": "done", "detail": "5 found, 5 kept"}, {"key": "match", "label": "Match", "state": "done", "detail": "8 matched, 1 personal"}, {"key": "assemble", "label": "Assemble", "state": "done", "detail": "statement + 5 receipts staged"}, {"key": "draft", "label": "Draft", "state": "done", "detail": "sent 4 May; reply answered 6 May"}]'
+current_activity: "Answered their question — is April finished?"
 status: sent
 accountant: "M. Fischer Steuerberatung"
 started_at: "2026-05-04T08:30:00Z"
-updated_at: "2026-05-04T10:05:00Z"
+updated_at: "2026-05-06T09:05:00Z"
 ---
 
 Period-close run state (managed by the period-close workflow).

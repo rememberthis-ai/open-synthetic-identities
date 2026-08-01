@@ -2,8 +2,8 @@
 kind: period_close_run
 period: 2026-06
 phase: match
-steps: '[{"key":"confirm","label":"Confirm period","state":"done"},{"key":"collect","label":"Collect statements & invoices","state":"done","detail":"Meridian Business statement downloaded"},{"key":"receipts","label":"Collect receipts","state":"done","detail":"3 found, 2 awaiting review"},{"key":"match","label":"Match & judgment calls","state":"waiting","detail":"2 questions for you"},{"key":"assemble","label":"Assemble packet","state":"pending"},{"key":"draft","label":"Draft accountant email","state":"pending"}]'
-current_activity: "Waiting on your input — 2 transactions need a judgment call before the packet can be assembled."
+steps: '[{"key": "setup", "label": "Setup", "state": "done"}, {"key": "collect", "label": "Collect", "state": "done", "detail": "statement in"}, {"key": "receipts", "label": "Receipts", "state": "done", "detail": "3 found, 2 for you to look at"}, {"key": "match", "label": "Match", "state": "waiting", "detail": "2 questions for you"}, {"key": "assemble", "label": "Assemble", "state": "pending"}, {"key": "draft", "label": "Draft", "state": "pending"}]'
+current_activity: "Waiting on you — 2 need a decision"
 status: paused
 accountant: "M. Fischer Steuerberatung"
 started_at: "2026-06-28T08:55:00Z"

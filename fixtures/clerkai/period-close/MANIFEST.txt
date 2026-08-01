@@ -88,6 +88,7 @@ fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-05/receipts/M
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-05/run.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-05/statements/meridian-business-2026-05.csv
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/accountant-email-draft.md
+fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/attachments-to-send/2026-06-07-raillink-beleg.png
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/attachments-to-send/2026-06-10-werkraum-kollektiv-beleg.png
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/attachments-to-send/2026-06-meridian-business-kontoauszug.csv
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-candidate-kaffebaren-2026-06-05.md
@@ -163,3 +164,4 @@ fixtures/clerkai/period-close/Notes/bookkeeping/kletterfreunde-kreuzberg/2025/st
 fixtures/clerkai/period-close/Notes/bookkeeping/round.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-hallo-mobilfunk-new-vendor.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-supermercado-listo-personal-or-business.md
+fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-supplier-portals-signin.md

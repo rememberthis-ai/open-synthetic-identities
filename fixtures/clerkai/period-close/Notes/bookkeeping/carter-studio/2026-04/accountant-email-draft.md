@@ -39,8 +39,8 @@ Vellum.
 
 Bei Rückfragen melde ich mich gern.
 
-Mit freundlichen Grüßen
-Alex Carter
+Mit freundlichen Grüßen\
+Alex Carter\
 Carter Studio UG
 
 *Erstellt mit Clerk.AI · https://clerkai.eu*

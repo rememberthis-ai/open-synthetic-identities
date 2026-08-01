@@ -5,8 +5,8 @@ Sehr geehrter Herr Fischer,
 
 <!-- filling in -->
 
-Mit freundlichen Grüßen
-Alex Carter
+Mit freundlichen Grüßen\
+Alex Carter\
 Carter Studio UG
 
 *Erstellt mit Clerk.AI · https://clerkai.eu*

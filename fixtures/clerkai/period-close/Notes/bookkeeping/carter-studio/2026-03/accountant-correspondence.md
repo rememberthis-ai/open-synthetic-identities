@@ -2,6 +2,8 @@
 
 ## Accountant reply · 2026-04-13T09:12:00Z
 
+> Asking what the 12 March Brew & Bean lunch was for, and who was there — German law wants both in writing before it is deductible.
+
 Sehr geehrter Herr Carter,
 
 vielen Dank für die Unterlagen. Fast alles vollständig — eine Rückfrage: der
@@ -16,6 +18,8 @@ M. Fischer
 
 ## Note · 2026-04-13T10:41:00Z
 
+> Found the reason in your voice memo from that day — lunch with Priya Sharma about the rebrand, two people. Sent it on.
+
 Anlass nachgereicht. Clerk fand den Zusammenhang in der Sprachnotiz vom
 12. März ("client lunch with Priya, the rebrand kickoff, expense not personal"):
 Arbeitsessen mit Priya Sharma (Northlight Agency) zum Rebrand-Kickoff,
@@ -23,6 +27,8 @@ Arbeitsessen mit Priya Sharma (Northlight Agency) zum Rebrand-Kickoff,
 Aufstellung; die aktualisierte Anlage ist an die Kanzlei gegangen.
 
 ## Accountant reply · 2026-04-14T16:58:00Z
+
+> That settles it. March is filed, nothing outstanding.
 
 Danke, damit ist der Bewirtungsbeleg in Ordnung. März ist bei mir gebucht,
 von meiner Seite gibt es keine offenen Punkte mehr.

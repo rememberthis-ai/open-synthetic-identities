@@ -2,6 +2,8 @@
 
 ## Accountant reply · 2026-05-06T08:41:00Z
 
+> Everything is complete, but Vellum & Co is new — is it a German customer or one elsewhere in the EU? If elsewhere, the VAT number is needed and the invoice has to carry a note.
+
 Sehr geehrter Herr Carter,
 
 danke, die Unterlagen sind vollständig. Eine Sache muss ich noch wissen: Vellum
@@ -18,11 +20,15 @@ M. Fischer
 
 ## You said · 2026-05-06T09:02:00Z
 
+> Vellum is in Vienna — first customer outside Germany. The VAT number is on their order; the invoice went out without the note.
+
 Vellum sitzt in Wien. Ist mein erster Kunde außerhalb Deutschlands — die
 USt-IdNr. steht auf ihrer Bestellung, ATU-irgendwas. Die Rechnung habe ich
 normal geschrieben, ohne den Hinweis. Kannst du das klären?
 
 ## Note · 2026-05-06T09:05:00Z
+
+> Answered the firm with the VAT number from Vellum's order. Reissuing the invoice with the reverse-charge note, and Vellum is now on file as an EU customer so I will not ask again.
 
 Die USt-IdNr. stand auf der Bestellung von Vellum & Co: ATU72104588. Ich habe
 der Kanzlei geantwortet: Kunde in Wien, sonstige Leistung, Steuerschuldnerschaft

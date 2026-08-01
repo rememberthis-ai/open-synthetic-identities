@@ -1,0 +1,83 @@
+[
+  {
+    "merchant": "Supermercado Listo",
+    "when": "2026-06-03T18:42",
+    "total": 33.52,
+    "items": [
+      ["Tomaten 1kg", 3.49],
+      ["Serrano 200g", 7.99],
+      ["Manchego 250g", 8.95],
+      ["Oliven 400g", 4.29],
+      ["Baguette", 1.80],
+      ["Rotwein Rioja", 7.00]
+    ]
+  },
+  {
+    "merchant": "Supermercado Listo",
+    "when": "2026-06-25T19:05",
+    "total": 31.11,
+    "items": [
+      ["Chorizo 300g", 6.49],
+      ["Manchego 250g", 8.95],
+      ["Oliven 400g", 4.29],
+      ["Paprika 500g", 2.99],
+      ["Rotwein Rioja", 7.00],
+      ["Brot", 1.39]
+    ]
+  },
+  {
+    "merchant": "Brew & Bean",
+    "when": "2026-06-08T09:14",
+    "total": 5.51,
+    "items": [["Flat white", 4.10], ["Sparkling water", 1.41]]
+  },
+  {
+    "merchant": "Bürobedarf Kern",
+    "when": "2026-06-17T15:28",
+    "total": 21.61,
+    "items": [
+      ["Notizbuch A5", 9.90],
+      ["Druckerpapier A4 500Bl", 6.90],
+      ["Textmarker 4er", 4.81]
+    ]
+  },
+  {
+    "merchant": "RailLink",
+    "when": "2026-06-21T16:50",
+    "total": 149.74,
+    "items": [
+      ["Berlin-Amsterdam einfach", 143.84],
+      ["Seat reservation", 5.90]
+    ]
+  },
+  {
+    "merchant": "Bäckerei Sonnenschein",
+    "when": "2026-06-19T08:12",
+    "total": 4.60,
+    "items": [["Roggenbrot", 3.20], ["Brezel", 1.40]]
+  },
+  {
+    "merchant": "Kaufhalle Nord",
+    "when": "2026-06-13T17:36",
+    "total": 37.44,
+    "items": [
+      ["Windeln Gr.4 44St", 12.99],
+      ["Waschmittel 2.5l", 8.49],
+      ["Milch 1l", 1.29],
+      ["Bananen 1kg", 2.19],
+      ["Weißwein trocken", 6.99],
+      ["Katzenfutter 12er", 5.49]
+    ]
+  },
+  {
+    "merchant": "Apotheke am Kottbusser Tor",
+    "when": "2026-06-16T11:05",
+    "total": 23.50,
+    "items": [
+      ["Ibuprofen 400 20St", 5.95],
+      ["Nasenspray", 4.45],
+      ["Vitamin D3 Tropfen", 9.90],
+      ["Pflaster wasserfest", 3.20]
+    ]
+  }
+]

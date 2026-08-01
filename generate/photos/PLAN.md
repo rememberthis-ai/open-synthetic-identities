@@ -105,8 +105,38 @@ the photo library (Clerk discovers receipts via OCR over Photos), composite each
 June receipt into a **photographed context** via kontext: receipt on a café table /
 held in hand / on a car seat, slight perspective and shadow, phone-camera framing.
 EXIF datetime = minutes after the receipt's own timestamp, GPS = the merchant's city
-anchor. ~20 images. OCR must still read them — verify with the app's OCR pass before
-committing the batch.
+anchor. ~20 images. OCR must still read them — verify before committing the batch
+with `swift ocr_check.swift library/alex-carter/receipts/*.jpg` (Vision, the same
+framework the app uses; `.accurate`, because `.fast` reports a rosier number than
+production ever sees).
+
+**Render the text, let the model only photograph it.** Prompting an image model
+for a document's text produces confident gibberish — a first pass at the decoys
+gave a parking sign reading *"Tarit rábir / XAIl - 2:00/€M / Perter mouitchmen"*
+and a menu whose body was pseudo-German noise. Passable at thumbnail size,
+indefensible at full size in a public repo. Everything that carries text is
+therefore rendered with PIL first (`gen_receipts.py --spec`, `gen_decoys.py`) and
+fed to kontext as a COMPOSITE, which it photographs very well.
+
+**Kontext re-renders text rather than pasting it, so digits and words drift a
+little.** This is inherent, not a prompt problem. Observed in the 2026-08 batch:
+a receipt's `Baguette 1.80` became `1.90`, so its printed lines sum to 33.62
+against a printed total of 33.52; a handwritten list gained a duplicated word.
+Two consequences worth designing around:
+- **The total is what matters** — it is what a ledger row is checked against, and
+  it survived in every case. Internal line arithmetic in a *photographed* receipt
+  is not guaranteed, unlike the rendered scans in `fixtures/clerkai/receipts/`.
+- **Fewer, shorter lines drift less.** Keep decoy documents terse.
+
+## Decoys — the grid needs things to reject
+
+A photo-review grid whose claim is *"I cast a wide net on purpose — drop the ones
+that aren't"* is refuted by a set of twenty genuine business receipts: there
+would be nothing to drop. Roughly a quarter of the set should be plausible false
+positives — documents OCR flags and a person rejects at a glance (a menu, a
+parking tariff sign, a handwritten list, a takeaway flyer) plus real receipts
+that are plainly personal (a supermarket till roll of nappies and washing powder,
+a pharmacy receipt). `gen_decoys.py` renders the non-receipt ones.
 
 ## Pipeline (end to end)
 

@@ -22,8 +22,7 @@ variants), 1024×1024 PNG.
 ## Regenerating
 
 ```bash
-export REPLICATE_API_TOKEN=...   # house key, service `augmentedmind-genai`
-                                   # in the keychain — see genai-game-assets skill
+export REPLICATE_API_TOKEN=...   # your own Replicate token
 python3 gen_cast.py                        # all three characters
 python3 gen_cast.py --character alex        # one character
 python3 gen_cast.py --character mira --force  # force regen even if files exist

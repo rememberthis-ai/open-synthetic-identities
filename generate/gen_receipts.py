@@ -53,6 +53,25 @@ MERCHANTS = {
           ("Expressen 8er", 118.00, 118.00), ("Sicherungsgerät", 64.90, 64.90)]),
         ("Gasthaus Alte Wand", "Wiener Str. 18, 10999 Berlin", "de", 0.19,
          [("Buffet 18 Pers.", 198.00, 198.00), ("Getränke", 16.60, 16.60)]),
+        # --- Vendors that appear in June's ledger and are PHOTOGRAPHED ---
+        ("Supermercado Listo", "Skalitzer Str. 60, 10997 Berlin", "de", 0.07,
+         [("Tomaten 1kg", 3.49, 3.49), ("Serrano 200g", 7.99, 7.99),
+          ("Manchego 250g", 8.95, 8.95), ("Oliven 400g", 4.29, 4.29),
+          ("Chorizo 300g", 6.49, 6.49), ("Paprika 500g", 2.99, 2.99),
+          ("Rotwein Rioja", 7.00, 7.00), ("Baguette", 1.80, 1.80),
+          ("Brot", 1.39, 1.39)]),
+        # --- DECOYS: real documents that OCR flags and a person rejects ---
+        # The photo-review grid's claim is "I cast a wide net on purpose — drop
+        # the ones that aren't". Twenty genuine business receipts would leave
+        # nothing to drop and the sentence would refute itself, so the dataset
+        # has to carry plausible false positives too.
+        ("Kaufhalle Nord", "Skalitzer Str. 12, 10999 Berlin", "de", 0.07,
+         [("Windeln Gr.4 44St", 12.99, 12.99), ("Waschmittel 2.5l", 8.49, 8.49),
+          ("Milch 1l", 1.29, 1.29), ("Bananen 1kg", 2.19, 2.19),
+          ("Weißwein trocken", 6.99, 6.99), ("Katzenfutter 12er", 5.49, 5.49)]),
+        ("Apotheke am Kottbusser Tor", "Adalbertstr. 4, 10999 Berlin", "de", 0.19,
+         [("Ibuprofen 400 20St", 5.95, 5.95), ("Nasenspray", 4.45, 4.45),
+          ("Vitamin D3 Tropfen", 9.90, 9.90), ("Pflaster wasserfest", 3.20, 3.20)]),
     ]
 }
 

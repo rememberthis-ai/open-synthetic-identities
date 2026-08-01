@@ -15,7 +15,7 @@
   camera: iphone-5s
   cast: [alex]
   scene: "a graduate in a cap and gown outside a red-brick Victorian university building, holding a rolled diploma, proud candid, overcast British afternoon"
-  style: candid-phone
+  style: receipt
 
 - file: 2014-06-28-manchester-graduation-rosa-02
   era: manchester
@@ -24,7 +24,7 @@
   camera: iphone-5s
   cast: [alex, rosa]
   scene: "a proud mother and her graduate child arm in arm outside a university building, graduation gown, warm candid, overcast light"
-  style: candid-phone
+  style: receipt
 
 - file: 2014-09-13-stanage-climb-jonas-01
   era: manchester
@@ -33,7 +33,7 @@
   camera: iphone-5s
   cast: [jonas]
   scene: "a young man mid-climb on a gritstone edge, chalk bag at his waist, moorland stretching behind, bright overcast, candid from below"
-  style: candid-phone
+  style: receipt
 
 - file: 2014-09-13-stanage-summit-02
   era: manchester
@@ -42,7 +42,7 @@
   camera: iphone-5s
   cast: [alex, jonas]
   scene: "two friends sitting on a rocky outcrop eating sandwiches, climbing rope coiled beside them, wide Peak District moor behind, windswept candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2014-11-02-northern-quarter-cafe-01
   era: manchester
@@ -51,7 +51,7 @@
   camera: iphone-5s
   cast: [alex]
   scene: "a person sketching in a notebook at a window seat of a small independent coffee shop, flat white on the table, rainy street outside, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2015-02-15-didsbury-sunday-lunch-01
   era: manchester
@@ -60,7 +60,7 @@
   camera: iphone-5s
   cast: [rosa]
   scene: "an older woman laughing at a laid Sunday-roast table in a cozy suburban dining room, warm indoor light, candid family moment"
-  style: candid-phone
+  style: receipt
 
 - file: 2015-05-24-castlefield-canal-01
   era: manchester
@@ -78,7 +78,7 @@
   camera: iphone-5s
   cast: [alex]
   scene: "a junior designer at a cluttered agency desk with an old iMac and printed layouts pinned above, exposed-brick office, morning, candid over-the-shoulder"
-  style: candid-phone
+  style: receipt
 
 - file: 2015-10-03-peak-district-hike-jonas-01
   era: manchester
@@ -87,7 +87,7 @@
   camera: iphone-5s
   cast: [alex, jonas]
   scene: "two friends in walking gear on a windswept moorland plateau, autumn heather, grey-gold light, candid selfie-style arm outstretched"
-  style: candid-phone
+  style: receipt
 
 - file: 2016-01-17-whitworth-park-snow-01
   era: manchester
@@ -105,7 +105,7 @@
   camera: iphone-5s
   cast: [alex, rosa]
   scene: "an adult child and their mother having tea in a small spring garden, daffodils, mismatched mugs, warm candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2016-06-19-leaving-drinks-01
   era: manchester
@@ -114,7 +114,7 @@
   camera: iphone-5s
   cast: [alex, jonas]
   scene: "friends raising pints in a dim characterful pub, string lights, warm blur, farewell-drinks candid"
-  style: candid-phone
+  style: receipt
 
 # ============================================================
 # ERA: berlin-move (2016–2018) — iPhone 7 — new city; Sam appears mid-2017
@@ -128,7 +128,7 @@
   camera: iphone-7
   cast: [alex]
   scene: "a person sitting on the floor of an empty high-ceilinged apartment among moving boxes, late afternoon light through tall windows, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2016-09-25-mauerpark-flea-01
   era: berlin-move
@@ -137,7 +137,7 @@
   camera: iphone-7
   cast: []
   scene: "a busy Sunday flea market in a city park, vinyl crates and vintage lamps on blankets, crowds, warm early-autumn light, street photo"
-  style: candid-phone
+  style: receipt
 
 - file: 2016-11-12-landwehr-canal-autumn-01
   era: berlin-move
@@ -155,7 +155,7 @@
   camera: iphone-7
   cast: [sam]
   scene: "a person with short locs and tortoiseshell glasses laughing across a small marble café table, flat white and a book, warm window light, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2017-06-24-tempelhof-picnic-sam-01
   era: berlin-move
@@ -164,7 +164,7 @@
   camera: iphone-7
   cast: [alex, sam]
   scene: "two people on a picnic blanket on a vast former-airfield park at golden hour, bikes laid down beside them, relaxed candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2017-08-12-spree-summer-01
   era: berlin-move
@@ -182,7 +182,7 @@
   camera: iphone-7
   cast: [alex, sam]
   scene: "two people choosing vegetables at a busy weekend farmers' market, canvas tote bags, crisp autumn light, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2017-12-16-kreuzberg-flat-cooking-01
   era: berlin-move
@@ -191,7 +191,7 @@
   camera: iphone-7
   cast: [sam]
   scene: "a person cooking at a stove in a warm cluttered apartment kitchen, steam rising, string lights, cozy winter-evening candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2018-04-21-mauerpark-karaoke-01
   era: berlin-move
@@ -200,7 +200,7 @@
   camera: iphone-7
   cast: []
   scene: "a big crowd on grassy amphitheatre steps watching outdoor karaoke in a park, spring sun, phone snapshot from the back"
-  style: candid-phone
+  style: receipt
 
 - file: 2018-07-08-mueggelsee-day-sam-01
   era: berlin-move
@@ -209,7 +209,7 @@
   camera: iphone-7
   cast: [alex, sam]
   scene: "two people on a wooden lake jetty in swimwear with towels, dark-green forest lake behind, bright summer, relaxed candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2018-09-30-kreuzberg-canal-market-01
   era: berlin-move
@@ -218,7 +218,7 @@
   camera: iphone-7
   cast: [sam]
   scene: "a person browsing fabric and produce stalls along a canal-side market, tote bag over shoulder, dappled autumn light, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2018-11-25-brandenburg-gate-visit-01
   era: berlin-move
@@ -241,7 +241,7 @@
   camera: iphone-xs
   cast: [sam, mira]
   scene: "a new parent cradling a swaddled newborn in a hospital room, soft window light, exhausted tender candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2019-03-15-home-first-days-01
   era: mira-arrives
@@ -250,7 +250,7 @@
   camera: iphone-xs
   cast: [alex, mira]
   scene: "a parent holding a tiny newborn against their chest by a sunlit apartment window, muslin cloth over the shoulder, quiet candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2019-05-04-goerlitzer-pram-01
   era: mira-arrives
@@ -259,7 +259,7 @@
   camera: iphone-xs
   cast: [sam, mira]
   scene: "a parent pushing a pram through a green city park on a bright spring afternoon, blossom overhead, relaxed candid from the side"
-  style: candid-phone
+  style: receipt
 
 - file: 2019-06-30-manchester-rosa-baby-01
   era: mira-arrives
@@ -268,7 +268,7 @@
   camera: iphone-xs
   cast: [rosa, mira]
   scene: "a grandmother holding a three-month-old baby in a sunny suburban garden, delighted candid, summer greenery"
-  style: candid-phone
+  style: receipt
 
 - file: 2019-09-22-viktoriapark-autumn-01
   era: mira-arrives
@@ -277,7 +277,7 @@
   camera: iphone-xs
   cast: [alex, mira]
   scene: "a parent holding a baby up to look at a park waterfall on a hill, autumn leaves, warm low sun, candid from behind"
-  style: candid-phone
+  style: receipt
 
 - file: 2019-12-24-home-first-christmas-01
   era: mira-arrives
@@ -286,7 +286,7 @@
   camera: iphone-xs
   cast: [sam, mira]
   scene: "a parent and a baby by a small decorated Christmas tree in a warm living room, fairy lights, cozy evening candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2020-03-20-home-lockdown-desk-01
   era: mira-arrives
@@ -295,7 +295,7 @@
   camera: iphone-xs
   cast: [alex, mira]
   scene: "a parent working at a laptop at a kitchen table with a one-year-old on their lap, cluttered home-office scene, flat daylight, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2020-06-14-tempelhof-first-steps-01
   era: mira-arrives
@@ -304,7 +304,7 @@
   camera: iphone-xs
   cast: [sam, mira]
   scene: "a parent crouched with arms out as a toddler takes wobbly first steps on a vast open airfield park, golden hour, joyful candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2020-09-05-hasenheide-playground-01
   era: mira-arrives
@@ -313,7 +313,7 @@
   camera: iphone-xs
   cast: [alex, mira]
   scene: "a parent pushing a toddler on a wooden playground swing under big trees, late-summer light, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2021-03-12-home-second-birthday-01
   era: mira-arrives
@@ -322,7 +322,7 @@
   camera: iphone-xs
   cast: [sam, mira]
   scene: "a two-year-old in a paper hat reaching for a small birthday cake with two candles, parent steadying the plate, warm indoor candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2021-07-18-mueggelsee-family-01
   era: mira-arrives
@@ -331,7 +331,7 @@
   camera: iphone-xs
   cast: [alex, sam, mira]
   scene: "two parents and a small child paddling at the edge of a forest lake, bucket and spade, bright summer, happy family candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2021-10-03-manchester-rosa-visit-01
   era: mira-arrives
@@ -340,7 +340,7 @@
   camera: iphone-xs
   cast: [rosa, mira]
   scene: "a grandmother and a toddler baking together at a flour-dusted kitchen counter, autumn light, warm candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2021-12-05-home-mira-drawing-01
   era: mira-arrives
@@ -349,7 +349,7 @@
   camera: iphone-xs
   cast: [mira]
   scene: "a small child intently crayon-drawing at a low table covered in paper, morning window light, candid from above"
-  style: candid-phone
+  style: receipt
 
 # ============================================================
 # ERA: carter-studio (2022–2024) — iPhone 13 Pro — going solo
@@ -363,7 +363,7 @@
   camera: iphone-13-pro
   cast: [alex]
   scene: "a designer setting up a fresh desk in a bright airy coworking loft, empty monitor and a single plant, exposed concrete, morning, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2022-05-19-amsterdam-canal-01
   era: carter-studio
@@ -381,7 +381,7 @@
   camera: iphone-13-pro
   cast: [alex, priya]
   scene: "two colleagues with conference lanyards talking over coffee in a converted industrial venue, laptops and totes, daylight, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2022-09-08-werkraum-client-call-01
   era: carter-studio
@@ -390,7 +390,7 @@
   camera: iphone-13-pro
   cast: [alex]
   scene: "a designer on a video call at a standing desk, wireframes on an external monitor, coworking loft with plants behind, candid over-the-shoulder"
-  style: candid-phone
+  style: receipt
 
 - file: 2022-11-26-home-mira-preschool-art-01
   era: carter-studio
@@ -399,7 +399,7 @@
   camera: iphone-13-pro
   cast: [sam, mira]
   scene: "a parent admiring a three-year-old's finger-paintings taped to a fridge, warm kitchen evening, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2023-03-25-lisbon-tram-01
   era: carter-studio
@@ -417,7 +417,7 @@
   camera: iphone-13-pro
   cast: [alex, priya]
   scene: "two colleagues toasting small glasses at a rooftop viewpoint over terracotta Lisbon rooftops at sunset, relaxed candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2023-06-17-tempelhof-mira-bike-01
   era: carter-studio
@@ -426,7 +426,7 @@
   camera: iphone-13-pro
   cast: [alex, mira]
   scene: "a parent jogging alongside a four-year-old learning to ride a balance bike on a wide airfield path, summer, joyful candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2023-09-30-werkraum-team-dinner-01
   era: carter-studio
@@ -435,7 +435,7 @@
   camera: iphone-13-pro
   cast: [alex, priya]
   scene: "a long restaurant table of people mid-dinner with wine and shared plates, warm pendant lights, celebratory candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2023-12-24-home-family-christmas-01
   era: carter-studio
@@ -444,7 +444,7 @@
   camera: iphone-13-pro
   cast: [alex, sam, mira]
   scene: "two parents and a four-year-old decorating a Christmas tree together in a warm living room, fairy lights, cozy candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2024-04-13-frankenjura-return-jonas-01
   era: carter-studio
@@ -453,7 +453,7 @@
   camera: iphone-13-pro
   cast: [alex, jonas]
   scene: "two friends racking up climbing gear at the base of a limestone crag in spring forest, ropes and quickdraws, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2024-07-06-mira-first-school-01
   era: carter-studio
@@ -462,7 +462,7 @@
   camera: iphone-13-pro
   cast: [sam, mira]
   scene: "a five-year-old holding an oversized cardboard Schultüte cone on their first day of school, proud parent beside, bright candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2024-10-19-werkraum-studio-wall-01
   era: carter-studio
@@ -471,7 +471,7 @@
   camera: iphone-13-pro
   cast: [alex]
   scene: "a designer pinning printed brand concepts to a large cork wall in a coworking studio, considered posed-candid, daylight"
-  style: candid-phone
+  style: receipt
 
 # ============================================================
 # ERA: balance (2025–2026) — iPhone 15 Pro — the current era (9 exist below + new)
@@ -494,7 +494,7 @@
   camera: iphone-15-pro
   cast: [sam, mira]
   scene: "a parent and a seven-year-old eating breakfast at a sunny kitchen table, cereal and orange juice, relaxed weekend candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2025-07-05-frankenjura-jonas-belay-01
   era: balance
@@ -503,7 +503,7 @@
   camera: iphone-15-pro
   cast: [jonas]
   scene: "rock climber on limestone crag belaying, forest below, morning light, candid phone shot from the base"
-  style: candid-phone
+  style: receipt
 
 - file: 2025-07-05-frankenjura-camp-evening-02
   era: balance
@@ -512,7 +512,7 @@
   camera: iphone-15-pro
   cast: [alex, jonas]
   scene: "two friends at a campervan table with camping stove and map, golden hour, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2025-08-16-tempelhof-mira-kite-01
   era: balance
@@ -521,7 +521,7 @@
   camera: iphone-15-pro
   cast: [sam, mira]
   scene: "parent and six-year-old flying a red kite on a vast open airfield park, summer, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2025-09-22-madrid-conference-hall-01
   era: balance
@@ -530,7 +530,7 @@
   camera: iphone-15-pro
   cast: []
   scene: "conference lanyard and coffee on a cafe table, Spanish street visible through window, morning"
-  style: candid-phone
+  style: receipt
 
 - file: 2025-11-30-berlin-home-baking-01
   era: balance
@@ -539,7 +539,7 @@
   camera: iphone-15-pro
   cast: [alex, mira]
   scene: "a parent and a seven-year-old rolling out gingerbread dough at a floury kitchen counter, first Advent candle, warm candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2026-03-11-werkraum-desk-01
   era: balance
@@ -548,7 +548,7 @@
   camera: iphone-15-pro
   cast: [alex]
   scene: "designer at a standing desk in an airy coworking loft, external monitor with wireframes, plants, candid over-the-shoulder"
-  style: candid-phone
+  style: receipt
 
 - file: 2026-05-30-helsinki-harbour-01
   era: balance
@@ -566,7 +566,7 @@
   camera: iphone-15-pro
   cast: [alex]
   scene: "a designer presenting wireframes to a small workshop group in a bright Nordic meeting room, sticky notes on glass, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2026-06-14-brew-and-bean-priya-lunch-01
   era: balance
@@ -575,7 +575,7 @@
   camera: iphone-15-pro
   cast: [alex, priya]
   scene: "two colleagues laughing over lunch at a small cafe table, notebooks and coffee, candid"
-  style: candid-phone
+  style: receipt
 
 - file: 2026-06-24-mira-school-gate-01
   era: balance
@@ -584,7 +584,7 @@
   camera: iphone-15-pro
   cast: [alex, mira]
   scene: "parent walking a seven-year-old with a too-big backpack to a school gate, morning light, candid from behind"
-  style: candid-phone
+  style: receipt
 
 - file: 2026-06-28-studio-moodboard-01
   era: balance
@@ -673,4 +673,111 @@
   camera: iphone-15-pro
   cast: []
   scene: "COMPOSITE: fixtures/clerkai/receipts/20260615-café-del-sol.png photographed on a sunny outdoor café table beside a cortado and sunglasses, bright shadow, slight perspective"
+  style: receipt
+
+# ============================================================
+# RECEIPT-GRID BATCH (2026-06) — iPhone 15 Pro
+# Six more genuine business receipts (vendors + amounts match June's
+# ledger) and six DECOYS. The photo-review grid's whole claim is 'I cast a
+# wide net on purpose — drop the ones that aren't', which a set of twenty
+# genuine receipts would refute: there would be nothing to drop. Two decoys
+# are real receipts that are plainly personal; four are not receipts at all
+# but carry the prices-and-total shape OCR latches onto.
+# ============================================================
+
+- file: 2026-06-03-receipt-supermercado-listo-01
+  era: receipts
+  datetime: 2026-06-03T18:55:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260603-supermercado-listo.png photographed lying on a kitchen worktop beside a canvas shopping bag and a bunch of parsley, overhead angle, warm evening light"
+  style: receipt
+- file: 2026-06-08-receipt-brew-and-bean-01
+  era: receipts
+  datetime: 2026-06-08T09:20:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260608-brew-and-bean.png photographed on a small cafe table next to a flat white and a notebook, slight perspective, morning window light"
+  style: receipt
+- file: 2026-06-17-receipt-buerobedarf-kern-01
+  era: receipts
+  datetime: 2026-06-17T15:34:00+02:00
+  location: { name: "Charlottenburg, Berlin", lat: 52.5060, lon: 13.3200 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260617-bürobedarf-kern.png photographed on a desk beside a new notebook still in its wrapper and a pack of highlighters, flat afternoon light"
+  style: receipt
+- file: 2026-06-19-receipt-baeckerei-sonnenschein-01
+  era: receipts
+  datetime: 2026-06-19T08:18:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260619-bäckerei-sonnenschein.png photographed on a bakery counter beside a paper bag of bread, warm morning light, slight angle"
+  style: receipt
+- file: 2026-06-21-receipt-raillink-01
+  era: receipts
+  datetime: 2026-06-21T16:58:00+02:00
+  location: { name: "Berlin Hauptbahnhof", lat: 52.5250, lon: 13.3690 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260621-raillink.png photographed held in one hand on a station concourse, departure board blurred behind, late afternoon light"
+  style: receipt
+- file: 2026-06-25-receipt-supermercado-listo-02
+  era: receipts
+  datetime: 2026-06-25T19:12:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260625-supermercado-listo.png photographed on a car passenger seat next to a paper grocery bag, slight perspective, low evening sun through the window"
+  style: receipt
+- file: 2026-06-13-decoy-kaufhalle-till-roll-01
+  era: receipts
+  datetime: 2026-06-13T17:44:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260613-kaufhalle-nord.png photographed crumpled on a kitchen table beside a packet of nappies and a bottle of washing-up liquid, overhead, domestic clutter, flat indoor light"
+  style: receipt
+- file: 2026-06-16-decoy-apotheke-01
+  era: receipts
+  datetime: 2026-06-16T11:12:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/receipts-photo-sources/20260616-apotheke-am-kottbusser-tor.png photographed on a bathroom shelf beside a box of ibuprofen and a nasal spray, close up, cool indoor light"
+  style: receipt
+- file: 2026-06-06-decoy-cafe-menu-01
+  era: receipts
+  datetime: 2026-06-06T13:05:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/decoy-photo-sources/decoy-cafe-menu.png standing upright in a perspex holder on a wooden cafe table, photographed at a slight angle, cafe interior softly blurred behind, warm indoor light"
+  style: receipt
+- file: 2026-06-11-decoy-parking-sign-01
+  era: receipts
+  datetime: 2026-06-11T12:40:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/decoy-photo-sources/decoy-parking-sign.png mounted as an enamel plate on a grey metal pole, photographed slightly from below on a residential street, parked cars and houses blurred behind, overcast daylight"
+  style: receipt
+- file: 2026-06-18-decoy-handwritten-list-01
+  era: receipts
+  datetime: 2026-06-18T09:30:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/decoy-photo-sources/decoy-shopping-list.png as a slightly creased scrap of notepaper lying on a wooden kitchen table beside a set of keys, overhead phone snapshot, soft daylight"
+  style: receipt
+- file: 2026-06-23-decoy-takeaway-flyer-01
+  era: receipts
+  datetime: 2026-06-23T18:20:00+02:00
+  location: { name: "Kreuzberg, Berlin", lat: 52.4990, lon: 13.4180 }
+  camera: iphone-15-pro
+  cast: []
+  scene: "COMPOSITE: fixtures/clerkai/decoy-photo-sources/decoy-takeaway-flyer.png as a glossy printed leaflet lying on a doormat just inside a flat door, photographed from above, hallway light, slight perspective"
   style: receipt

@@ -1,7 +1,7 @@
 ---
 line_key: "2026-06:material:decoy-till-roll"
 period: "2026-06"
-kind: receipt
+kind: till roll
 sort_order: 64
 date: "2026-06-13"
 vendor: "A till roll, unreadable"

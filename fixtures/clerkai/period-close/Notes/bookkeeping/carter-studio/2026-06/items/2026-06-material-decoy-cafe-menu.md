@@ -1,7 +1,7 @@
 ---
 line_key: "2026-06:material:decoy-cafe-menu"
 period: "2026-06"
-kind: receipt
+kind: menu
 sort_order: 62
 date: "2026-06-06"
 vendor: "A café menu"

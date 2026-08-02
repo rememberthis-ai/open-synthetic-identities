@@ -1,7 +1,7 @@
 ---
 line_key: "2026-06:material:decoy-takeaway-flyer"
 period: "2026-06"
-kind: receipt
+kind: flyer
 sort_order: 67
 date: "2026-06-23"
 vendor: "A takeaway flyer"

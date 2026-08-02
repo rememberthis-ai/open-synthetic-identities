@@ -1,7 +1,7 @@
 ---
 line_key: "2026-06:material:decoy-handwritten-list"
 period: "2026-06"
-kind: receipt
+kind: note
 sort_order: 66
 date: "2026-06-18"
 vendor: "A handwritten list"

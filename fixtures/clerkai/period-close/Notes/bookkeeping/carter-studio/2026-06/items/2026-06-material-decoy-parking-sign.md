@@ -1,7 +1,7 @@
 ---
 line_key: "2026-06:material:decoy-parking-sign"
 period: "2026-06"
-kind: receipt
+kind: sign
 sort_order: 63
 date: "2026-06-11"
 vendor: "A parking tariff sign"

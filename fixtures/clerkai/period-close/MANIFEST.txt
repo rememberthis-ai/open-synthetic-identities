@@ -141,6 +141,7 @@ fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-meridian-supermercado-2026-06-14.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-meridian-supermercado-2026-06-25.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-meridian-supermercado-2026-06-26.md
+fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-meridian-taksi-2026-06-16.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-meridian-werkraum-2026-06-01.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-own-raillink-club-2026-06-07.md
 fixtures/clerkai/period-close/Notes/bookkeeping/carter-studio/2026-06/items/2026-06-own-werkraum-room-2026-06-10.md

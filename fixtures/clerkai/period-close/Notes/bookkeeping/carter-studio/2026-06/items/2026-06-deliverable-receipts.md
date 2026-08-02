@@ -6,7 +6,7 @@ sort_order: 2
 label: "A receipt for each line"
 source: "Photos"
 status: collecting
-detail: "4 photographed receipts picked up, 2 awaiting review"
+detail: "4 picked up, 20 awaiting review"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

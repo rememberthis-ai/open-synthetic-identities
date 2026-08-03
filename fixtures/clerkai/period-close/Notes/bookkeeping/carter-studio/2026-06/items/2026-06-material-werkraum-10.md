@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "821d8acae29e809246c4aed37fcae01e"
 allocation: "carter-studio"
-why: "OCR read 'Werkraum Kollektiv' and a day-desk charge — looks like the 10 June line"
+why: "10 June, a day desk — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

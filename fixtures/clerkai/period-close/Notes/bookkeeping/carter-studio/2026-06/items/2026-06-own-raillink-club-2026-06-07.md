@@ -10,8 +10,8 @@ currency: EUR
 category: "Travel"
 confidence: high
 status: matched
-source: "photo receipt, 7 June"
-receipt_path: "Notes/bookkeeping/carter-studio/2026-06/receipts/20260607-raillink.png"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-06/receipts/2026-06-07-raillink-beleg.png"
 photo_uuid: "ca2f5ecc1d8bb9f617d3abf65ed5ab45"
 instrument: "Your own card"
 allocation: "kletterfreunde-kreuzberg"

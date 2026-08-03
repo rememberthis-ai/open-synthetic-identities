@@ -10,8 +10,8 @@ currency: EUR
 category: "Coworking rent"
 confidence: high
 status: matched
-source: "photo receipt, 10 June"
-receipt_path: "Notes/bookkeeping/carter-studio/2026-06/receipts/20260610-werkraum-kollektiv.png"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-06/receipts/2026-06-10-werkraum-kollektiv-beleg.png"
 photo_uuid: "821d8acae29e809246c4aed37fcae01e"
 instrument: "Your own card"
 allocation: "carter-studio"

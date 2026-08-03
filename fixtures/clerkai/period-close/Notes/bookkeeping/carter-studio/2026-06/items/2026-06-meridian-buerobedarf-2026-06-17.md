@@ -9,7 +9,9 @@ amount: -21.61
 currency: EUR
 category: "Office supplies"
 confidence: high
-status: matched
+status: ask
+question_slug: "q-20260628-buerobedarf-kern-signin"
+why: "€21,61 on 17 June — the invoice is behind their customer login."
 source: "Meridian statement"
 instrument: "Carter Studio's card"
 allocation: "carter-studio"

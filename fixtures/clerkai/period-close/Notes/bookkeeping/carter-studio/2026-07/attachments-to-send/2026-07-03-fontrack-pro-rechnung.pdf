@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1526 >>
+stream
+BT
+/F1 20 Tf
+1 0 0 1 56 780 Tm
+(Fontrack Pro) Tj
+/F1 9 Tf
+1 0 0 1 56 762 Tm
+(fontrack.example - Type foundry subscriptions) Tj
+/F1 9 Tf
+1 0 0 1 56 750 Tm
+(VAT ID: DE 000 000 000) Tj
+/F1 14 Tf
+1 0 0 1 56 706 Tm
+(Rechnung / Invoice FP-2026-07-4913) Tj
+/F1 10 Tf
+1 0 0 1 56 684 Tm
+(Invoice date: 3 July 2026) Tj
+/F1 10 Tf
+1 0 0 1 56 670 Tm
+(Billing period: 3 July 2026 - 2 August 2026) Tj
+/F1 10 Tf
+1 0 0 1 56 640 Tm
+(Billed to:) Tj
+/F1 10 Tf
+1 0 0 1 56 626 Tm
+(Carter Studio UG) Tj
+/F1 10 Tf
+1 0 0 1 56 612 Tm
+(Oranienstr. 183, 10999 Berlin, Germany) Tj
+/F1 10 Tf
+1 0 0 1 56 570 Tm
+(Description                                     Qty        Amount) Tj
+/F1 10 Tf
+1 0 0 1 56 556 Tm
+(----------------------------------------------------------------) Tj
+/F1 10 Tf
+1 0 0 1 56 540 Tm
+(Pro seat \(monthly\)                                1        15.13 EUR) Tj
+/F1 10 Tf
+1 0 0 1 56 526 Tm
+(----------------------------------------------------------------) Tj
+/F1 10 Tf
+1 0 0 1 56 506 Tm
+(Net                                                        15.13 EUR) Tj
+/F1 10 Tf
+1 0 0 1 56 492 Tm
+(VAT 19%                                                     2.87 EUR) Tj
+/F1 12 Tf
+1 0 0 1 56 476 Tm
+(Total                                                      18.00 EUR) Tj
+/F1 10 Tf
+1 0 0 1 56 440 Tm
+(Paid 3 July 2026 by card ending 4417. No further action required.) Tj
+/F1 9 Tf
+1 0 0 1 56 400 Tm
+(Fontrack Pro is a fictional company. This document is synthetic) Tj
+/F1 9 Tf
+1 0 0 1 56 388 Tm
+(sample data and is not a real invoice.) Tj
+ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1889
+%%EOF

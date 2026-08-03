@@ -13,7 +13,7 @@ status: matched
 source: "Meridian Business statement"
 instrument: "Carter Studio's account"
 allocation: "carter-studio"
-receipt_path: "Notes/bookkeeping/carter-studio/2026-04/statements/meridian-business-2026-04.csv"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-04/statements/2026-04-meridian-business-kontoauszug.csv"
 why: "Sales invoice INV-2026-04 — the copy lives in your own invoicing; the statement is what shows it was paid."
 updated_at: "2026-05-04T09:28:00Z"
 ---

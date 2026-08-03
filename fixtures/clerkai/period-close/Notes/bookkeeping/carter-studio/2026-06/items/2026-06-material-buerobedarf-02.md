@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "a123eae52c7d00cc0fd891edc1459637"
 allocation: "carter-studio"
-why: "OCR read 'BÜROBEDARF KERN' and a €11,61 total — looks like the Bürobedarf Kern line on 3 June"
+why: "€11,61 on 3 June — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

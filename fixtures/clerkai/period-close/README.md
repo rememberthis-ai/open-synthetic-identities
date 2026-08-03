@@ -1,15 +1,16 @@
-# Clerk.AI period-close fixture — two sets of books, five periods, one per run state
+# Clerk.AI period-close fixture — two sets of books, six periods, one per run state
 
 Alex Carter keeps **two sets of books**: the design company they run, and a
-climbing club they volunteer as treasurer for. Five closes between them cover
+climbing club they volunteer as treasurer for. Six closes between them cover
 every state the run lifecycle can be in, so every screen the app can show is
 reachable from synthetic data and none of it has to come from a real vault.
-Demo epoch is 2026-06-30, so June is "yesterday's" in-progress state and the
-rest is history.
+Demo epoch is **2026-08-03**: July is the run that is going on right now, June
+is the one parked on questions, and the rest is history.
 
 | Set of books | Period | `status` | `phase` | What it shows |
 |---|---|---|---|---|
-| Carter Studio UG | **2026-06** | `paused` | `match` | The live run — a **thin letter, mostly grey**, two files staged. Plus the **allocation view**: 31 rows, the instrument settles 26, five left to decide. 2 candidates awaiting Keep/Drop, 2 open question cards |
+| Carter Studio UG | **2026-07** | `running` | `receipts` | **The run that is happening now** — a thin letter with three files in it, twelve lines, three open sign-ins. The one period whose header is about the minute you are looking at it |
+| Carter Studio UG | **2026-06** | `paused` | `match` | Parked on questions — a **thin letter, mostly grey**, three files staged. Plus the **allocation view**: 31 rows, the instrument settles 26, five left to decide. 20 candidates awaiting Keep/Drop, 6 open question cards |
 | Carter Studio UG | **2026-05** | `review` | `draft` | **Nothing grey left** — every row a staged file, and the send block showing |
 | Carter Studio UG | **2026-04** | `sent` | `draft` | Emailed, **and they came back** — the reply thread, and *Is April finished?* not yet pressed |
 | Carter Studio UG | **2026-03** | `done` | `draft` | **Books closed**, with the reply loop on file in `accountant-correspondence.md` |
@@ -88,21 +89,72 @@ Notes/bookkeeping/
                               #   recipient, and PROSE naming its accounts,
                               #   cards and portal logins
   round.md                    # the last sweep (the round views)
-  carter-studio/{2026-03..06}/
+  carter-studio/{2026-03..07}/
   kletterfreunde-kreuzberg/2025/
       run.md                      # run header: phase, status, step tracker
       items/*.md                  # one file per ledger line / deliverable row
-      receipts/*.png              # images referenced by items' receipt_path
+      receipts/*.png, *.pdf       # the documents items' receipt_path point at
       statements/*.csv            # the statement for the period
       index.md                    # the assembled packet
       accountant-email-draft.md   # the deliverable email
-      attachments-to-send/        # the packet's files under the names the
-                                  #   email lists them by
+      attachments-to-send/        # what the period holds for the accountant,
+                                  #   under the same filenames receipts/ uses
+      attachments-sent-<date>/    # what one day's email actually carried
+                                  #   (carter-studio 2026-04: 4 and 6 May)
       accountant-correspondence.md # what went out and came back
                                   #   (carter-studio 2026-03 and 2026-04)
 Registry/alex-carter/questions/
-  q-*.md                      # the two open question cards June is blocked on
+  q-*.md                      # the nine open cards — SEVEN of them logins
 ```
+
+## What the files are called, and why the two names have to be one name
+
+**A document is stored under the name the accountant receives it by.**
+`receipts/2026-05-13-buerobedarf-kern-beleg.png` is byte-for-byte the same
+filename as the copy in `attachments-to-send/`, and the statement follows the
+same shape: `2026-05-meridian-business-kontoauszug.csv`.
+
+| | |
+|---|---|
+| a receipt | `YYYY-MM-DD-<vendor>-beleg.png` |
+| a supplier invoice | `YYYY-MM-DD-<vendor>-rechnung.pdf` |
+| a statement | `YYYY-MM-<bank>-kontoauszug.csv` (a year: `YYYY-<bank>-…`) |
+
+This is not tidiness. The app pairs a staged file with the ledger row it belongs
+to **by leaf filename**, and that is what puts *your photos* / *your mail* /
+*from your bank* beside each attachment in the letter. Two spellings of one
+document — `20260513-bürobedarf-kern.png` against
+`2026-05-13-buerobedarf-kern-beleg.png` — is a pairing that never matches, and
+because the column is allowed to be blank when nothing honest can be said, it
+fails silently and looks like a feature nobody built.
+
+Two rules that go with it:
+
+- **ASCII, always.** `ü` can be composed or decomposed; the two are different
+  bytes for the same picture, and a name spelled one way here and the other way
+  there is a bug you cannot see. German transliteration (`ue`, `oe`, `ae`, `ss`)
+  is the ordinary convention for a file that has to survive a mail client, a zip
+  and somebody's Windows desktop. Check the bytes, not the glyphs.
+- **The document's `source:` says where the DOCUMENT came from**, not where the
+  charge came from. A photographed till receipt is `your photos` even though the
+  transaction is on the bank statement. Every filed month used to say
+  `Meridian Business statement` on all six attachments, which would have read
+  *from your bank* under five receipts that came off a phone.
+
+## Two sends, and what went in each
+
+A period that has been sent keeps a folder per send —
+`attachments-sent-YYYY-MM-DD/` — holding exactly what went out that day.
+**2026-04 is the period that has been sent twice**: the letter and six
+attachments on 4 May, then Fischer's question about Vellum & Co, then a
+follow-up on the 6th carrying one more document, Vellum's own order with the
+VAT number on it. Both sends are entries in `accountant-correspondence.md`
+(`## Sent · …`), so the thread reads: sent, they replied, you answered, sent
+again — which is the loop the product exists for, and no other period reaches
+it.
+
+`attachments-to-send/` still holds all seven afterwards. It is what the period
+holds; the sent folders are what a particular day's email carried.
 
 The club's year stands alone — its own bank (Bürgerbank Kreuzberg), its own
 card, its own opening balance — because it is different money. Balances chain
@@ -115,7 +167,18 @@ totals from `generate/receipt-specs/` (see "Regenerating").
 
 ## What each state shows
 
-**2026-06 — `paused`, the live run, and the mid-collection letter.**
+**2026-07 — `running`, and it is running NOW.** The one period whose header is
+about the minute you are looking at it: a run started on the morning of 3 August,
+twelve lines in from the statement, two documents found and staged beside it, and
+three sign-ins waiting. Its letter is a thin one — recipient, subject, greeting,
+sign-off — so the letter reads *Attached — 3 so far* over a page that is mostly
+still to come.
+
+Its ledger is the compact version of June's and shows the same five row states in
+its first five rows. **The one thing a fixture cannot supply is liveness**: a run
+reads as working because a session is running, and no file makes that true.
+
+**2026-06 — `paused`, parked on questions, and the mid-collection letter.**
 - **A thin `accountant-email-draft.md`**, written at the start of the run rather
   than the end, with two files staged in `attachments-to-send/` — the statement,
   and the one receipt already settled to this set of books. Everything else is
@@ -130,9 +193,37 @@ totals from `generate/receipt-specs/` (see "Regenerating").
   (Kaffebaren Söder, K-Kulma Kioski) awaiting Keep/Drop in the curation panel —
   each carries a `why` explaining the match, and a `photo_uuid` so the
   thumbnail resolves.
-- **Blocked-on-you lines** (`status: ask`): two transactions pointing at open
-  question cards via `question_slug` — a new-vendor check (Hallo Mobilfunk
+- **Blocked-on-you lines** (`status: ask`): seven transactions pointing at open
+  question cards via `question_slug` — four supplier sign-ins (Nimbus, two from
+  Bürobedarf Kern, two RailLink fares), a new-vendor check (Hallo Mobilfunk
   GmbH) and a personal-vs-business call (Supermercado Listo groceries).
+- **The five row states, in the first five rows.** June's ledger opens with the
+  desk rent (*none issued*), a sign-in (*asking you*), a photographed café bill
+  (*receipt ↗*), a subscription invoice that arrived as a PDF (*invoice ↗*) and
+  a sign-in again — then *still looking* for the rest. That is deliberate: a
+  screenful that shows one state four hundred times cannot demonstrate a design
+  with five in it. The PDF is the only way the word *invoice* can occur at all
+  — the app decides invoice-or-receipt from the file, and a fixture of nothing
+  but `.png` could never produce it.
+
+## The question cards
+
+Nine open cards, and **seven of them are `kind: login`** — which is the fact the
+one-line rows exist to make visible. The Mac puts a phrase on the right of each
+row (*needs your Mac*, *a judgement call*, *something to find*) derived from
+`kind` and from nothing else, so a card without one gets no phrase and a list of
+mostly-blank rows reads as a rendering fault rather than as an absence.
+
+`question:` is **one short sentence** and the detail lives in `context:`, which
+is a paragraph and is rendered under the question on the card itself. The row
+shows the question and nothing else, so a paragraph there arrives as a fragment
+ending mid-amount. *"Five Supermercado Listo charges in June — whose books?"*,
+not *"Supermercado Listo (grocery, Berlin) has five charges on the Carter
+Studio card this month — €33,52, €24,37…"*.
+
+Six belong to June and three to July, every one stamped with its `period:` and
+its `books:`, and each carries `suggested_actions` so the buttons on a card are
+the agent's own suggestion rather than the view's guess.
 
 **2026-05 — `review`, and nothing left grey.** All four checklist rows `done`,
 7 matched transactions, 1 excluded as personal (Stadtwerke), and every one of
@@ -254,6 +345,17 @@ python3 gen_receipts.py --spec receipt-specs/alex-carter-2026-04.json --seed 4 \
     --out ../fixtures/clerkai/period-close/Notes/bookkeeping/2026-04/receipts
 ```
 
+`--spec` mode writes the **packet** filename — `YYYY-MM-DD-<vendor>-beleg.png`,
+ASCII — because those images are the ones that go out attached to a letter. The
+sampled mode keeps its own `YYYYMMDD-slug.png`; it feeds the photo library,
+where nothing is staged and nothing is paired.
+
+**Supplier invoices are PDFs, and they are generated too**: `gen_invoice_pdf.py`
+writes each one into its period's `receipts/` folder. Copies under
+`attachments-to-send/` and `attachments-sent-*/` are made by hand, because which
+of them went out on which day is a fact about the sending rather than about the
+document.
+
 A spec entry may declare `"total"`; the renderer sums the line items and
 **aborts** if they disagree, so a typo can't reach a packet. Merchants must
 already exist in `MERCHANTS` (city, language and VAT rate come from there, so a
@@ -284,6 +386,10 @@ after editing any fixture file; the rest of this list is still yours to check.
 - **`index.md`'s summary arithmetic** — income, expenses, net, opening and
   closing — is recomputed, not carried over. 
 - **Hallo Mobilfunk stays June-only**, or June's new-vendor card is a lie.
+- **A document has ONE filename**, in `receipts/` or `statements/` and in
+  `attachments-to-send/` alike, byte-for-byte — see the naming section above.
+  Different spellings of one document silently empty the letter's origin
+  column.
 - **Every filename in a letter is a file that exists**, in that period's
   `attachments-to-send/`, spelled identically. The app makes an openable link
   out of each one, so a name with no file behind it is the single lie the letter

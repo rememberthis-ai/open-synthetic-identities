@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "08a3ecbceb1cbdd9fe103e1ce2c3d5c2"
 allocation: "carter-studio"
-why: "OCR read 'BÜROBEDARF KERN' — looks like the 17 June line"
+why: "17 June — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

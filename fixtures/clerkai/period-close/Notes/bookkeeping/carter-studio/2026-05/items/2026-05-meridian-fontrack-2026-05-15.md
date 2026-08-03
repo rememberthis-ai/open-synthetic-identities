@@ -10,8 +10,8 @@ currency: EUR
 category: "Software & hosting"
 confidence: high
 status: matched
-source: "Meridian Business statement"
-receipt_path: "Notes/bookkeeping/carter-studio/2026-05/receipts/20260515-fontrack-pro.png"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-05/receipts/2026-05-15-fontrack-pro-beleg.png"
 instrument: "Carter Studio's account"
 allocation: "carter-studio"
 updated_at: "2026-06-02T09:10:00Z"

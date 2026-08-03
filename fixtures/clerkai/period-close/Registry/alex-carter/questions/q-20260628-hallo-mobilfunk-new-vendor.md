@@ -1,19 +1,22 @@
 ---
 entity_type: question
 slug: q-20260628-hallo-mobilfunk-new-vendor
-question: "Hallo Mobilfunk GmbH charged €29.99 on 22 June — this vendor hasn't appeared in Meridian Business before. Is this a new business expense (a second SIM/eSIM for client calls) or a personal mobile top-up?"
+kind: judgment
+question: "Hallo Mobilfunk, 22 June — business or personal?"
 status: open
 asked_by: "dreamer:period-close"
 asked_at: "2026-06-28T09:20:00Z"
 period: "2026-06"
+books: "carter-studio"
 urgency: medium
-context: "No receipt or invoice email found for this vendor yet. Matching by bank-line text only — first time this vendor has appeared on the Meridian Business statement."
+context: "€29,99 on the studio card, and the first time this name has been on the account at all. It reads like a second SIM for client calls, but it reads just as much like a mobile top-up. There is no receipt and no invoice mail from them to settle it either way, so the bank line is all I have."
+suggested_actions: "The studio's => Business — a second SIM for client calls|That's personal"
 ---
 
 # Question
 
-Hallo Mobilfunk GmbH charged €29.99 on 22 June — this vendor hasn't appeared in Meridian Business before. Is this a new business expense (a second SIM/eSIM for client calls) or a personal mobile top-up?
+Hallo Mobilfunk, 22 June — business or personal?
 
 ## Context
 
-No receipt or invoice email found for this vendor yet. Matching by bank-line text only — first time this vendor has appeared on the Meridian Business statement.
+€29,99 on the studio card, and the first time this name has been on the account at all. It reads like a second SIM for client calls, but it reads just as much like a mobile top-up. There is no receipt and no invoice mail from them to settle it either way, so the bank line is all I have.

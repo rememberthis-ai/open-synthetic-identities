@@ -5,7 +5,8 @@ The README has always listed these, and nothing checked them — so the way they
 were kept was by remembering. Each of the checks below corresponds to a way the
 fixture has actually gone wrong, or to a way it silently would:
 
-1. **A filename in a letter is a file that exists.** The app makes an openable
+1. **A filename in a letter is a file that exists**, and a finished period's
+   folder holds nothing the letter did not list. The app makes an openable
    link out of every staged file, and lists the staged folder rather than the
    letter's own numbering — so a name typed into the draft with no file behind
    it is a discrepancy between what the user reads and what they send, and it
@@ -59,7 +60,23 @@ def rel(path: str) -> str:
     return os.path.relpath(path, FIXTURE)
 
 
-# 1. Letters name only files that exist, and stage only files they name.
+def run_status(period_dir: str) -> str:
+    run = os.path.join(period_dir, "run.md")
+    if not os.path.exists(run):
+        return ""
+    return str(frontmatter(run).get("status") or "")
+
+
+# A period whose run is finished: the letter is written and the folder settled.
+# **A live run is deliberately NOT held to the second half of check 1.** The
+# letter is written first and mostly empty, and files are staged as they arrive
+# — so a period still collecting legitimately holds documents its letter has
+# not listed yet. Requiring the two to agree there would force the fixture to
+# choose between an honest mid-collection state and a green check.
+SETTLED = {"review", "sent", "done"}
+
+# 1. Letters name only files that exist, and — once the run is finished —
+#    stage only files they name.
 for draft in glob.glob(f"{BOOKS}/*/*/accountant-email-draft.md"):
     period = os.path.dirname(draft)
     folder = os.path.join(period, "attachments-to-send")
@@ -68,9 +85,21 @@ for draft in glob.glob(f"{BOOKS}/*/*/accountant-email-draft.md"):
     for name in named:
         if name not in staged:
             fail.append(f"{rel(draft)}: the letter names {name!r}, which is not staged")
-    for name in staged:
-        if name not in named:
-            fail.append(f"{rel(draft)}: {name!r} is staged but the letter never names it")
+    if run_status(period) in SETTLED:
+        for name in staged:
+            if name not in named:
+                fail.append(f"{rel(draft)}: {name!r} is staged but the letter never names it")
+
+# 1b. What went out is kept. A period that records a send has a folder of what
+#     it sent that day, and every file in it is a file the period holds — a
+#     sent folder naming something the letter never listed is a claim about
+#     what an accountant received that nothing else in the vault supports.
+for sent_dir in sorted(glob.glob(f"{BOOKS}/*/*/attachments-sent-*")):
+    period = os.path.dirname(sent_dir)
+    staged = set(os.listdir(os.path.join(period, "attachments-to-send")))
+    for name in sorted(os.listdir(sent_dir)):
+        if name not in staged:
+            fail.append(f"{rel(sent_dir)}: sent {name!r}, which the period does not hold")
 
 # 2 + 3. What a person reads: the letter, the thread, `current_activity`, the
 # step details, and a checklist row's label/detail/why.

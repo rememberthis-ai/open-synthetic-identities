@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "a55737c40575834b34ab74fcc519fca8"
 allocation: "carter-studio"
-why: "OCR read 'Bäckerei Sonnenschein' — looks like the 14 June line"
+why: "14 June — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

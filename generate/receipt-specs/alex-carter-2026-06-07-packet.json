@@ -1,0 +1,21 @@
+[
+  {
+    "merchant": "Café del Sol",
+    "when": "2026-06-02T09:12",
+    "total": 8.33,
+    "items": [
+      ["Café con leche", 2.80],
+      ["Café solo", 2.20],
+      ["Tostada con tomate", 3.33]
+    ]
+  },
+  {
+    "merchant": "Brew & Bean",
+    "when": "2026-07-08T12:41",
+    "total": 12.90,
+    "items": [
+      ["Lunch special", 9.10],
+      ["Flat white", 3.80]
+    ]
+  }
+]

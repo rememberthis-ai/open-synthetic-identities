@@ -10,8 +10,8 @@ currency: EUR
 category: "Travel"
 confidence: high
 status: matched
-source: "Meridian Business statement"
-receipt_path: "Notes/bookkeeping/carter-studio/2026-03/receipts/20260305-raillink.png"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-03/receipts/2026-03-05-raillink-beleg.png"
 instrument: "Carter Studio's card"
 allocation: "carter-studio"
 updated_at: "2026-04-02T09:24:00Z"

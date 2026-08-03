@@ -9,8 +9,9 @@ amount: -240.00
 currency: EUR
 category: "Coworking rent"
 confidence: high
-status: matched
-source: "Werkraum invoice by email"
+status: none_issued
+source: "You said so"
+why: "No invoice is issued — the desk is a standing monthly agreement, and you told me so."
 instrument: "Carter Studio's account"
 allocation: "carter-studio"
 updated_at: "2026-06-28T09:20:00Z"

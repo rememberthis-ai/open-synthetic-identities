@@ -1,5 +1,13 @@
 # Accountant correspondence — 2026-04
 
+## Sent · 2026-05-04T09:12:00Z
+
+> You sent the April letter to Fischer — the statement and five receipts.
+
+Die Unterlagen für April 2026 sind an die Kanzlei gegangen: Kontoauszug und
+fünf Belege, sechs Anlagen insgesamt. Kopien von allem, was rausgegangen ist,
+sind abgelegt.
+
 ## Accountant reply · 2026-05-06T08:41:00Z
 
 > Everything is complete, but Vellum & Co is new — is it a German customer or one elsewhere in the EU? If elsewhere, the VAT number is needed and the invoice has to carry a note.
@@ -38,3 +46,11 @@ dem fehlenden Hinweis korrigiert und geht erneut an Vellum.
 Vellum & Co ist jetzt in den Büchern als Kunde im EU-Ausland vermerkt — ab der
 nächsten Rechnung schreibe ich den Hinweis von selbst hin und frage nicht noch
 einmal.
+
+## Sent · 2026-05-06T09:11:00Z
+
+> You sent the follow-up — Vellum's order, with the VAT number he asked for.
+
+Nachtrag an Herrn Fischer geschickt: die Auftragsbestätigung von Vellum & Co
+mit der USt-IdNr. ATU72104588, dazu die Antwort auf seine Rückfrage. Damit hat
+er alles, was er für die Zusammenfassende Meldung zum Quartal braucht.

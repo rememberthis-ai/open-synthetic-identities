@@ -1,20 +1,22 @@
 ---
 entity_type: question
 slug: q-20260628-supermercado-listo-personal-or-business
-question: "Supermercado Listo (grocery, Berlin) has five charges on the Carter Studio card this month — €33.52, €24.37, €31.32, €31.11 and €21.28. Which set of books do these belong to: Carter Studio UG, Kletterfreunde Kreuzberg e.V., or personal?"
+kind: allocation
+question: "Five Supermercado Listo charges in June — whose books?"
 status: open
 asked_by: "dreamer:period-close"
 asked_at: "2026-06-28T09:19:00Z"
 period: "2026-06"
-kind: allocation
+books: "carter-studio"
 urgency: low
-context: "The card settles almost everything on its own — 26 of this month's 31 rows needed no input. These five are the exception: the studio card paid them, but groceries could be household, office snacks, or catering for a club session. Flagged once rather than five times; your answer applies to all of this vendor's June lines and carries forward via feedback.md."
+context: "€33,52, €24,37, €31,32, €31,11 and €21,28, all on the Carter Studio card, all groceries in Berlin. The card settles almost everything on its own — 26 of this month's 31 rows needed no input. These five are the exception, because groceries could be the household, office snacks, or catering for a club session. Asked once rather than five times: your answer applies to every June line from this shop, and carries forward."
+suggested_actions: "Carter Studio UG|Kletterfreunde Kreuzberg e.V.|That's personal"
 ---
 
 # Question
 
-Supermercado Listo (grocery, Berlin) has five charges on the Carter Studio card this month — €33.52, €24.37, €31.32, €31.11 and €21.28. Which set of books do these belong to: Carter Studio UG, Kletterfreunde Kreuzberg e.V., or personal?
+Five Supermercado Listo charges in June — whose books?
 
 ## Context
 
-The card settles almost everything on its own — 26 of this month's 31 rows needed no input. These five are the exception: the studio card paid them, but groceries could be household, office snacks, or catering for a club session. Flagged once rather than five times; your answer applies to all of this vendor's June lines and carries forward via feedback.md.
+€33,52, €24,37, €31,32, €31,11 and €21,28, all on the Carter Studio card, all groceries in Berlin. The card settles almost everything on its own — 26 of this month's 31 rows needed no input. These five are the exception, because groceries could be the household, office snacks, or catering for a club session. Asked once rather than five times: your answer applies to every June line from this shop, and carries forward.

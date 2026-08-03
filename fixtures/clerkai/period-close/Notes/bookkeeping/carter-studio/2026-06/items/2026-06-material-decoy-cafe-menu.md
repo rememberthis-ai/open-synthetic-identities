@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "32f5640854335d71f2f9cf09f6fdc10c"
 allocation: "carter-studio"
-why: "Printed, itemised and priced, so the scan flagged it — but there is no total and no payment line"
+why: "Printed, itemised and priced — but no total and no payment line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

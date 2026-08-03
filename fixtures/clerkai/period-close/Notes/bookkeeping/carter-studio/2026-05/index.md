@@ -20,12 +20,12 @@ Prepared for: M. Fischer Steuerberatung · Assembled: 2 June 2026
 | Date | Amount | Vendor | Category | Confidence | Receipt | Open question |
 |---|---|---|---|---|---|---|
 | 2026-05-01 | −240.00 | Werkraum Kollektiv | Coworking rent | high | monthly invoice | — |
-| 2026-05-03 | −15.00 | Nimbus Cloud Hosting | Software & hosting | high | `receipts/20260503-nimbus-cloud-hosting.png` | — |
-| 2026-05-13 | −7.80 | Bürobedarf Kern | Office supplies | high | `receipts/20260513-bürobedarf-kern.png` | — |
-| 2026-05-15 | −18.00 | Fontrack Pro | Software & hosting | high | `receipts/20260515-fontrack-pro.png` | — |
+| 2026-05-03 | −15.00 | Nimbus Cloud Hosting | Software & hosting | high | `receipts/2026-05-03-nimbus-cloud-hosting-beleg.png` | — |
+| 2026-05-13 | −7.80 | Bürobedarf Kern | Office supplies | high | `receipts/2026-05-13-buerobedarf-kern-beleg.png` | — |
+| 2026-05-15 | −18.00 | Fontrack Pro | Software & hosting | high | `receipts/2026-05-15-fontrack-pro-beleg.png` | — |
 | 2026-05-15 | +4,800.00 | Northlight Agency | Client revenue | high | INV-2026-05 | — |
-| 2026-05-18 | −13.78 | Brew & Bean | Client hospitality | high | `receipts/20260518-brew-and-bean.png` | Anlass vermerkt: Arbeitsessen Northlight (Rebrand) |
-| 2026-05-26 | −223.44 | RailLink | Travel | high | `receipts/20260526-raillink.png` | — |
+| 2026-05-18 | −13.78 | Brew & Bean | Client hospitality | high | `receipts/2026-05-18-brew-and-bean-beleg.png` | Anlass vermerkt: Arbeitsessen Northlight (Rebrand) |
+| 2026-05-26 | −223.44 | RailLink | Travel | high | `receipts/2026-05-26-raillink-beleg.png` | — |
 
 ## Excluded from the books
 
@@ -35,5 +35,5 @@ Prepared for: M. Fischer Steuerberatung · Assembled: 2 June 2026
 
 ## Enclosed
 
-- `statements/meridian-business-2026-05.csv` — full statement, 8 lines
+- `statements/2026-05-meridian-business-kontoauszug.csv` — full statement, 8 lines
 - `receipts/` — 5 receipts, each matched to a transaction above

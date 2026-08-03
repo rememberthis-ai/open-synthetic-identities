@@ -10,8 +10,8 @@ currency: EUR
 category: "Vereinsleben"
 confidence: high
 status: matched
-source: "Kassenbon, fotografiert"
-receipt_path: "Notes/bookkeeping/kletterfreunde-kreuzberg/2025/receipts/20251205-gasthaus-alte-wand.png"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/kletterfreunde-kreuzberg/2025/receipts/2025-12-05-gasthaus-alte-wand-beleg.png"
 instrument: "the Vereinskarte"
 allocation: "kletterfreunde-kreuzberg"
 updated_at: "2026-05-09T19:12:00Z"

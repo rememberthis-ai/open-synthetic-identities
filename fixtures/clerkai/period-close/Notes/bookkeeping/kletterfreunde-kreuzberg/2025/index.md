@@ -32,17 +32,17 @@ Vorlage zur Mitgliederversammlung am 23. Mai 2026
 | 2025-03-20 | −412,50 | DAV Sektionsabgabe | Verbandsabgaben | Jahresabrechnung |
 | 2025-03-31 | −540,00 | Kletterzentrum Ostkreuz, Q1 | Hallenmiete | Quartalsrechnung |
 | 2025-05-10 | −168,00 | Wettkampf-Meldegebühren | Wettkampf | Meldebestätigung |
-| 2025-06-14 | −624,90 | Vertikal Sport Berlin (Seile, Karabiner, Expressen) | Material | `receipts/20250614-vertikal-sport-berlin.png` |
+| 2025-06-14 | −624,90 | Vertikal Sport Berlin (Seile, Karabiner, Expressen) | Material | `receipts/2025-06-14-vertikal-sport-berlin-beleg.png` |
 | 2025-06-30 | −540,00 | Kletterzentrum Ostkreuz, Q2 | Hallenmiete | Quartalsrechnung |
 | 2025-09-27 | −480,00 | Reisebus Neumann, Jugendfahrt | Jugendarbeit | Rechnung |
 | 2025-09-30 | −540,00 | Kletterzentrum Ostkreuz, Q3 | Hallenmiete | Quartalsrechnung |
 | 2025-11-08 | −120,00 | Raummiete Mitgliederversammlung | Vereinsleben | Quittung |
-| 2025-12-05 | −214,60 | Weihnachtsfeier, Gasthaus Alte Wand | Vereinsleben | `receipts/20251205-gasthaus-alte-wand.png` |
+| 2025-12-05 | −214,60 | Weihnachtsfeier, Gasthaus Alte Wand | Vereinsleben | `receipts/2025-12-05-gasthaus-alte-wand-beleg.png` |
 | 2025-12-31 | −540,00 | Kletterzentrum Ostkreuz, Q4 | Hallenmiete | Quartalsrechnung |
 
 ## Anlagen
 
-- `statements/buergerbank-kreuzberg-2025.csv` — Kontoauszug, 14 Buchungen
+- `statements/2025-buergerbank-kreuzberg-kontoauszug.csv` — Kontoauszug, 14 Buchungen
 - `receipts/` — 2 Kassenbons, jeweils einer Buchung zugeordnet
 
 ## Hinweis zur Kasse

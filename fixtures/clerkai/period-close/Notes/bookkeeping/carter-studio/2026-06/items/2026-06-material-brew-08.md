@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "04043d2376bd8dced1d08f1a451d143f"
 allocation: "carter-studio"
-why: "OCR read 'Brew & Bean' — looks like the 8 June line"
+why: "8 June — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

@@ -30,8 +30,9 @@ Anlagen in zeitlicher Reihenfolge:
 4. 2026-04-14-brew-and-bean-beleg.png
 5. 2026-04-20-raillink-beleg.png
 6. 2026-04-meridian-business-kontoauszug.csv
+7. 2026-04-23-vellum-and-co-auftragsbestaetigung.pdf
 
-Nachtrag vom 6. Mai, auf Ihre Rückfrage: Vellum & Co sitzt in Wien. Es handelt
+Anlage 7 kam mit dem Nachtrag vom 6. Mai nach, auf Ihre Rückfrage: Vellum & Co sitzt in Wien. Es handelt
 sich um eine sonstige Leistung an ein Unternehmen im EU-Ausland, die
 Steuerschuld geht über; die USt-IdNr. lautet ATU72104588. Die Rechnung
 INV-2026-04B wird mit dem fehlenden Hinweis korrigiert und geht erneut an

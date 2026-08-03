@@ -10,7 +10,8 @@ currency: EUR
 category: "Travel & subsistence"
 confidence: high
 status: matched
-source: "Meridian statement"
+source: "your photos"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-06/receipts/2026-06-02-cafe-del-sol-beleg.png"
 instrument: "Carter Studio's card"
 allocation: "carter-studio"
 updated_at: "2026-06-28T09:20:00Z"

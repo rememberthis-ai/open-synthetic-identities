@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "ca2f5ecc1d8bb9f617d3abf65ed5ab45"
 allocation: "carter-studio"
-why: "OCR read a RailLink fare and a seat number — looks like the 7 June line"
+why: "7 June, a fare with a seat number — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

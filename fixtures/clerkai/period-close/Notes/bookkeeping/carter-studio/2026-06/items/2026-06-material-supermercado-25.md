@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "0c25f82d9c0a0f6c21e4cf58a9873f02"
 allocation: "carter-studio"
-why: "OCR read 'Supermercado Listo' — looks like the 25 June line"
+why: "25 June — matches a card line"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

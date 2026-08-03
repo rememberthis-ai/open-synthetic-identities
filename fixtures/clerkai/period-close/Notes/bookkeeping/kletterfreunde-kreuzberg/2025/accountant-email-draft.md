@@ -26,7 +26,7 @@ Anlagen:
 
 1. Kassenbericht 2025 (Übersicht + Einzelaufstellung)
 2. 2025-buergerbank-kreuzberg-kontoauszug.csv
-3. 2025-06-14-vertikal-sport-beleg.png
+3. 2025-06-14-vertikal-sport-berlin-beleg.png
 4. 2025-12-05-gasthaus-alte-wand-beleg.png
 
 Die Rechnungen zu Halle, Haftpflicht, DAV und Busmiete liegen im Vereinsordner

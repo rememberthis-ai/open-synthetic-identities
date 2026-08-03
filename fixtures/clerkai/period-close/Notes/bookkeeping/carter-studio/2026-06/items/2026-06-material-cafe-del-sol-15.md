@@ -11,7 +11,7 @@ status: candidate
 source: "photo library"
 photo_uuid: "8b9e282dc07740c43b3a300fa513340d"
 allocation: "carter-studio"
-why: "OCR read 'Café del Sol', but there is no 15 June line on the statement — an out-of-pocket one?"
+why: "15 June — no card line for it; paid out of pocket?"
 updated_at: "2026-06-28T09:20:00Z"
 ---
 

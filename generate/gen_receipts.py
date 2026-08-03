@@ -8,6 +8,7 @@ Usage:
       --out ../fixtures/clerkai/receipts
 """
 import argparse
+import unicodedata
 import random
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -155,6 +156,23 @@ def render_receipt(merchant, city, lang, vat_rate, items, when, rng, out_path):
     return total
 
 
+# Umlauts out, spaces out, ampersand spelled. Kept beside the renderer rather
+# than inlined so the packet convention has exactly one definition — the fixture
+# is checked against it, and two copies of a naming rule is how it drifted.
+_TRANSLITERATE = str.maketrans({
+    "ä": "ae", "ö": "oe", "ü": "ue", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue", "ß": "ss",
+    "å": "aa", "é": "e", "è": "e", "ê": "e", "á": "a", "à": "a", "í": "i",
+    "ó": "o", "ú": "u", "ñ": "n", "ç": "c",
+})
+
+
+def packet_slug(merchant: str) -> str:
+    """`Bürobedarf Kern` -> `buerobedarf-kern`. ASCII, and stable."""
+    s = unicodedata.normalize("NFC", merchant).translate(_TRANSLITERATE)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return s.lower().replace("&", "and").replace(" ", "-").replace("--", "-").strip("-")
+
+
 def render_from_spec(spec_path, out_dir, seed):
     """Render receipts whose totals are EXACTLY specified, not sampled.
 
@@ -167,8 +185,21 @@ def render_from_spec(spec_path, out_dir, seed):
         "items": [["Pro seat (monthly)", 18.00]]}, ...]
 
     `merchant` must exist in MERCHANTS (city/language/VAT come from there, so
-    a spec can't invent an inconsistent merchant). Filenames follow the same
-    `YYYYMMDD-slug.png` convention as the sampled mode.
+    a spec can't invent an inconsistent merchant).
+
+    **Filenames are the ones the accountant receives** — `YYYY-MM-DD-slug-beleg.png`,
+    ASCII throughout — and NOT the sampled mode's `YYYYMMDD-slug.png`. This mode
+    renders period-close packets, where the same document is both the file a
+    ledger row points at and the file that goes out attached to the letter. The
+    app pairs the two by leaf filename, so the two spellings have to be one
+    spelling; when they were not, every attachment in every period was listed
+    with no idea where it had come from.
+
+    ASCII is the second half of that: `ü` can be composed or decomposed and the
+    two are different bytes for the same picture, so a name that survives a mail
+    client, a zip and a Windows accountant's desktop is worth more here than a
+    faithfully-spelled one. German transliteration (ue / oe / ae / ss) is the
+    ordinary convention for exactly this.
     """
     import json
 
@@ -186,8 +217,7 @@ def render_from_spec(spec_path, out_dir, seed):
         _, city, lang, vat_rate, _ = by_name[name]
         when = datetime.fromisoformat(entry["when"])
         items = [(label, float(price)) for label, price in entry["items"]]
-        slug = name.lower().replace(" ", "-").replace("&", "and")
-        fname = f"{when.strftime('%Y%m%d')}-{slug}.png"
+        fname = f"{when.strftime('%Y-%m-%d')}-{packet_slug(name)}-beleg.png"
         total = render_receipt(name, city, lang, vat_rate, items, when, rng, out / fname)
         expected = entry.get("total")
         if expected is not None and abs(total - float(expected)) > 0.005:

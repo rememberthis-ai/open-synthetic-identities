@@ -10,7 +10,9 @@ currency: EUR
 category: "Client revenue"
 confidence: high
 status: matched
-source: "INV-2026-06, sent by email"
+source: "Meridian Business statement"
+receipt_path: "Notes/bookkeeping/carter-studio/2026-06/statements/2026-06-meridian-business-kontoauszug.csv"
+why: "Sales invoice INV-2026-06 — the copy lives in your own invoicing; the statement is what shows it was paid."
 instrument: "Carter Studio's account"
 allocation: "carter-studio"
 updated_at: "2026-06-28T09:20:00Z"

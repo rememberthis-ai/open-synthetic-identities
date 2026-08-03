@@ -9,7 +9,9 @@ amount: -95.47
 currency: EUR
 category: "Travel"
 confidence: high
-status: matched
+status: ask
+question_slug: "q-20260628-raillink-signin"
+why: "€95,47 on 18 June — the ticket is in your RailLink booking account."
 source: "Meridian statement"
 instrument: "Carter Studio's card"
 allocation: "carter-studio"

@@ -26,11 +26,10 @@ pilot slice (one era) → verify look, EXIF, import, indexing end-to-end").
 - [x] The receipt-photo composite (Clerk.AI subset) reproduces the source
       receipt's printed text/amount faithfully in a photographed context.
 
-**Not verified (needs the demo macOS account, out of scope for this public
-repo — see `docs/plans/MARKETING-ASSETS.md` Track 2 item 3 in the private
-monorepo):** `osxphotos import` into a Photos library, PhotoKit/app
-indexing, era/people-clustering detection. That's an app-side verification
-step for whoever runs the demo-account setup next.
+**Not verified here, because it needs a macOS account with a Photos library
+rather than a checkout:** `osxphotos import` into a Photos library, subsequent
+indexing by whatever consumes it, and era / people-clustering detection. If you
+are importing these into Photos, that is the part to check for yourself.
 
 ## Known limitations (v1, documented in generate.py)
 

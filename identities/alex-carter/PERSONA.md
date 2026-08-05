@@ -5,8 +5,19 @@ Fictional. Any resemblance to real persons or companies is coincidental.
 ## Identity
 
 - **Name:** Alex Carter (they/them in all copy — keeps assets universally relatable)
-- **Age:** 38. **Base:** Berlin, Germany (English-speaking expat — EU story for
-  Clerk.AI, English assets for everyone else)
+- **Age:** 38. **Born:** **1987-08-11**. **Base:** Berlin, Germany
+  (English-speaking expat — EU story for Clerk.AI, English assets for everyone
+  else)
+  - The date is pinned because "age 38" alone is ambiguous — it only says
+    *somewhere between 1987-07-01 and 1988-06-30* relative to the demo epoch
+    below, so anything needing a real date (a form, an ID document, an
+    age-gated signup) would invent its own and the fixtures would quietly
+    disagree with each other. It is 11 August 1987, the day **HyperCard**
+    shipped: Apple's "programming for the rest of us", which is close enough to
+    what these products are for to be worth the wink.
+  - **Note it does NOT track the demo epoch.** Alex turns 39 in August 2026, so
+    if the epoch ever moves past 2026-08-11 the age above becomes 39 and this
+    file is the place to fix it.
 - **Work:** independent product designer + front-end consultant, solo company
   **Carter Studio UG** (fictional German UG), clients across DE/UK/NL
 - **Demo epoch ("today"):** **2026-06-30** — end of a month, end of a quarter:

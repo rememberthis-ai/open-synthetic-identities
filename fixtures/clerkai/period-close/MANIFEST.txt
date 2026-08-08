@@ -217,12 +217,11 @@ fixtures/clerkai/period-close/Notes/bookkeeping/kletterfreunde-kreuzberg/2025/re
 fixtures/clerkai/period-close/Notes/bookkeeping/kletterfreunde-kreuzberg/2025/run.md
 fixtures/clerkai/period-close/Notes/bookkeeping/kletterfreunde-kreuzberg/2025/statements/2025-buergerbank-kreuzberg-kontoauszug.csv
 fixtures/clerkai/period-close/Notes/bookkeeping/round.md
-fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-buerobedarf-kern-signin.md
+fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260601-setup-accountant-and-business.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-hallo-mobilfunk-new-vendor.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-nimbus-cloud-hosting-signin.md
-fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-northlight-agency-signin.md
-fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-raillink-signin.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260628-supermercado-listo-personal-or-business.md
+fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260727-favour-how-did-june-go.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260803-buerobedarf-kern-signin.md
 fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260803-meridian-business-signin.md
-fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260803-nimbus-cloud-hosting-signin.md
+fixtures/clerkai/period-close/Registry/alex-carter/questions/q-20260803-werkraum-kollektiv-allocation.md

@@ -24,9 +24,17 @@ FLUX_KONTEXT = "black-forest-labs/flux-kontext-pro"
 CALL_SPACING_SECS = 3
 
 
-def replicate_predict(model_path: str, input_data: dict) -> bytes:
+def replicate_predict(model_path: str, input_data: dict, attempts: int = 3) -> bytes:
     """POST a prediction, handle 429/retry_after, poll to completion, fetch
-    the output image bytes."""
+    the output image bytes.
+
+    Retries a FAILED prediction, which is different from a rate limit and was
+    not handled. Replicate returns `status: failed` with an **empty** `error`
+    for transient faults, and the same input then succeeds on the next attempt
+    — verified 2026-08 on an entry that aborted a 95-photo batch and rendered
+    fine seconds later. An empty error is the signature; do not read it as a
+    refusal, which is what the abort implied.
+    """
     token = os.environ.get("REPLICATE_API_TOKEN")
     if not token:
         sys.exit("REPLICATE_API_TOKEN not set")
@@ -68,7 +76,12 @@ def replicate_predict(model_path: str, input_data: dict) -> bytes:
             result = json.loads(resp.read())
 
     if result["status"] == "failed":
-        raise RuntimeError(f"prediction failed: {result.get('error')}")
+        why = result.get("error")
+        if attempts > 1:
+            print(f"    prediction failed ({why or 'no reason given'}) — retrying")
+            time.sleep(5)
+            return replicate_predict(model_path, input_data, attempts - 1)
+        raise RuntimeError(f"prediction failed after retries: {why!r}")
 
     output = result["output"]
     out_url = output[0] if isinstance(output, list) else output

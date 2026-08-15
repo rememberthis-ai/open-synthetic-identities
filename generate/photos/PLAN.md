@@ -138,6 +138,67 @@ parking tariff sign, a handwritten list, a takeaway flyer) plus real receipts
 that are plainly personal (a supermarket till roll of nappies and washing powder,
 a pharmacy receipt). `gen_decoys.py` renders the non-receipt ones.
 
+## Keeping the life current — a monthly top-up, not a pinned clock
+
+**A synthetic life that stops two months ago reads as abandoned**, and the
+obvious fix does not work where it matters most. A pinned demo clock makes the
+*app* believe a date, and it is genuinely useful for deterministic testing — but
+Clerk's period close runs a **real agent session**, and that session reads the
+live system date, the real file mtimes and its own context. You can tell it to
+pretend; it drifts straight back out. So the fiction has to be *maintained*
+rather than frozen.
+
+That means a top-up roughly monthly, and the only version of that which survives
+being done twelve times a year is a mechanical one:
+
+1. Write a batch spec — `batches/<yyyy-mm>-<name>.py`, a list of
+   `(date, city-key, cast, scene, seq)`. Only *when* and *what is happening* are
+   authored; everything else is derived.
+2. `python3 expand_batch.py --spec batches/<file>.py >> manifests/<identity>.yaml`
+   — fills in era (from the date), camera (from the era, because the phone
+   history IS the Cameras screen), GPS, place name and UTC offset (from the city
+   key), and a time of day spread across the date so a year of photos does not
+   share one clock time.
+3. `generate.py` → `stamp_exif.py` → commit. Both skip what already exists, so a
+   top-up only pays for the new entries.
+
+**Roughly a dozen photos a month keeps the density honest.** Under about ten a
+year an era stops reading as a life and starts reading as a slideshow.
+
+**Keep the books in step, or the two halves contradict each other.** The photo
+library and the Clerk fixtures assert the same trips: a receipt from a Helsinki
+kiosk on 3 June is a claim that Alex was in Helsinki that day, and a Places map
+with no Helsinki photo quietly calls it a lie. When a top-up adds a trip, add
+the receipts; when a close adds a vendor in another city, add a photo.
+
+## Regenerating: never delete before you have the replacement
+
+`generate.py` skips entries whose raw output exists, so the obvious way to
+re-roll a batch is to delete those files and re-run. **Do not.** Generation can
+fail — a transient prediction failure, a moderation refusal, or simply running
+out of Replicate credit mid-batch — and what you are left with is a manifest
+promising N photos and a library holding fewer.
+
+That happened on 2026-08-15: 64 photos were deleted to re-roll them against a
+fixed cast sheet, credit ran out after 13, and 40 were gone. Ten came back from
+`git checkout` because they were committed; the rest were from an uncommitted
+batch and had to be generated again. The library disagreed with the manifest
+for the rest of the session and nothing could be pushed.
+
+Two habits that avoid it:
+
+- **`--force` rather than `rm`.** It overwrites in place on success and leaves
+  the old file alone on failure. Reach for deletion only when the entry itself
+  is being retired.
+- **Commit a batch before re-rolling it.** An uncommitted generation is the only
+  copy there is; `git checkout` is the cheapest possible undo and it only works
+  if the files were committed first.
+
+And check the balance before a big run — `curl -H "Authorization: Bearer
+$REPLICATE_API_TOKEN" https://api.replicate.com/v1/account`. A 402 arrives
+per-entry, so a batch does not stop, it *thins*, and the log looks like dozens
+of unrelated failures rather than one cause.
+
 ## Pipeline (end to end)
 
 ```

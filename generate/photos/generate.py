@@ -7,13 +7,17 @@ era-appropriate cast-sheet file(s) in generate/photos/cast/), writes raw
 PNGs to generate/photos/raw/<identity>/ (gitignored scratch, per PLAN.md's
 pipeline diagram — stamp_exif.py turns these into the committed library/).
 
-Cast handling (v1 limitation — flux-kontext-pro takes ONE input_image):
-single-cast scenes kontext off that character's cast-sheet file directly.
-Multi-cast scenes kontext off the FIRST-listed character (pixel-identity
-locked) and describe any other characters in the prompt text only (not
-pixel-identity locked). Good enough to verify the pipeline mechanism on the
-10-photo pilot; revisit (e.g. a second kontext pass, or an inpainting step)
-if multi-person identity fidelity matters once full eras are generated.
+Cast handling: flux-kontext-pro takes ONE input_image, so a multi-cast scene
+composites every member's era-appropriate sheet into a single side-by-side
+strip (`ensemble_ref_path`) and names them by position in the prompt. EVERY
+face in the photo is therefore pixel-identity locked.
+
+It used to lock only the first person and describe the rest in words. That does
+not work — kontext is an image-editing model, the input image dominates, and
+text about a face absent from it is weakly weighted. Measured 2026-08: Jonas,
+Alex's university friend and the same age, came back as a man in his sixties in
+61 of 86 photos, and stayed that way after the prompt was given his explicit
+age and build. The strip fixed it on the first try.
 
 Receipt composites (`style: receipt`, `scene: "COMPOSITE: <path>"`) kontext
 the referenced receipt PNG itself into a photographed context, per PLAN.md's
@@ -31,6 +35,7 @@ import time
 from pathlib import Path
 
 import yaml
+from PIL import Image
 
 from gen_cast import CHARACTERS as CAST_SPECS
 from gen_cast import PORTRAIT_SUFFIX
@@ -102,6 +107,101 @@ def cast_ref_path(character: str, era: str) -> Path:
     return candidates[0]
 
 
+# Appearance + birth year for everyone in the cast, condensed from
+# CHARACTERS.md. **This exists because only the FIRST cast member is
+# pixel-identity locked** — kontext takes one input image, so everybody else in
+# a photo is whatever the model invents from the prompt.
+#
+# Until 2026-08 the prompt said nothing about them at all, despite the module
+# docstring claiming they were "described in the prompt text". A scene reading
+# "two climbers coiling a rope" produced Alex at 26 beside a stranger in his
+# SIXTIES — cast as his university friend, the same age. That breaks the thing
+# the photos exist for: People, Groups and Network cluster on faces, and a
+# friend who is 60 in one photo and 38 in another is two people.
+#
+# The prompt cannot lock identity, but it can hold age and build steady, which
+# is most of what clustering needs.
+CAST_DESC = {
+    "alex":  (1988, "warm olive complexion, dark wavy hair, slim build"),
+    "sam":   (1988, "Black British, warm dark brown skin, close-cropped black hair, broad friendly build"),
+    "mira":  (2019, "a child with light brown skin and dark curly hair"),
+    "jonas": (1988, "tanned sun-weathered skin, short practical dark-blonde hair, athletic wiry build"),
+    "priya": (1987, "deep-brown skin, sleek dark hair in a low bun, tailored business-casual clothes"),
+    "rosa":  (1960, "fair British complexion with laugh-lines, softly waved silver-grey shoulder-length hair"),
+}
+
+
+def positions_for(n: int) -> list:
+    """Plain-English position words for a strip of n portraits.
+
+    A fixed ladder ("far left", "second from left", …) reads wrongly for the
+    commonest case: in a TWO-portrait strip, "second from left" is an odd way
+    to say "on the right", and an ambiguous instruction is how you get the same
+    person rendered twice — observed once in a two-cast photo that came back
+    with two identical Alexes flanking the child.
+    """
+    if n == 1:
+        return ["in the reference image"]
+    if n == 2:
+        return ["on the left", "on the right"]
+    middles = ["in the middle"] if n == 3 else [
+        f"{i}{'nd' if i == 2 else 'rd' if i == 3 else 'th'} from the left"
+        for i in range(2, n)]
+    return ["on the far left"] + middles + ["on the far right"]
+
+
+def ensemble_ref_path(cast: list, era: str) -> Path:
+    """One reference image holding every cast member's era-appropriate face.
+
+    kontext accepts a single `input_image`, which is why only the first person
+    was ever identity-locked. Compositing the sheets side by side turns that
+    one slot into as many faces as the photo needs.
+
+    Cached under `cast/_ensembles/` and keyed by cast + era, so a repeat run or
+    a `--force` regeneration does not rebuild it.
+    """
+    key = "-".join(cast) + "-" + era
+    out = CAST_DIR / "_ensembles" / f"{key}.png"
+    if out.exists():
+        return out
+    out.parent.mkdir(parents=True, exist_ok=True)
+    sheets = [Image.open(cast_ref_path(name, era)).convert("RGB") for name in cast]
+    h = max(s.height for s in sheets)
+    scaled = [s.resize((int(s.width * h / s.height), h)) for s in sheets]
+    strip = Image.new("RGB", (sum(s.width for s in scaled), h), (255, 255, 255))
+    x = 0
+    for s in scaled:
+        strip.paste(s, (x, 0))
+        x += s.width
+    strip.save(out)
+    return out
+
+
+def cast_note(entry: dict) -> str:
+    """Describe the cast the input image cannot lock — everyone after the first.
+
+    Age is computed from the photo's own date rather than stated once, because
+    the library spans twelve years and a fixed description would put a
+    seven-year-old in a 2014 photo taken before she was born.
+    """
+    cast = entry.get("cast") or []
+    if len(cast) < 2:
+        return ""
+    year = int(str(entry["datetime"])[:4])
+    parts = []
+    for name in cast[1:]:
+        spec = CAST_DESC.get(name)
+        if not spec:
+            continue
+        born, look = spec
+        age = year - born
+        who = f"a {age}-year-old" if age >= 13 else f"a child of {age}"
+        parts.append(f"{name.title()} is {who}, {look}")
+    if not parts:
+        return ""
+    return " Also in the photo: " + "; ".join(parts) + "."
+
+
 def build_prompt(entry: dict) -> str:
     style = entry.get("style", "candid-phone")
     suffix = STYLE_SUFFIX.get(style, STYLE_SUFFIX["candid-phone"])
@@ -168,21 +268,44 @@ def generate_entry(entry: dict, identity: str, force: bool) -> Path:
                 f"bystanders. Scene: {prompt}"
             )
         else:
-            other_descriptions = []
-            for name in cast[1:]:
-                spec = CAST_SPECS.get(name)
-                desc = spec["base_prompt"].replace(PORTRAIT_SUFFIX, "").strip(" ,.") if spec else name
-                other_descriptions.append(f"{name} ({desc})")
-            others_text = "; ".join(other_descriptions)
+            # EVERY cast member goes into the ONE reference image, side by
+            # side, and the prompt names them by position.
+            #
+            # **Describing them in words does not work.** This branch used to
+            # pass only the first person's cast sheet and describe the rest
+            # from `CAST_SPECS`; a 2026-08 batch then rendered Jonas — Alex's
+            # university friend, the same age — as a man in his SIXTIES, in
+            # 61 of 86 photos. Adding an explicit "Jonas is a 26-year-old,
+            # athletic wiry build" to the prompt changed nothing: kontext is
+            # an image-EDITING model, so the input image dominates and text
+            # about someone absent from it is weakly weighted. You cannot talk
+            # it into a face.
+            #
+            # Putting both faces in the reference does work (verified before
+            # this was written, not after): the same scene came back with both
+            # men in their mid-twenties and Jonas matching his sheet.
+            #
+            # This matters more than it looks: People, Groups and Network all
+            # cluster on faces, so a friend who is 60 in one photo and 38 in
+            # the next is two different people, and the social graph fragments.
+            ref_path = ensemble_ref_path(cast, entry["era"])
+            year = int(str(entry["datetime"])[:4])
+            places = positions_for(headcount)
+            roster = []
+            for i, name in enumerate(cast):
+                born = CAST_DESC.get(name, (None, ""))[0]
+                age = f", aged {year - born}" if born else ""
+                roster.append(f"({i + 1}) the person {places[i]}{age}")
             edit_prompt = (
-                "This reference photo shows one specific person — call them "
-                "the reference person. Generate a new candid photo with "
-                f"EXACTLY {headcount} people in the frame, no more, no "
-                "bystanders, no duplicates: (1) the reference person, same "
-                f"face, same identity; and (2) {others_text}. "
+                f"The reference image is a strip of {headcount} separate "
+                "portraits, side by side. Put those exact people — same faces, "
+                "same identities — together into ONE new candid photograph: "
+                + "; ".join(roster) + ". "
+                f"EXACTLY {headcount} people in the frame — each of them appears "
+                "ONCE, never twice, and there are no bystanders. "
                 f"Scene: {prompt}"
             )
-        print(f"[{entry['file']}] generating (flux-kontext-pro, cast={cast}, ref={primary})...")
+        print(f"[{entry['file']}] generating (flux-kontext-pro, cast={cast}, ref={'+'.join(cast) if headcount > 1 else primary})...")
         img = replicate_predict(
             FLUX_KONTEXT,
             {
@@ -214,12 +337,32 @@ def main():
     if args.limit:
         entries = entries[: args.limit]
 
+    # **One bad entry must not cost the batch.** A single failed prediction
+    # used to raise straight out of the loop: a 95-photo regeneration stopped
+    # at 34 because the 35th was refused, and the remaining 60 were never
+    # attempted. A generation run costs money and an hour, and the failures are
+    # per-entry (a moderation refusal on one scene says nothing about the next
+    # one), so collect them and report at the end.
+    failed = []
     for i, entry in enumerate(entries):
-        generate_entry(entry, args.identity, args.force)
+        try:
+            generate_entry(entry, args.identity, args.force)
+        except Exception as exc:  # noqa: BLE001 — per-entry isolation is the point
+            failed.append((entry["file"], f"{type(exc).__name__}: {exc}"))
+            print(f"[{entry['file']}] FAILED — {exc}")
         if i < len(entries) - 1:
             time.sleep(3)
 
-    print(f"Done. {len(entries)} entries -> {RAW_ROOT / args.identity}")
+    print(f"Done. {len(entries) - len(failed)}/{len(entries)} entries -> "
+          f"{RAW_ROOT / args.identity}")
+    if failed:
+        # Named, not counted. "3 failed" sends you to the log; the names send
+        # you to the cause, and these cluster (every refusal so far has been a
+        # scene with the child in it).
+        print(f"\n{len(failed)} FAILED — rerun with --only <names> once fixed:")
+        for name, why in failed:
+            print(f"  {name}: {why}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

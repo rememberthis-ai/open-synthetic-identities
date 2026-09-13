@@ -209,10 +209,16 @@ reads as working because a session is running, and no file makes that true.
 ## The question cards
 
 Nine open cards, and **seven of them are `kind: login`** — which is the fact the
-one-line rows exist to make visible. The Mac puts a phrase on the right of each
-row (*needs your Mac*, *a judgement call*, *something to find*) derived from
+one-line rows exist to make visible. The app puts a phrase on the right of each
+row (*needs your machine*, *a judgement call*, *something to find*) derived from
 `kind` and from nothing else, so a card without one gets no phrase and a list of
 mostly-blank rows reads as a rendering fault rather than as an absence.
+
+⚠️ **Nothing in a fixture may name a platform.** The phrase above is the app's,
+and it says *Mac* or *PC* according to where it is running — so a fixture that
+writes one of those into its own prose is wrong on the other platform. One card
+did (*"Deciding those needs your Mac"*), which a Windows reader met as both
+words on one screen, and it now says neither.
 
 `question:` is **one short sentence** and the detail lives in `context:`, which
 is a paragraph and is rendered under the question on the card itself. The row

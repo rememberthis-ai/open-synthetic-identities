@@ -1,0 +1,131 @@
+{
+  "note": "Rows whose only witness is a photograph of the till receipt. The scans are rendered into receipt-photo-sources/ and composited into the photo library by generate/photos/.",
+  "rows": [
+    {
+      "stem": "20251013-café-zeitlupe",
+      "date": "2025-10-13",
+      "merchant": "Café Zeitlupe",
+      "total": 8.6,
+      "txn_id": "2025-10-13-nordufer-sam-01",
+      "account": "nordufer-sam",
+      "bank_text": "KARTENKOPF MERCH 22447",
+      "items": [
+        [
+          "Mineralwasser 0,3l",
+          2.6
+        ],
+        [
+          "Cappuccino",
+          3.2
+        ],
+        [
+          "Filterkaffee",
+          2.8
+        ]
+      ]
+    },
+    {
+      "stem": "20251106-marktstand-grünwinkel",
+      "date": "2025-11-06",
+      "merchant": "Marktstand Grünwinkel",
+      "total": 8.98,
+      "txn_id": "2025-11-06-havelbank-joint-01",
+      "account": "havelbank-joint",
+      "bank_text": "KARTENKOPF MERCH 22657",
+      "items": [
+        [
+          "Möhren Bund",
+          2.2
+        ],
+        [
+          "Eier 10er",
+          4.2
+        ],
+        [
+          "Tomaten 0,524 kg x 4,93",
+          2.58
+        ]
+      ]
+    },
+    {
+      "stem": "20260127-bar-nachtkarte",
+      "date": "2026-01-27",
+      "merchant": "Bar Nachtkarte",
+      "total": 9.7,
+      "txn_id": "2026-01-27-meridian-everyday-02",
+      "account": "meridian-everyday",
+      "bank_text": "KARTENKOPF MERCH 23192",
+      "items": [
+        [
+          "Bier 0,5l",
+          4.5
+        ],
+        [
+          "Weinschorle",
+          5.2
+        ]
+      ]
+    },
+    {
+      "stem": "20260210-hofladen-havelgrün",
+      "date": "2026-02-10",
+      "merchant": "Hofladen Havelgrün",
+      "total": 21.45,
+      "txn_id": "2026-02-10-havelbank-joint-04",
+      "account": "havelbank-joint",
+      "bank_text": "KARTENKOPF MERCH 23474",
+      "items": [
+        [
+          "Rapsöl 500ml",
+          7.9
+        ],
+        [
+          "Marmelade 340g",
+          4.6
+        ],
+        [
+          "Kirschen 0,920 kg x 9,73",
+          8.95
+        ]
+      ]
+    },
+    {
+      "stem": "20260404-bar-nachtkarte",
+      "date": "2026-04-04",
+      "merchant": "Bar Nachtkarte",
+      "total": 12.7,
+      "txn_id": "2026-04-04-meridian-everyday-01",
+      "account": "meridian-everyday",
+      "bank_text": "KARTENKOPF MERCH 24117",
+      "items": [
+        [
+          "Aperitif",
+          7.5
+        ],
+        [
+          "Weinschorle",
+          5.2
+        ]
+      ]
+    },
+    {
+      "stem": "20260527-café-zeitlupe",
+      "date": "2026-05-27",
+      "merchant": "Café Zeitlupe",
+      "total": 7.4,
+      "txn_id": "2026-05-27-nordufer-sam-01",
+      "account": "nordufer-sam",
+      "bank_text": "KARTENKOPF MERCH 24605",
+      "items": [
+        [
+          "Cappuccino",
+          3.2
+        ],
+        [
+          "Käsekuchen",
+          4.2
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "mailbox": "carter.okafor@haushalt.example",
+  "note": "Receipt and order-confirmation emails. Every one names a shop and an amount that a statement row does not.",
+  "messages": [
+    {
+      "id": "4410181",
+      "date": "2025-06-12",
+      "from": "Gartenmarkt Blattgrün",
+      "subject": "Ihre Bestellung bei Gartenmarkt Blattgrün",
+      "total": 81.7,
+      "txn_id": "2025-06-12-havelbank-joint-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Balkonkasten x3",
+          "amount": 81.7
+        }
+      ]
+    },
+    {
+      "id": "4410270",
+      "date": "2025-06-13",
+      "from": "Fotolabor Silberkorn",
+      "subject": "Ihre Bestellung bei Fotolabor Silberkorn",
+      "total": 15.7,
+      "txn_id": "2025-06-13-havelbank-joint-02",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Fotobuch klein",
+          "amount": 15.7
+        }
+      ]
+    },
+    {
+      "id": "4410110",
+      "date": "2025-06-24",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 97.97,
+      "txn_id": "2025-06-24-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Regenhose",
+          "amount": 97.97
+        }
+      ]
+    },
+    {
+      "id": "4410006",
+      "date": "2025-06-28",
+      "from": "Spielwerk Spielzeug",
+      "subject": "Ihre Bestellung bei Spielwerk Spielzeug",
+      "total": 34.31,
+      "txn_id": "2025-06-28-meridian-everyday-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Brettspiel",
+          "amount": 34.31
+        }
+      ]
+    },
+    {
+      "id": "4410422",
+      "date": "2025-07-10",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 43.09,
+      "txn_id": "2025-07-10-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 43.09
+        }
+      ]
+    },
+    {
+      "id": "90439",
+      "date": "2025-07-28",
+      "from": "Thai Küche Lotus",
+      "subject": "Ihre Bestellung bei Thai Küche Lotus",
+      "total": 43.51,
+      "txn_id": "2025-07-28-meridian-everyday-01",
+      "rail": "zahlnetz",
+      "lines": [
+        {
+          "label": "Abendessen zu dritt",
+          "amount": 43.51
+        }
+      ]
+    },
+    {
+      "id": "66376",
+      "date": "2025-08-08",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 15.65,
+      "txn_id": "2025-08-08-meridian-everyday-01",
+      "rail": "nordpfad",
+      "lines": [
+        {
+          "label": "Hörbuch (CD)",
+          "amount": 15.65
+        }
+      ]
+    },
+    {
+      "id": "90465",
+      "date": "2025-08-11",
+      "from": "Spielwerk Spielzeug",
+      "subject": "Ihre Bestellung bei Spielwerk Spielzeug",
+      "total": 27.3,
+      "txn_id": "2025-08-11-nordufer-sam-02",
+      "rail": "zahlnetz",
+      "lines": [
+        {
+          "label": "Brettspiel",
+          "amount": 27.3
+        }
+      ]
+    },
+    {
+      "id": "71289",
+      "date": "2025-08-26",
+      "from": "Möbelhaus Eichblatt",
+      "subject": "Ihre Bestellung bei Möbelhaus Eichblatt",
+      "total": 268.31,
+      "txn_id": "2025-08-26-havelbank-joint-02",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Regal Kiefer 80cm",
+          "amount": 268.31
+        }
+      ]
+    },
+    {
+      "id": "730114",
+      "date": "2025-09-07",
+      "from": "Thai Küche Lotus",
+      "subject": "Ihre Bestellung bei Thai Küche Lotus",
+      "total": 23.71,
+      "txn_id": "2025-09-07-meridian-everyday-01",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 23.71
+        }
+      ]
+    },
+    {
+      "id": "4410508",
+      "date": "2025-09-09",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 43.58,
+      "txn_id": "2025-09-09-havelbank-joint-02",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 43.58
+        }
+      ]
+    },
+    {
+      "id": "4410602",
+      "date": "2025-09-22",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 12.78,
+      "txn_id": "2025-09-22-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Kochbuch",
+          "amount": 12.78
+        }
+      ]
+    },
+    {
+      "id": "71436",
+      "date": "2025-10-02",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 41.07,
+      "txn_id": "2025-10-02-meridian-everyday-01",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Zwei Taschenbücher",
+          "amount": 41.07
+        }
+      ]
+    },
+    {
+      "id": "90532",
+      "date": "2025-10-06",
+      "from": "Döner Palast Kottbusser",
+      "subject": "Ihre Bestellung bei Döner Palast Kottbusser",
+      "total": 15.84,
+      "txn_id": "2025-10-06-havelbank-joint-02",
+      "rail": "zahlnetz",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 15.84
+        }
+      ]
+    },
+    {
+      "id": "4410631",
+      "date": "2025-10-15",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 84.61,
+      "txn_id": "2025-10-15-meridian-everyday-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 84.61
+        }
+      ]
+    },
+    {
+      "id": "71433",
+      "date": "2025-10-22",
+      "from": "Gartenmarkt Blattgrün",
+      "subject": "Ihre Bestellung bei Gartenmarkt Blattgrün",
+      "total": 54.6,
+      "txn_id": "2025-10-22-meridian-everyday-01",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Gießkanne",
+          "amount": 54.6
+        }
+      ]
+    },
+    {
+      "id": "730202",
+      "date": "2025-10-22",
+      "from": "Curry Ecke Oranien",
+      "subject": "Ihre Bestellung bei Curry Ecke Oranien",
+      "total": 42.07,
+      "txn_id": "2025-10-22-nordufer-sam-01",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 42.07
+        }
+      ]
+    },
+    {
+      "id": "71553",
+      "date": "2025-11-17",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 28.58,
+      "txn_id": "2025-11-17-meridian-everyday-01",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Bilderbuch",
+          "amount": 28.58
+        }
+      ]
+    },
+    {
+      "id": "4410757",
+      "date": "2025-11-19",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 46.97,
+      "txn_id": "2025-11-19-meridian-everyday-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Hörbuch (CD)",
+          "amount": 46.97
+        }
+      ]
+    },
+    {
+      "id": "4410751",
+      "date": "2025-11-21",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 81.29,
+      "txn_id": "2025-11-21-havelbank-joint-02",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Pullover",
+          "amount": 81.29
+        }
+      ]
+    },
+    {
+      "id": "4410677",
+      "date": "2025-11-24",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 107.97,
+      "txn_id": "2025-11-24-meridian-everyday-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Turnschuhe 34",
+          "amount": 107.97
+        }
+      ]
+    },
+    {
+      "id": "4410993",
+      "date": "2025-12-03",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 28.92,
+      "txn_id": "2025-12-03-havelbank-joint-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Zwei Taschenbücher",
+          "amount": 28.92
+        }
+      ]
+    },
+    {
+      "id": "4411736",
+      "date": "2025-12-06",
+      "from": "Spielwerk Spielzeug",
+      "subject": "Ihre Bestellung bei Spielwerk Spielzeug",
+      "total": 148.9,
+      "txn_id": "2025-12-06-meridian-everyday-02",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Holzeisenbahn-Set",
+          "amount": 148.9
+        }
+      ]
+    },
+    {
+      "id": "4410834",
+      "date": "2025-12-08",
+      "from": "Thai Küche Lotus",
+      "subject": "Ihre Bestellung bei Thai Küche Lotus",
+      "total": 22.93,
+      "txn_id": "2025-12-08-havelbank-joint-04",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Abendessen zu dritt",
+          "amount": 22.93
+        }
+      ]
+    },
+    {
+      "id": "4410887",
+      "date": "2025-12-15",
+      "from": "Fotolabor Silberkorn",
+      "subject": "Ihre Bestellung bei Fotolabor Silberkorn",
+      "total": 30.85,
+      "txn_id": "2025-12-15-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Fotobuch klein",
+          "amount": 30.85
+        }
+      ]
+    },
+    {
+      "id": "4411183",
+      "date": "2026-01-06",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 137.03,
+      "txn_id": "2026-01-06-havelbank-joint-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 137.03
+        }
+      ]
+    },
+    {
+      "id": "4411093",
+      "date": "2026-01-06",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 18.77,
+      "txn_id": "2026-01-06-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 18.77
+        }
+      ]
+    },
+    {
+      "id": "55175",
+      "date": "2026-01-07",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 104.28,
+      "txn_id": "2026-01-07-meridian-everyday-01",
+      "rail": "rechnungsbruecke",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 104.28
+        }
+      ]
+    },
+    {
+      "id": "730340",
+      "date": "2026-01-10",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 40.91,
+      "txn_id": "2026-01-10-nordufer-sam-01",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 40.91
+        }
+      ]
+    },
+    {
+      "id": "4411002",
+      "date": "2026-01-12",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 111.37,
+      "txn_id": "2026-01-12-havelbank-joint-02",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Regenhose",
+          "amount": 111.37
+        }
+      ]
+    },
+    {
+      "id": "71647",
+      "date": "2026-01-12",
+      "from": "Vertikal Sport Berlin",
+      "subject": "Ihre Bestellung bei Vertikal Sport Berlin",
+      "total": 119.41,
+      "txn_id": "2026-01-12-meridian-everyday-03",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Chalkbag und Bürste",
+          "amount": 119.41
+        }
+      ]
+    },
+    {
+      "id": "730415",
+      "date": "2026-01-27",
+      "from": "Curry Ecke Oranien",
+      "subject": "Ihre Bestellung bei Curry Ecke Oranien",
+      "total": 14.98,
+      "txn_id": "2026-01-27-havelbank-joint-04",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 14.98
+        }
+      ]
+    },
+    {
+      "id": "730433",
+      "date": "2026-02-15",
+      "from": "Curry Ecke Oranien",
+      "subject": "Ihre Bestellung bei Curry Ecke Oranien",
+      "total": 40.25,
+      "txn_id": "2026-02-15-havelbank-joint-03",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 40.25
+        }
+      ]
+    },
+    {
+      "id": "4411277",
+      "date": "2026-02-20",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 74.74,
+      "txn_id": "2026-02-20-havelbank-joint-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Regenhose",
+          "amount": 74.74
+        }
+      ]
+    },
+    {
+      "id": "4411361",
+      "date": "2026-03-24",
+      "from": "Gartenmarkt Blattgrün",
+      "subject": "Ihre Bestellung bei Gartenmarkt Blattgrün",
+      "total": 54.58,
+      "txn_id": "2026-03-24-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Blumenerde 40l",
+          "amount": 54.58
+        }
+      ]
+    },
+    {
+      "id": "730463",
+      "date": "2026-03-28",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 29.27,
+      "txn_id": "2026-03-28-nordufer-sam-02",
+      "rail": "tellerflink",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 29.27
+        }
+      ]
+    },
+    {
+      "id": "4411485",
+      "date": "2026-04-01",
+      "from": "Vertikal Sport Berlin",
+      "subject": "Ihre Bestellung bei Vertikal Sport Berlin",
+      "total": 92.36,
+      "txn_id": "2026-04-01-meridian-everyday-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Sicherungsgerät",
+          "amount": 92.36
+        }
+      ]
+    },
+    {
+      "id": "66447",
+      "date": "2026-04-03",
+      "from": "Hotel Grachtenblick",
+      "subject": "Ihre Bestellung bei Hotel Grachtenblick",
+      "total": 498.0,
+      "txn_id": "2026-04-03-havelbank-joint-02",
+      "rail": "nordpfad",
+      "lines": [
+        {
+          "label": "Drei Naechte, Familienzimmer",
+          "amount": 498.0
+        }
+      ]
+    },
+    {
+      "id": "4411383",
+      "date": "2026-04-12",
+      "from": "Buchhandlung Silbenfisch",
+      "subject": "Ihre Bestellung bei Buchhandlung Silbenfisch",
+      "total": 9.0,
+      "txn_id": "2026-04-12-havelbank-joint-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Bilderbuch",
+          "amount": 9.0
+        }
+      ]
+    },
+    {
+      "id": "4411448",
+      "date": "2026-04-25",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 31.36,
+      "txn_id": "2026-04-25-meridian-everyday-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 31.36
+        }
+      ]
+    },
+    {
+      "id": "4411576",
+      "date": "2026-06-09",
+      "from": "Möbelhaus Eichblatt",
+      "subject": "Ihre Bestellung bei Möbelhaus Eichblatt",
+      "total": 143.8,
+      "txn_id": "2026-06-09-nordufer-sam-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Bettwäsche-Set",
+          "amount": 143.8
+        }
+      ]
+    },
+    {
+      "id": "4411610",
+      "date": "2026-06-18",
+      "from": "Spielwerk Spielzeug",
+      "subject": "Ihre Bestellung bei Spielwerk Spielzeug",
+      "total": 29.44,
+      "txn_id": "2026-06-18-meridian-everyday-01",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Brettspiel",
+          "amount": 29.44
+        }
+      ]
+    },
+    {
+      "id": "4411688",
+      "date": "2026-06-20",
+      "from": "Pizzeria Vulkano",
+      "subject": "Ihre Bestellung bei Pizzeria Vulkano",
+      "total": 37.32,
+      "txn_id": "2026-06-20-havelbank-joint-03",
+      "rail": "pagolink",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 37.32
+        }
+      ]
+    },
+    {
+      "id": "71762",
+      "date": "2026-06-28",
+      "from": "Stoffkreis",
+      "subject": "Ihre Bestellung bei Stoffkreis",
+      "total": 138.53,
+      "txn_id": "2026-06-28-nordufer-sam-02",
+      "rail": "kassenband",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 138.53
+        }
+      ]
+    },
+    {
+      "id": "bildstrom-preis",
+      "date": "2026-01-12",
+      "from": "Bildstrom Media GmbH",
+      "subject": "Änderung Ihres Mitgliedsbeitrags ab Februar",
+      "total": 14.99,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Bisher 12,99 EUR monatlich",
+          "amount": 12.99
+        },
+        {
+          "label": "Ab 01.02.2026 14,99 EUR monatlich",
+          "amount": 14.99
+        }
+      ]
+    },
+    {
+      "id": "spreelicht-abschlag",
+      "date": "2025-12-09",
+      "from": "Spreelicht Energie GmbH",
+      "subject": "Ihre neue Abschlagshöhe ab Januar 2026",
+      "total": 94.0,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Abschlag bisher (monatlich)",
+          "amount": 118.0
+        },
+        {
+          "label": "Abschlag ab 01.01.2026 (monatlich)",
+          "amount": 94.0
+        },
+        {
+          "label": "Kundennummer 88-114-203",
+          "amount": 0.0
+        }
+      ]
+    },
+    {
+      "id": "nordstern-kuendigung",
+      "date": "2025-11-24",
+      "from": "Nordstern Versicherung AG",
+      "subject": "Bestätigung Ihrer Kündigung — Hausratversicherung",
+      "total": 0.0,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Vertrag NV-2019-4471 endet am 31.12.2025",
+          "amount": 0.0
+        },
+        {
+          "label": "Letzter Beitragseinzug Dezember 2025",
+          "amount": 18.4
+        }
+      ]
+    },
+    {
+      "id": "blauschild-police",
+      "date": "2025-12-18",
+      "from": "Blauschild Versicherung AG",
+      "subject": "Ihre neue Hausratversicherung — Police BS-2026-8812",
+      "total": 21.9,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Versicherungsbeginn 01.01.2026",
+          "amount": 0.0
+        },
+        {
+          "label": "Monatsbeitrag",
+          "amount": 21.9
+        }
+      ]
+    },
+    {
+      "id": "warenlager-plus-trial",
+      "date": "2025-11-03",
+      "from": "Warenlager",
+      "subject": "Ihre Warenlager-Plus-Testphase hat begonnen",
+      "total": 0.0,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Kostenlos bis 03.12.2025",
+          "amount": 0.0
+        },
+        {
+          "label": "Danach 4,99 EUR monatlich",
+          "amount": 4.99
+        }
+      ]
+    }
+  ]
+}

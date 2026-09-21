@@ -1,0 +1,230 @@
+{
+  "bank": "Ratenwerk Bank AB",
+  "note": "Rechnungskauf and Ratenkauf. The statement shows only RATENWERK BANK AB and a Vorgang number; this is where the shop is written down.",
+  "purchases": [
+    {
+      "purchase": "880165",
+      "date": "2025-07-03",
+      "total": 25.7,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-07-03-havelbank-joint-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Pullover",
+          "amount": 25.7
+        }
+      ]
+    },
+    {
+      "purchase": "880092",
+      "date": "2025-07-21",
+      "total": 29.84,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2025-07-21-nordufer-sam-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Zwei Taschenbücher",
+          "amount": 29.84
+        }
+      ]
+    },
+    {
+      "purchase": "880195",
+      "date": "2025-08-11",
+      "total": 28.53,
+      "shop": "Pizzeria Vulkano",
+      "txn_id": "2025-08-11-havelbank-joint-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 28.53
+        }
+      ]
+    },
+    {
+      "purchase": "880605",
+      "date": "2025-12-09",
+      "total": 212.4,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-12-09-havelbank-joint-01",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Winterjacken x2",
+          "amount": 212.4
+        }
+      ]
+    },
+    {
+      "purchase": "880237",
+      "date": "2026-01-14",
+      "total": 51.91,
+      "shop": "Spielwerk Spielzeug",
+      "txn_id": "2026-01-14-havelbank-joint-03",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Brettspiel",
+          "amount": 51.91
+        }
+      ]
+    },
+    {
+      "purchase": "880303",
+      "date": "2026-02-02",
+      "total": 24.54,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-02-02-nordufer-sam-01",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 24.54
+        }
+      ]
+    },
+    {
+      "purchase": "880423",
+      "date": "2026-02-11",
+      "total": 105.53,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-02-11-meridian-everyday-03",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 105.53
+        }
+      ]
+    },
+    {
+      "purchase": "880371",
+      "date": "2026-02-23",
+      "total": 133.69,
+      "shop": "Vertikal Sport Berlin",
+      "txn_id": "2026-02-23-havelbank-joint-03",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Chalkbag und Bürste",
+          "amount": 133.69
+        }
+      ]
+    },
+    {
+      "purchase": "880431",
+      "date": "2026-03-02",
+      "total": 149.38,
+      "shop": "Vertikal Sport Berlin",
+      "txn_id": "2026-03-02-havelbank-joint-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Chalkbag und Bürste",
+          "amount": 149.38
+        }
+      ]
+    },
+    {
+      "purchase": "880477",
+      "date": "2026-03-08",
+      "total": 43.83,
+      "shop": "Pizzeria Vulkano",
+      "txn_id": "2026-03-08-havelbank-joint-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 43.83
+        }
+      ]
+    },
+    {
+      "purchase": "880504",
+      "date": "2026-04-05",
+      "total": 59.79,
+      "shop": "Spielwerk Spielzeug",
+      "txn_id": "2026-04-05-meridian-everyday-01",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Puzzle 200 Teile",
+          "amount": 59.79
+        }
+      ]
+    },
+    {
+      "purchase": "40117",
+      "date": "2026-04-11",
+      "total": 163.0,
+      "shop": "Elektro Hausgeraete Nordlicht",
+      "txn_id": "2026-04-11-havelbank-joint-01",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Waschmaschine 8kg (Rate 1 von 3)",
+          "amount": 163.0
+        }
+      ]
+    },
+    {
+      "purchase": "880577",
+      "date": "2026-05-10",
+      "total": 90.84,
+      "shop": "Schwimmschule Delphin",
+      "txn_id": "2026-05-10-meridian-everyday-01",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Kursgebühr Halbjahr",
+          "amount": 90.84
+        }
+      ]
+    },
+    {
+      "purchase": "40117",
+      "date": "2026-05-11",
+      "total": 163.0,
+      "shop": "Elektro Hausgeraete Nordlicht",
+      "txn_id": "2026-05-11-havelbank-joint-04",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Waschmaschine 8kg (Rate 2 von 3)",
+          "amount": 163.0
+        }
+      ]
+    },
+    {
+      "purchase": "880528",
+      "date": "2026-05-26",
+      "total": 31.45,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-05-26-meridian-everyday-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Turnschuhe 34",
+          "amount": 31.45
+        }
+      ]
+    },
+    {
+      "purchase": "40117",
+      "date": "2026-06-11",
+      "total": 163.0,
+      "shop": "Elektro Hausgeraete Nordlicht",
+      "txn_id": "2026-06-11-havelbank-joint-02",
+      "kind": "Rechnungskauf",
+      "lines": [
+        {
+          "label": "Waschmaschine 8kg (Rate 3 von 3)",
+          "amount": 163.0
+        }
+      ]
+    }
+  ]
+}

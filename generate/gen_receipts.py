@@ -54,6 +54,29 @@ MERCHANTS = {
           ("Expressen 8er", 118.00, 118.00), ("Sicherungsgerät", 64.90, 64.90)]),
         ("Gasthaus Alte Wand", "Wiener Str. 18, 10999 Berlin", "de", 0.19,
          [("Buffet 18 Pers.", 198.00, 198.00), ("Getränke", 16.60, 16.60)]),
+        # --- The HOUSEHOLD's shops, not the studio's (Mind My Money) ---
+        # Small card-terminal places whose bank row is sometimes only a merchant
+        # code, so the photographed slip is the only thing that names them. They
+        # live under alex-carter because the household is Alex's; nothing here
+        # ever reaches Carter Studio's books.
+        ("Café Zeitlupe", "Boxhagener Str. 31, 10245 Berlin", "de", 0.19,
+         [("Milchkaffee", 3.60, 3.60), ("Cappuccino", 3.20, 3.20),
+          ("Filterkaffee", 2.80, 2.80), ("Apfelkuchen", 3.90, 3.90),
+          ("Käsekuchen", 4.20, 4.20), ("Belegtes Brot", 5.40, 5.40),
+          ("Mineralwasser 0,3l", 2.60, 2.60)]),
+        ("Marktstand Grünwinkel", "Markthalle Neun, 10997 Berlin", "de", 0.07,
+         [("Äpfel 1kg", 3.20, 3.20), ("Kartoffeln 2kg", 3.40, 3.40),
+          ("Möhren Bund", 2.20, 2.20), ("Feldsalat 150g", 2.80, 2.80),
+          ("Eier 10er", 4.20, 4.20), ("Ziegenkäse 200g", 6.80, 6.80),
+          ("Honig 500g", 7.50, 7.50)]),
+        ("Bar Nachtkarte", "Oranienstr. 48, 10999 Berlin", "de", 0.19,
+         [("Bier 0,5l", 4.50, 4.50), ("Weinschorle", 5.20, 5.20),
+          ("Limonade", 3.80, 3.80), ("Nüsse", 2.40, 2.40),
+          ("Aperitif", 7.50, 7.50)]),
+        ("Hofladen Havelgrün", "Dorfstr. 4, 14542 Werder", "de", 0.07,
+         [("Hofkäse 250g", 6.40, 6.40), ("Rohmilch 1l", 2.30, 2.30),
+          ("Bauernbrot 1kg", 4.80, 4.80), ("Kirschen 500g", 5.20, 5.20),
+          ("Rapsöl 500ml", 7.90, 7.90), ("Marmelade 340g", 4.60, 4.60)]),
         # --- Vendors that appear in June's ledger and are PHOTOGRAPHED ---
         ("Supermercado Listo", "Skalitzer Str. 60, 10997 Berlin", "de", 0.07,
          [("Tomaten 1kg", 3.49, 3.49), ("Serrano 200g", 7.99, 7.99),
@@ -107,6 +130,21 @@ def load_font(size):
     return ImageFont.load_default()
 
 
+# A till in Berlin prints 13,18 and a till in Manchester prints 13.18. Every
+# receipt here used the dot, whatever language its labels were in, so a German
+# Kassenbon read `Netto 12.32 / MwSt. 7% 0.86 / SUMME 13.18 EUR` — and an agent
+# looking for the amount its German bank row shows (`13,18`) could not find it
+# by text at all. English receipts keep the dot; only `en` has one.
+DECIMAL_COMMA = {"de", "fi", "sv", "es"}
+
+
+def _amount(value: float, lang: str, width: int = 0) -> str:
+    s = f"{value:.2f}"
+    if lang in DECIMAL_COMMA:
+        s = s.replace(".", ",")
+    return s.rjust(width) if width else s
+
+
 def render_receipt(merchant, city, lang, vat_rate, items, when, rng, out_path):
     t = I18N[lang]
     f_big, f, f_small = load_font(30), load_font(22), load_font(18)
@@ -120,15 +158,15 @@ def render_receipt(merchant, city, lang, vat_rate, items, when, rng, out_path):
     total = 0.0
     for label, price in items:
         total += price
-        price_s = f"{price:6.2f}"
+        price_s = _amount(price, lang, 6)
         pad = 38 - len(label[:28]) - len(price_s)
         lines.append((f"{label[:28]}{' ' * max(1, pad)}{price_s}", f, "left"))
     lines.append(("-" * 38, f, "left"))
     net = total / (1 + vat_rate)
     vat = total - net
-    lines.append((f"{t['net']:<28}{net:10.2f}", f_small, "left"))
-    lines.append((f"{t['vat']} {int(vat_rate * 100)}%{'':<{24 - len(str(int(vat_rate * 100)))}}{vat:10.2f}", f_small, "left"))
-    lines.append((f"{t['total']:<24}{total:10.2f} EUR", f, "left"))
+    lines.append((f"{t['net']:<28}{_amount(net, lang, 10)}", f_small, "left"))
+    lines.append((f"{t['vat']} {int(vat_rate * 100)}%{'':<{24 - len(str(int(vat_rate * 100)))}}{_amount(vat, lang, 10)}", f_small, "left"))
+    lines.append((f"{t['total']:<24}{_amount(total, lang, 10)} EUR", f, "left"))
     lines.append(("", f, "left"))
     lines.append((f"{t['card']}{rng.randint(1000, 9999)}", f_small, "left"))
     lines.append(("", f, "left"))

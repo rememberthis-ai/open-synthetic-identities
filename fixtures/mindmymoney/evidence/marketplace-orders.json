@@ -1,0 +1,357 @@
+{
+  "shop": "Warenlager",
+  "note": "Order history and memberships. The bank row names the marketplace and never the item.",
+  "orders": [
+    {
+      "order": "302082",
+      "date": "2025-06-24",
+      "total": 69.93,
+      "shop": "Schwimmschule Delphin",
+      "txn_id": "2025-06-24-nordufer-sam-02",
+      "lines": [
+        {
+          "label": "Kursgebühr Halbjahr",
+          "amount": 69.93
+        }
+      ]
+    },
+    {
+      "order": "302145",
+      "date": "2025-07-13",
+      "total": 16.63,
+      "shop": "Döner Palast Kottbusser",
+      "txn_id": "2025-07-13-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Abendessen",
+          "amount": 16.63
+        }
+      ]
+    },
+    {
+      "order": "302227",
+      "date": "2025-08-20",
+      "total": 40.02,
+      "shop": "Thai Küche Lotus",
+      "txn_id": "2025-08-20-meridian-everyday-03",
+      "lines": [
+        {
+          "label": "Abendessen zu dritt",
+          "amount": 40.02
+        }
+      ]
+    },
+    {
+      "order": "302314",
+      "date": "2025-08-24",
+      "total": 73.7,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-08-24-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Turnschuhe 34",
+          "amount": 73.7
+        }
+      ]
+    },
+    {
+      "order": "302458",
+      "date": "2025-09-09",
+      "total": 73.36,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-09-09-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schal und Mütze",
+          "amount": 73.36
+        }
+      ]
+    },
+    {
+      "order": "302409",
+      "date": "2025-09-12",
+      "total": 86.34,
+      "shop": "Vertikal Sport Berlin",
+      "txn_id": "2025-09-12-meridian-everyday-01",
+      "lines": [
+        {
+          "label": "Sicherungsgerät",
+          "amount": 86.34
+        }
+      ]
+    },
+    {
+      "order": "302320",
+      "date": "2025-09-22",
+      "total": 41.7,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-09-22-meridian-everyday-01",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 41.7
+        }
+      ]
+    },
+    {
+      "order": "302499",
+      "date": "2025-09-26",
+      "total": 75.3,
+      "shop": "Gartenmarkt Blattgrün",
+      "txn_id": "2025-09-26-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Balkonkasten x3",
+          "amount": 75.3
+        }
+      ]
+    },
+    {
+      "order": "302563",
+      "date": "2025-10-14",
+      "total": 18.6,
+      "shop": "Zoohandlung Fellnest",
+      "txn_id": "2025-10-14-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Streu 20l",
+          "amount": 18.6
+        }
+      ]
+    },
+    {
+      "order": "302573",
+      "date": "2025-10-16",
+      "total": 81.29,
+      "shop": "Gartenmarkt Blattgrün",
+      "txn_id": "2025-10-16-meridian-everyday-02",
+      "lines": [
+        {
+          "label": "Blumenerde 40l",
+          "amount": 81.29
+        }
+      ]
+    },
+    {
+      "order": "302629",
+      "date": "2025-11-04",
+      "total": 138.15,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-11-04-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Winterjacke Kind",
+          "amount": 138.15
+        }
+      ]
+    },
+    {
+      "order": "302721",
+      "date": "2025-11-10",
+      "total": 28.46,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2025-11-10-meridian-everyday-02",
+      "lines": [
+        {
+          "label": "Zwei Taschenbücher",
+          "amount": 28.46
+        }
+      ]
+    },
+    {
+      "order": "302759",
+      "date": "2025-11-19",
+      "total": 117.29,
+      "shop": "Stoffkreis",
+      "txn_id": "2025-11-19-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Winterjacke Kind",
+          "amount": 117.29
+        }
+      ]
+    },
+    {
+      "order": "303458",
+      "date": "2025-12-11",
+      "total": 87.6,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2025-12-11-nordufer-sam-01",
+      "lines": [
+        {
+          "label": "Buecher, vier Titel",
+          "amount": 87.6
+        }
+      ]
+    },
+    {
+      "order": "302822",
+      "date": "2026-01-12",
+      "total": 31.61,
+      "shop": "Zoohandlung Fellnest",
+      "txn_id": "2026-01-12-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Streu 20l",
+          "amount": 31.61
+        }
+      ]
+    },
+    {
+      "order": "303030",
+      "date": "2026-03-02",
+      "total": 135.8,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-03-02-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 135.8
+        }
+      ]
+    },
+    {
+      "order": "302877",
+      "date": "2026-03-05",
+      "total": 18.63,
+      "shop": "Pizzeria Vulkano",
+      "txn_id": "2026-03-05-meridian-everyday-01",
+      "lines": [
+        {
+          "label": "Familienbestellung",
+          "amount": 18.63
+        }
+      ]
+    },
+    {
+      "order": "302898",
+      "date": "2026-03-20",
+      "total": 43.17,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2026-03-20-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Bilderbuch",
+          "amount": 43.17
+        }
+      ]
+    },
+    {
+      "order": "302967",
+      "date": "2026-03-22",
+      "total": 130.59,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-03-22-havelbank-joint-04",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 130.59
+        }
+      ]
+    },
+    {
+      "order": "303113",
+      "date": "2026-04-10",
+      "total": 31.21,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2026-04-10-havelbank-joint-04",
+      "lines": [
+        {
+          "label": "Kochbuch",
+          "amount": 31.21
+        }
+      ]
+    },
+    {
+      "order": "303080",
+      "date": "2026-04-14",
+      "total": 42.7,
+      "shop": "Spielwerk Spielzeug",
+      "txn_id": "2026-04-14-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Puzzle 200 Teile",
+          "amount": 42.7
+        }
+      ]
+    },
+    {
+      "order": "303077",
+      "date": "2026-04-26",
+      "total": 38.97,
+      "shop": "Spielwerk Spielzeug",
+      "txn_id": "2026-04-26-meridian-everyday-01",
+      "lines": [
+        {
+          "label": "Puzzle 200 Teile",
+          "amount": 38.97
+        }
+      ]
+    },
+    {
+      "order": "303184",
+      "date": "2026-05-17",
+      "total": 50.27,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-05-17-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 50.27
+        }
+      ]
+    },
+    {
+      "order": "303364",
+      "date": "2026-06-02",
+      "total": 11.17,
+      "shop": "Buchhandlung Silbenfisch",
+      "txn_id": "2026-06-02-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Hörbuch (CD)",
+          "amount": 11.17
+        }
+      ]
+    },
+    {
+      "order": "303275",
+      "date": "2026-06-11",
+      "total": 54.48,
+      "shop": "Spielwerk Spielzeug",
+      "txn_id": "2026-06-11-meridian-everyday-03",
+      "lines": [
+        {
+          "label": "Puzzle 200 Teile",
+          "amount": 54.48
+        }
+      ]
+    },
+    {
+      "order": "303199",
+      "date": "2026-06-22",
+      "total": 125.95,
+      "shop": "Stoffkreis",
+      "txn_id": "2026-06-22-meridian-everyday-01",
+      "lines": [
+        {
+          "label": "Zwei Paar Jeans",
+          "amount": 125.95
+        }
+      ]
+    }
+  ],
+  "memberships": [
+    {
+      "name": "Warenlager Plus",
+      "started": "2025-11-03",
+      "trial_days": 30,
+      "first_payment": "2025-12-03",
+      "price_eur": 4.99,
+      "renews": "monthly",
+      "next_renewal": "2026-07-03",
+      "status": "active",
+      "note": "Trial started 3 November 2025, first payment 3 December 2025."
+    }
+  ]
+}

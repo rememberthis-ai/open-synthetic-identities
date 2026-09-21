@@ -1,0 +1,110 @@
+[
+  {
+    "merchant": "Café Zeitlupe",
+    "when": "2025-10-13T09:11",
+    "total": 8.6,
+    "items": [
+      [
+        "Mineralwasser 0,3l",
+        2.6
+      ],
+      [
+        "Cappuccino",
+        3.2
+      ],
+      [
+        "Filterkaffee",
+        2.8
+      ]
+    ],
+    "_row": "2025-10-13-nordufer-sam-01"
+  },
+  {
+    "merchant": "Marktstand Grünwinkel",
+    "when": "2025-11-06T12:18",
+    "total": 8.98,
+    "items": [
+      [
+        "Möhren Bund",
+        2.2
+      ],
+      [
+        "Eier 10er",
+        4.2
+      ],
+      [
+        "Tomaten 0,524 kg x 4,93",
+        2.58
+      ]
+    ],
+    "_row": "2025-11-06-havelbank-joint-01"
+  },
+  {
+    "merchant": "Bar Nachtkarte",
+    "when": "2026-01-27T19:25",
+    "total": 9.7,
+    "items": [
+      [
+        "Bier 0,5l",
+        4.5
+      ],
+      [
+        "Weinschorle",
+        5.2
+      ]
+    ],
+    "_row": "2026-01-27-meridian-everyday-02"
+  },
+  {
+    "merchant": "Hofladen Havelgrün",
+    "when": "2026-02-10T13:32",
+    "total": 21.45,
+    "items": [
+      [
+        "Rapsöl 500ml",
+        7.9
+      ],
+      [
+        "Marmelade 340g",
+        4.6
+      ],
+      [
+        "Kirschen 0,920 kg x 9,73",
+        8.95
+      ]
+    ],
+    "_row": "2026-02-10-havelbank-joint-04"
+  },
+  {
+    "merchant": "Bar Nachtkarte",
+    "when": "2026-04-04T20:39",
+    "total": 12.7,
+    "items": [
+      [
+        "Aperitif",
+        7.5
+      ],
+      [
+        "Weinschorle",
+        5.2
+      ]
+    ],
+    "_row": "2026-04-04-meridian-everyday-01"
+  },
+  {
+    "merchant": "Café Zeitlupe",
+    "when": "2026-05-27T16:46",
+    "total": 7.4,
+    "items": [
+      [
+        "Cappuccino",
+        3.2
+      ],
+      [
+        "Käsekuchen",
+        4.2
+      ]
+    ],
+    "_row": "2026-05-27-nordufer-sam-01"
+  }
+]

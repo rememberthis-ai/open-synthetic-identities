@@ -1,0 +1,4314 @@
+{
+  "shop": "Kaufhalle Nord Lieferdienst",
+  "account": "carter.okafor@haushalt.example",
+  "note": "Each order reconciles to one KAUFHALLE NORD LIEFERDIENST row to the cent. The line items are the only place the household's food is broken down at all.",
+  "orders": [
+    {
+      "order": "KN-2506-8541",
+      "date": "2025-06-05",
+      "total": 54.55,
+      "account": "havelbank-joint",
+      "txn_id": "2025-06-05-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.47
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.01
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.54
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.57
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.31
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.83
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.76
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.53
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.06
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.66
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 2.84
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 9.97
+        }
+      ]
+    },
+    {
+      "order": "KN-2506-1152",
+      "date": "2025-06-11",
+      "total": 49.75,
+      "account": "havelbank-joint",
+      "txn_id": "2025-06-11-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.27
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.72
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.02
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.63
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 6.63
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.7
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.35
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.22
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.91
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.23
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.69
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.39
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.56
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.11
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.32
+        }
+      ]
+    },
+    {
+      "order": "KN-2506-1158",
+      "date": "2025-06-16",
+      "total": 57.37,
+      "account": "havelbank-joint",
+      "txn_id": "2025-06-16-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 2.95
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.4
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 5.17
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 4.04
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 4.3
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.5
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.82
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.33
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.86
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.09
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.86
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.82
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.86
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.32
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.21
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 2.84
+        }
+      ]
+    },
+    {
+      "order": "KN-2506-8454",
+      "date": "2025-06-25",
+      "total": 38.73,
+      "account": "havelbank-joint",
+      "txn_id": "2025-06-25-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.14
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.5
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.7
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.83
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.12
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.49
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.6
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.42
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 2.93
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 4.04
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 4.96
+        }
+      ]
+    },
+    {
+      "order": "KN-2507-4241",
+      "date": "2025-07-05",
+      "total": 84.45,
+      "account": "havelbank-joint",
+      "txn_id": "2025-07-05-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.32
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.02
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.76
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 9.18
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 8.0
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.74
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.91
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.68
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.59
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.58
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 7.05
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.75
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.34
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.28
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.03
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.54
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 16.68
+        }
+      ]
+    },
+    {
+      "order": "KN-2507-8827",
+      "date": "2025-07-11",
+      "total": 70.41,
+      "account": "havelbank-joint",
+      "txn_id": "2025-07-11-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.04
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.92
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.19
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.98
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.28
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.39
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.09
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.78
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.64
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.57
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.84
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.0
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.36
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.84
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.79
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.71
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.34
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 6.65
+        }
+      ]
+    },
+    {
+      "order": "KN-2507-2442",
+      "date": "2025-07-15",
+      "total": 82.75,
+      "account": "havelbank-joint",
+      "txn_id": "2025-07-15-havelbank-joint-04",
+      "lines": [
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.21
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.23
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 10.82
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.4
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.74
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.5
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.9
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.17
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.5
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 7.14
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.49
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.11
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 3.2
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.12
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.14
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 14.71
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 3.13
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.24
+        }
+      ]
+    },
+    {
+      "order": "KN-2507-2524",
+      "date": "2025-07-18",
+      "total": 31.95,
+      "account": "havelbank-joint",
+      "txn_id": "2025-07-18-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.58
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 3.95
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.96
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.35
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.17
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.11
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.58
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.05
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.3
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.27
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.63
+        }
+      ]
+    },
+    {
+      "order": "KN-2508-7984",
+      "date": "2025-08-20",
+      "total": 63.29,
+      "account": "havelbank-joint",
+      "txn_id": "2025-08-20-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.15
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.75
+        },
+        {
+          "label": "Hackfleisch gemischt 500g",
+          "sub": "meatfish",
+          "amount": 5.88
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.35
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.85
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.18
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.57
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.72
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.2
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.08
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.73
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.44
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 18.39
+        }
+      ]
+    },
+    {
+      "order": "KN-2508-4394",
+      "date": "2025-08-22",
+      "total": 59.02,
+      "account": "havelbank-joint",
+      "txn_id": "2025-08-22-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 4.13
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.48
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 3.72
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.96
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.48
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.2
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.94
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 1.93
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.23
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 3.6
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.98
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.54
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 3.14
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 13.18
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.51
+        }
+      ]
+    },
+    {
+      "order": "KN-2508-7929",
+      "date": "2025-08-23",
+      "total": 66.37,
+      "account": "havelbank-joint",
+      "txn_id": "2025-08-23-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.32
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.28
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.61
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.93
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 4.59
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 3.99
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.15
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.22
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.29
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.02
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.86
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.59
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.9
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.66
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.86
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.9
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.71
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 4.36
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 3.13
+        }
+      ]
+    },
+    {
+      "order": "KN-2509-7655",
+      "date": "2025-09-03",
+      "total": 75.12,
+      "account": "havelbank-joint",
+      "txn_id": "2025-09-03-havelbank-joint-04",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 2.77
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.28
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 4.3
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 8.53
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.24
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.22
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.42
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.39
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.32
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.92
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.16
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.87
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.09
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.08
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 2.85
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.83
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 10.2
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 3.65
+        }
+      ]
+    },
+    {
+      "order": "KN-2509-8498",
+      "date": "2025-09-04",
+      "total": 80.12,
+      "account": "havelbank-joint",
+      "txn_id": "2025-09-04-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.2
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.76
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.78
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 4.09
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.82
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 1.97
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.09
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.04
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.14
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.27
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.61
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.02
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.56
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.46
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 13.32
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.78
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 5.21
+        }
+      ]
+    },
+    {
+      "order": "KN-2509-2680",
+      "date": "2025-09-08",
+      "total": 68.26,
+      "account": "havelbank-joint",
+      "txn_id": "2025-09-08-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.9
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.77
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.26
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 11.92
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.45
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.43
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.39
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.32
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.69
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.82
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.37
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.97
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.22
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.34
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.98
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 16.43
+        }
+      ]
+    },
+    {
+      "order": "KN-2509-8489",
+      "date": "2025-09-24",
+      "total": 58.05,
+      "account": "havelbank-joint",
+      "txn_id": "2025-09-24-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.12
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.98
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.34
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.41
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 3.02
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.29
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.28
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 3.99
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.51
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.2
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.91
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.03
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 4.57
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 3.59
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.81
+        }
+      ]
+    },
+    {
+      "order": "KN-2510-8837",
+      "date": "2025-10-05",
+      "total": 32.38,
+      "account": "havelbank-joint",
+      "txn_id": "2025-10-05-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 4.3
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.86
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.29
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.27
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.03
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.7
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.39
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.07
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 6.76
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.71
+        }
+      ]
+    },
+    {
+      "order": "KN-2510-5833",
+      "date": "2025-10-09",
+      "total": 82.67,
+      "account": "havelbank-joint",
+      "txn_id": "2025-10-09-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.64
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 2.99
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.07
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.77
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.97
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.24
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.28
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.29
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.98
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.98
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.5
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.12
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 7.13
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.72
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.59
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 1.89
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.66
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.36
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.02
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.85
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.22
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.4
+        }
+      ]
+    },
+    {
+      "order": "KN-2510-4920",
+      "date": "2025-10-18",
+      "total": 58.26,
+      "account": "havelbank-joint",
+      "txn_id": "2025-10-18-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.83
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.81
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.63
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.56
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.57
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.54
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.82
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.47
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.03
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.19
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.16
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.87
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.66
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.05
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.57
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 13.5
+        }
+      ]
+    },
+    {
+      "order": "KN-2510-2923",
+      "date": "2025-10-20",
+      "total": 40.2,
+      "account": "havelbank-joint",
+      "txn_id": "2025-10-20-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.59
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.34
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.27
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.58
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.72
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.37
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.26
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.1
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.42
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.36
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.19
+        }
+      ]
+    },
+    {
+      "order": "KN-2511-5903",
+      "date": "2025-11-04",
+      "total": 49.17,
+      "account": "havelbank-joint",
+      "txn_id": "2025-11-04-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 2.53
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.87
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.1
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.0
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.96
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 10.7
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.51
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.8
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.02
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.09
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.66
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 1.93
+        }
+      ]
+    },
+    {
+      "order": "KN-2511-7437",
+      "date": "2025-11-06",
+      "total": 78.75,
+      "account": "havelbank-joint",
+      "txn_id": "2025-11-06-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.19
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.98
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 2.97
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 2.81
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 3.49
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.17
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.28
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.73
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.21
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.65
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.8
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.99
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.86
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.09
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.89
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.1
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.73
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.82
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.9
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.83
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.58
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 4.45
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.23
+        }
+      ]
+    },
+    {
+      "order": "KN-2511-2674",
+      "date": "2025-11-07",
+      "total": 57.96,
+      "account": "havelbank-joint",
+      "txn_id": "2025-11-07-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.68
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.33
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.57
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.2
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 1.95
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.57
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.6
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.55
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.75
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.73
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.68
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.01
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.61
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.88
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.52
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.6
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 1.94
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.7
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.09
+        }
+      ]
+    },
+    {
+      "order": "KN-2511-9199",
+      "date": "2025-11-13",
+      "total": 66.67,
+      "account": "havelbank-joint",
+      "txn_id": "2025-11-13-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.56
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.6
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.26
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.68
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.18
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.28
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.23
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.85
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.18
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.79
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.74
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.63
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.35
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 1.82
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.5
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.56
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.01
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 2.94
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.54
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.27
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.7
+        }
+      ]
+    },
+    {
+      "order": "KN-2512-6038",
+      "date": "2025-12-03",
+      "total": 76.37,
+      "account": "havelbank-joint",
+      "txn_id": "2025-12-03-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.97
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.07
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.84
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.4
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 7.85
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 6.98
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.31
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.59
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.29
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 3.91
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.59
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.7
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.45
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 1.99
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.61
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 5.09
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 12.73
+        }
+      ]
+    },
+    {
+      "order": "KN-2512-2083",
+      "date": "2025-12-08",
+      "total": 60.18,
+      "account": "havelbank-joint",
+      "txn_id": "2025-12-08-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.07
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.83
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.88
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 5.01
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.05
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.96
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.25
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.73
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.36
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.04
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.37
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.18
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.35
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.32
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.39
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.58
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.81
+        }
+      ]
+    },
+    {
+      "order": "KN-2512-3932",
+      "date": "2025-12-11",
+      "total": 63.8,
+      "account": "havelbank-joint",
+      "txn_id": "2025-12-11-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 2.82
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.65
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.4
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.33
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 6.52
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.09
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.52
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.09
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.73
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.94
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.42
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.14
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.85
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.97
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.5
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.63
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 5.2
+        }
+      ]
+    },
+    {
+      "order": "KN-2512-9348",
+      "date": "2025-12-24",
+      "total": 65.84,
+      "account": "havelbank-joint",
+      "txn_id": "2025-12-24-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.08
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.35
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 6.77
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.98
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.24
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.66
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.5
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.54
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.1
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.12
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.48
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.55
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.33
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.05
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 5.28
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 3.05
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 6.76
+        }
+      ]
+    },
+    {
+      "order": "KN-2601-8909",
+      "date": "2026-01-12",
+      "total": 60.8,
+      "account": "havelbank-joint",
+      "txn_id": "2026-01-12-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.48
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.08
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.31
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.84
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.25
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.37
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.48
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.99
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.83
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.19
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.82
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.4
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 14.76
+        }
+      ]
+    },
+    {
+      "order": "KN-2601-9561",
+      "date": "2026-01-23",
+      "total": 54.0,
+      "account": "havelbank-joint",
+      "txn_id": "2026-01-23-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.94
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.68
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.99
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.22
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.47
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.68
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.64
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.8
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.14
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.3
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.17
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.14
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.98
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.58
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.09
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 6.44
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.74
+        }
+      ]
+    },
+    {
+      "order": "KN-2601-2404",
+      "date": "2026-01-24",
+      "total": 68.94,
+      "account": "havelbank-joint",
+      "txn_id": "2026-01-24-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.58
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.47
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.3
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.23
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.65
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 6.62
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.65
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.71
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.89
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.02
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.76
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.19
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.24
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.88
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.45
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.49
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.01
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.8
+        }
+      ]
+    },
+    {
+      "order": "KN-2601-7671",
+      "date": "2026-01-27",
+      "total": 88.97,
+      "account": "havelbank-joint",
+      "txn_id": "2026-01-27-havelbank-joint-03",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.76
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.28
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 4.1
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 11.88
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.35
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.12
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.26
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.38
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.14
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.44
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.68
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.08
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.05
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.57
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 6.23
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.66
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 3.89
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 8.1
+        }
+      ]
+    },
+    {
+      "order": "KN-2602-3267",
+      "date": "2026-02-05",
+      "total": 46.02,
+      "account": "havelbank-joint",
+      "txn_id": "2026-02-05-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 2.55
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.89
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 3.79
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.18
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.49
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.68
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.93
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.51
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 3.08
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.02
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.64
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.62
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.13
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 3.51
+        }
+      ]
+    },
+    {
+      "order": "KN-2602-7125",
+      "date": "2026-02-06",
+      "total": 90.9,
+      "account": "havelbank-joint",
+      "txn_id": "2026-02-06-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.38
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.39
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.73
+        },
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 3.18
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.43
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 8.69
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.85
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.67
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.48
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.34
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.92
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.52
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.13
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.83
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.6
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.35
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.66
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 3.01
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.74
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.18
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 3.16
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.66
+        }
+      ]
+    },
+    {
+      "order": "KN-2602-7305",
+      "date": "2026-02-23",
+      "total": 61.26,
+      "account": "havelbank-joint",
+      "txn_id": "2026-02-23-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.33
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.75
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.13
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.74
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.9
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.48
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.7
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.12
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.05
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.5
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.82
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.57
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.44
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.49
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 5.59
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 4.4
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.29
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.96
+        }
+      ]
+    },
+    {
+      "order": "KN-2603-8889",
+      "date": "2026-03-03",
+      "total": 76.75,
+      "account": "havelbank-joint",
+      "txn_id": "2026-03-03-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.6
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.34
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.3
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.61
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.38
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.01
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.19
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.09
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.45
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.53
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.27
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.12
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.95
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.83
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 13.73
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.98
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.27
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 6.1
+        }
+      ]
+    },
+    {
+      "order": "KN-2603-1891",
+      "date": "2026-03-14",
+      "total": 83.23,
+      "account": "havelbank-joint",
+      "txn_id": "2026-03-14-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.72
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.4
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.87
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 4.26
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 11.57
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.82
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.81
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.76
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 3.05
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.28
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.66
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.22
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.65
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.99
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.35
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.57
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 13.91
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 5.38
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.96
+        }
+      ]
+    },
+    {
+      "order": "KN-2603-6878",
+      "date": "2026-03-19",
+      "total": 66.62,
+      "account": "havelbank-joint",
+      "txn_id": "2026-03-19-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.43
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.28
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 5.09
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.96
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.22
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.17
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.94
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.98
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.87
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.66
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 1.92
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.77
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.44
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 16.01
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.88
+        }
+      ]
+    },
+    {
+      "order": "KN-2603-8978",
+      "date": "2026-03-26",
+      "total": 55.67,
+      "account": "havelbank-joint",
+      "txn_id": "2026-03-26-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.54
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.49
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.32
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.72
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.05
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.22
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.37
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.42
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.23
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.53
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.49
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.03
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 11.03
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 6.23
+        }
+      ]
+    },
+    {
+      "order": "KN-2604-5166",
+      "date": "2026-04-02",
+      "total": 62.89,
+      "account": "havelbank-joint",
+      "txn_id": "2026-04-02-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.46
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.91
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.27
+        },
+        {
+          "label": "Aufschnitt Schinken",
+          "sub": "meatfish",
+          "amount": 4.52
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 9.92
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.32
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.33
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.65
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.98
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.79
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.68
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.11
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.47
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.33
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 3.26
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 4.95
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 3.94
+        }
+      ]
+    },
+    {
+      "order": "KN-2604-8480",
+      "date": "2026-04-16",
+      "total": 49.91,
+      "account": "havelbank-joint",
+      "txn_id": "2026-04-16-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Kinderschokolade Packung",
+          "sub": "sweets",
+          "amount": 2.52
+        },
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.34
+        },
+        {
+          "label": "Hackfleisch gemischt 500g",
+          "sub": "meatfish",
+          "amount": 5.13
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.08
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.12
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.34
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.09
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.46
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.88
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.18
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.16
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.67
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 8.3
+        },
+        {
+          "label": "Müllbeutel",
+          "sub": "household",
+          "amount": 2.64
+        }
+      ]
+    },
+    {
+      "order": "KN-2604-9535",
+      "date": "2026-04-17",
+      "total": 55.24,
+      "account": "havelbank-joint",
+      "txn_id": "2026-04-17-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.53
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.53
+        },
+        {
+          "label": "Lachsfilet 2 Stueck",
+          "sub": "meatfish",
+          "amount": 8.57
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 7.44
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.17
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.68
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.32
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.03
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.62
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.85
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.04
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.6
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 2.59
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.01
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.06
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.2
+        }
+      ]
+    },
+    {
+      "order": "KN-2605-4825",
+      "date": "2026-05-06",
+      "total": 53.72,
+      "account": "havelbank-joint",
+      "txn_id": "2026-05-06-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.22
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.59
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 4.23
+        },
+        {
+          "label": "Hackfleisch gemischt 500g",
+          "sub": "meatfish",
+          "amount": 6.32
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.83
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 2.71
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.6
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.82
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.48
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.84
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.54
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.07
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.88
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.59
+        }
+      ]
+    },
+    {
+      "order": "KN-2605-7460",
+      "date": "2026-05-20",
+      "total": 51.7,
+      "account": "havelbank-joint",
+      "txn_id": "2026-05-20-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Eis am Stiel 8er",
+          "sub": "sweets",
+          "amount": 3.11
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.18
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 4.59
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.33
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.31
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.31
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.87
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 3.24
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.48
+        },
+        {
+          "label": "Butter 250g",
+          "sub": "dairy",
+          "amount": 2.15
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 5.91
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.39
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.37
+        },
+        {
+          "label": "Waschmittel 20WL",
+          "sub": "household",
+          "amount": 6.46
+        }
+      ]
+    },
+    {
+      "order": "KN-2605-2505",
+      "date": "2026-05-24",
+      "total": 66.23,
+      "account": "havelbank-joint",
+      "txn_id": "2026-05-24-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.92
+        },
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 3.97
+        },
+        {
+          "label": "Bratwurst 4er",
+          "sub": "meatfish",
+          "amount": 5.2
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.56
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.91
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.42
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.52
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.44
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.41
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.44
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.34
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.35
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.24
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.17
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.16
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 14.18
+        }
+      ]
+    },
+    {
+      "order": "KN-2606-5904",
+      "date": "2026-06-06",
+      "total": 81.73,
+      "account": "havelbank-joint",
+      "txn_id": "2026-06-06-havelbank-joint-01",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.53
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.08
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 5.08
+        },
+        {
+          "label": "Hackfleisch gemischt 500g",
+          "sub": "meatfish",
+          "amount": 4.79
+        },
+        {
+          "label": "Hähnchenbrust 600g",
+          "sub": "meatfish",
+          "amount": 7.75
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.4
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 2.86
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.31
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 1.6
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.29
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.22
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.68
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.16
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.58
+        },
+        {
+          "label": "Passierte Tomaten x3",
+          "sub": "staples",
+          "amount": 2.29
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 3.33
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.45
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 13.08
+        },
+        {
+          "label": "Spülmittel und Schwämme",
+          "sub": "household",
+          "amount": 5.25
+        }
+      ]
+    },
+    {
+      "order": "KN-2606-6797",
+      "date": "2026-06-19",
+      "total": 83.0,
+      "account": "havelbank-joint",
+      "txn_id": "2026-06-19-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.68
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.58
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 3.59
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.05
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.29
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.25
+        },
+        {
+          "label": "Salat und Gurke",
+          "sub": "produce",
+          "amount": 3.79
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.27
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.22
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 3.16
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 6.19
+        },
+        {
+          "label": "Milch 1l x6",
+          "sub": "dairy",
+          "amount": 6.72
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 4.44
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.56
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.13
+        },
+        {
+          "label": "Reis 1kg",
+          "sub": "staples",
+          "amount": 2.72
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 6.16
+        },
+        {
+          "label": "Kaffeepads 36er",
+          "sub": "coffee",
+          "amount": 6.11
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 5.36
+        },
+        {
+          "label": "Toilettenpapier 10er",
+          "sub": "household",
+          "amount": 4.94
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 4.79
+        }
+      ]
+    },
+    {
+      "order": "KN-2606-8270",
+      "date": "2026-06-20",
+      "total": 42.36,
+      "account": "havelbank-joint",
+      "txn_id": "2026-06-20-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.2
+        },
+        {
+          "label": "Eiscreme 900ml",
+          "sub": "sweets",
+          "amount": 4.53
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 3.19
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.91
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 3.08
+        },
+        {
+          "label": "Kartoffeln 2kg",
+          "sub": "produce",
+          "amount": 3.43
+        },
+        {
+          "label": "Joghurt 4er",
+          "sub": "dairy",
+          "amount": 2.71
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.48
+        },
+        {
+          "label": "Käse Stück",
+          "sub": "dairy",
+          "amount": 5.5
+        },
+        {
+          "label": "Brötchen 6er",
+          "sub": "bakery",
+          "amount": 2.59
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.62
+        },
+        {
+          "label": "Nudeln 500g x2",
+          "sub": "staples",
+          "amount": 2.12
+        }
+      ]
+    },
+    {
+      "order": "KN-2606-5009",
+      "date": "2026-06-24",
+      "total": 64.83,
+      "account": "havelbank-joint",
+      "txn_id": "2026-06-24-havelbank-joint-02",
+      "lines": [
+        {
+          "label": "Schokoriegel 10er",
+          "sub": "sweets",
+          "amount": 4.9
+        },
+        {
+          "label": "Kekse Sortiment",
+          "sub": "sweets",
+          "amount": 3.18
+        },
+        {
+          "label": "Schokolade Tafel x3",
+          "sub": "sweets",
+          "amount": 3.89
+        },
+        {
+          "label": "Gummibärchen Großpackung",
+          "sub": "sweets",
+          "amount": 2.84
+        },
+        {
+          "label": "Bananen 1kg",
+          "sub": "produce",
+          "amount": 2.37
+        },
+        {
+          "label": "Äpfel 1kg",
+          "sub": "produce",
+          "amount": 2.7
+        },
+        {
+          "label": "Tomaten 500g",
+          "sub": "produce",
+          "amount": 2.77
+        },
+        {
+          "label": "Brot Vollkorn",
+          "sub": "bakery",
+          "amount": 3.67
+        },
+        {
+          "label": "Mineralwasser Kasten",
+          "sub": "drinks",
+          "amount": 5.87
+        },
+        {
+          "label": "Apfelsaft 1l x2",
+          "sub": "drinks",
+          "amount": 3.46
+        },
+        {
+          "label": "Kaffeebohnen 1kg",
+          "sub": "coffee",
+          "amount": 14.09
+        },
+        {
+          "label": "Windeln Gr 5",
+          "sub": "household",
+          "amount": 10.94
+        },
+        {
+          "label": "Zahnpasta x2",
+          "sub": "household",
+          "amount": 4.15
+        }
+      ]
+    }
+  ]
+}

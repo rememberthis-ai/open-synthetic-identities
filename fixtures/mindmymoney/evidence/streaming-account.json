@@ -1,0 +1,171 @@
+{
+  "service": "Bildstrom",
+  "note": "Two memberships, one household. Nobody watches the second.",
+  "memberships": [
+    {
+      "id": "1140-229",
+      "label": "Bildstrom Familie",
+      "holder": "Alex Carter",
+      "paid_from": "Meridian Everyday",
+      "started": "2024-03-06",
+      "status": "active",
+      "price_now": 14.99,
+      "price_before": 12.99,
+      "price_changed": "2026-02-01",
+      "last_watched": "2026-06-24",
+      "recent_activity": [
+        {
+          "when": "2026-06-24",
+          "what": "Die Lange Nacht, Folge 4"
+        },
+        {
+          "when": "2026-06-18",
+          "what": "Nordwand (Film)"
+        },
+        {
+          "when": "2026-06-09",
+          "what": "Die Lange Nacht, Folge 3"
+        },
+        {
+          "when": "2026-05-30",
+          "what": "Kinderstunde, Folge 12"
+        }
+      ],
+      "charges": [
+        {
+          "date": "2025-06-06",
+          "amount": 12.99,
+          "txn_id": "2025-06-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-07-06",
+          "amount": 12.99,
+          "txn_id": "2025-07-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-08-06",
+          "amount": 12.99,
+          "txn_id": "2025-08-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-09-06",
+          "amount": 12.99,
+          "txn_id": "2025-09-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-10-06",
+          "amount": 12.99,
+          "txn_id": "2025-10-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-11-06",
+          "amount": 12.99,
+          "txn_id": "2025-11-06-meridian-everyday-01"
+        },
+        {
+          "date": "2025-12-06",
+          "amount": 12.99,
+          "txn_id": "2025-12-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-01-06",
+          "amount": 12.99,
+          "txn_id": "2026-01-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-02-06",
+          "amount": 14.99,
+          "txn_id": "2026-02-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-03-06",
+          "amount": 14.99,
+          "txn_id": "2026-03-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 14.99,
+          "txn_id": "2026-04-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-05-06",
+          "amount": 14.99,
+          "txn_id": "2026-05-06-meridian-everyday-01"
+        },
+        {
+          "date": "2026-06-06",
+          "amount": 14.99,
+          "txn_id": "2026-06-06-meridian-everyday-01"
+        }
+      ]
+    },
+    {
+      "id": "5512-887",
+      "label": "Bildstrom Familie",
+      "holder": "Sam Okafor",
+      "paid_from": "Havelbank Girokonto (gemeinsam)",
+      "started": "2025-10-14",
+      "status": "active",
+      "price_now": 14.99,
+      "price_before": 12.99,
+      "price_changed": "2026-02-01",
+      "last_watched": null,
+      "recent_activity": [],
+      "charges": [
+        {
+          "date": "2025-10-14",
+          "amount": 12.99,
+          "txn_id": "2025-10-14-havelbank-joint-01"
+        },
+        {
+          "date": "2025-11-14",
+          "amount": 12.99,
+          "txn_id": "2025-11-14-havelbank-joint-01"
+        },
+        {
+          "date": "2025-12-14",
+          "amount": 12.99,
+          "txn_id": "2025-12-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-01-14",
+          "amount": 12.99,
+          "txn_id": "2026-01-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-02-14",
+          "amount": 14.99,
+          "txn_id": "2026-02-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-03-14",
+          "amount": 14.99,
+          "txn_id": "2026-03-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-04-14",
+          "amount": 14.99,
+          "txn_id": "2026-04-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-05-14",
+          "amount": 14.99,
+          "txn_id": "2026-05-14-havelbank-joint-01"
+        },
+        {
+          "date": "2026-06-14",
+          "amount": 14.99,
+          "txn_id": "2026-06-14-havelbank-joint-01"
+        }
+      ]
+    }
+  ],
+  "cancel": {
+    "cancellable": [
+      "5512-887",
+      "1140-229"
+    ],
+    "ends_on": "2026-07-14",
+    "confirmation": "Ihre Mitgliedschaft {id} endet am 14.07.2026. Bis dahin können Sie Bildstrom weiter nutzen."
+  }
+}

@@ -8,6 +8,7 @@ asked_at: 2026-09-24T15:04:15.962673+00:00
 kind: judgment
 suggested_actions: "Keep them all | Drop one or more | Already done"
 urgency: low
+screenshot_scenes: answering transcribing keep-or-cancel
 note: "Tonspur music family plan €10.99 (Alex's card). Blattwerk reading flat rate €9.99 and Pulsbahn app €7.99 (both Sam's card). Warenlager Digital €4.99 (Alex's card, new since December 2025). Wolkenfach cloud storage €2.99 (Alex's card). €443.40 a year. Say which ones, or “look into it” and I'll check how much each is used. If I've got one wrong, say so."
 ---
 # Question

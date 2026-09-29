@@ -663,6 +663,57 @@
       ]
     },
     {
+      "id": "amazon-de-prime-start",
+      "date": "2025-09-02",
+      "from": "Amazon.de",
+      "subject": "Willkommen bei Amazon Prime",
+      "total": 8.99,
+      "txn_id": "2025-09-02-havelbank-joint-02",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Mitglied: Alex Carter",
+          "amount": 0.0
+        },
+        {
+          "label": "Prime-Mitgliedschaft, monatlich",
+          "amount": 8.99
+        },
+        {
+          "label": "Zahlungsart: Lastschrift, Havelbank Girokonto …88 02",
+          "amount": 0.0
+        }
+      ]
+    },
+    {
+      "id": "amazon-uk-prime-renewal",
+      "date": "2026-05-26",
+      "from": "Amazon.co.uk",
+      "currency": "GBP",
+      "subject": "Your Amazon Prime membership renews on 9 June",
+      "total": 8.99,
+      "txn_id": "",
+      "rail": null,
+      "lines": [
+        {
+          "label": "Member: Alex Carter",
+          "amount": 0.0
+        },
+        {
+          "label": "Prime monthly membership (GBP)",
+          "amount": 8.99
+        },
+        {
+          "label": "Payment card: Meridian Everyday",
+          "amount": 0.0
+        },
+        {
+          "label": "Member since 14 March 2019",
+          "amount": 0.0
+        }
+      ]
+    },
+    {
       "id": "bildstrom-preis",
       "date": "2026-01-12",
       "from": "Bildstrom Media GmbH",

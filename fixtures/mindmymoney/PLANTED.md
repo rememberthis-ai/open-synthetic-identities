@@ -14,8 +14,8 @@ python3 generate/gen_household.py --seed 42
 
 ## The shape of the year
 
-- **1037 transactions**, 2025-06-01 to 2026-06-30, across three instruments.
-- **96 of them** — one in 10.8 — are behind a payment rail whose text does not name the shop.
+- **1060 transactions**, 2025-06-01 to 2026-06-30, across three instruments.
+- **96 of them** — one in 11.0 — are behind a payment rail whose text does not name the shop.
   65 of those can be resolved from evidence that exists; **31 cannot be resolved at all** and `unnamed` is the right answer for them.
   7 fall in June 2026, the month the person opens first.
 
@@ -43,6 +43,24 @@ python3 generate/gen_household.py --seed 42
   - `paid_so_far`: 126.91
   - `annual_if_left`: 179.88
   - `first`: 2025-10-14
+
+### The same Amazon Prime membership, billed from two countries
+
+- **What.** Alex kept Prime on the UK account after moving to Berlin, paid in pounds on the Meridian Everyday card, and signed up again on amazon.de in September 2025, paid by Lastschrift from the joint Girokonto. Two Prime memberships for one person: one in GBP, one in EUR, from September on. The UK one changes by a few cents every month with the exchange rate, so it does not look like a fixed subscription.
+- **Where.** meridian-everyday (amazon.co.uk, GBP) and havelbank-joint (amazon.de, EUR)
+- **The evidence.** The statement text names both. The household mailbox holds amazon.de's welcome mail of September 2025 and amazon.co.uk's renewal reminder of May 2026, both addressed to Alex.
+- **The verdict.** Cancel one; the person decides which. The UK one is the older, in a currency the household no longer lives in.
+- **Measured:**
+
+  - `uk_charges`: 13
+  - `uk_paid_in_window_eur`: 137.81
+  - `uk_gbp_each`: 8.99
+  - `de_charges`: 10
+  - `de_paid_in_window_eur`: 89.9
+  - `de_first`: 2025-09-02
+  - `months_billed_twice`: 10
+  - `uk_paid_during_overlap_eur`: 105.95
+  - `annual_uk_eur`: 127.8
 
 ### The streaming plan went up mid-year
 
@@ -130,9 +148,10 @@ python3 generate/gen_household.py --seed 42
 | | a year | already paid in the window |
 |---|---|---|
 | Duplicate streaming membership | 179.88 EUR | 126.91 EUR |
+| Amazon Prime billed twice (UK, in GBP) | 127.80 EUR | 105.95 EUR during the overlap |
 | Gym, unvisited since March | 418.80 EUR | 104.70 EUR since the last visit |
 | Marketplace membership from an uncancelled trial | 59.88 EUR | 34.93 EUR |
-| **Recoverable by cancelling, a year** | **658.56 EUR** | |
+| **Recoverable by cancelling, a year** | **786.36 EUR** | |
 | Insurance collected twice — claimable, not saved | — | 55.20 EUR |
 
 Two more that are **not** savings and must not be counted as any:

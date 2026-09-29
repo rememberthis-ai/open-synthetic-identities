@@ -202,7 +202,7 @@
       "date": "2026-03-02",
       "total": 135.8,
       "shop": "Stoffkreis",
-      "txn_id": "2026-03-02-havelbank-joint-03",
+      "txn_id": "2026-03-02-havelbank-joint-04",
       "lines": [
         {
           "label": "Zwei Paar Jeans",
@@ -306,7 +306,7 @@
       "date": "2026-06-02",
       "total": 11.17,
       "shop": "Buchhandlung Silbenfisch",
-      "txn_id": "2026-06-02-havelbank-joint-02",
+      "txn_id": "2026-06-02-havelbank-joint-03",
       "lines": [
         {
           "label": "Hörbuch (CD)",

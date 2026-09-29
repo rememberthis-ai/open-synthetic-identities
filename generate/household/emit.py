@@ -194,7 +194,33 @@ def standing_mail(txns: list[Txn]) -> list:
     generated from a row because each one is a document a company sent, not a
     payment that happened.
     """
-    return [
+    def first(slug):
+        rows = sorted((t for t in txns if t.slug == slug), key=lambda t: t.date)
+        return rows[0] if rows else None
+
+    prime_de = first("prime-de")
+    # ⚠️ The only real brand in the mailbox (see STANDING in model.py). Plain
+    # mail text naming the membership and the account it is billed to: enough
+    # for an agent to name both rows, and nothing that imitates Amazon's site.
+    prime = [
+        {"id": "amazon-de-prime-start", "date": prime_de.date.isoformat(),
+         "from": "Amazon.de",
+         "subject": "Willkommen bei Amazon Prime",
+         "total": 8.99, "txn_id": prime_de.txn_id, "rail": None,
+         "lines": [{"label": "Mitglied: Alex Carter", "amount": 0.0},
+                   {"label": "Prime-Mitgliedschaft, monatlich", "amount": 8.99},
+                   {"label": "Zahlungsart: Lastschrift, Havelbank Girokonto …88 02",
+                    "amount": 0.0}]},
+        {"id": "amazon-uk-prime-renewal", "date": "2026-05-26",
+         "from": "Amazon.co.uk", "currency": "GBP",
+         "subject": "Your Amazon Prime membership renews on 9 June",
+         "total": 8.99, "txn_id": "", "rail": None,
+         "lines": [{"label": "Member: Alex Carter", "amount": 0.0},
+                   {"label": "Prime monthly membership (GBP)", "amount": 8.99},
+                   {"label": "Payment card: Meridian Everyday", "amount": 0.0},
+                   {"label": "Member since 14 March 2019", "amount": 0.0}]},
+    ] if prime_de else []
+    return prime + [
         {"id": "bildstrom-preis", "date": "2026-01-12",
          "from": "Bildstrom Media GmbH",
          "subject": "Änderung Ihres Mitgliedsbeitrags ab Februar",
@@ -353,6 +379,7 @@ def write_planted(out: Path, checks: dict, txns: list[Txn]) -> Path:
         lines.append("")
 
     recoverable = (c["bildstrom-joint"]["annual_if_left"]
+                   + c["prime-doppelt"]["annual_uk_eur"]
                    + c["kraftkammer"]["annual"]
                    + c["warenlager-plus"]["annual"])
     lines += [
@@ -361,6 +388,8 @@ def write_planted(out: Path, checks: dict, txns: list[Txn]) -> Path:
         "|---|---|---|",
         f"| Duplicate streaming membership | {c['bildstrom-joint']['annual_if_left']:.2f} EUR"
         f" | {c['bildstrom-joint']['paid_so_far']:.2f} EUR |",
+        f"| Amazon Prime billed twice (UK, in GBP) | {c['prime-doppelt']['annual_uk_eur']:.2f} EUR"
+        f" | {c['prime-doppelt']['uk_paid_during_overlap_eur']:.2f} EUR during the overlap |",
         f"| Gym, unvisited since March | {c['kraftkammer']['annual']:.2f} EUR"
         f" | {c['kraftkammer']['paid_since_last_visit']:.2f} EUR since the last visit |",
         f"| Marketplace membership from an uncancelled trial | {c['warenlager-plus']['annual']:.2f} EUR"

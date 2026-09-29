@@ -16,6 +16,7 @@ exists.
 from __future__ import annotations
 
 import calendar
+import hashlib
 import random
 from dataclasses import dataclass, field
 from datetime import date, timedelta
@@ -84,6 +85,20 @@ def window_tag() -> str:
     """How a whole-window export names itself: `2025-06--2026-06`."""
     first, last = months_in_window()[0], months_in_window()[-1]
     return f"{first[0]:04d}-{first[1]:02d}--{last[0]:04d}-{last[1]:02d}"
+
+
+def _biller_code(prefix: str, slug: str, ym: str) -> str:
+    """A reference a biller rotates every month, derived from the month alone.
+
+    Not drawn from the shared random stream: that stream feeds every row
+    after it, so a new standing charge that consumed it would move every
+    basket and every hidden row in the year."""
+    h = hashlib.sha256(f"{slug}:{ym}".encode()).hexdigest().upper()
+    if prefix == "PR":  # a card descriptor's short code
+        digits = "".join(c for c in h if c.isalnum())
+        return "PR" + digits[:7]
+    n = int(h[:12], 16)
+    return f"{prefix}-{n % 10_000_000:07d}-{(n // 10_000_000) % 10_000_000:07d}"
 
 
 def _clamp_day(y: int, m: int, day: int) -> date:
@@ -271,11 +286,20 @@ def build(seed: int = 42):
                 continue
             if st.months and m not in st.months:
                 continue
+            amount, cp, purpose = st.amount, st.counterparty, st.purpose
+            if st.code:
+                code = _biller_code(st.code, st.slug, ym)
+                cp, purpose = cp.replace("{code}", code), purpose.replace("{code}", code)
+            if st.fx:
+                currency, foreign = st.fx
+                rate = M.FX_RATES[currency][ym]
+                amount = -round(foreign * rate, 2)
+                purpose = f"{purpose} {currency} {foreign:.2f} @ {rate:.4f}"
             txns.append(Txn(
                 date=_clamp_day(y, m, st.day), account=st.account,
-                amount=st.amount, booking=st.booking,
-                counterparty=st.counterparty, purpose=st.purpose,
-                descriptor=f"{st.counterparty} {st.purpose}"[:64],
+                amount=amount, booking=st.booking,
+                counterparty=cp, purpose=purpose,
+                descriptor=f"{cp} {purpose}"[:64],
                 merchant=st.merchant, category=st.category, slug=st.slug,
             ))
 
@@ -591,6 +615,19 @@ def check(txns: list[Txn], evidence: dict) -> dict:
         "annual_if_left": round(12 * 14.99, 2),
         "first": min(t.date.isoformat() for t in txns if t.slug == "bildstrom-joint"),
     }
+    uk = sorted((t for t in txns if t.slug == "prime-uk"), key=lambda t: t.date)
+    de = sorted((t for t in txns if t.slug == "prime-de"), key=lambda t: t.date)
+    de_months = {(t.date.year, t.date.month) for t in de}
+    overlap_uk = [t for t in uk if (t.date.year, t.date.month) in de_months]
+    out["prime-doppelt"] = {
+        "uk_charges": len(uk), "uk_paid_in_window_eur": total(lambda t: t.slug == "prime-uk"),
+        "uk_gbp_each": 8.99,
+        "de_charges": len(de), "de_paid_in_window_eur": total(lambda t: t.slug == "prime-de"),
+        "de_first": de[0].date.isoformat() if de else "",
+        "months_billed_twice": len(overlap_uk),
+        "uk_paid_during_overlap_eur": round(sum(-t.amount for t in overlap_uk), 2),
+        "annual_uk_eur": round(12 * -uk[-1].amount, 2) if uk else 0.0,
+    }
     out["bildstrom-rise"] = {
         "before": 12.99, "after": 14.99, "from": "2026-02",
         "extra_a_year": round(12 * (14.99 - 12.99), 2),
@@ -674,6 +711,13 @@ def check(txns: list[Txn], evidence: dict) -> dict:
     if out["bildstrom-joint"]["charges"] < 8:
         raise SystemExit("the duplicate membership is too short to be findable: "
                          f"{out['bildstrom-joint']['charges']} charges.")
+    if out["prime-doppelt"]["months_billed_twice"] < 6:
+        raise SystemExit("the doubled Prime is too short to be found by a "
+                         "recurring-charge read: billed twice in "
+                         f"{out['prime-doppelt']['months_billed_twice']} months.")
+    if len({t.amount for t in uk}) < 3:
+        raise SystemExit("the UK Prime should move with the exchange rate; "
+                         "its EUR amounts are all but identical.")
     if out["kraftkammer"]["charges"] != 13:
         raise SystemExit("the gym should be charged in every month of the window; "
                          f"it is charged {out['kraftkammer']['charges']} times.")

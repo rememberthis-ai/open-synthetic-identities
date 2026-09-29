@@ -335,7 +335,28 @@ class Standing:
     """Restrict to these calendar months (for quarterly charges)."""
     slug: str = ""
     """Links the charge to a recurring commitment in PLANTED.md."""
+    fx: tuple[str, float] | None = None
+    """A charge billed in another currency: `(currency, amount)`. The EUR
+    amount is then that amount at the month's rate in `FX_RATES`, and
+    `amount` above is ignored."""
+    code: str = ""
+    """A per-month reference the biller rotates, printed as `{code}` in the
+    counterparty or purpose. Derived from the month, never from the shared
+    random stream, so adding one of these moves no other row."""
 
+
+# What a GBP charge cost in EUR on Alex's card, month by month: the card's
+# own rate on the day, markup included. Plausible for 2025-26, not a record of
+# any real day's rate.
+FX_RATES = {
+    "GBP": {
+        "2025-06": 1.1874, "2025-07": 1.1812, "2025-08": 1.1763,
+        "2025-09": 1.1795, "2025-10": 1.1702, "2025-11": 1.1688,
+        "2025-12": 1.1741, "2026-01": 1.1806, "2026-02": 1.1859,
+        "2026-03": 1.1827, "2026-04": 1.1779, "2026-05": 1.1812,
+        "2026-06": 1.1846,
+    },
+}
 
 STANDING = [
     # --- the joint Girokonto ----------------------------------------------
@@ -402,6 +423,17 @@ STANDING = [
              "UEBERWEISUNG", -430.00, "Insurance and money", "Sam Okafor",
              slug="uebertrag-sam"),
 
+    # ⚠️ THE ONE REAL BRAND IN THIS DATASET, and it is deliberate (Fred,
+    # 2026-09-29): the same Amazon Prime membership billed twice, from two
+    # countries. Alex kept the UK account's Prime running after moving to
+    # Berlin, and signed up again on amazon.de in September 2025. Amazon is
+    # present only as statement text and as plain mail text; no page anywhere
+    # imitates its site. Every other company here stays invented.
+    Standing("havelbank-joint", 2, "AMAZON PAYMENTS EUROPE S.C.A.",
+             "{code} AMAZON.DE PRIME MITGLIEDSCHAFT", "LASTSCHRIFT",
+             -8.99, "Subscriptions and memberships", "Amazon Prime (amazon.de)",
+             first="2025-09", slug="prime-de", code="D01"),
+
     # --- Alex's Meridian Everyday -----------------------------------------
     Standing("meridian-everyday", 1, "KRAFTKAMMER KREUZBERG",
              "MITGLIEDSBEITRAG", "LASTSCHRIFT",
@@ -431,6 +463,11 @@ STANDING = [
              "ABO", "LASTSCHRIFT",
              -4.99, "Subscriptions and memberships", "Warenlager Plus",
              first="2025-12", slug="warenlager-plus"),
+    # The UK half of the doubled Prime: billed in GBP, converted on the card.
+    Standing("meridian-everyday", 9, "AMAZON PRIME*{code}",
+             "amzn.co.uk/pm GB", "KARTENZAHLUNG",
+             0.0, "Subscriptions and memberships", "Amazon Prime (amazon.co.uk)",
+             slug="prime-uk", fx=("GBP", 8.99), code="PR"),
     Standing("meridian-everyday", 15, "KLETTERFREUNDE KREUZBERG E.V.",
              "JAHRESBEITRAG 2026", "LASTSCHRIFT",
              -120.00, "Subscriptions and memberships", "Kletterfreunde Kreuzberg e.V.",
@@ -553,6 +590,25 @@ PLANTED = [
                     "flow ends on a confirmation page naming the end date.",
         "verdict": "Cancel the joint-account one.",
         "measure": "bildstrom-joint",
+    },
+    {
+        "slug": "prime-doppelt",
+        "title": "The same Amazon Prime membership, billed from two countries",
+        "what": "Alex kept Prime on the UK account after moving to Berlin, paid "
+                "in pounds on the Meridian Everyday card, and signed up again on "
+                "amazon.de in September 2025, paid by Lastschrift from the joint "
+                "Girokonto. Two Prime memberships for one person: one in GBP, "
+                "one in EUR, from September on. The UK one changes by a few "
+                "cents every month with the exchange rate, so it does not look "
+                "like a fixed subscription.",
+        "where": "meridian-everyday (amazon.co.uk, GBP) and havelbank-joint "
+                 "(amazon.de, EUR)",
+        "evidence": "The statement text names both. The household mailbox holds "
+                    "amazon.de's welcome mail of September 2025 and amazon.co.uk's "
+                    "renewal reminder of May 2026, both addressed to Alex.",
+        "verdict": "Cancel one; the person decides which. The UK one is the "
+                   "older, in a currency the household no longer lives in.",
+        "measure": "prime-doppelt",
     },
     {
         "slug": "bildstrom-price-rise",

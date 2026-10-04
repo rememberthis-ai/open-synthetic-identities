@@ -28,6 +28,7 @@ the report's shadow columns have numbers.
 | `statements/` | **input.** What a person downloads from their bank. This is what belongs in a demo vault, and nothing else here does. |
 | `evidence/` | **the portals' source data.** The end-to-end harness serves these as order histories, a mailbox, a usage page. A person reaches them by signing in, and so must the agent. |
 | `receipt-photo-sources/`, `receipt-spec.json` | **input to the photo pipeline.** The paper slips behind the handful of rows nothing online can name, rendered here and composited into the photo library. |
+| `demo-vault/` | **a finished round**, for the app's *try it with a made-up household*: rows, reports, the ledger and two open cards, laid out as a vault. It is the answer key too: never seed it into a vault the rig runs a round on. See `demo-vault/README.md`. |
 | `PLANTED.md` | **the answer key.** What was planted and what each item costs, measured from the ledger. Seeding it — or leaving it where a session can read it — turns every run into an open-book exam. |
 
 The whole point of the split is that the agent has to *go and get* the evidence.

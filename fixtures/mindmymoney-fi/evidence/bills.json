@@ -1,0 +1,2291 @@
+[
+ {
+  "id": "savel-2025-110",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "2025-110",
+  "kind": "bill",
+  "issued": "2025-10-05",
+  "due": "2025-10-31",
+  "amount": 130.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41103",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Muskari, syyslukukausi 2025, 2. erä, Aino",
+    "amount": 130.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-10-31-kuusikko-noora-01",
+  "paid_on": "2025-10-31"
+ },
+ {
+  "id": "peruskivi-YEL202511",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "YEL202511",
+  "kind": "bill",
+  "issued": "2025-10-06",
+  "due": "2025-11-20",
+  "amount": 486.0,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "33 00518 25111",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "YEL-vakuutusmaksu, erä 2025/4",
+    "amount": 486.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-20-saarni-daniel-01",
+  "paid_on": "2025-11-20"
+ },
+ {
+  "id": "virtavayla-VV202510",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202510",
+  "kind": "bill",
+  "issued": "2025-10-08",
+  "due": "2025-10-27",
+  "amount": 81.84,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 25106",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö lokakuu 2025, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö lokakuu 2025, energia",
+    "amount": 74.94
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2025-10-27-kuusikko-joint-01",
+  "paid_on": "2025-10-27"
+ },
+ {
+  "id": "aallokko-AM202510",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202510",
+  "kind": "bill",
+  "issued": "2025-10-10",
+  "due": "2025-11-02",
+  "amount": 44.78,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 25103",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 4.98
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-02-kuusikko-joint-02",
+  "paid_on": "2025-11-02"
+ },
+ {
+  "id": "kirkas-K202510",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202510",
+  "kind": "bill",
+  "issued": "2025-10-11",
+  "due": "2025-10-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 25102",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous lokakuu 2025, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-10-25-saarni-daniel-01",
+  "paid_on": "2025-10-25"
+ },
+ {
+  "id": "kuitulinja-KL202510",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202510",
+  "kind": "bill",
+  "issued": "2025-10-12",
+  "due": "2025-11-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 25104",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, marraskuu 2025",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-04-kuusikko-joint-01",
+  "paid_on": "2025-11-04"
+ },
+ {
+  "id": "pikkutikka-251012",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "251012",
+  "kind": "bill",
+  "issued": "2025-10-12",
+  "due": "2025-10-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20925 10124",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu lokakuu 2025, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-10-24-kuusikko-joint-01",
+  "paid_on": "2025-10-24"
+ },
+ {
+  "id": "turvaranta-SV3301-2025-1",
+  "biller": "turvaranta",
+  "payee": "Turvaranta Vakuutus Oy",
+  "number": "SV3301-2025-1",
+  "kind": "bill",
+  "issued": "2025-10-13",
+  "due": "2025-11-10",
+  "amount": 96.8,
+  "iban": "FI91 5910 0004 4172 60",
+  "reference": "RF64 SV33 0120 251",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotivakuutus Koti Plus, vakuutuskausi 1.11.2025–31.10.2026, erä 1/4",
+    "amount": 96.8
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-10-kuusikko-joint-01",
+  "paid_on": "2025-11-10"
+ },
+ {
+  "id": "virtavayla-VV202511",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202511",
+  "kind": "bill",
+  "issued": "2025-11-08",
+  "due": "2025-11-27",
+  "amount": 99.73,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 25119",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö marraskuu 2025, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö marraskuu 2025, energia",
+    "amount": 92.83
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2025-11-27-kuusikko-joint-01",
+  "paid_on": "2025-11-27"
+ },
+ {
+  "id": "aallokko-AM202511",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202511",
+  "kind": "bill",
+  "issued": "2025-11-10",
+  "due": "2025-12-02",
+  "amount": 45.31,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 25116",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 5.51
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-12-02-kuusikko-joint-02",
+  "paid_on": "2025-12-02"
+ },
+ {
+  "id": "kirkas-K202511",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202511",
+  "kind": "bill",
+  "issued": "2025-11-11",
+  "due": "2025-11-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 25115",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous marraskuu 2025, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-25-saarni-daniel-01",
+  "paid_on": "2025-11-25"
+ },
+ {
+  "id": "kuitulinja-KL202511",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202511",
+  "kind": "bill",
+  "issued": "2025-11-12",
+  "due": "2025-12-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 25117",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, joulukuu 2025",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-12-04-kuusikko-joint-01",
+  "paid_on": "2025-12-04"
+ },
+ {
+  "id": "pikkutikka-251112",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "251112",
+  "kind": "bill",
+  "issued": "2025-11-12",
+  "due": "2025-11-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20925 11123",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu marraskuu 2025, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-11-24-kuusikko-joint-01",
+  "paid_on": "2025-11-24"
+ },
+ {
+  "id": "virtavayla-VV202512",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202512",
+  "kind": "bill",
+  "issued": "2025-12-08",
+  "due": "2025-12-27",
+  "amount": 114.14,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 25122",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö joulukuu 2025, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö joulukuu 2025, energia",
+    "amount": 107.24
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2025-12-27-kuusikko-joint-01",
+  "paid_on": "2025-12-27"
+ },
+ {
+  "id": "aallokko-AM202512",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202512",
+  "kind": "bill",
+  "issued": "2025-12-10",
+  "due": "2026-01-02",
+  "amount": 41.76,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 25129",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 1.96
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-01-02-kuusikko-joint-02",
+  "paid_on": "2026-01-02"
+ },
+ {
+  "id": "kirkas-K202512",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202512",
+  "kind": "bill",
+  "issued": "2025-12-11",
+  "due": "2025-12-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 25128",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous joulukuu 2025, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-12-25-saarni-daniel-01",
+  "paid_on": "2025-12-25"
+ },
+ {
+  "id": "kuitulinja-KL202512",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202512",
+  "kind": "bill",
+  "issued": "2025-12-12",
+  "due": "2026-01-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 25120",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, tammikuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-01-04-kuusikko-joint-01",
+  "paid_on": "2026-01-04"
+ },
+ {
+  "id": "pikkutikka-251212",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "251212",
+  "kind": "bill",
+  "issued": "2025-12-12",
+  "due": "2025-12-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20925 12122",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu joulukuu 2025, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2025-12-24-kuusikko-joint-01",
+  "paid_on": "2025-12-24"
+ },
+ {
+  "id": "peruskivi-YEL202602",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "YEL202602",
+  "kind": "bill",
+  "issued": "2026-01-06",
+  "due": "2026-02-20",
+  "amount": 486.0,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "33 00518 26026",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "YEL-vakuutusmaksu, erä 2026/1",
+    "amount": 486.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-03-saarni-daniel-02",
+  "paid_on": "2026-03-03"
+ },
+ {
+  "id": "virtavayla-VV202601",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202601",
+  "kind": "bill",
+  "issued": "2026-01-08",
+  "due": "2026-01-27",
+  "amount": 124.7,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26011",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö tammikuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö tammikuu 2026, energia",
+    "amount": 117.8
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-01-27-kuusikko-joint-01",
+  "paid_on": "2026-01-27"
+ },
+ {
+  "id": "aallokko-AM202601",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202601",
+  "kind": "bill",
+  "issued": "2026-01-10",
+  "due": "2026-02-02",
+  "amount": 41.8,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26018",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 2.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-02-kuusikko-joint-02",
+  "paid_on": "2026-02-02"
+ },
+ {
+  "id": "savel-2026-111",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "2026-111",
+  "kind": "bill",
+  "issued": "2026-01-10",
+  "due": "2026-01-31",
+  "amount": 130.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41116",
+  "channels": [
+   "email"
+  ],
+  "status": "paid late",
+  "lines": [
+   {
+    "label": "Muskari, kevätlukukausi 2026, 1. erä, Aino",
+    "amount": 130.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-18-kuusikko-noora-01",
+  "paid_on": "2026-02-18"
+ },
+ {
+  "id": "kirkas-K202601",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202601",
+  "kind": "bill",
+  "issued": "2026-01-11",
+  "due": "2026-01-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26017",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous tammikuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-01-25-saarni-daniel-02",
+  "paid_on": "2026-01-25"
+ },
+ {
+  "id": "kuitulinja-KL202601",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202601",
+  "kind": "bill",
+  "issued": "2026-01-12",
+  "due": "2026-02-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26019",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, helmikuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-04-kuusikko-joint-01",
+  "paid_on": "2026-02-04"
+ },
+ {
+  "id": "pikkutikka-260112",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260112",
+  "kind": "bill",
+  "issued": "2026-01-12",
+  "due": "2026-01-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 01127",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu tammikuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-01-29-kuusikko-joint-01",
+  "paid_on": "2026-01-29"
+ },
+ {
+  "id": "turvaranta-SV3301-2026-2",
+  "biller": "turvaranta",
+  "payee": "Turvaranta Vakuutus Oy",
+  "number": "SV3301-2026-2",
+  "kind": "bill",
+  "issued": "2026-01-13",
+  "due": "2026-02-10",
+  "amount": 96.8,
+  "iban": "FI91 5910 0004 4172 60",
+  "reference": "RF58 SV33 0120 262",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotivakuutus Koti Plus, vakuutuskausi 1.11.2025–31.10.2026, erä 2/4",
+    "amount": 96.8
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-10-kuusikko-joint-01",
+  "paid_on": "2026-02-10"
+ },
+ {
+  "id": "pikkutikka-R260112",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "R260112",
+  "kind": "reminder",
+  "issued": "2026-01-31",
+  "due": "2026-02-06",
+  "amount": 5.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "94471 20926 01120",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Muistutusmaksu, lasku 260112",
+    "amount": 5.0
+   }
+  ],
+  "note": "Reminder fee for the January invoice, paid after its due date.",
+  "paid_txn": "2026-02-06-kuusikko-joint-01",
+  "paid_on": "2026-02-06"
+ },
+ {
+  "id": "virtavayla-VV202602",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202602",
+  "kind": "bill",
+  "issued": "2026-02-08",
+  "due": "2026-02-27",
+  "amount": 123.47,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26024",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö helmikuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö helmikuu 2026, energia",
+    "amount": 116.57
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-02-27-kuusikko-joint-01",
+  "paid_on": "2026-02-27"
+ },
+ {
+  "id": "aallokko-AM202602",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202602",
+  "kind": "bill",
+  "issued": "2026-02-10",
+  "due": "2026-03-02",
+  "amount": 44.4,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26021",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 4.6
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-02-kuusikko-joint-02",
+  "paid_on": "2026-03-02"
+ },
+ {
+  "id": "kirkas-K202602",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202602",
+  "kind": "bill",
+  "issued": "2026-02-11",
+  "due": "2026-02-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26020",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous helmikuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-25-saarni-daniel-02",
+  "paid_on": "2026-02-25"
+ },
+ {
+  "id": "kuitulinja-KL202602",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202602",
+  "kind": "bill",
+  "issued": "2026-02-12",
+  "due": "2026-03-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26022",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, maaliskuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-04-kuusikko-joint-01",
+  "paid_on": "2026-03-04"
+ },
+ {
+  "id": "pikkutikka-260212",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260212",
+  "kind": "bill",
+  "issued": "2026-02-12",
+  "due": "2026-02-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 02126",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu helmikuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-02-24-kuusikko-joint-01",
+  "paid_on": "2026-02-24"
+ },
+ {
+  "id": "savel-M2026-111",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "M2026-111",
+  "kind": "reminder",
+  "issued": "2026-02-14",
+  "due": "2026-02-24",
+  "amount": 135.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41116",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Muskari, kevätlukukausi 2026, 1. erä, Aino (lasku 2026-111)",
+    "amount": 130.0
+   },
+   {
+    "label": "Muistutusmaksu",
+    "amount": 5.0
+   }
+  ],
+  "note": "The reminder for the unpaid January invoice, its fee added to the same reference.",
+  "paid_txn": "2026-02-18-kuusikko-noora-01",
+  "paid_on": "2026-02-18"
+ },
+ {
+  "id": "savel-2026-112",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "2026-112",
+  "kind": "bill",
+  "issued": "2026-03-05",
+  "due": "2026-03-31",
+  "amount": 130.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41129",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Muskari, kevätlukukausi 2026, 2. erä, Aino",
+    "amount": 130.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-31-kuusikko-noora-01",
+  "paid_on": "2026-03-31"
+ },
+ {
+  "id": "virtavayla-VV202603",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202603",
+  "kind": "bill",
+  "issued": "2026-03-08",
+  "due": "2026-03-27",
+  "amount": 105.13,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26037",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö maaliskuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö maaliskuu 2026, energia",
+    "amount": 98.23
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-03-27-kuusikko-joint-01",
+  "paid_on": "2026-03-27"
+ },
+ {
+  "id": "peruskivi-VKYEL202602",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "VKYEL202602",
+  "kind": "late_fee",
+  "issued": "2026-03-09",
+  "due": "2026-03-23",
+  "amount": 3.62,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "833 00518 26028",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Viivästyskorko, YEL-erä 2026/1, maksettu 3.3.2026 (eräpäivä 20.2.2026), 11 päivää",
+    "amount": 3.62
+   }
+  ],
+  "note": "Late-payment interest on a contribution paid 11 days late.",
+  "paid_txn": "2026-03-20-saarni-daniel-01",
+  "paid_on": "2026-03-20"
+ },
+ {
+  "id": "aallokko-AM202603",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202603",
+  "kind": "bill",
+  "issued": "2026-03-10",
+  "due": "2026-04-02",
+  "amount": 43.98,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26034",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 4.18
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-04-02-kuusikko-joint-02",
+  "paid_on": "2026-04-02"
+ },
+ {
+  "id": "kirkas-K202603",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202603",
+  "kind": "bill",
+  "issued": "2026-03-11",
+  "due": "2026-03-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26033",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous maaliskuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-25-saarni-daniel-01",
+  "paid_on": "2026-03-25"
+ },
+ {
+  "id": "kuitulinja-KL202603",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202603",
+  "kind": "bill",
+  "issued": "2026-03-12",
+  "due": "2026-04-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26035",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, huhtikuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-04-04-kuusikko-joint-01",
+  "paid_on": "2026-04-04"
+ },
+ {
+  "id": "pikkutikka-260312",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260312",
+  "kind": "bill",
+  "issued": "2026-03-12",
+  "due": "2026-03-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 03125",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu maaliskuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-03-24-kuusikko-joint-01",
+  "paid_on": "2026-03-24"
+ },
+ {
+  "id": "peruskivi-YEL202605",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "YEL202605",
+  "kind": "bill",
+  "issued": "2026-04-06",
+  "due": "2026-05-20",
+  "amount": 486.0,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "33 00518 26055",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "YEL-vakuutusmaksu, erä 2026/2",
+    "amount": 486.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-20-saarni-daniel-01",
+  "paid_on": "2026-05-20"
+ },
+ {
+  "id": "virtavayla-VV202604",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202604",
+  "kind": "bill",
+  "issued": "2026-04-08",
+  "due": "2026-04-27",
+  "amount": 83.93,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26040",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö huhtikuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö huhtikuu 2026, energia",
+    "amount": 77.03
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-04-27-kuusikko-joint-01",
+  "paid_on": "2026-04-27"
+ },
+ {
+  "id": "aallokko-AM202604",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202604",
+  "kind": "bill",
+  "issued": "2026-04-10",
+  "due": "2026-05-02",
+  "amount": 42.92,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26047",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 3.12
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-02-kuusikko-joint-02",
+  "paid_on": "2026-05-02"
+ },
+ {
+  "id": "kirkas-K202604",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202604",
+  "kind": "bill",
+  "issued": "2026-04-11",
+  "due": "2026-04-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26046",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous huhtikuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-04-25-saarni-daniel-01",
+  "paid_on": "2026-04-25"
+ },
+ {
+  "id": "kuitulinja-KL202604",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202604",
+  "kind": "bill",
+  "issued": "2026-04-12",
+  "due": "2026-05-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26048",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, toukokuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-04-kuusikko-joint-01",
+  "paid_on": "2026-05-04"
+ },
+ {
+  "id": "pikkutikka-260412",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260412",
+  "kind": "bill",
+  "issued": "2026-04-12",
+  "due": "2026-04-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 04124",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu huhtikuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-04-24-kuusikko-joint-01",
+  "paid_on": "2026-04-24"
+ },
+ {
+  "id": "turvaranta-SV3301-2026-3",
+  "biller": "turvaranta",
+  "payee": "Turvaranta Vakuutus Oy",
+  "number": "SV3301-2026-3",
+  "kind": "bill",
+  "issued": "2026-04-13",
+  "due": "2026-05-10",
+  "amount": 96.8,
+  "iban": "FI91 5910 0004 4172 60",
+  "reference": "RF31 SV33 0120 263",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotivakuutus Koti Plus, vakuutuskausi 1.11.2025–31.10.2026, erä 3/4",
+    "amount": 96.8
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-10-kuusikko-joint-01",
+  "paid_on": "2026-05-10"
+ },
+ {
+  "id": "virtavayla-VV202605",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202605",
+  "kind": "bill",
+  "issued": "2026-05-08",
+  "due": "2026-05-27",
+  "amount": 61.55,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26053",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö toukokuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö toukokuu 2026, energia",
+    "amount": 54.65
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-05-27-kuusikko-joint-01",
+  "paid_on": "2026-05-27"
+ },
+ {
+  "id": "aallokko-AM202605",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202605",
+  "kind": "bill",
+  "issued": "2026-05-10",
+  "due": "2026-06-02",
+  "amount": 43.98,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26050",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 4.18
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-06-02-kuusikko-joint-02",
+  "paid_on": "2026-06-02"
+ },
+ {
+  "id": "kirkas-K202605",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202605",
+  "kind": "bill",
+  "issued": "2026-05-11",
+  "due": "2026-05-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26059",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous toukokuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-25-saarni-daniel-01",
+  "paid_on": "2026-05-25"
+ },
+ {
+  "id": "kuitulinja-KL202605",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202605",
+  "kind": "bill",
+  "issued": "2026-05-12",
+  "due": "2026-06-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26051",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, kesäkuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-06-04-kuusikko-joint-01",
+  "paid_on": "2026-06-04"
+ },
+ {
+  "id": "pikkutikka-260512",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260512",
+  "kind": "bill",
+  "issued": "2026-05-12",
+  "due": "2026-05-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 05123",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu toukokuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-05-24-kuusikko-joint-01",
+  "paid_on": "2026-05-24"
+ },
+ {
+  "id": "virtavayla-VV202606",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202606",
+  "kind": "bill",
+  "issued": "2026-06-08",
+  "due": "2026-06-27",
+  "amount": 50.03,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26066",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö kesäkuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö kesäkuu 2026, energia",
+    "amount": 43.13
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-06-27-kuusikko-joint-01",
+  "paid_on": "2026-06-27"
+ },
+ {
+  "id": "aallokko-AM202606",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202606",
+  "kind": "bill",
+  "issued": "2026-06-10",
+  "due": "2026-07-02",
+  "amount": 43.34,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26063",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 3.54
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-07-02-kuusikko-joint-02",
+  "paid_on": "2026-07-02"
+ },
+ {
+  "id": "kirkas-K202606",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202606",
+  "kind": "bill",
+  "issued": "2026-06-11",
+  "due": "2026-06-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26062",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous kesäkuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-06-25-saarni-daniel-01",
+  "paid_on": "2026-06-25"
+ },
+ {
+  "id": "kuitulinja-KL202606",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202606",
+  "kind": "bill",
+  "issued": "2026-06-12",
+  "due": "2026-07-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26064",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, heinäkuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-07-04-kuusikko-joint-01",
+  "paid_on": "2026-07-04"
+ },
+ {
+  "id": "pikkutikka-260612",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260612",
+  "kind": "bill",
+  "issued": "2026-06-12",
+  "due": "2026-06-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 06122",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu kesäkuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-06-24-kuusikko-joint-01",
+  "paid_on": "2026-06-24"
+ },
+ {
+  "id": "peruskivi-YEL202608",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "YEL202608",
+  "kind": "bill",
+  "issued": "2026-07-06",
+  "due": "2026-08-20",
+  "amount": 486.0,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "33 00518 26084",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "YEL-vakuutusmaksu, erä 2026/3",
+    "amount": 486.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-20-saarni-daniel-01",
+  "paid_on": "2026-08-20"
+ },
+ {
+  "id": "virtavayla-VV202607",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202607",
+  "kind": "bill",
+  "issued": "2026-07-08",
+  "due": "2026-07-27",
+  "amount": 46.68,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26079",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö heinäkuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö heinäkuu 2026, energia",
+    "amount": 39.78
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-07-27-kuusikko-joint-01",
+  "paid_on": "2026-07-27"
+ },
+ {
+  "id": "aallokko-AM202607",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202607",
+  "kind": "bill",
+  "issued": "2026-07-10",
+  "due": "2026-08-02",
+  "amount": 42.26,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26076",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 2.46
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-02-kuusikko-joint-02",
+  "paid_on": "2026-08-02"
+ },
+ {
+  "id": "kirkas-K202607",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202607",
+  "kind": "bill",
+  "issued": "2026-07-11",
+  "due": "2026-07-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26075",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous heinäkuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-07-25-saarni-daniel-02",
+  "paid_on": "2026-07-25"
+ },
+ {
+  "id": "kuitulinja-KL202607",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202607",
+  "kind": "bill",
+  "issued": "2026-07-12",
+  "due": "2026-08-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26077",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, elokuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-04-kuusikko-joint-01",
+  "paid_on": "2026-08-04"
+ },
+ {
+  "id": "turvaranta-SV3301-2026-4",
+  "biller": "turvaranta",
+  "payee": "Turvaranta Vakuutus Oy",
+  "number": "SV3301-2026-4",
+  "kind": "bill",
+  "issued": "2026-07-13",
+  "due": "2026-08-10",
+  "amount": 96.8,
+  "iban": "FI91 5910 0004 4172 60",
+  "reference": "RF04 SV33 0120 264",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotivakuutus Koti Plus, vakuutuskausi 1.11.2025–31.10.2026, erä 4/4",
+    "amount": 96.8
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-10-kuusikko-joint-01",
+  "paid_on": "2026-08-10"
+ },
+ {
+  "id": "virtavayla-VV202608",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202608",
+  "kind": "bill",
+  "issued": "2026-08-08",
+  "due": "2026-08-27",
+  "amount": 53.65,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26082",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö elokuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö elokuu 2026, energia",
+    "amount": 46.75
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-08-27-kuusikko-joint-01",
+  "paid_on": "2026-08-27"
+ },
+ {
+  "id": "aallokko-AM202608",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202608",
+  "kind": "bill",
+  "issued": "2026-08-10",
+  "due": "2026-09-02",
+  "amount": 43.77,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26089",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 3.97
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-09-02-kuusikko-joint-02",
+  "paid_on": "2026-09-02"
+ },
+ {
+  "id": "savel-2026-113",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "2026-113",
+  "kind": "bill",
+  "issued": "2026-08-10",
+  "due": "2026-08-31",
+  "amount": 130.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41132",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Muskari, syyslukukausi 2026, 1. erä, Aino",
+    "amount": 130.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-31-kuusikko-noora-01",
+  "paid_on": "2026-08-31"
+ },
+ {
+  "id": "kirkas-K202608",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202608",
+  "kind": "bill",
+  "issued": "2026-08-11",
+  "due": "2026-08-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26088",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous elokuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-25-saarni-daniel-02",
+  "paid_on": "2026-08-25"
+ },
+ {
+  "id": "kuitulinja-KL202608",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202608",
+  "kind": "bill",
+  "issued": "2026-08-12",
+  "due": "2026-09-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26080",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, syyskuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-09-04-kuusikko-joint-01",
+  "paid_on": "2026-09-04"
+ },
+ {
+  "id": "pikkutikka-260812",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260812",
+  "kind": "bill",
+  "issued": "2026-08-12",
+  "due": "2026-08-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 08120",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu elokuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-08-24-kuusikko-joint-01",
+  "paid_on": "2026-08-24"
+ },
+ {
+  "id": "virtavayla-VV202609",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202609",
+  "kind": "bill",
+  "issued": "2026-09-08",
+  "due": "2026-09-27",
+  "amount": 61.95,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26095",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Sähkö syyskuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö syyskuu 2026, energia",
+    "amount": 55.05
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "2026-09-27-kuusikko-joint-01",
+  "paid_on": "2026-09-27"
+ },
+ {
+  "id": "aallokko-AM202609",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202609",
+  "kind": "bill",
+  "issued": "2026-09-10",
+  "due": "2026-10-02",
+  "amount": 45.71,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26092",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Muut käytöt",
+    "amount": 5.91
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-10-02-kuusikko-joint-02",
+  "paid_on": "2026-10-02"
+ },
+ {
+  "id": "kirkas-K202609",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202609",
+  "kind": "bill",
+  "issued": "2026-09-11",
+  "due": "2026-09-25",
+  "amount": 96.0,
+  "iban": "FI50 1510 0045 5032 87",
+  "reference": "5 50190 26091",
+  "channels": [
+   "email"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kotisiivous syyskuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-09-25-saarni-daniel-01",
+  "paid_on": "2026-09-25"
+ },
+ {
+  "id": "kuitulinja-KL202609",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202609",
+  "kind": "bill",
+  "issued": "2026-09-12",
+  "due": "2026-10-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26093",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, lokakuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-10-04-kuusikko-joint-01",
+  "paid_on": "2026-10-04"
+ },
+ {
+  "id": "pikkutikka-260912",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "260912",
+  "kind": "bill",
+  "issued": "2026-09-12",
+  "due": "2026-09-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 09129",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "paid",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu syyskuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "2026-09-24-kuusikko-joint-01",
+  "paid_on": "2026-09-24"
+ },
+ {
+  "id": "savel-2026-114",
+  "biller": "savel",
+  "payee": "Musiikkikoulu Sävelpolku ry",
+  "number": "2026-114",
+  "kind": "bill",
+  "issued": "2026-10-05",
+  "due": "2026-10-31",
+  "amount": 130.0,
+  "iban": "FI45 3610 0030 8819 05",
+  "reference": "2 02601 41145",
+  "channels": [
+   "email"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Muskari, syyslukukausi 2026, 2. erä, Aino",
+    "amount": 130.0
+   }
+  ],
+  "note": "A PDF by email from a sender who has billed this household before, to the same account.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "peruskivi-YEL202611",
+  "biller": "peruskivi",
+  "payee": "Peruskivi Eläkevakuutus Oy",
+  "number": "YEL202611",
+  "kind": "bill",
+  "issued": "2026-10-06",
+  "due": "2026-11-20",
+  "amount": 503.0,
+  "iban": "FI82 6312 0006 6220 31",
+  "reference": "33 00518 26110",
+  "channels": [
+   "mailbox"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "YEL-vakuutusmaksu, erä 2026/4",
+    "amount": 503.0
+   }
+  ],
+  "note": "Comes only to the digital mailbox: no e-invoice, no mail. The blind spot the mailbox pass exists for.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "virtavayla-VV202610",
+  "biller": "virtavayla",
+  "payee": "Virtaväylä Energia Oy",
+  "number": "VV202610",
+  "kind": "bill",
+  "issued": "2026-10-08",
+  "due": "2026-10-27",
+  "amount": 79.36,
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26105",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "automatic",
+  "lines": [
+   {
+    "label": "Sähkö lokakuu 2026, perusmaksu",
+    "amount": 6.9
+   },
+   {
+    "label": "Sähkö lokakuu 2026, energia",
+    "amount": 72.46
+   }
+  ],
+  "note": "An e-invoice with an automatic-payment agreement: the bank pays it on its due date without asking.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "aallokko-AM202610",
+  "biller": "aallokko",
+  "payee": "Aallokko Mobile Oy",
+  "number": "AM202610",
+  "kind": "bill",
+  "issued": "2026-10-10",
+  "due": "2026-11-02",
+  "amount": 112.4,
+  "iban": "FI94 8210 0075 5211 30",
+  "reference": "70 55112 26102",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Liittymä 040 *** 1182, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Liittymä 044 *** 6013, kuukausimaksu",
+    "amount": 19.9
+   },
+   {
+    "label": "Datan käyttö EU/ETA-alueen ulkopuolella (Iso-Britannia ei sisälly)",
+    "amount": 72.6
+   }
+  ],
+  "note": "More than twice the payee's usual range: roaming outside the EU while Daniel was in the UK.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "kirkas-K202610",
+  "biller": "kirkas",
+  "payee": "Siivouspalvelu Kirkas Oy",
+  "number": "K202610",
+  "kind": "bill",
+  "issued": "2026-10-11",
+  "due": "2026-10-25",
+  "amount": 96.0,
+  "iban": "FI06 1833 0000 9104 47",
+  "reference": "5 50190 26101",
+  "channels": [
+   "email"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Kotisiivous lokakuu 2026, 2 käyntiä × 3 h",
+    "amount": 96.0
+   },
+   {
+    "label": "Kotitalousvähennykseen oikeuttava osuus 96,00 €",
+    "amount": 0.0
+   }
+  ],
+  "note": "A familiar payee, twelve payments to one account, and this bill asks for a different account. The fraud warning.",
+  "paid_txn": "",
+  "paid_on": "",
+  "says": "Huom! Tilinumeromme on vaihtunut. Käytäthän alla olevaa uutta tilinumeroa."
+ },
+ {
+  "id": "kuitulinja-KL202610",
+  "biller": "kuitulinja",
+  "payee": "Kuitulinja Oy",
+  "number": "KL202610",
+  "kind": "bill",
+  "issued": "2026-10-12",
+  "due": "2026-11-04",
+  "amount": 39.9,
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26103",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "scheduled",
+  "lines": [
+   {
+    "label": "Kuitulaajakaista 500M, marraskuu 2026",
+    "amount": 39.9
+   }
+  ],
+  "note": "Approved in the bank already: it is in the scheduled payments for its due date, and must not be paid again.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "pikkutikka-261012",
+  "biller": "pikkutikka",
+  "payee": "Päiväkoti Pikkutikka Oy",
+  "number": "261012",
+  "kind": "bill",
+  "issued": "2026-10-12",
+  "due": "2026-10-24",
+  "amount": 295.0,
+  "iban": "FI48 5710 0020 3388 41",
+  "reference": "4471 20926 10121",
+  "channels": [
+   "einvoice"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Varhaiskasvatusmaksu lokakuu 2026, Aino",
+    "amount": 295.0
+   }
+  ],
+  "note": "",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "turvaranta-SV3301-2026-5",
+  "biller": "turvaranta",
+  "payee": "Turvaranta Vakuutus Oy",
+  "number": "SV3301-2026-5",
+  "kind": "bill",
+  "issued": "2026-10-13",
+  "due": "2026-11-10",
+  "amount": 96.8,
+  "iban": "FI91 5910 0004 4172 60",
+  "reference": "RF74 SV33 0120 265",
+  "channels": [
+   "einvoice",
+   "mailbox"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Kotivakuutus Koti Plus, vakuutuskausi 1.11.2026–31.10.2027, erä 1/4",
+    "amount": 96.8
+   }
+  ],
+  "note": "The same bill twice: the e-invoice in the bank and a letter in the digital mailbox carry the same reference.",
+  "paid_txn": "",
+  "paid_on": ""
+ },
+ {
+  "id": "yritysluettelo-YN-88213",
+  "biller": "yritysluettelo",
+  "payee": "Yritysluettelo Nordic",
+  "number": "YN-88213",
+  "kind": "bill",
+  "issued": "2026-10-13",
+  "due": "2026-10-22",
+  "amount": 289.0,
+  "iban": "LT33 3250 0771 2143 0090",
+  "reference": "RF45 YN88 213",
+  "channels": [
+   "email"
+  ],
+  "status": "open",
+  "lines": [
+   {
+    "label": "Yritystietojen vuosimerkintä, Brooks Illustration, 1.11.2026–31.10.2027",
+    "amount": 289.0
+   }
+  ],
+  "note": "A first-time sender, by email only, to a freelancer, with a foreign account and seven days to pay. The phishing pattern.",
+  "paid_txn": "",
+  "paid_on": ""
+ }
+]

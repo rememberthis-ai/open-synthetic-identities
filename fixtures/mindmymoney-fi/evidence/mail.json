@@ -1,0 +1,303 @@
+{
+ "address": "noora.daniel@kumpu.example",
+ "messages": [
+  {
+   "id": "E-savel-2025-110",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2025-10-05",
+   "subject": "Lasku 2025-110 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nohessa lasku. Kiitos!\n\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-2025-110.pdf",
+     "bill": "savel-2025-110"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202510",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2025-10-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202510",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202510.pdf",
+     "bill": "kirkas-K202510"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202511",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2025-11-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202511",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202511.pdf",
+     "bill": "kirkas-K202511"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202512",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2025-12-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202512",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202512.pdf",
+     "bill": "kirkas-K202512"
+    }
+   ]
+  },
+  {
+   "id": "E-savel-2026-111",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2026-01-10",
+   "subject": "Lasku 2026-111 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nohessa lasku. Kiitos!\n\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-2026-111.pdf",
+     "bill": "savel-2026-111"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202601",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-01-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202601",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202601.pdf",
+     "bill": "kirkas-K202601"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202602",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-02-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202602",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202602.pdf",
+     "bill": "kirkas-K202602"
+    }
+   ]
+  },
+  {
+   "id": "E-savel-M2026-111",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2026-02-14",
+   "subject": "Maksumuistutus: lasku 2026-111 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nemme ole saaneet suoritusta oheisesta laskusta. Pyydämme maksamaan sen muistutusmaksuineen eräpäivään mennessä.\n\nTerveisin\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-M2026-111.pdf",
+     "bill": "savel-M2026-111"
+    }
+   ]
+  },
+  {
+   "id": "E-savel-2026-112",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2026-03-05",
+   "subject": "Lasku 2026-112 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nohessa lasku. Kiitos!\n\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-2026-112.pdf",
+     "bill": "savel-2026-112"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202603",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-03-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202603",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202603.pdf",
+     "bill": "kirkas-K202603"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202604",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-04-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202604",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202604.pdf",
+     "bill": "kirkas-K202604"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202605",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-05-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202605",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202605.pdf",
+     "bill": "kirkas-K202605"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202606",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-06-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202606",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202606.pdf",
+     "bill": "kirkas-K202606"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202607",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-07-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202607",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202607.pdf",
+     "bill": "kirkas-K202607"
+    }
+   ]
+  },
+  {
+   "id": "E-savel-2026-113",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2026-08-10",
+   "subject": "Lasku 2026-113 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nohessa lasku. Kiitos!\n\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-2026-113.pdf",
+     "bill": "savel-2026-113"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202608",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-08-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202608",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202608.pdf",
+     "bill": "kirkas-K202608"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202609",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-09-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202609",
+   "body": "Hei,\n\nohessa kuukauden lasku. Kiitos!\n\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202609.pdf",
+     "bill": "kirkas-K202609"
+    }
+   ]
+  },
+  {
+   "id": "E-savel-2026-114",
+   "from": "Musiikkikoulu Sävelpolku ry",
+   "from_address": "laskutus@savelpolku.example",
+   "date": "2026-10-05",
+   "subject": "Lasku 2026-114 – Musiikkikoulu Sävelpolku",
+   "body": "Hei,\n\nohessa lasku. Kiitos!\n\nMusiikkikoulu Sävelpolku",
+   "attachments": [
+    {
+     "filename": "lasku-2026-114.pdf",
+     "bill": "savel-2026-114"
+    }
+   ]
+  },
+  {
+   "id": "E-kirkas-K202610",
+   "from": "Siivouspalvelu Kirkas Oy",
+   "from_address": "laskut@kirkassiivous.example",
+   "date": "2026-10-11",
+   "subject": "Siivouspalvelu Kirkas: lasku K202610",
+   "body": "Hei,\n\nohessa tämän kuun lasku.\n\nHuom! Tilinumeromme on vaihtunut. Käytäthän alla olevaa uutta tilinumeroa.\n\nTerveisin\nSiivouspalvelu Kirkas Oy",
+   "attachments": [
+    {
+     "filename": "lasku-K202610.pdf",
+     "bill": "kirkas-K202610"
+    }
+   ]
+  },
+  {
+   "id": "E-yritysluettelo-YN-88213",
+   "from": "Yritysluettelo Nordic",
+   "from_address": "invoice@yritysluettelo-nordic.example",
+   "date": "2026-10-13",
+   "subject": "LASKU – Yritystietojen vuosimerkintä erääntyy",
+   "body": "Hyvä yrittäjä,\n\nYritystietojenne vuosimerkintä luettelossamme erääntyy. Jotta merkintänne pysyy voimassa, maksakaa oheinen lasku 7 päivän kuluessa. Maksamaton lasku siirtyy perintään.\n\nYstävällisin terveisin\nYritysluettelo Nordic",
+   "attachments": [
+    {
+     "filename": "lasku-YN-88213.pdf",
+     "bill": "yritysluettelo-YN-88213"
+    }
+   ]
+  },
+  {
+   "id": "E-ruokasatama-1",
+   "from": "Ruokasatama",
+   "from_address": "uutiskirje@ruokasatama.example",
+   "date": "2026-10-09",
+   "subject": "Viikon tarjoukset",
+   "body": "Tällä viikolla omenat 1,49 €/kg.",
+   "attachments": []
+  },
+  {
+   "id": "E-kumpu-1",
+   "from": "Kumpu Mail",
+   "from_address": "tuki@kumpu.example",
+   "date": "2025-10-01",
+   "subject": "Welcome to Kumpu Mail",
+   "body": "Your mailbox noora.daniel@kumpu.example is ready.",
+   "attachments": []
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+[
+ {
+  "id": "S-kotikallio",
+  "kind": "standing",
+  "payee": "As Oy Kotikallio",
+  "iban": "FI83 4439 0012 6600 84",
+  "reference": "140 07264",
+  "amount": 412.0,
+  "next": "2026-11-05",
+  "repeat": "monthly",
+  "account": "kuusikko-joint",
+  "message": "Yhtiövastike B 14"
+ },
+ {
+  "id": "S-virtavayla-VV202610",
+  "kind": "automatic",
+  "payee": "Virtaväylä Energia Oy",
+  "iban": "FI56 3410 0055 0018 27",
+  "reference": "88 10036 26105",
+  "amount": 79.36,
+  "next": "2026-10-27",
+  "repeat": "",
+  "account": "kuusikko-joint",
+  "bill": "virtavayla-VV202610",
+  "message": "Automaattinen maksu"
+ },
+ {
+  "id": "S-kuitulinja-KL202610",
+  "kind": "einvoice",
+  "payee": "Kuitulinja Oy",
+  "iban": "FI46 3133 0000 7625 10",
+  "reference": "22 09184 26103",
+  "amount": 39.9,
+  "next": "2026-11-04",
+  "repeat": "",
+  "account": "kuusikko-joint",
+  "bill": "kuitulinja-KL202610",
+  "message": ""
+ }
+]

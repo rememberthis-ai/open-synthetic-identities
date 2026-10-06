@@ -1,0 +1,62 @@
+{
+ "epoch": "2026-10-15",
+ "window": [
+  "2025-10-01",
+  "2026-10-15"
+ ],
+ "accounts": {
+  "kuusikko-joint": {
+   "label": "Kuusikko Pankki, yhteistili",
+   "bank": "Kuusikko Pankki",
+   "holder": "Noora Heikkilä / Daniel Brooks",
+   "iban": "FI30 4712 0011 8832 04",
+   "opening": 2412.37
+  },
+  "kuusikko-noora": {
+   "label": "Kuusikko Pankki, käyttötili",
+   "bank": "Kuusikko Pankki",
+   "holder": "Noora Heikkilä",
+   "iban": "FI02 4712 0011 9061 15",
+   "opening": 1188.4
+  },
+  "saarni-daniel": {
+   "label": "Saarni Pankki, käyttötili",
+   "bank": "Saarni Pankki",
+   "holder": "Daniel Brooks",
+   "iban": "FI20 7939 0070 2144 18",
+   "opening": 4854.92
+  }
+ },
+ "loan": {
+  "account": "kuusikko-joint",
+  "lender": "Kuusikko Pankki",
+  "label": "Asuntolaina 7731",
+  "monthly": 896.4,
+  "day": 20
+ },
+ "household": {
+  "name": "Heikkilä-Brooks",
+  "city": "Espoo",
+  "address": "Kaarnatie 7 B 14, 02180 Espoo",
+  "people": {
+   "noora": {
+    "name": "Noora Heikkilä",
+    "role": "adult",
+    "about": "Finnish, a structural engineer, paid monthly"
+   },
+   "daniel": {
+    "name": "Daniel Brooks",
+    "role": "adult",
+    "about": "British, a freelance illustrator, so he pays his own earnings-related pension insurance (YEL)"
+   },
+   "aino": {
+    "name": "Aino Heikkilä-Brooks",
+    "role": "child",
+    "about": "four, at daycare"
+   }
+  },
+  "writes_in": "English",
+  "note": "The household writes to the app in English; every bank, biller and mailbox writes to them in Finnish. A run in English has to read Finnish bills."
+ },
+ "note": "Every date in these files is at the epoch. The portals shift them by (today - epoch) when they serve them; E2E_TODAY fixes 'today'."
+}

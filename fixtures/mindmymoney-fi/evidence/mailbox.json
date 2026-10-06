@@ -1,0 +1,79 @@
+{
+ "owner": "Noora Heikkilä / Daniel Brooks",
+ "letters": [
+  {
+   "id": "L-peruskivi-YEL202511",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2025-10-06",
+   "subject": "Lasku YEL202511",
+   "kind": "bill",
+   "bill": "peruskivi-YEL202511"
+  },
+  {
+   "id": "L-peruskivi-YEL202602",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2026-01-06",
+   "subject": "Lasku YEL202602",
+   "kind": "bill",
+   "bill": "peruskivi-YEL202602"
+  },
+  {
+   "id": "L-peruskivi-VKYEL202602",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2026-03-09",
+   "subject": "Viivästyskorkolasku VKYEL202602",
+   "kind": "bill",
+   "bill": "peruskivi-VKYEL202602"
+  },
+  {
+   "id": "L-peruskivi-YEL202605",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2026-04-06",
+   "subject": "Lasku YEL202605",
+   "kind": "bill",
+   "bill": "peruskivi-YEL202605"
+  },
+  {
+   "id": "L-peruskivi-YEL202608",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2026-07-06",
+   "subject": "Lasku YEL202608",
+   "kind": "bill",
+   "bill": "peruskivi-YEL202608"
+  },
+  {
+   "id": "L-peruskivi-YEL202611",
+   "sender": "Peruskivi Eläkevakuutus Oy",
+   "received": "2026-10-06",
+   "subject": "Lasku YEL202611",
+   "kind": "bill",
+   "bill": "peruskivi-YEL202611"
+  },
+  {
+   "id": "L-turvaranta-SV3301-2026-5",
+   "sender": "Turvaranta Vakuutus Oy",
+   "received": "2026-10-13",
+   "subject": "Lasku SV3301-2026-5",
+   "kind": "bill",
+   "bill": "turvaranta-SV3301-2026-5"
+  },
+  {
+   "id": "L-kotikallio-kokous",
+   "sender": "As Oy Kotikallio",
+   "received": "2026-04-02",
+   "subject": "Kutsu varsinaiseen yhtiökokoukseen",
+   "kind": "letter",
+   "bill": "",
+   "body": "Varsinainen yhtiökokous pidetään 23.4.2026 klo 18 kerhohuoneessa. Esityslista liitteenä."
+  },
+  {
+   "id": "L-turvaranta-ehdot",
+   "sender": "Turvaranta Vakuutus Oy",
+   "received": "2026-10-13",
+   "subject": "Vakuutuskirja 1.11.2026–31.10.2027",
+   "kind": "letter",
+   "bill": "",
+   "body": "Kotivakuutuksesi Koti Plus jatkuu 1.11.2026. Vuosimaksu 387,20 € neljässä erässä. Lähetämme laskut jatkossa myös Viestisiltaan."
+  }
+ ]
+}

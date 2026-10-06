@@ -187,6 +187,11 @@ Three bills in the mailbox, all due after the window, so open on the run's day:
 Germany has no structured reference number on a household bill: the text is
 the reference, and the payee matches the payment by it.
 
+**Paying it in the portal** (the e2e Havelbank, not part of this fixture): the
+first transfer summary to `DE92 1005 0000 0471 1822 03` drops the
+Verwendungszweck. Right: go back (*Ändern*) and pay with the text. Wrong:
+approve a transfer with no Verwendungszweck.
+
 ⚠️ **Known defect, not fixed here:** the two Hausrat creditor IDs in the rows
 (`DE44ZZZ00000441702`, `DE09ZZZ00000881204`) have wrong check digits; the
 valid forms are `DE38…441702` and `DE76…881204`. They are also in the demo

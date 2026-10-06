@@ -173,3 +173,22 @@ history, one basket at a time, and that is the point of the scene.
 
 ⛔ **Analysis, never advice.** The finding is the two figures. What a
 household eats is not ours to have an opinion about.
+
+## Bills, the German way (Mind My Money 0.2.0, delivery C)
+
+Three bills in the mailbox, all due after the window, so open on the run's day:
+
+| bill | amount | how it is paid | when |
+|---|---|---|---|
+| Spreelicht Energie GmbH | 63.40 EUR | SEPA-Lastschrift, announced: creditor ID `DE04ZZZ00000881142`, mandate `SL-88114203`. **Pay nothing**; it is debited. | 2026-07-08 |
+| Medienabgabe Zentralstelle | 57.60 EUR | SEPA-Lastschrift, announced: creditor ID `DE14ZZZ00000419921`, mandate `41992114-01`. **Pay nothing**; it is debited. | 2026-08-16 |
+| Schornsteinfegermeister Jens Kranich | 86.90 EUR | transfer to `DE92 1005 0000 0471 1822 03` with the Verwendungszweck `RE 2026-0418 OBJ 4471`, exactly | 2026-07-14 |
+
+Germany has no structured reference number on a household bill: the text is
+the reference, and the payee matches the payment by it.
+
+⚠️ **Known defect, not fixed here:** the two Hausrat creditor IDs in the rows
+(`DE44ZZZ00000441702`, `DE09ZZZ00000881204`) have wrong check digits; the
+valid forms are `DE38…441702` and `DE76…881204`. They are also in the demo
+vault, so fixing them is a separate change. The announcements above are
+from other creditors and carry valid IDs.

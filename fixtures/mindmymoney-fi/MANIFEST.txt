@@ -7,6 +7,7 @@ evidence/ledger.json
 evidence/loan.json
 evidence/mail.json
 evidence/mailbox.json
+evidence/paying.json
 evidence/pension.json
 evidence/scheduled.json
 statements/kuusikko-joint-2025-10-01--2026-10-15.csv

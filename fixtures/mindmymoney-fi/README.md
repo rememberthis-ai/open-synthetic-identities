@@ -20,7 +20,10 @@ household's bills.
 The request it answers is `docs/ongoing/MMM-0.2.0-HOUSEHOLD-REQUEST-2026-10-06.md`
 in the monorepo. **Delivery A** is the bills; **delivery B** is what the
 household owns (`evidence/broker.json`, `loan.json`, `pension.json`, built by
-`generate/household_fi/holdings.py`); C (paying) adds to it.
+`generate/household_fi/holdings.py`); **delivery C** is paying: the bank's
+payment flow lives in the portal, and `evidence/paying.json` names the two bills
+its traps ride on (a summary with a different date, a session that expires
+mid-payment).
 
 ## ⛔ What may be seeded into a vault, and what must never be
 

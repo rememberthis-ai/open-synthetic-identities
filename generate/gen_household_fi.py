@@ -40,6 +40,7 @@ def main() -> None:
     made = E.write_statements(args.out, r["txns"])
     made += E.write_evidence(args.out, r["evidence"])
     made += E.write_owned(args.out, owned)
+    made.append(E.write_paying(args.out, r["bills"]))
     made.append(E.write_planted(args.out, r["checks"], r["bills"], owned["checks"]))
     E.write_manifest(args.out, made)
 

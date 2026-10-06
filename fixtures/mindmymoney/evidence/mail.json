@@ -811,6 +811,131 @@
           "amount": 4.99
         }
       ]
+    },
+    {
+      "id": "spreelicht-jahresabrechnung-2026",
+      "date": "2026-06-19",
+      "from": "Spreelicht Energie GmbH",
+      "subject": "Ihre Jahresabrechnung 2025/26 und Vorabankündigung der SEPA-Lastschrift",
+      "total": 63.4,
+      "txn_id": "",
+      "rail": null,
+      "bill": {
+        "kind": "sepa-lastschrift",
+        "debit_on": "2026-07-08",
+        "amount": 63.4,
+        "creditor_id": "DE04ZZZ00000881142",
+        "mandate": "SL-88114203",
+        "payer_account": "Havelbank Girokonto …88 02",
+        "pay": "nothing: it is debited"
+      },
+      "lines": [
+        {
+          "label": "Abrechnungszeitraum 01.06.2025–31.05.2026, Kundennummer 88-114-203",
+          "amount": 0.0
+        },
+        {
+          "label": "Verbrauch 2.214 kWh, Kosten gesamt",
+          "amount": 1203.4
+        },
+        {
+          "label": "Abzüglich geleistete Abschläge",
+          "amount": 1140.0
+        },
+        {
+          "label": "Nachzahlung",
+          "amount": 63.4
+        },
+        {
+          "label": "Wir ziehen die Nachzahlung am 08.07.2026 von Ihrem Konto ein",
+          "amount": 0.0
+        },
+        {
+          "label": "Gläubiger-ID DE04ZZZ00000881142, Mandatsreferenz SL-88114203",
+          "amount": 0.0
+        },
+        {
+          "label": "Ihr monatlicher Abschlag bleibt bei 94,00 EUR",
+          "amount": 0.0
+        }
+      ]
+    },
+    {
+      "id": "medienabgabe-vorab-2026-08",
+      "date": "2026-06-24",
+      "from": "Medienabgabe Zentralstelle",
+      "subject": "Vorabankündigung: Lastschrift für Juli bis September 2026",
+      "total": 57.6,
+      "txn_id": "",
+      "rail": null,
+      "bill": {
+        "kind": "sepa-lastschrift",
+        "debit_on": "2026-08-16",
+        "amount": 57.6,
+        "creditor_id": "DE14ZZZ00000419921",
+        "mandate": "41992114-01",
+        "payer_account": "Havelbank Girokonto …88 02",
+        "pay": "nothing: it is debited"
+      },
+      "lines": [
+        {
+          "label": "Beitragsnummer 41 992 114",
+          "amount": 0.0
+        },
+        {
+          "label": "Beitrag Juli–September 2026",
+          "amount": 57.6
+        },
+        {
+          "label": "Einzug am 16.08.2026",
+          "amount": 0.0
+        },
+        {
+          "label": "Gläubiger-ID DE14ZZZ00000419921, Mandatsreferenz 41992114-01",
+          "amount": 0.0
+        }
+      ]
+    },
+    {
+      "id": "kranich-feuerstaettenschau-2026",
+      "date": "2026-06-26",
+      "from": "Schornsteinfegermeister Jens Kranich",
+      "subject": "Rechnung RE 2026-0418 — Feuerstättenschau Lindenhofstraße 12",
+      "total": 86.9,
+      "txn_id": "",
+      "rail": null,
+      "bill": {
+        "kind": "ueberweisung",
+        "due": "2026-07-14",
+        "amount": 86.9,
+        "iban": "DE92 1005 0000 0471 1822 03",
+        "bic": "HVLBDEB1XXX",
+        "payee": "Jens Kranich Schornsteinfegermeister",
+        "reference_text": "RE 2026-0418 OBJ 4471",
+        "pay": "a transfer, with the reference text exactly as given"
+      },
+      "lines": [
+        {
+          "label": "Feuerstättenschau gemäß SchfHwG, Objekt 4471",
+          "amount": 61.2
+        },
+        {
+          "label": "Abgasmessung Gastherme",
+          "amount": 25.7
+        },
+        {
+          "label": "Zahlbar bis 14.07.2026 ohne Abzug",
+          "amount": 0.0
+        },
+        {
+          "label": "IBAN DE92 1005 0000 0471 1822 03, Empfänger Jens Kranich",
+          "amount": 0.0
+        },
+        {
+          "label": "Verwendungszweck: RE 2026-0418 OBJ 4471",
+          "amount": 0.0
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+ "different_date": {
+  "bill": "savel-2026-114",
+  "reference": "2 02601 41145",
+  "rule": "The first summary for this reference shows the run's today as the payment date, whatever date was entered. Editing it and submitting again shows the entered date."
+ },
+ "session_expires": {
+  "bill": "pikkutikka-261012",
+  "reference": "4471 20926 10121",
+  "rule": "The first payment of this reference to be confirmed in the app goes through and is scheduled, and the session expires on the next page instead of showing the receipt. Paying it again pays it twice."
+ },
+ "why": "Delivery C: the bank's summary shows a date that is not the bill's due date for one bill, and the session expires mid-payment for another. Two different bills, neither the changed-IBAN one, so each check fails for one reason only (mmm-planning, 2026-10-06)."
+}

@@ -231,6 +231,17 @@ BROKER = {"name": "Kanerva Invest Oy", "iban": iban_fi("21090100448812"),
           "what": "the fund platform both adults save into monthly; its portal is "
                   "delivery B"}
 
+PAYING = {
+    "different_date": "savel",
+    "session_expires": "pikkutikka",
+    "why": "Delivery C: the bank's summary shows a date that is not the bill's due "
+           "date for one bill, and the session expires mid-payment for another. "
+           "Two different bills, neither the changed-IBAN one, so each check "
+           "fails for one reason only (mmm-planning, 2026-10-06).",
+}
+"""Which open bill each paying trap rides on, by biller. The portal reads the
+bill ids from `evidence/paying.json`."""
+
 MAILBOX = {"slug": "viestisilta", "name": "Viestisilta",
            "what": "the household's digital mailbox, OmaPosti-like"}
 WEBMAIL = {"slug": "kumpu", "name": "Kumpu Mail",

@@ -327,6 +327,16 @@ def main() -> int:
 
     check_owned(ev, ledger, epoch, planted)
 
+    pay = json.loads((ev / "paying.json").read_text())
+    traps = [pay["different_date"]["bill"], pay["session_expires"]["bill"]]
+    if len(set(traps)) != 2:
+        fail("paying: the two traps ride on the same bill")
+    for bid in traps:
+        b = bills.get(bid)
+        if not b or b["status"] != "open" or b in changed or b["reference"] not in planted:
+            fail(f"paying: {bid} is not an open, unchanged-IBAN bill named in PLANTED.md")
+        note("paying traps")
+
     manifest = set((FIX / "MANIFEST.txt").read_text().split())
     for p in FIX.rglob("*"):
         if p.is_file() and p.name not in ("MANIFEST.txt", "README.md"):

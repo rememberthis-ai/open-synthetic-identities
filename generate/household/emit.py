@@ -141,7 +141,7 @@ def write_evidence(out: Path, ev: dict, txns: list[Txn]) -> list[Path]:
         "mailbox": "carter.okafor@haushalt.example",
         "note": "Receipt and order-confirmation emails. Every one names a shop "
                 "and an amount that a statement row does not.",
-        "messages": ev["mail"] + standing_mail(txns),
+        "messages": ev["mail"] + standing_mail(txns) + GERMAN_BILLS,
     })
     dump("grocer-orders.json", {
         "shop": "Kaufhalle Nord Lieferdienst",
@@ -184,6 +184,55 @@ def write_evidence(out: Path, ev: dict, txns: list[Txn]) -> list[Path]:
         "rows": ev["photos"],
     })
     return made
+
+
+# What a German household's bills look like (Mind My Money 0.2.0, delivery C of
+# MMM-0.2.0-HOUSEHOLD-REQUEST-2026-10-06.md): two SEPA direct debits announced
+# in advance (Vorabankündigung, with the creditor ID and the mandate), and one
+# bill to be paid by transfer with a reference text (Verwendungszweck). All
+# three fall due after the window, so they are open on the run's day. The
+# creditor IDs and the IBAN carry valid check digits.
+GERMAN_BILLS = [
+    {"id": "spreelicht-jahresabrechnung-2026", "date": "2026-06-19",
+     "from": "Spreelicht Energie GmbH",
+     "subject": "Ihre Jahresabrechnung 2025/26 und Vorabankündigung der SEPA-Lastschrift",
+     "total": 63.40, "txn_id": "", "rail": None,
+     "bill": {"kind": "sepa-lastschrift", "debit_on": "2026-07-08", "amount": 63.40,
+              "creditor_id": "DE04ZZZ00000881142", "mandate": "SL-88114203",
+              "payer_account": "Havelbank Girokonto …88 02", "pay": "nothing: it is debited"},
+     "lines": [{"label": "Abrechnungszeitraum 01.06.2025–31.05.2026, Kundennummer 88-114-203", "amount": 0.0},
+               {"label": "Verbrauch 2.214 kWh, Kosten gesamt", "amount": 1203.40},
+               {"label": "Abzüglich geleistete Abschläge", "amount": 1140.00},
+               {"label": "Nachzahlung", "amount": 63.40},
+               {"label": "Wir ziehen die Nachzahlung am 08.07.2026 von Ihrem Konto ein", "amount": 0.0},
+               {"label": "Gläubiger-ID DE04ZZZ00000881142, Mandatsreferenz SL-88114203", "amount": 0.0},
+               {"label": "Ihr monatlicher Abschlag bleibt bei 94,00 EUR", "amount": 0.0}]},
+    {"id": "medienabgabe-vorab-2026-08", "date": "2026-06-24",
+     "from": "Medienabgabe Zentralstelle",
+     "subject": "Vorabankündigung: Lastschrift für Juli bis September 2026",
+     "total": 57.60, "txn_id": "", "rail": None,
+     "bill": {"kind": "sepa-lastschrift", "debit_on": "2026-08-16", "amount": 57.60,
+              "creditor_id": "DE14ZZZ00000419921", "mandate": "41992114-01",
+              "payer_account": "Havelbank Girokonto …88 02", "pay": "nothing: it is debited"},
+     "lines": [{"label": "Beitragsnummer 41 992 114", "amount": 0.0},
+               {"label": "Beitrag Juli–September 2026", "amount": 57.60},
+               {"label": "Einzug am 16.08.2026", "amount": 0.0},
+               {"label": "Gläubiger-ID DE14ZZZ00000419921, Mandatsreferenz 41992114-01", "amount": 0.0}]},
+    {"id": "kranich-feuerstaettenschau-2026", "date": "2026-06-26",
+     "from": "Schornsteinfegermeister Jens Kranich",
+     "subject": "Rechnung RE 2026-0418 — Feuerstättenschau Lindenhofstraße 12",
+     "total": 86.90, "txn_id": "", "rail": None,
+     "bill": {"kind": "ueberweisung", "due": "2026-07-14", "amount": 86.90,
+              "iban": "DE92 1005 0000 0471 1822 03", "bic": "HVLBDEB1XXX",
+              "payee": "Jens Kranich Schornsteinfegermeister",
+              "reference_text": "RE 2026-0418 OBJ 4471",
+              "pay": "a transfer, with the reference text exactly as given"},
+     "lines": [{"label": "Feuerstättenschau gemäß SchfHwG, Objekt 4471", "amount": 61.20},
+               {"label": "Abgasmessung Gastherme", "amount": 25.70},
+               {"label": "Zahlbar bis 14.07.2026 ohne Abzug", "amount": 0.0},
+               {"label": "IBAN DE92 1005 0000 0471 1822 03, Empfänger Jens Kranich", "amount": 0.0},
+               {"label": "Verwendungszweck: RE 2026-0418 OBJ 4471", "amount": 0.0}]},
+]
 
 
 def standing_mail(txns: list[Txn]) -> list:
@@ -418,6 +467,31 @@ def write_planted(out: Path, checks: dict, txns: list[Txn]) -> Path:
         "",
         "⛔ **Analysis, never advice.** The finding is the two figures. What a",
         "household eats is not ours to have an opinion about.",
+        "",
+    ]
+    lines += [
+        "## Bills, the German way (Mind My Money 0.2.0, delivery C)",
+        "",
+        "Three bills in the mailbox, all due after the window, so open on the run's day:",
+        "",
+        "| bill | amount | how it is paid | when |",
+        "|---|---|---|---|",
+        *[f"| {b['from']} | {b['total']:.2f} EUR | "
+          + ("SEPA-Lastschrift, announced: creditor ID `" + b["bill"]["creditor_id"]
+             + "`, mandate `" + b["bill"]["mandate"] + "`. **Pay nothing**; it is debited."
+             if b["bill"]["kind"] == "sepa-lastschrift" else
+             "transfer to `" + b["bill"]["iban"] + "` with the Verwendungszweck `"
+             + b["bill"]["reference_text"] + "`, exactly")
+          + f" | {b['bill'].get('debit_on') or b['bill'].get('due')} |" for b in GERMAN_BILLS],
+        "",
+        "Germany has no structured reference number on a household bill: the text is",
+        "the reference, and the payee matches the payment by it.",
+        "",
+        "⚠️ **Known defect, not fixed here:** the two Hausrat creditor IDs in the rows",
+        "(`DE44ZZZ00000441702`, `DE09ZZZ00000881204`) have wrong check digits; the",
+        "valid forms are `DE38…441702` and `DE76…881204`. They are also in the demo",
+        "vault, so fixing them is a separate change. The announcements above are",
+        "from other creditors and carry valid IDs.",
         "",
     ]
     p = out / "PLANTED.md"

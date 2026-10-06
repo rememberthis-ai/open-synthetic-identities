@@ -221,6 +221,29 @@ def check_evidence(rows_by_id: dict) -> None:
         for msg in mail["messages"]:
             agrees("email", msg.get("txn_id", ""), msg["total"], msg["id"])
 
+    if mail:
+        german = [m for m in mail["messages"] if m.get("bill")]
+        if len(german) != 3:
+            fail(f"expected three German bills in the mail, found {len(german)}")
+        for m in german:
+            b = m["bill"]
+            when = b.get("debit_on") or b.get("due") or ""
+            if when <= "2026-06-30":
+                fail(f"{m['id']}: falls due inside the window, so it is not open on the run's day")
+            if abs(b["amount"] - m["total"]) > 0.005:
+                fail(f"{m['id']}: the bill and the mail disagree on the amount")
+            if b["kind"] == "sepa-lastschrift":
+                c = b["creditor_id"]
+                n = "".join(str(int(x, 36)) for x in c[7:] + c[:4])
+                if int(n) % 97 != 1:
+                    fail(f"{m['id']}: creditor ID {c} has wrong check digits")
+            else:
+                i = b["iban"].replace(" ", "")
+                n = "".join(str(int(x, 36)) for x in i[4:] + i[:4])
+                if int(n) % 97 != 1 or not b["reference_text"]:
+                    fail(f"{m['id']}: invalid IBAN or no reference text")
+            note("German bills")
+
     for name, key in (("streaming-account.json", "memberships"),
                       ("gym-account.json", None)):
         data = load(name)

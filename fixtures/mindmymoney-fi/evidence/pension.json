@@ -1,0 +1,108 @@
+{
+ "provider": "Peruskivi Eläkevakuutus Oy",
+ "person": "Daniel Brooks",
+ "born": "1988-03-14",
+ "kind": "Työeläkeote",
+ "accrued_to": "2025-12-31",
+ "accrued_monthly": 230.59,
+ "retirement_age": "67 vuotta 2 kuukautta",
+ "retirement_from": "2055-06-01",
+ "estimate_monthly": 533.28,
+ "estimate_basis": "Arvio olettaa  että nykyinen YEL-työtulo 8 350 € vuodessa jatkuu eläkeikään asti. Arvio ei sisällä kansaneläkettä, takuueläkettä eikä ulkomailta kertyneitä eläkkeitä.",
+ "current_yel_income": 8350,
+ "read": "2026-10-14",
+ "earnings": [
+  {
+   "year": 2014,
+   "law": "TyEL",
+   "insurer": "Työnantajan eläkevakuutus",
+   "earnings": 21450,
+   "accrued_yearly": 321.75
+  },
+  {
+   "year": 2015,
+   "law": "TyEL",
+   "insurer": "Työnantajan eläkevakuutus",
+   "earnings": 37820,
+   "accrued_yearly": 567.3
+  },
+  {
+   "year": 2016,
+   "law": "TyEL",
+   "insurer": "Työnantajan eläkevakuutus",
+   "earnings": 39140,
+   "accrued_yearly": 587.1
+  },
+  {
+   "year": 2017,
+   "law": "TyEL",
+   "insurer": "Työnantajan eläkevakuutus",
+   "earnings": 18900,
+   "accrued_yearly": 283.5
+  },
+  {
+   "year": 2017,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 3600,
+   "accrued_yearly": 54.0
+  },
+  {
+   "year": 2018,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 7750,
+   "accrued_yearly": 116.25
+  },
+  {
+   "year": 2019,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 7750,
+   "accrued_yearly": 116.25
+  },
+  {
+   "year": 2020,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 7900,
+   "accrued_yearly": 118.5
+  },
+  {
+   "year": 2021,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 7900,
+   "accrued_yearly": 118.5
+  },
+  {
+   "year": 2022,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 8066,
+   "accrued_yearly": 120.99
+  },
+  {
+   "year": 2023,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 8066,
+   "accrued_yearly": 120.99
+  },
+  {
+   "year": 2024,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 8066,
+   "accrued_yearly": 120.99
+  },
+  {
+   "year": 2025,
+   "law": "YEL",
+   "insurer": "Peruskivi Eläkevakuutus Oy",
+   "earnings": 8066,
+   "accrued_yearly": 120.99
+  }
+ ],
+ "note": "The record has no balance. Finnish earnings-related pension is not a pot: it is an accrued monthly amount."
+}

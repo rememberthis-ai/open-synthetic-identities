@@ -101,3 +101,34 @@ Billed this household before, to the same account; paid from Noora's account.
 
 Two reminder fees and one late fee, **13,62 € in fees**.
 One reminder fee is inside a combined payment (135,00 = 130,00 + 5,00); its message names the fee.
+
+## What they own (delivery B)
+
+Each is found from the rows: the monthly `KANERVA INVEST OY` transfers (Noora's
+reference ends `…1`, Daniel's `…2`), the `LAINAN LYHENNYS` rows from the joint
+account, and Daniel's YEL payments to Peruskivi.
+
+### The broker, Kanerva Invest
+
+| owner | fund | units | value at epoch −1 | costs report 2025 |
+|---|---|---|---|---|
+| Noora Heikkilä | Kanerva Maailma Indeksi A | 1555.1231 | 25 306,05 € | 39,63 € (0,27 %) |
+| Noora Heikkilä | Kanerva Pohjois-Amerikka Osake A | 328.6726 | 5 475,49 € | 23,80 € (0,48 %) |
+| Noora Heikkilä | Kanerva Lyhyt Korko A | 107.3248 | 12 331,44 € | 15,02 € (0,19 %) |
+| Daniel Brooks | Kanerva Pohjois-Amerikka Osake A | 456.9999 | 7 613,34 € | 25,01 € (0,48 %) |
+| Daniel Brooks | Lumme Pohjola Pienyhtiöt B | 993.2031 | 8 271,69 € | **none** — the labelled estimate |
+
+**Two funds overlap.** Kanerva Maailma Indeksi A and Kanerva Pohjois-Amerikka Osake A share 7 of their top ten
+(Arkanen Systems Inc., Brightwater Energy Corp., Corvel Health Group, Harrowgate Retail Co., Kestrel Bancorp, Northway Software Inc., Pelton Semiconductor Corp.): 19,9 % of the global fund and 33,0 % of the North America fund,
+and 64,2 % of the global fund is North America. Noora holds both; Daniel holds the North America fund too.
+
+**No costs report:** Lumme Pohjola Pienyhtiöt B, Daniel's, from another fund manager. Its fund page gives the ongoing charge from the key information document, 1,45 %; on 8 271,69 € that is about 119,94 € a year, which the app must show as an **estimate**.
+
+### The loan, on Kuusikko Pankki's loan page
+
+Balance 173 441,61 €, 12 kk euribor 2,18 % + margin 0,55 % = 2,73 %, payment 896,40 € on the 20th (constant; the term moves). **Next rate reset epoch +36 days** (2026-11-20). At today's rate the last payment is 2048-01-20.
+
+### The pension, at Peruskivi Eläkevakuutus
+
+Daniel's earnings-related pension record (työeläkeote): accrued 230,59 € a month to the end of 2025, estimated 533,28 € a month at 67 vuotta 2 kuukautta.
+**There is no balance**: it must not appear in a net-worth total.

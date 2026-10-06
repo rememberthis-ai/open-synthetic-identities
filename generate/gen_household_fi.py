@@ -22,6 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from household_fi import build as B   # noqa: E402
 from household_fi import emit as E    # noqa: E402
+from household_fi import holdings as H  # noqa: E402
 
 DEFAULT_OUT = Path(__file__).resolve().parent.parent / "fixtures/mindmymoney-fi"
 
@@ -34,10 +35,12 @@ def main() -> None:
     args = ap.parse_args()
 
     r = B.build(args.seed)
+    owned = H.build(r["txns"], args.seed)
     args.out.mkdir(parents=True, exist_ok=True)
     made = E.write_statements(args.out, r["txns"])
     made += E.write_evidence(args.out, r["evidence"])
-    made.append(E.write_planted(args.out, r["checks"], r["bills"]))
+    made += E.write_owned(args.out, owned)
+    made.append(E.write_planted(args.out, r["checks"], r["bills"], owned["checks"]))
     E.write_manifest(args.out, made)
 
     c = r["checks"]
@@ -49,6 +52,12 @@ def main() -> None:
     print(f"  open on the epoch: {len(c['open'])}; due within 14 days: "
           f"{', '.join(c['due_within_14_days'])}")
     print(f"  fees in the rows: {c['fees']['fee_total']:.2f} EUR")
+    o = owned["checks"]
+    for who, pf in o["portfolios"].items():
+        print(f"  broker, {pf['owner']}: {pf['value']:,.2f} EUR in "
+              f"{', '.join(h[0] for h in pf['holdings'])}")
+    print(f"  loan {o['loan']['balance']:,.2f} EUR at {o['loan']['rate']} %, "
+          f"reset {o['loan']['next_reset']}; pension {o['pension']['accrued_monthly']} EUR/kk accrued")
     print(f"  wrote {len(made) + 1} files to {args.out}")
 
 

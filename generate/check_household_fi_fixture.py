@@ -79,6 +79,95 @@ def read_csv(path: Path) -> list[dict]:
              "archive": r["Arkistointitunnus"]} for r in rows]
 
 
+def isin_ok(code: str) -> bool:
+    digits = "".join(str(int(c, 36)) for c in code)
+    total = 0
+    for i, ch in enumerate(reversed(digits)):
+        n = int(ch)
+        if i % 2 == 1:
+            n = n * 2 - 9 if n * 2 > 9 else n * 2
+        total += n
+    return total % 10 == 0
+
+
+def check_owned(ev: Path, ledger: list, epoch: str, planted: str) -> None:
+    """Delivery B: the broker, the loan, the pension statement."""
+    from datetime import date
+    b = json.loads((ev / "broker.json").read_text())
+    loan = json.loads((ev / "loan.json").read_text())
+    pen = json.loads((ev / "pension.json").read_text())
+
+    for k, f in b["funds"].items():
+        if not isin_ok(f["isin"]):
+            fail(f"fund {k}: invalid ISIN {f['isin']}")
+        note("funds")
+    top = {k: {t[0] for t in f["top"]} for k, f in b["funds"].items()}
+    if len(top["maailma"] & top["amerikka"]) < 5:
+        fail("the global and the North America fund do not overlap")
+    note("overlap checked")
+
+    held, reported = set(), set()
+    for who, pf in b["portfolios"].items():
+        rows = [t for t in ledger if t["counterparty"] == b["name"].upper()
+                and t["iban"].replace(" ", "") == b["iban"].replace(" ", "")
+                and t["reference"] == pf["reference"]]
+        if not rows:
+            fail(f"{who}: no transfers to the broker in the rows")
+        for r in rows:
+            trades = [t for t in pf["trades"] if t["transfer"] == r["id"]]
+            if round(sum(t["amount"] for t in trades), 2) != round(-r["amount"], 2):
+                fail(f"{who}: transfer {r['id']} is not the sum of its subscriptions")
+            note("broker transfers matched")
+        for h in pf["holdings"]:
+            units = round(sum(t["units"] for t in pf["trades"] if t["fund"] == h["fund"]), 4)
+            if abs(units - h["units"]) > 0.00005:
+                fail(f"{who}/{h['fund']}: units {h['units']} but trades add to {units}")
+            if abs(round(h["units"] * h["nav"], 2) - h["value"]) > 0.011:
+                fail(f"{who}/{h['fund']}: value is not units times price")
+            held.add(h["fund"])
+            note("holdings")
+        for r in pf["reports"]:
+            if round(sum(l["eur"] for l in r["lines"]), 2) != r["total_eur"]:
+                fail(f"{r['id']}: lines do not add to the total")
+            if abs(r["total_eur"] / r["average_value"] * 100 - r["total_pct"]) > 0.006:
+                fail(f"{r['id']}: total % is not total over average value")
+            reported.add(r["fund"])
+            note("costs reports")
+    no_report = held - reported
+    if len(no_report) != 1:
+        fail(f"expected one held fund without a costs report, found {sorted(no_report)}")
+    else:
+        f = b["funds"][no_report.pop()]
+        if not f["ongoing"] or f["name"] not in planted:
+            fail("the fund without a report has no ongoing charge, or PLANTED.md does not name it")
+    note("trap: no costs report")
+
+    prev = loan["original"]
+    for s_ in loan["schedule"]:
+        if round(prev - s_["principal"], 2) != s_["balance_after"] or \
+                round(s_["interest"] + s_["principal"], 2) != s_["payment"]:
+            fail(f"loan: instalment {s_['date']} does not add up")
+            break
+        prev = s_["balance_after"]
+    if prev != loan["balance"]:
+        fail("loan: balance is not the last instalment's balance")
+    loan_rows = {t["id"] for t in ledger if t["kind"] == "LAINAN LYHENNYS"}
+    linked = {s_["row"] for s_ in loan["schedule"] if s_["row"]}
+    if loan_rows != linked or not loan_rows:
+        fail("loan: the rows and the schedule do not match one to one")
+    note("loan rows matched", len(linked))
+    if round(loan["reference_value"] + loan["margin"], 3) != loan["rate"]:
+        fail("loan: rate is not reference plus margin")
+    if not loan["next_reset"] > epoch or loan["next_reset"] not in planted:
+        fail("loan: next reset not after the epoch, or not in PLANTED.md")
+
+    if any(k.lower() in ("balance", "saldo", "value") for k in pen):
+        fail("pension: the record carries a balance")
+    if round(sum(r["accrued_yearly"] for r in pen["earnings"]) / 12, 2) != pen["accrued_monthly"]:
+        fail("pension: accrued monthly is not the sum of the years")
+    note("pension checked")
+
+
 def main() -> int:
     if not FIX.exists():
         print(f"no fixture at {FIX}: python3 generate/gen_household_fi.py")
@@ -236,6 +325,8 @@ def main() -> int:
             fail(f"PLANTED.md does not name {b['id']}")
     note("answer key entries", 1)
 
+    check_owned(ev, ledger, epoch, planted)
+
     manifest = set((FIX / "MANIFEST.txt").read_text().split())
     for p in FIX.rglob("*"):
         if p.is_file() and p.name not in ("MANIFEST.txt", "README.md"):
@@ -244,7 +335,8 @@ def main() -> int:
 
     for k, n in sorted(counted.items()):
         print(f"  {k:<32} {n}")
-    for key in ("rows", "bills", "e-invoices", "letters", "mail attachments"):
+    for key in ("rows", "bills", "e-invoices", "letters", "mail attachments", "funds",
+                "holdings", "costs reports", "broker transfers matched", "loan rows matched"):
         if not counted.get(key):
             fail(f"examined no {key}")
     for p in problems:

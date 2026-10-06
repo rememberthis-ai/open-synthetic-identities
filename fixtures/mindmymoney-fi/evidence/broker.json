@@ -1,0 +1,2443 @@
+{
+ "name": "Kanerva Invest Oy",
+ "iban": "FI43 2109 0100 4488 12",
+ "value_date": "2026-10-14",
+ "login_holder": "Noora Heikkilä",
+ "note": "Daniel has given Noora view access to his portfolio (katseluoikeus), so one sign-in shows both.",
+ "funds": {
+  "maailma": {
+   "name": "Kanerva Maailma Indeksi A",
+   "manager": "Kanerva Rahastoyhtiö Oy",
+   "isin": "FI4000713250",
+   "kind": "Osakerahasto, globaali indeksi",
+   "risk": 4,
+   "ongoing": 0.25,
+   "transaction": 0.02,
+   "entry_fee": 0.0,
+   "regions": [
+    [
+     "Pohjois-Amerikka",
+     64.2
+    ],
+    [
+     "Eurooppa",
+     17.8
+    ],
+    [
+     "Japani",
+     6.1
+    ],
+    [
+     "Muu Aasia ja Tyynimeri",
+     7.4
+    ],
+    [
+     "Muut",
+     4.5
+    ]
+   ],
+   "top": [
+    [
+     "Arkanen Systems Inc.",
+     "Yhdysvallat",
+     4.8
+    ],
+    [
+     "Pelton Semiconductor Corp.",
+     "Yhdysvallat",
+     4.1
+    ],
+    [
+     "Northway Software Inc.",
+     "Yhdysvallat",
+     3.9
+    ],
+    [
+     "Harrowgate Retail Co.",
+     "Yhdysvallat",
+     2.6
+    ],
+    [
+     "Corvel Health Group",
+     "Yhdysvallat",
+     2.2
+    ],
+    [
+     "Teshima Motor Co.",
+     "Japani",
+     1.4
+    ],
+    [
+     "Valmont Pharma AG",
+     "Sveitsi",
+     1.3
+    ],
+    [
+     "Brightwater Energy Corp.",
+     "Yhdysvallat",
+     1.2
+    ],
+    [
+     "Kestrel Bancorp",
+     "Yhdysvallat",
+     1.1
+    ],
+    [
+     "Lindqvist Industri AB",
+     "Ruotsi",
+     0.9
+    ]
+   ],
+   "report": true
+  },
+  "amerikka": {
+   "name": "Kanerva Pohjois-Amerikka Osake A",
+   "manager": "Kanerva Rahastoyhtiö Oy",
+   "isin": "FI4000713417",
+   "kind": "Osakerahasto, Pohjois-Amerikka",
+   "risk": 5,
+   "ongoing": 0.45,
+   "transaction": 0.03,
+   "entry_fee": 0.0,
+   "regions": [
+    [
+     "Yhdysvallat",
+     96.1
+    ],
+    [
+     "Kanada",
+     3.9
+    ]
+   ],
+   "top": [
+    [
+     "Arkanen Systems Inc.",
+     "Yhdysvallat",
+     7.9
+    ],
+    [
+     "Pelton Semiconductor Corp.",
+     "Yhdysvallat",
+     6.8
+    ],
+    [
+     "Northway Software Inc.",
+     "Yhdysvallat",
+     6.5
+    ],
+    [
+     "Harrowgate Retail Co.",
+     "Yhdysvallat",
+     4.3
+    ],
+    [
+     "Corvel Health Group",
+     "Yhdysvallat",
+     3.6
+    ],
+    [
+     "Brightwater Energy Corp.",
+     "Yhdysvallat",
+     2.0
+    ],
+    [
+     "Kestrel Bancorp",
+     "Yhdysvallat",
+     1.9
+    ],
+    [
+     "Ridgeford Insurance Holdings",
+     "Yhdysvallat",
+     1.7
+    ],
+    [
+     "Calder Rail Corp.",
+     "Kanada",
+     1.5
+    ],
+    [
+     "Mesa Foods Inc.",
+     "Yhdysvallat",
+     1.4
+    ]
+   ],
+   "report": true
+  },
+  "korko": {
+   "name": "Kanerva Lyhyt Korko A",
+   "manager": "Kanerva Rahastoyhtiö Oy",
+   "isin": "FI4000713581",
+   "kind": "Lyhyen koron rahasto",
+   "risk": 2,
+   "ongoing": 0.15,
+   "transaction": 0.04,
+   "entry_fee": 0.0,
+   "regions": [
+    [
+     "Valtiot",
+     38.0
+    ],
+    [
+     "Yrityslainat",
+     41.0
+    ],
+    [
+     "Pankit",
+     21.0
+    ]
+   ],
+   "top": [
+    [
+     "Rautaranta Asuntorahoitus Oyj 2027",
+     "Suomi",
+     4.4
+    ],
+    [
+     "Ahvenkoski Energia Oyj 2027",
+     "Suomi",
+     3.8
+    ],
+    [
+     "Nordvind Kredit AB 2028",
+     "Ruotsi",
+     3.5
+    ],
+    [
+     "Hallberg Bank ASA 2027",
+     "Norja",
+     3.1
+    ],
+    [
+     "Kuusikko Pankki Oyj 2028",
+     "Suomi",
+     2.9
+    ]
+   ],
+   "report": true
+  },
+  "pohjola": {
+   "name": "Lumme Pohjola Pienyhtiöt B",
+   "manager": "Lumme Rahastoyhtiö Oy",
+   "isin": "FI4000527197",
+   "kind": "Osakerahasto, Pohjoismaiden pienyhtiöt",
+   "risk": 6,
+   "ongoing": 1.45,
+   "transaction": 0.0,
+   "entry_fee": 1.0,
+   "regions": [
+    [
+     "Ruotsi",
+     44.0
+    ],
+    [
+     "Suomi",
+     31.0
+    ],
+    [
+     "Norja",
+     15.0
+    ],
+    [
+     "Tanska",
+     10.0
+    ]
+   ],
+   "top": [
+    [
+     "Sjöberg Verktyg AB",
+     "Ruotsi",
+     3.6
+    ],
+    [
+     "Halla Laboratoriot Oyj",
+     "Suomi",
+     3.2
+    ],
+    [
+     "Fjellvik Marine ASA",
+     "Norja",
+     2.9
+    ],
+    [
+     "Kaarto Rakennus Oyj",
+     "Suomi",
+     2.7
+    ],
+    [
+     "Brandt & Holm A/S",
+     "Tanska",
+     2.5
+    ]
+   ],
+   "report": false,
+   "no_report_why": "Kulu- ja palkkioraporttia ei ole saatavilla tälle rahastolle: rahaston hallinnoi toinen rahastoyhtiö, eikä se ole toimittanut kulutietoja Kanerva Investille. Juoksevat kulut ovat rahaston avaintietoesitteestä."
+  }
+ },
+ "portfolios": {
+  "noora": {
+   "owner": "Noora Heikkilä",
+   "reference": "6620 77112",
+   "paid_from": "FI02 4712 0011 9061 15",
+   "monthly": {
+    "maailma": 500.0,
+    "korko": 250.0,
+    "amerikka": 150.0
+   },
+   "trades": [
+    {
+     "date": "2023-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 18.4514,
+     "units": 8.1295,
+     "transfer": ""
+    },
+    {
+     "date": "2023-01-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 100.004,
+     "units": 2.4999,
+     "transfer": ""
+    },
+    {
+     "date": "2023-01-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.9025,
+     "units": 33.5514,
+     "transfer": ""
+    },
+    {
+     "date": "2023-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 19.3366,
+     "units": 7.7573,
+     "transfer": ""
+    },
+    {
+     "date": "2023-02-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 100.2433,
+     "units": 2.4939,
+     "transfer": ""
+    },
+    {
+     "date": "2023-02-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.4718,
+     "units": 32.3169,
+     "transfer": ""
+    },
+    {
+     "date": "2023-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.1449,
+     "units": 7.4461,
+     "transfer": ""
+    },
+    {
+     "date": "2023-03-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 100.6935,
+     "units": 2.4828,
+     "transfer": ""
+    },
+    {
+     "date": "2023-03-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.2912,
+     "units": 30.6914,
+     "transfer": ""
+    },
+    {
+     "date": "2023-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.8168,
+     "units": 7.2057,
+     "transfer": ""
+    },
+    {
+     "date": "2023-04-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 101.0968,
+     "units": 2.4729,
+     "transfer": ""
+    },
+    {
+     "date": "2023-04-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.9279,
+     "units": 31.3915,
+     "transfer": ""
+    },
+    {
+     "date": "2023-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.7504,
+     "units": 6.8964,
+     "transfer": ""
+    },
+    {
+     "date": "2023-05-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 102.1308,
+     "units": 2.4478,
+     "transfer": ""
+    },
+    {
+     "date": "2023-05-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.5408,
+     "units": 32.1734,
+     "transfer": ""
+    },
+    {
+     "date": "2023-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.8662,
+     "units": 7.1887,
+     "transfer": ""
+    },
+    {
+     "date": "2023-06-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 102.7888,
+     "units": 2.4322,
+     "transfer": ""
+    },
+    {
+     "date": "2023-06-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.0898,
+     "units": 31.0756,
+     "transfer": ""
+    },
+    {
+     "date": "2023-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 22.157,
+     "units": 6.7699,
+     "transfer": ""
+    },
+    {
+     "date": "2023-07-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 102.6728,
+     "units": 2.4349,
+     "transfer": ""
+    },
+    {
+     "date": "2023-07-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.5842,
+     "units": 32.0838,
+     "transfer": ""
+    },
+    {
+     "date": "2023-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.9304,
+     "units": 6.8398,
+     "transfer": ""
+    },
+    {
+     "date": "2023-08-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 103.1674,
+     "units": 2.4232,
+     "transfer": ""
+    },
+    {
+     "date": "2023-08-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.1839,
+     "units": 32.9296,
+     "transfer": ""
+    },
+    {
+     "date": "2023-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.6913,
+     "units": 6.9152,
+     "transfer": ""
+    },
+    {
+     "date": "2023-09-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 103.7674,
+     "units": 2.4092,
+     "transfer": ""
+    },
+    {
+     "date": "2023-09-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.036,
+     "units": 33.2535,
+     "transfer": ""
+    },
+    {
+     "date": "2023-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.3268,
+     "units": 7.0334,
+     "transfer": ""
+    },
+    {
+     "date": "2023-10-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 103.9574,
+     "units": 2.4048,
+     "transfer": ""
+    },
+    {
+     "date": "2023-10-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.1285,
+     "units": 33.0502,
+     "transfer": ""
+    },
+    {
+     "date": "2023-11-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.5752,
+     "units": 7.2903,
+     "transfer": ""
+    },
+    {
+     "date": "2023-11-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 104.7626,
+     "units": 2.3863,
+     "transfer": ""
+    },
+    {
+     "date": "2023-11-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.5078,
+     "units": 32.2418,
+     "transfer": ""
+    },
+    {
+     "date": "2023-12-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.3107,
+     "units": 7.0387,
+     "transfer": ""
+    },
+    {
+     "date": "2023-12-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 105.0854,
+     "units": 2.379,
+     "transfer": ""
+    },
+    {
+     "date": "2023-12-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.1338,
+     "units": 33.0386,
+     "transfer": ""
+    },
+    {
+     "date": "2024-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 22.3892,
+     "units": 6.6997,
+     "transfer": ""
+    },
+    {
+     "date": "2024-01-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 104.519,
+     "units": 2.3919,
+     "transfer": ""
+    },
+    {
+     "date": "2024-01-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.4632,
+     "units": 32.3348,
+     "transfer": ""
+    },
+    {
+     "date": "2024-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.5461,
+     "units": 6.9618,
+     "transfer": ""
+    },
+    {
+     "date": "2024-02-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 104.4941,
+     "units": 2.3925,
+     "transfer": ""
+    },
+    {
+     "date": "2024-02-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.6162,
+     "units": 32.018,
+     "transfer": ""
+    },
+    {
+     "date": "2024-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.4138,
+     "units": 7.348,
+     "transfer": ""
+    },
+    {
+     "date": "2024-03-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 104.5343,
+     "units": 2.3916,
+     "transfer": ""
+    },
+    {
+     "date": "2024-03-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.2821,
+     "units": 32.718,
+     "transfer": ""
+    },
+    {
+     "date": "2024-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.84,
+     "units": 6.8681,
+     "transfer": ""
+    },
+    {
+     "date": "2024-04-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 104.6154,
+     "units": 2.3897,
+     "transfer": ""
+    },
+    {
+     "date": "2024-04-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.3348,
+     "units": 34.8802,
+     "transfer": ""
+    },
+    {
+     "date": "2024-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.8944,
+     "units": 7.179,
+     "transfer": ""
+    },
+    {
+     "date": "2024-05-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 105.1048,
+     "units": 2.3786,
+     "transfer": ""
+    },
+    {
+     "date": "2024-05-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.1424,
+     "units": 33.0199,
+     "transfer": ""
+    },
+    {
+     "date": "2024-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.1267,
+     "units": 7.4528,
+     "transfer": ""
+    },
+    {
+     "date": "2024-06-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 105.4582,
+     "units": 2.3706,
+     "transfer": ""
+    },
+    {
+     "date": "2024-06-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.6658,
+     "units": 34.0929,
+     "transfer": ""
+    },
+    {
+     "date": "2024-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.5805,
+     "units": 7.2885,
+     "transfer": ""
+    },
+    {
+     "date": "2024-07-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 105.8023,
+     "units": 2.3629,
+     "transfer": ""
+    },
+    {
+     "date": "2024-07-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.2358,
+     "units": 35.1227,
+     "transfer": ""
+    },
+    {
+     "date": "2024-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.3346,
+     "units": 7.0308,
+     "transfer": ""
+    },
+    {
+     "date": "2024-08-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 106.7388,
+     "units": 2.3422,
+     "transfer": ""
+    },
+    {
+     "date": "2024-08-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.9052,
+     "units": 35.9578,
+     "transfer": ""
+    },
+    {
+     "date": "2024-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.7164,
+     "units": 7.2406,
+     "transfer": ""
+    },
+    {
+     "date": "2024-09-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 107.6752,
+     "units": 2.3218,
+     "transfer": ""
+    },
+    {
+     "date": "2024-09-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.0006,
+     "units": 38.4598,
+     "transfer": ""
+    },
+    {
+     "date": "2024-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.3459,
+     "units": 7.3725,
+     "transfer": ""
+    },
+    {
+     "date": "2024-10-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 106.8255,
+     "units": 2.3403,
+     "transfer": ""
+    },
+    {
+     "date": "2024-10-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.2904,
+     "units": 37.6211,
+     "transfer": ""
+    },
+    {
+     "date": "2024-11-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.4264,
+     "units": 7.3434,
+     "transfer": ""
+    },
+    {
+     "date": "2024-11-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 107.041,
+     "units": 2.3356,
+     "transfer": ""
+    },
+    {
+     "date": "2024-11-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.1382,
+     "units": 35.3652,
+     "transfer": ""
+    },
+    {
+     "date": "2024-12-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 22.5034,
+     "units": 6.6657,
+     "transfer": ""
+    },
+    {
+     "date": "2024-12-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 106.9641,
+     "units": 2.3372,
+     "transfer": ""
+    },
+    {
+     "date": "2024-12-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.5709,
+     "units": 34.315,
+     "transfer": ""
+    },
+    {
+     "date": "2025-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 24.0496,
+     "units": 6.2371,
+     "transfer": ""
+    },
+    {
+     "date": "2025-01-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 107.2101,
+     "units": 2.3319,
+     "transfer": ""
+    },
+    {
+     "date": "2025-01-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.815,
+     "units": 33.7496,
+     "transfer": ""
+    },
+    {
+     "date": "2025-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 23.8629,
+     "units": 6.2859,
+     "transfer": ""
+    },
+    {
+     "date": "2025-02-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 107.3957,
+     "units": 2.3278,
+     "transfer": ""
+    },
+    {
+     "date": "2025-02-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.5296,
+     "units": 34.4125,
+     "transfer": ""
+    },
+    {
+     "date": "2025-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 25.6251,
+     "units": 5.8536,
+     "transfer": ""
+    },
+    {
+     "date": "2025-03-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.1407,
+     "units": 2.3118,
+     "transfer": ""
+    },
+    {
+     "date": "2025-03-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.3647,
+     "units": 34.8075,
+     "transfer": ""
+    },
+    {
+     "date": "2025-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 25.5479,
+     "units": 5.8713,
+     "transfer": ""
+    },
+    {
+     "date": "2025-04-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.1825,
+     "units": 2.3109,
+     "transfer": ""
+    },
+    {
+     "date": "2025-04-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.0956,
+     "units": 35.4721,
+     "transfer": ""
+    },
+    {
+     "date": "2025-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 25.2128,
+     "units": 5.9494,
+     "transfer": ""
+    },
+    {
+     "date": "2025-05-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.1734,
+     "units": 2.3111,
+     "transfer": ""
+    },
+    {
+     "date": "2025-05-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.2075,
+     "units": 35.1927,
+     "transfer": ""
+    },
+    {
+     "date": "2025-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 25.5501,
+     "units": 5.8708,
+     "transfer": ""
+    },
+    {
+     "date": "2025-06-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.432,
+     "units": 2.3056,
+     "transfer": ""
+    },
+    {
+     "date": "2025-06-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.2754,
+     "units": 35.0253,
+     "transfer": ""
+    },
+    {
+     "date": "2025-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 23.6001,
+     "units": 6.3559,
+     "transfer": ""
+    },
+    {
+     "date": "2025-07-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.6343,
+     "units": 2.3013,
+     "transfer": ""
+    },
+    {
+     "date": "2025-07-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.8965,
+     "units": 33.5649,
+     "transfer": ""
+    },
+    {
+     "date": "2025-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 22.9099,
+     "units": 6.5474,
+     "transfer": ""
+    },
+    {
+     "date": "2025-08-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.7694,
+     "units": 2.2984,
+     "transfer": ""
+    },
+    {
+     "date": "2025-08-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.375,
+     "units": 34.7826,
+     "transfer": ""
+    },
+    {
+     "date": "2025-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.6587,
+     "units": 6.9256,
+     "transfer": ""
+    },
+    {
+     "date": "2025-09-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 108.7844,
+     "units": 2.2981,
+     "transfer": ""
+    },
+    {
+     "date": "2025-09-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.9608,
+     "units": 35.8146,
+     "transfer": ""
+    },
+    {
+     "date": "2025-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.174,
+     "units": 7.0842,
+     "transfer": "2025-10-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-10-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 109.628,
+     "units": 2.2804,
+     "transfer": "2025-10-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-10-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.5676,
+     "units": 36.8525,
+     "transfer": "2025-10-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-11-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.1848,
+     "units": 7.0805,
+     "transfer": "2025-11-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-11-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 110.4832,
+     "units": 2.2628,
+     "transfer": "2025-11-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-11-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.6493,
+     "units": 36.6319,
+     "transfer": "2025-11-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-12-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 21.4883,
+     "units": 6.9805,
+     "transfer": "2025-12-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-12-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 110.7701,
+     "units": 2.2569,
+     "transfer": "2025-12-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2025-12-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.5398,
+     "units": 34.3884,
+     "transfer": "2025-12-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.8233,
+     "units": 7.2035,
+     "transfer": "2026-01-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-01-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 110.7281,
+     "units": 2.2578,
+     "transfer": "2026-01-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-01-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.4407,
+     "units": 34.6244,
+     "transfer": "2026-01-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 20.9219,
+     "units": 7.1695,
+     "transfer": "2026-02-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-02-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 111.7002,
+     "units": 2.2381,
+     "transfer": "2026-02-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-02-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.924,
+     "units": 35.9092,
+     "transfer": "2026-02-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 18.9162,
+     "units": 7.9297,
+     "transfer": "2026-03-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-03-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 112.1408,
+     "units": 2.2293,
+     "transfer": "2026-03-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-03-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 13.8266,
+     "units": 36.1622,
+     "transfer": "2026-03-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 18.1989,
+     "units": 8.2423,
+     "transfer": "2026-04-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-04-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 112.5956,
+     "units": 2.2203,
+     "transfer": "2026-04-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-04-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.1013,
+     "units": 35.4577,
+     "transfer": "2026-04-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 19.9468,
+     "units": 7.52,
+     "transfer": "2026-05-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-05-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 112.7745,
+     "units": 2.2168,
+     "transfer": "2026-05-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-05-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 14.4506,
+     "units": 34.6006,
+     "transfer": "2026-05-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 19.5181,
+     "units": 7.6852,
+     "transfer": "2026-06-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-06-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 113.7971,
+     "units": 2.1969,
+     "transfer": "2026-06-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-06-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 15.5768,
+     "units": 32.099,
+     "transfer": "2026-06-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 19.0684,
+     "units": 7.8664,
+     "transfer": "2026-07-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-07-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 113.8545,
+     "units": 2.1958,
+     "transfer": "2026-07-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-07-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.3307,
+     "units": 30.6172,
+     "transfer": "2026-07-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 18.4233,
+     "units": 8.1419,
+     "transfer": "2026-08-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-08-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 114.1524,
+     "units": 2.1901,
+     "transfer": "2026-08-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-08-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.5263,
+     "units": 30.2548,
+     "transfer": "2026-08-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 16.8798,
+     "units": 8.8864,
+     "transfer": "2026-09-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-09-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 114.5816,
+     "units": 2.1819,
+     "transfer": "2026-09-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-09-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.4418,
+     "units": 30.4103,
+     "transfer": "2026-09-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 150.0,
+     "fee": 0.0,
+     "nav": 16.623,
+     "units": 9.0236,
+     "transfer": "2026-10-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-10-05",
+     "fund": "korko",
+     "kind": "Merkintä",
+     "amount": 250.0,
+     "fee": 0.0,
+     "nav": 114.7341,
+     "units": 2.179,
+     "transfer": "2026-10-03-kuusikko-noora-01"
+    },
+    {
+     "date": "2026-10-05",
+     "fund": "maailma",
+     "kind": "Merkintä",
+     "amount": 500.0,
+     "fee": 0.0,
+     "nav": 16.3452,
+     "units": 30.59,
+     "transfer": "2026-10-03-kuusikko-noora-01"
+    }
+   ],
+   "holdings": [
+    {
+     "fund": "maailma",
+     "units": 1555.1231,
+     "nav": 16.2727,
+     "nav_date": "2026-10-14",
+     "value": 25306.05,
+     "cost": 23000.0,
+     "gain": 2306.05
+    },
+    {
+     "fund": "amerikka",
+     "units": 328.6726,
+     "nav": 16.6594,
+     "nav_date": "2026-10-14",
+     "value": 5475.49,
+     "cost": 6900.0,
+     "gain": -1424.51
+    },
+    {
+     "fund": "korko",
+     "units": 107.3248,
+     "nav": 114.8983,
+     "nav_date": "2026-10-14",
+     "value": 12331.44,
+     "cost": 11500.0,
+     "gain": 831.44
+    }
+   ],
+   "reports": [
+    {
+     "id": "KR-2025-noora-maailma",
+     "year": 2025,
+     "published": "2026-02-16",
+     "fund": "maailma",
+     "average_value": 14676.13,
+     "lines": [
+      {
+       "label": "Rahaston juoksevat kulut",
+       "pct": 0.25,
+       "eur": 36.69
+      },
+      {
+       "label": "Rahaston kaupankäyntikulut",
+       "pct": 0.02,
+       "eur": 2.94
+      },
+      {
+       "label": "Merkintä- ja lunastuspalkkiot",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kanerva Investin palvelumaksut",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kolmansien osapuolten kannustimet",
+       "pct": null,
+       "eur": 0.0
+      }
+     ],
+     "total_eur": 39.63,
+     "total_pct": 0.27
+    },
+    {
+     "id": "KR-2025-noora-amerikka",
+     "year": 2025,
+     "published": "2026-02-16",
+     "fund": "amerikka",
+     "average_value": 4958.26,
+     "lines": [
+      {
+       "label": "Rahaston juoksevat kulut",
+       "pct": 0.45,
+       "eur": 22.31
+      },
+      {
+       "label": "Rahaston kaupankäyntikulut",
+       "pct": 0.03,
+       "eur": 1.49
+      },
+      {
+       "label": "Merkintä- ja lunastuspalkkiot",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kanerva Investin palvelumaksut",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kolmansien osapuolten kannustimet",
+       "pct": null,
+       "eur": 0.0
+      }
+     ],
+     "total_eur": 23.8,
+     "total_pct": 0.48
+    },
+    {
+     "id": "KR-2025-noora-korko",
+     "year": 2025,
+     "published": "2026-02-16",
+     "fund": "korko",
+     "average_value": 7905.36,
+     "lines": [
+      {
+       "label": "Rahaston juoksevat kulut",
+       "pct": 0.15,
+       "eur": 11.86
+      },
+      {
+       "label": "Rahaston kaupankäyntikulut",
+       "pct": 0.04,
+       "eur": 3.16
+      },
+      {
+       "label": "Merkintä- ja lunastuspalkkiot",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kanerva Investin palvelumaksut",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kolmansien osapuolten kannustimet",
+       "pct": null,
+       "eur": 0.0
+      }
+     ],
+     "total_eur": 15.02,
+     "total_pct": 0.19
+    }
+   ],
+   "value": 43112.98
+  },
+  "daniel": {
+   "owner": "Daniel Brooks",
+   "reference": "6620 77125",
+   "paid_from": "FI20 7939 0070 2144 18",
+   "monthly": {
+    "amerikka": 300.0
+   },
+   "trades": [
+    {
+     "date": "2022-05-12",
+     "fund": "pohjola",
+     "kind": "Merkintä",
+     "amount": 4000.0,
+     "fee": 40.0,
+     "nav": 3.9871,
+     "units": 993.2031,
+     "transfer": ""
+    },
+    {
+     "date": "2024-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.4138,
+     "units": 14.6959,
+     "transfer": ""
+    },
+    {
+     "date": "2024-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.84,
+     "units": 13.7363,
+     "transfer": ""
+    },
+    {
+     "date": "2024-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.8944,
+     "units": 14.3579,
+     "transfer": ""
+    },
+    {
+     "date": "2024-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.1267,
+     "units": 14.9056,
+     "transfer": ""
+    },
+    {
+     "date": "2024-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.5805,
+     "units": 14.5769,
+     "transfer": ""
+    },
+    {
+     "date": "2024-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.3346,
+     "units": 14.0617,
+     "transfer": ""
+    },
+    {
+     "date": "2024-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.7164,
+     "units": 14.4813,
+     "transfer": ""
+    },
+    {
+     "date": "2024-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.3459,
+     "units": 14.745,
+     "transfer": ""
+    },
+    {
+     "date": "2024-11-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.4264,
+     "units": 14.6869,
+     "transfer": ""
+    },
+    {
+     "date": "2024-12-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 22.5034,
+     "units": 13.3313,
+     "transfer": ""
+    },
+    {
+     "date": "2025-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 24.0496,
+     "units": 12.4742,
+     "transfer": ""
+    },
+    {
+     "date": "2025-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 23.8629,
+     "units": 12.5718,
+     "transfer": ""
+    },
+    {
+     "date": "2025-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 25.6251,
+     "units": 11.7073,
+     "transfer": ""
+    },
+    {
+     "date": "2025-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 25.5479,
+     "units": 11.7426,
+     "transfer": ""
+    },
+    {
+     "date": "2025-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 25.2128,
+     "units": 11.8987,
+     "transfer": ""
+    },
+    {
+     "date": "2025-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 25.5501,
+     "units": 11.7416,
+     "transfer": ""
+    },
+    {
+     "date": "2025-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 23.6001,
+     "units": 12.7118,
+     "transfer": ""
+    },
+    {
+     "date": "2025-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 22.9099,
+     "units": 13.0948,
+     "transfer": ""
+    },
+    {
+     "date": "2025-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.6587,
+     "units": 13.8512,
+     "transfer": ""
+    },
+    {
+     "date": "2025-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.174,
+     "units": 14.1683,
+     "transfer": "2025-10-03-saarni-daniel-02"
+    },
+    {
+     "date": "2025-11-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.1848,
+     "units": 14.1611,
+     "transfer": "2025-11-03-saarni-daniel-01"
+    },
+    {
+     "date": "2025-12-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 21.4883,
+     "units": 13.9611,
+     "transfer": "2025-12-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-01-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.8233,
+     "units": 14.4069,
+     "transfer": "2026-01-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-02-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 20.9219,
+     "units": 14.339,
+     "transfer": "2026-02-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-03-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 18.9162,
+     "units": 15.8594,
+     "transfer": "2026-03-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-04-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 18.1989,
+     "units": 16.4845,
+     "transfer": "2026-04-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-05-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 19.9468,
+     "units": 15.04,
+     "transfer": "2026-05-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-06-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 19.5181,
+     "units": 15.3703,
+     "transfer": "2026-06-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-07-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 19.0684,
+     "units": 15.7328,
+     "transfer": "2026-07-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-08-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 18.4233,
+     "units": 16.2837,
+     "transfer": "2026-08-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-09-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 16.8798,
+     "units": 17.7727,
+     "transfer": "2026-09-03-saarni-daniel-01"
+    },
+    {
+     "date": "2026-10-05",
+     "fund": "amerikka",
+     "kind": "Merkintä",
+     "amount": 300.0,
+     "fee": 0.0,
+     "nav": 16.623,
+     "units": 18.0473,
+     "transfer": "2026-10-03-saarni-daniel-01"
+    }
+   ],
+   "holdings": [
+    {
+     "fund": "amerikka",
+     "units": 456.9999,
+     "nav": 16.6594,
+     "nav_date": "2026-10-14",
+     "value": 7613.34,
+     "cost": 9600.0,
+     "gain": -1986.66
+    },
+    {
+     "fund": "pohjola",
+     "units": 993.2031,
+     "nav": 8.3283,
+     "nav_date": "2026-10-14",
+     "value": 8271.69,
+     "cost": 4000.0,
+     "gain": 4271.69
+    }
+   ],
+   "reports": [
+    {
+     "id": "KR-2025-daniel-amerikka",
+     "year": 2025,
+     "published": "2026-02-16",
+     "fund": "amerikka",
+     "average_value": 5210.68,
+     "lines": [
+      {
+       "label": "Rahaston juoksevat kulut",
+       "pct": 0.45,
+       "eur": 23.45
+      },
+      {
+       "label": "Rahaston kaupankäyntikulut",
+       "pct": 0.03,
+       "eur": 1.56
+      },
+      {
+       "label": "Merkintä- ja lunastuspalkkiot",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kanerva Investin palvelumaksut",
+       "pct": null,
+       "eur": 0.0
+      },
+      {
+       "label": "Kolmansien osapuolten kannustimet",
+       "pct": null,
+       "eur": 0.0
+      }
+     ],
+     "total_eur": 25.01,
+     "total_pct": 0.48
+    }
+   ],
+   "value": 15885.03
+  }
+ },
+ "nav_history": {
+  "maailma": {
+   "2022-05-05": 11.8204,
+   "2022-05-12": 11.8204,
+   "2022-06-05": 12.2814,
+   "2022-07-05": 12.5361,
+   "2022-08-05": 13.1745,
+   "2022-09-05": 13.7464,
+   "2022-10-05": 13.6756,
+   "2022-11-05": 13.7469,
+   "2022-12-05": 14.5836,
+   "2023-01-05": 14.9025,
+   "2023-02-05": 15.4718,
+   "2023-03-05": 16.2912,
+   "2023-04-05": 15.9279,
+   "2023-05-05": 15.5408,
+   "2023-06-05": 16.0898,
+   "2023-07-05": 15.5842,
+   "2023-08-05": 15.1839,
+   "2023-09-05": 15.036,
+   "2023-10-05": 15.1285,
+   "2023-11-05": 15.5078,
+   "2023-12-05": 15.1338,
+   "2024-01-05": 15.4632,
+   "2024-02-05": 15.6162,
+   "2024-03-05": 15.2821,
+   "2024-04-05": 14.3348,
+   "2024-05-05": 15.1424,
+   "2024-06-05": 14.6658,
+   "2024-07-05": 14.2358,
+   "2024-08-05": 13.9052,
+   "2024-09-05": 13.0006,
+   "2024-10-05": 13.2904,
+   "2024-11-05": 14.1382,
+   "2024-12-05": 14.5709,
+   "2025-01-05": 14.815,
+   "2025-02-05": 14.5296,
+   "2025-03-05": 14.3647,
+   "2025-04-05": 14.0956,
+   "2025-05-05": 14.2075,
+   "2025-06-05": 14.2754,
+   "2025-07-05": 14.8965,
+   "2025-08-05": 14.375,
+   "2025-09-05": 13.9608,
+   "2025-10-05": 13.5676,
+   "2025-11-05": 13.6493,
+   "2025-12-05": 14.5398,
+   "2026-01-05": 14.4407,
+   "2026-02-05": 13.924,
+   "2026-03-05": 13.8266,
+   "2026-04-05": 14.1013,
+   "2026-05-05": 14.4506,
+   "2026-06-05": 15.5768,
+   "2026-07-05": 16.3307,
+   "2026-08-05": 16.5263,
+   "2026-09-05": 16.4418,
+   "2026-10-05": 16.3452,
+   "2026-10-14": 16.2727
+  },
+  "amerikka": {
+   "2022-05-05": 19.4517,
+   "2022-05-12": 19.4517,
+   "2022-06-05": 18.8466,
+   "2022-07-05": 18.8421,
+   "2022-08-05": 19.2574,
+   "2022-09-05": 19.7011,
+   "2022-10-05": 20.6658,
+   "2022-11-05": 20.7163,
+   "2022-12-05": 20.3715,
+   "2023-01-05": 18.4514,
+   "2023-02-05": 19.3366,
+   "2023-03-05": 20.1449,
+   "2023-04-05": 20.8168,
+   "2023-05-05": 21.7504,
+   "2023-06-05": 20.8662,
+   "2023-07-05": 22.157,
+   "2023-08-05": 21.9304,
+   "2023-09-05": 21.6913,
+   "2023-10-05": 21.3268,
+   "2023-11-05": 20.5752,
+   "2023-12-05": 21.3107,
+   "2024-01-05": 22.3892,
+   "2024-02-05": 21.5461,
+   "2024-03-05": 20.4138,
+   "2024-04-05": 21.84,
+   "2024-05-05": 20.8944,
+   "2024-06-05": 20.1267,
+   "2024-07-05": 20.5805,
+   "2024-08-05": 21.3346,
+   "2024-09-05": 20.7164,
+   "2024-10-05": 20.3459,
+   "2024-11-05": 20.4264,
+   "2024-12-05": 22.5034,
+   "2025-01-05": 24.0496,
+   "2025-02-05": 23.8629,
+   "2025-03-05": 25.6251,
+   "2025-04-05": 25.5479,
+   "2025-05-05": 25.2128,
+   "2025-06-05": 25.5501,
+   "2025-07-05": 23.6001,
+   "2025-08-05": 22.9099,
+   "2025-09-05": 21.6587,
+   "2025-10-05": 21.174,
+   "2025-11-05": 21.1848,
+   "2025-12-05": 21.4883,
+   "2026-01-05": 20.8233,
+   "2026-02-05": 20.9219,
+   "2026-03-05": 18.9162,
+   "2026-04-05": 18.1989,
+   "2026-05-05": 19.9468,
+   "2026-06-05": 19.5181,
+   "2026-07-05": 19.0684,
+   "2026-08-05": 18.4233,
+   "2026-09-05": 16.8798,
+   "2026-10-05": 16.623,
+   "2026-10-14": 16.6594
+  },
+  "korko": {
+   "2022-05-05": 98.771,
+   "2022-05-12": 98.771,
+   "2022-06-05": 99.3995,
+   "2022-07-05": 99.8524,
+   "2022-08-05": 100.9587,
+   "2022-09-05": 101.1431,
+   "2022-10-05": 100.4669,
+   "2022-11-05": 100.3554,
+   "2022-12-05": 100.4828,
+   "2023-01-05": 100.004,
+   "2023-02-05": 100.2433,
+   "2023-03-05": 100.6935,
+   "2023-04-05": 101.0968,
+   "2023-05-05": 102.1308,
+   "2023-06-05": 102.7888,
+   "2023-07-05": 102.6728,
+   "2023-08-05": 103.1674,
+   "2023-09-05": 103.7674,
+   "2023-10-05": 103.9574,
+   "2023-11-05": 104.7626,
+   "2023-12-05": 105.0854,
+   "2024-01-05": 104.519,
+   "2024-02-05": 104.4941,
+   "2024-03-05": 104.5343,
+   "2024-04-05": 104.6154,
+   "2024-05-05": 105.1048,
+   "2024-06-05": 105.4582,
+   "2024-07-05": 105.8023,
+   "2024-08-05": 106.7388,
+   "2024-09-05": 107.6752,
+   "2024-10-05": 106.8255,
+   "2024-11-05": 107.041,
+   "2024-12-05": 106.9641,
+   "2025-01-05": 107.2101,
+   "2025-02-05": 107.3957,
+   "2025-03-05": 108.1407,
+   "2025-04-05": 108.1825,
+   "2025-05-05": 108.1734,
+   "2025-06-05": 108.432,
+   "2025-07-05": 108.6343,
+   "2025-08-05": 108.7694,
+   "2025-09-05": 108.7844,
+   "2025-10-05": 109.628,
+   "2025-11-05": 110.4832,
+   "2025-12-05": 110.7701,
+   "2026-01-05": 110.7281,
+   "2026-02-05": 111.7002,
+   "2026-03-05": 112.1408,
+   "2026-04-05": 112.5956,
+   "2026-05-05": 112.7745,
+   "2026-06-05": 113.7971,
+   "2026-07-05": 113.8545,
+   "2026-08-05": 114.1524,
+   "2026-09-05": 114.5816,
+   "2026-10-05": 114.7341,
+   "2026-10-14": 114.8983
+  },
+  "pohjola": {
+   "2022-05-05": 3.9871,
+   "2022-05-12": 3.9871,
+   "2022-06-05": 4.5329,
+   "2022-07-05": 4.6858,
+   "2022-08-05": 4.8562,
+   "2022-09-05": 4.3366,
+   "2022-10-05": 4.1671,
+   "2022-11-05": 4.2521,
+   "2022-12-05": 4.2958,
+   "2023-01-05": 4.4474,
+   "2023-02-05": 4.5452,
+   "2023-03-05": 4.4328,
+   "2023-04-05": 4.6624,
+   "2023-05-05": 4.5784,
+   "2023-06-05": 4.7097,
+   "2023-07-05": 4.5848,
+   "2023-08-05": 4.5497,
+   "2023-09-05": 4.5375,
+   "2023-10-05": 4.6447,
+   "2023-11-05": 4.8943,
+   "2023-12-05": 5.0141,
+   "2024-01-05": 4.7147,
+   "2024-02-05": 4.8929,
+   "2024-03-05": 5.2566,
+   "2024-04-05": 5.0521,
+   "2024-05-05": 5.3333,
+   "2024-06-05": 5.6671,
+   "2024-07-05": 5.3419,
+   "2024-08-05": 5.0304,
+   "2024-09-05": 5.2501,
+   "2024-10-05": 5.2812,
+   "2024-11-05": 5.8016,
+   "2024-12-05": 5.5308,
+   "2025-01-05": 5.6735,
+   "2025-02-05": 5.8182,
+   "2025-03-05": 5.9586,
+   "2025-04-05": 6.2122,
+   "2025-05-05": 6.5016,
+   "2025-06-05": 6.3834,
+   "2025-07-05": 5.7077,
+   "2025-08-05": 5.7836,
+   "2025-09-05": 5.8483,
+   "2025-10-05": 5.6606,
+   "2025-11-05": 5.5212,
+   "2025-12-05": 5.3607,
+   "2026-01-05": 5.4815,
+   "2026-02-05": 5.7889,
+   "2026-03-05": 6.0702,
+   "2026-04-05": 5.8754,
+   "2026-05-05": 6.1618,
+   "2026-06-05": 5.957,
+   "2026-07-05": 6.594,
+   "2026-08-05": 7.1403,
+   "2026-09-05": 7.9017,
+   "2026-10-05": 8.1869,
+   "2026-10-14": 8.3283
+  }
+ }
+}

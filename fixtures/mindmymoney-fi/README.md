@@ -18,8 +18,9 @@ household (`../mindmymoney/`) stays for regression and for a German
 household's bills.
 
 The request it answers is `docs/ongoing/MMM-0.2.0-HOUSEHOLD-REQUEST-2026-10-06.md`
-in the monorepo. This is **delivery A, bills seen**. Delivery B (the broker,
-the loan page, the pension statement) and C (paying) add to it.
+in the monorepo. **Delivery A** is the bills; **delivery B** is what the
+household owns (`evidence/broker.json`, `loan.json`, `pension.json`, built by
+`generate/household_fi/holdings.py`); C (paying) adds to it.
 
 ## ⛔ What may be seeded into a vault, and what must never be
 
@@ -59,6 +60,22 @@ Turvaranta Vakuutus, Peruskivi Eläkevakuutus, As Oy Kotikallio, Musiikkikoulu
 Sävelpolku, Siivouspalvelu Kirkas, Kanerva Invest, Yritysluettelo Nordic and the
 shops. None imitates a real Finnish bank, OmaPosti, Suomi.fi, an insurer, a
 pension company or a fund.
+
+## What they own
+
+- **Kanerva Invest**, a fund platform: Noora saves 900 € a month into three
+  funds, Daniel 300 € into one and holds a fourth from 2022. Two funds overlap
+  (a global index fund and a North America fund share seven of their top ten).
+  Three funds have a yearly **costs and charges report**; the fourth, managed
+  by another company, has none, so its cost can only be estimated from its
+  ongoing charge. Found from the monthly `KANERVA INVEST OY` transfers.
+- **The mortgage**, on Kuusikko Pankki's loan page: balance, 12-month euribor
+  plus margin, the next reset date (epoch +36 days) and each instalment split
+  into interest and principal, one for each `LAINAN LYHENNYS` row.
+- **Daniel's pension record** at Peruskivi Eläkevakuutus: the accrued monthly
+  pension and an estimate at retirement age. No balance, by design.
+
+Every fund, holding and ISIN is invented (the ISINs carry valid check digits).
 
 ## What is planted
 

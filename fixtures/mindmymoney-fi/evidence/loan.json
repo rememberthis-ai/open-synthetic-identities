@@ -1,0 +1,576 @@
+{
+ "number": "7731",
+ "label": "Asuntolaina 7731",
+ "kind": "Asuntolaina, tasaerä",
+ "lender": "Kuusikko Pankki",
+ "account": "kuusikko-joint",
+ "holders": "Noora Heikkilä / Daniel Brooks",
+ "drawn": "2021-11-20",
+ "original": 200000.0,
+ "balance": 173441.61,
+ "balance_date": "2026-09-20",
+ "payment": 896.4,
+ "payment_day": 20,
+ "reference_rate": "12 kk euribor",
+ "reference_value": 2.18,
+ "margin": 0.55,
+ "rate": 2.73,
+ "last_reset": "2025-11-20",
+ "next_reset": "2026-11-20",
+ "reset_note": "Uusi korko määräytyy koronmuutospäivän 12 kk euriborin mukaan. Tasaerälainassa maksuerä pysyy samana ja laina-aika muuttuu.",
+ "rate_history": [
+  {
+   "from": "2021-11-20",
+   "reference": 0.0,
+   "rate": 0.55
+  },
+  {
+   "from": "2022-11-20",
+   "reference": 2.832,
+   "rate": 3.382
+  },
+  {
+   "from": "2023-11-20",
+   "reference": 4.016,
+   "rate": 4.566
+  },
+  {
+   "from": "2024-11-20",
+   "reference": 2.506,
+   "rate": 3.056
+  },
+  {
+   "from": "2025-11-20",
+   "reference": 2.18,
+   "rate": 2.73
+  }
+ ],
+ "estimated_last_payment": "2048-01-20",
+ "remaining_payments": 256,
+ "collateral": "As Oy Kotikallio, osakkeet 1 201–1 268 (B 14)",
+ "floor_note": "Negatiivinen viitekorko lasketaan nollana.",
+ "schedule": [
+  {
+   "date": "2021-12-20",
+   "payment": 896.4,
+   "interest": 91.67,
+   "principal": 804.73,
+   "balance_after": 199195.27,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-01-20",
+   "payment": 896.4,
+   "interest": 91.3,
+   "principal": 805.1,
+   "balance_after": 198390.17,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-02-20",
+   "payment": 896.4,
+   "interest": 90.93,
+   "principal": 805.47,
+   "balance_after": 197584.7,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-03-20",
+   "payment": 896.4,
+   "interest": 90.56,
+   "principal": 805.84,
+   "balance_after": 196778.86,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-04-20",
+   "payment": 896.4,
+   "interest": 90.19,
+   "principal": 806.21,
+   "balance_after": 195972.65,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-05-20",
+   "payment": 896.4,
+   "interest": 89.82,
+   "principal": 806.58,
+   "balance_after": 195166.07,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-06-20",
+   "payment": 896.4,
+   "interest": 89.45,
+   "principal": 806.95,
+   "balance_after": 194359.12,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-07-20",
+   "payment": 896.4,
+   "interest": 89.08,
+   "principal": 807.32,
+   "balance_after": 193551.8,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-08-20",
+   "payment": 896.4,
+   "interest": 88.71,
+   "principal": 807.69,
+   "balance_after": 192744.11,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-09-20",
+   "payment": 896.4,
+   "interest": 88.34,
+   "principal": 808.06,
+   "balance_after": 191936.05,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-10-20",
+   "payment": 896.4,
+   "interest": 87.97,
+   "principal": 808.43,
+   "balance_after": 191127.62,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-11-20",
+   "payment": 896.4,
+   "interest": 87.6,
+   "principal": 808.8,
+   "balance_after": 190318.82,
+   "rate": 0.55,
+   "row": ""
+  },
+  {
+   "date": "2022-12-20",
+   "payment": 896.4,
+   "interest": 536.38,
+   "principal": 360.02,
+   "balance_after": 189958.8,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-01-20",
+   "payment": 896.4,
+   "interest": 535.37,
+   "principal": 361.03,
+   "balance_after": 189597.77,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-02-20",
+   "payment": 896.4,
+   "interest": 534.35,
+   "principal": 362.05,
+   "balance_after": 189235.72,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-03-20",
+   "payment": 896.4,
+   "interest": 533.33,
+   "principal": 363.07,
+   "balance_after": 188872.65,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-04-20",
+   "payment": 896.4,
+   "interest": 532.31,
+   "principal": 364.09,
+   "balance_after": 188508.56,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-05-20",
+   "payment": 896.4,
+   "interest": 531.28,
+   "principal": 365.12,
+   "balance_after": 188143.44,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-06-20",
+   "payment": 896.4,
+   "interest": 530.25,
+   "principal": 366.15,
+   "balance_after": 187777.29,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-07-20",
+   "payment": 896.4,
+   "interest": 529.22,
+   "principal": 367.18,
+   "balance_after": 187410.11,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-08-20",
+   "payment": 896.4,
+   "interest": 528.18,
+   "principal": 368.22,
+   "balance_after": 187041.89,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-09-20",
+   "payment": 896.4,
+   "interest": 527.15,
+   "principal": 369.25,
+   "balance_after": 186672.64,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-10-20",
+   "payment": 896.4,
+   "interest": 526.11,
+   "principal": 370.29,
+   "balance_after": 186302.35,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-11-20",
+   "payment": 896.4,
+   "interest": 525.06,
+   "principal": 371.34,
+   "balance_after": 185931.01,
+   "rate": 3.382,
+   "row": ""
+  },
+  {
+   "date": "2023-12-20",
+   "payment": 896.4,
+   "interest": 707.47,
+   "principal": 188.93,
+   "balance_after": 185742.08,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-01-20",
+   "payment": 896.4,
+   "interest": 706.75,
+   "principal": 189.65,
+   "balance_after": 185552.43,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-02-20",
+   "payment": 896.4,
+   "interest": 706.03,
+   "principal": 190.37,
+   "balance_after": 185362.06,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-03-20",
+   "payment": 896.4,
+   "interest": 705.3,
+   "principal": 191.1,
+   "balance_after": 185170.96,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-04-20",
+   "payment": 896.4,
+   "interest": 704.58,
+   "principal": 191.82,
+   "balance_after": 184979.14,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-05-20",
+   "payment": 896.4,
+   "interest": 703.85,
+   "principal": 192.55,
+   "balance_after": 184786.59,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-06-20",
+   "payment": 896.4,
+   "interest": 703.11,
+   "principal": 193.29,
+   "balance_after": 184593.3,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-07-20",
+   "payment": 896.4,
+   "interest": 702.38,
+   "principal": 194.02,
+   "balance_after": 184399.28,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-08-20",
+   "payment": 896.4,
+   "interest": 701.64,
+   "principal": 194.76,
+   "balance_after": 184204.52,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-09-20",
+   "payment": 896.4,
+   "interest": 700.9,
+   "principal": 195.5,
+   "balance_after": 184009.02,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-10-20",
+   "payment": 896.4,
+   "interest": 700.15,
+   "principal": 196.25,
+   "balance_after": 183812.77,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-11-20",
+   "payment": 896.4,
+   "interest": 699.41,
+   "principal": 196.99,
+   "balance_after": 183615.78,
+   "rate": 4.566,
+   "row": ""
+  },
+  {
+   "date": "2024-12-20",
+   "payment": 896.4,
+   "interest": 467.61,
+   "principal": 428.79,
+   "balance_after": 183186.99,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-01-20",
+   "payment": 896.4,
+   "interest": 466.52,
+   "principal": 429.88,
+   "balance_after": 182757.11,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-02-20",
+   "payment": 896.4,
+   "interest": 465.42,
+   "principal": 430.98,
+   "balance_after": 182326.13,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-03-20",
+   "payment": 896.4,
+   "interest": 464.32,
+   "principal": 432.08,
+   "balance_after": 181894.05,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-04-20",
+   "payment": 896.4,
+   "interest": 463.22,
+   "principal": 433.18,
+   "balance_after": 181460.87,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-05-20",
+   "payment": 896.4,
+   "interest": 462.12,
+   "principal": 434.28,
+   "balance_after": 181026.59,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-06-20",
+   "payment": 896.4,
+   "interest": 461.01,
+   "principal": 435.39,
+   "balance_after": 180591.2,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-07-20",
+   "payment": 896.4,
+   "interest": 459.91,
+   "principal": 436.49,
+   "balance_after": 180154.71,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-08-20",
+   "payment": 896.4,
+   "interest": 458.79,
+   "principal": 437.61,
+   "balance_after": 179717.1,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-09-20",
+   "payment": 896.4,
+   "interest": 457.68,
+   "principal": 438.72,
+   "balance_after": 179278.38,
+   "rate": 3.056,
+   "row": ""
+  },
+  {
+   "date": "2025-10-20",
+   "payment": 896.4,
+   "interest": 456.56,
+   "principal": 439.84,
+   "balance_after": 178838.54,
+   "rate": 3.056,
+   "row": "2025-10-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2025-11-20",
+   "payment": 896.4,
+   "interest": 455.44,
+   "principal": 440.96,
+   "balance_after": 178397.58,
+   "rate": 3.056,
+   "row": "2025-11-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2025-12-20",
+   "payment": 896.4,
+   "interest": 405.85,
+   "principal": 490.55,
+   "balance_after": 177907.03,
+   "rate": 2.73,
+   "row": "2025-12-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-01-20",
+   "payment": 896.4,
+   "interest": 404.74,
+   "principal": 491.66,
+   "balance_after": 177415.37,
+   "rate": 2.73,
+   "row": "2026-01-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-02-20",
+   "payment": 896.4,
+   "interest": 403.62,
+   "principal": 492.78,
+   "balance_after": 176922.59,
+   "rate": 2.73,
+   "row": "2026-02-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-03-20",
+   "payment": 896.4,
+   "interest": 402.5,
+   "principal": 493.9,
+   "balance_after": 176428.69,
+   "rate": 2.73,
+   "row": "2026-03-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-04-20",
+   "payment": 896.4,
+   "interest": 401.38,
+   "principal": 495.02,
+   "balance_after": 175933.67,
+   "rate": 2.73,
+   "row": "2026-04-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-05-20",
+   "payment": 896.4,
+   "interest": 400.25,
+   "principal": 496.15,
+   "balance_after": 175437.52,
+   "rate": 2.73,
+   "row": "2026-05-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-06-20",
+   "payment": 896.4,
+   "interest": 399.12,
+   "principal": 497.28,
+   "balance_after": 174940.24,
+   "rate": 2.73,
+   "row": "2026-06-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-07-20",
+   "payment": 896.4,
+   "interest": 397.99,
+   "principal": 498.41,
+   "balance_after": 174441.83,
+   "rate": 2.73,
+   "row": "2026-07-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-08-20",
+   "payment": 896.4,
+   "interest": 396.86,
+   "principal": 499.54,
+   "balance_after": 173942.29,
+   "rate": 2.73,
+   "row": "2026-08-20-kuusikko-joint-01"
+  },
+  {
+   "date": "2026-09-20",
+   "payment": 896.4,
+   "interest": 395.72,
+   "principal": 500.68,
+   "balance_after": 173441.61,
+   "rate": 2.73,
+   "row": "2026-09-20-kuusikko-joint-01"
+  }
+ ]
+}

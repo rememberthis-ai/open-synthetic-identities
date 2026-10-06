@@ -1,10 +1,13 @@
 PLANTED.md
 evidence/bills.json
+evidence/broker.json
 evidence/clock.json
 evidence/einvoices.json
 evidence/ledger.json
+evidence/loan.json
 evidence/mail.json
 evidence/mailbox.json
+evidence/pension.json
 evidence/scheduled.json
 statements/kuusikko-joint-2025-10-01--2026-10-15.csv
 statements/kuusikko-joint-2025-10.csv

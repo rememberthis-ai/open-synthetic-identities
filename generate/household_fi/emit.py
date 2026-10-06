@@ -145,11 +145,22 @@ def write_evidence(out: Path, ev: dict) -> list[Path]:
     return made
 
 
+def write_owned(out: Path, owned: dict) -> list[Path]:
+    """Delivery B's records: the broker, the loan, the pension statement."""
+    d = out / "evidence"
+    made = []
+    for name in ("broker", "loan", "pension"):
+        p = d / f"{name}.json"
+        p.write_text(json.dumps(owned[name], indent=1, ensure_ascii=False) + "\n")
+        made.append(p)
+    return made
+
+
 def _eur(v: float) -> str:
     return f"{v:,.2f} €".replace(",", " ").replace(".", ",")
 
 
-def write_planted(out: Path, checks: dict, bills: list) -> Path:
+def write_planted(out: Path, checks: dict, bills: list, owned: dict | None = None) -> Path:
     by = {b["id"]: b for b in bills}
 
     def line(bid):
@@ -260,6 +271,8 @@ def write_planted(out: Path, checks: dict, bills: list) -> Path:
         fees["note"],
         "",
     ]
+    if owned:
+        L += _planted_owned(owned)
     p = out / "PLANTED.md"
     p.write_text("\n".join(L))
     return p
@@ -270,3 +283,48 @@ def write_manifest(out: Path, paths: list[Path]) -> Path:
     p = out / "MANIFEST.txt"
     p.write_text("\n".join(rel) + "\n")
     return p
+
+
+FUND_NAMES = {"maailma": "Kanerva Maailma Indeksi A", "amerikka": "Kanerva Pohjois-Amerikka Osake A",
+              "korko": "Kanerva Lyhyt Korko A", "pohjola": "Lumme Pohjola Pienyhtiöt B"}
+
+
+def _planted_owned(o: dict) -> list[str]:
+    ov, ln, pe, est = o["overlap"], o["loan"], o["pension"], o["estimate_basis"]
+    L = ["## What they own (delivery B)", "",
+         "Each is found from the rows: the monthly `KANERVA INVEST OY` transfers (Noora's",
+         "reference ends `…1`, Daniel's `…2`), the `LAINAN LYHENNYS` rows from the joint",
+         "account, and Daniel's YEL payments to Peruskivi.", "",
+         "### The broker, Kanerva Invest", "",
+         "| owner | fund | units | value at epoch −1 | costs report " + str(2025) + " |",
+         "|---|---|---|---|---|"]
+    for who, pf in o["portfolios"].items():
+        reps = {r[0]: r for r in pf["reports"]}
+        for fund, units, value in pf["holdings"]:
+            r = reps.get(fund)
+            rep = (f"{_eur(r[1])} ({str(r[2]).replace('.', ',')} %)" if r
+                   else "**none** — the labelled estimate")
+            L.append(f"| {pf['owner']} | {FUND_NAMES[fund]} | {units} | {_eur(value)} | {rep} |")
+    L += ["",
+          f"**Two funds overlap.** {FUND_NAMES['maailma']} and {FUND_NAMES['amerikka']} "
+          f"share {len(ov['shared'])} of their top ten",
+          f"({', '.join(ov['shared'])}): {str(ov['in_maailma_pct']).replace('.', ',')} % of the global fund "
+          f"and {str(ov['in_amerikka_pct']).replace('.', ',')} % of the North America fund,",
+          f"and {str(ov['north_america_in_maailma_pct']).replace('.', ',')} % of the global fund is North America. "
+          "Noora holds both; Daniel holds the North America fund too.", "",
+          f"**No costs report:** {FUND_NAMES[o['no_report']]}, Daniel's, from another fund manager. "
+          f"Its fund page gives the ongoing charge from the key information document, "
+          f"{str(est['ongoing_pct']).replace('.', ',')} %; on {_eur(est['value'])} that is about "
+          f"{_eur(est['yearly_eur'])} a year, which the app must show as an **estimate**.", "",
+          "### The loan, on Kuusikko Pankki's loan page", "",
+          f"Balance {_eur(ln['balance'])}, {ln['reference']} + margin "
+          f"{str(ln['margin']).replace('.', ',')} % = {str(ln['rate']).replace('.', ',')} %, "
+          f"payment 896,40 € on the 20th (constant; the term moves). **Next rate reset "
+          f"epoch {ln['next_reset_days']:+d} days** ({ln['next_reset']}). At today's rate the last "
+          f"payment is {ln['estimated_last_payment']}.", "",
+          "### The pension, at Peruskivi Eläkevakuutus", "",
+          f"Daniel's earnings-related pension record (työeläkeote): accrued "
+          f"{_eur(pe['accrued_monthly'])} a month to the end of 2025, estimated "
+          f"{_eur(pe['estimate_monthly'])} a month at {pe['retirement_age']}.",
+          "**There is no balance**: it must not appear in a net-worth total.", ""]
+    return L

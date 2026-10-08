@@ -44,8 +44,10 @@ HOUSEHOLD = {
         "noora": {"name": "Noora Heikkilä", "role": "adult",
                   "about": "Finnish, a structural engineer, paid monthly"},
         "daniel": {"name": "Daniel Brooks", "role": "adult",
-                   "about": "British, a freelance illustrator, so he pays his "
-                            "own earnings-related pension insurance (YEL)"},
+                   "about": "British, an illustrator with his own one-person "
+                            "company, Brooks Illustration Oy, which pays him a "
+                            "salary; he pays his own earnings-related pension "
+                            "insurance (YEL)"},
         "aino": {"name": "Aino Heikkilä-Brooks", "role": "child",
                  "about": "four, at daycare"},
     },
@@ -104,6 +106,23 @@ def ref_ok(ref: str) -> bool:
     return (10 - total % 10) % 10 == check
 
 
+def ytunnus(base: str) -> str:
+    """A Finnish business ID (Y-tunnus): seven digits, a dash and a check digit
+    from weights 7-9-10-5-8-4-2, remainder 0 -> 0, 1 is never issued."""
+    assert len(base) == 7 and base.isdigit()
+    r = sum(int(c) * w for c, w in zip(base, (7, 9, 10, 5, 8, 4, 2))) % 11
+    assert r != 1, "remainder 1: no valid Y-tunnus for this base"
+    return f"{base}-{0 if r == 0 else 11 - r}"
+
+
+def ytunnus_ok(v: str) -> bool:
+    base, _, check = v.partition("-")
+    if len(base) != 7 or not base.isdigit() or len(check) != 1:
+        return False
+    r = sum(int(c) * w for c, w in zip(base, (7, 9, 10, 5, 8, 4, 2))) % 11
+    return r != 1 and int(check) == (0 if r == 0 else 11 - r)
+
+
 def ref_rf(base: str) -> str:
     """An international creditor reference (RF), ISO 11649."""
     num = "".join(str(int(c, 36)) for c in base + "RF00")
@@ -142,6 +161,50 @@ ACCOUNTS = {
         "opening": 4854.92,
         "receives_einvoices": False,
     },
+    "saarni-yritys": {
+        "label": "Saarni Pankki, yritystili",
+        "bank": "Saarni Pankki",
+        "holder": "Brooks Illustration Oy",
+        "iban": iban_fi("79390070488127"),
+        "dialect": "saarni",
+        "opening": 9806.15,
+        "receives_einvoices": False,
+    },
+}
+
+# ------------------------------------------------------- the second set of books
+
+COMPANY = {
+    "name": "Brooks Illustration Oy",
+    "ytunnus": ytunnus("3412278"),
+    "owner": "daniel",
+    "account": "saarni-yritys",
+    "card": "Yrityskortti **** 5521",
+    "salary_net": 2000.00,
+    "salary_day": 25,
+    "payroll_tax": 590.00,
+    "dividend": {"date": "2026-05-22", "gross": 4000.00, "withholding": 300.00,
+                 "for_year": 2025},
+    "vat_rate": 25.5,
+    "vat_before_window": 1012.40,
+    "what": "Daniel's one-person illustration company. Its clients pay its account; "
+            "it pays him a salary and, once a year, a dividend; it pays its own VAT "
+            "and payroll taxes. The household's second economy, a second set of "
+            "books in Mind My Money 0.2.0 (B7 in docs/plans/MIND-MY-MONEY-0.2.0.md).",
+}
+
+TAX = {"name": "Kantovirasto", "iban": iban_fi("22100055004471"),
+       "ref": ref_fi("770034122781"),
+       "what": "the tax account the company pays into, one reference for every tax. "
+               "Invented, standing in for the real tax administration the way "
+               "Berlin's Medienabgabe Zentralstelle stands in for the real "
+               "broadcasting fee: no real authority is named in a statement row."}
+
+COMPANY_SUPPLIERS = {
+    "kirjuri": ("TILITOIMISTO KIRJURI OY", iban_fi("15330000771032"), ref_fi("88041227"),
+                89.00, 15),
+    "louhi": ("TYOTILA LOUHI", "", "", 149.00, 1),
+    "piirtopilvi": ("PIIRTOPILVI PRO", "", "", 23.99, 6),
 }
 
 LOAN = {

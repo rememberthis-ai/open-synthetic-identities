@@ -168,6 +168,92 @@ def check_owned(ev: Path, ledger: list, epoch: str, planted: str) -> None:
     note("pension checked")
 
 
+def ytunnus_ok(v: str) -> bool:
+    base, _, check = v.partition("-")
+    if len(base) != 7 or not base.isdigit() or len(check) != 1 or not check.isdigit():
+        return False
+    r = sum(int(c) * w for c, w in zip(base, (7, 9, 10, 5, 8, 4, 2))) % 11
+    return r != 1 and int(check) == (0 if r == 0 else 11 - r)
+
+
+def check_company(ev: Path, ledger: list, exports: dict, epoch: str, planted: str) -> None:
+    """The second set of books: Daniel's company, read from the written files."""
+    path = ev / "company.json"
+    if not path.exists():
+        fail("no evidence/company.json")
+        return
+    c = json.loads(path.read_text())
+    co = c["company"]
+    if not ytunnus_ok(co["ytunnus"]):
+        fail(f"company: Y-tunnus {co['ytunnus']} has a wrong check digit")
+    note("company: Y-tunnus checked")
+    firm = co["account"]
+    sets = c["sets"]
+    if sets.get(co["name"]) != [firm] or firm in sets.get("household", []):
+        fail("company: the company account is not alone in its own set")
+    if set(sets["household"]) | {firm} != set(exports):
+        fail("company: the two sets do not cover every account with an export")
+    by = {t["id"]: t for t in ledger}
+    hh = sets["household"]
+    named = [t for t in ledger if t["account"] in hh and co["ytunnus"] in t["message"]]
+    if not named:
+        fail("company: no household row names the Y-tunnus, so a round cannot find it")
+    note("company: household rows naming the Y-tunnus", len(named))
+    mail = json.loads((ev / "mail.json").read_text())
+    if not any(co["ytunnus"] in m["body"] for m in mail["messages"]):
+        fail("company: no mail names the Y-tunnus")
+
+    def in_export(t):
+        return any(r["date"] == t["date"] and abs(r["amount"] - t["amount"]) < 0.005
+                   and r["counterparty"] == t["counterparty"] for r in exports[t["account"]])
+
+    for x in c["crossings"]:
+        t = by.get(x["row"])
+        if not t or not in_export(t):
+            fail(f"company: crossing {x['row']} is not in its account's export")
+            continue
+        paid_by = "company" if t["account"] == firm else "household"
+        if x["paid_by"] != paid_by or x["belongs_to"] == paid_by:
+            fail(f"company: crossing {x['row']} does not cross")
+        if x["row"] not in planted:
+            fail(f"PLANTED.md does not name crossing {x['row']}")
+        note("company: crossings")
+    ways = {(x["paid_by"], x["obvious"]) for x in c["crossings"]}
+    for want in (("household", True), ("company", True)):
+        if want not in ways:
+            fail(f"company: no obvious crossing paid by the {want[0]}")
+    if not any(not x["obvious"] for x in c["crossings"]):
+        fail("company: no crossing is left for the person to answer")
+    for b in c["between_sets"]:
+        a, h = by.get(b["company_row"]), by.get(b["household_row"])
+        if not a or not h or a["account"] != firm or h["account"] not in hh \
+                or abs(a["amount"] + h["amount"]) > 0.005 or not (in_export(a) and in_export(h)):
+            fail(f"company: {b['kind']} {b['company_row']} is not one row out and one row in")
+        note("company: between-set pairs")
+    clients = {t["counterparty"] for t in ledger if t["account"] == firm and t["amount"] > 0}
+    if any(r["counterparty"] in clients for a in hh for r in exports[a] if r["amount"] > 0):
+        fail("company: a client still pays into a household account")
+    rate = co["vat_rate"] / (100 + co["vat_rate"])
+    for v in c["vat"]:
+        if "sales_incl_vat" in v:
+            y, q = (int(x) for x in v["quarter"].split("/"))
+            months = {f"{y}-{(q - 1) * 3 + i:02d}" for i in (1, 2, 3)}
+            rows = [t for t in ledger if t["account"] == firm and t["date"][:7] in months]
+            sales = sum(t["amount"] for t in rows if t["category"] == "Company: sales")
+            costs = -sum(t["amount"] for t in rows if t["category"] == "Company: costs, VAT")
+            if abs(round(sales * rate - costs * rate, 2) - v["amount"]) > 0.011:
+                fail(f"company: VAT {v['quarter']} does not follow from the quarter's rows")
+        if v["due"] <= epoch:
+            t = by.get(v["paid_row"])
+            if not t or abs(t["amount"] + v["amount"]) > 0.005 or not in_export(t):
+                fail(f"company: VAT {v['quarter']} has no matching payment row")
+        elif v["paid_row"] or v["due"] not in planted:
+            fail(f"company: the VAT still to come ({v['quarter']}) is paid, or not in PLANTED.md")
+        note("company: VAT quarters")
+    if sum(1 for v in c["vat"] if v["due"] > epoch) != 1:
+        fail("company: expected exactly one VAT payment still to come")
+
+
 def main() -> int:
     if not FIX.exists():
         print(f"no fixture at {FIX}: python3 generate/gen_household_fi.py")
@@ -185,6 +271,7 @@ def main() -> int:
 
     # ------------------------------------------------ the exports agree
     all_rows: list[dict] = []
+    exports: dict[str, list] = {}
     for acct, meta in clock["accounts"].items():
         whole = FIX / "statements" / f"{acct}-{w0}--{w1}.csv"
         if not whole.exists():
@@ -223,6 +310,7 @@ def main() -> int:
             if not (w0 <= r["date"] <= w1):
                 fail(f"{acct}: row outside the window on {r['date']}")
         all_rows += rows
+        exports[acct] = rows
 
     by_row = {t["id"]: t for t in ledger}
 
@@ -326,6 +414,7 @@ def main() -> int:
     note("answer key entries", 1)
 
     check_owned(ev, ledger, epoch, planted)
+    check_company(ev, ledger, exports, epoch, planted)
 
     pay = json.loads((ev / "paying.json").read_text())
     traps = [pay["different_date"]["bill"], pay["session_expires"]["bill"]]
@@ -346,7 +435,8 @@ def main() -> int:
     for k, n in sorted(counted.items()):
         print(f"  {k:<32} {n}")
     for key in ("rows", "bills", "e-invoices", "letters", "mail attachments", "funds",
-                "holdings", "costs reports", "broker transfers matched", "loan rows matched"):
+                "holdings", "costs reports", "broker transfers matched", "loan rows matched",
+                "company: crossings", "company: between-set pairs", "company: VAT quarters"):
         if not counted.get(key):
             fail(f"examined no {key}")
     for p in problems:

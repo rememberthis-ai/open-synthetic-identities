@@ -298,6 +298,15 @@
    "subject": "Welcome to Kumpu Mail",
    "body": "Your mailbox noora.daniel@kumpu.example is ready.",
    "attachments": []
+  },
+  {
+   "id": "E-bitti-kuitti-2026-03-14",
+   "from": "Tietokonekauppa Bitti",
+   "from_address": "kuitit@bitti-kauppa.example",
+   "date": "2026-03-14",
+   "subject": "Kuitti tilauksestasi 4471-2208",
+   "body": "Kiitos tilauksestasi!\n\nTilaus 4471-2208, 14.3.2026\nPiirtonäyttö Kynäpinta Pro 16, 1 kpl  649,00 €\n  josta ALV 25,5 %  131,87 €\n\nOstaja: Brooks Illustration Oy, Y-tunnus 3412278-6\nMaksettu kortilla **** 7740\n\nTietokonekauppa Bitti",
+   "attachments": []
   }
  ]
 }

@@ -128,7 +128,7 @@ def write_evidence(out: Path, ev: dict) -> list[Path]:
     d = out / "evidence"
     d.mkdir(parents=True, exist_ok=True)
     made = []
-    for name in ("bills", "einvoices", "mailbox", "mail", "scheduled", "ledger"):
+    for name in ("bills", "einvoices", "mailbox", "mail", "scheduled", "ledger", "company"):
         p = d / f"{name}.json"
         p.write_text(json.dumps(ev[name], indent=1, ensure_ascii=False) + "\n")
         made.append(p)
@@ -211,7 +211,9 @@ def write_planted(out: Path, checks: dict, bills: list, owned: dict | None = Non
         "by (today − epoch), so in a run *due epoch +9 days* means due nine days after",
         "the run's today. `E2E_TODAY=YYYY-MM-DD` fixes today for a replay.",
         "",
-        f"{checks['rows']} rows across three accounts, {checks['bills']} bills behind them.",
+        f"{checks['rows']} rows across {len(M.ACCOUNTS)} accounts, {checks['bills']} bills behind them.",
+        f"One of the accounts is not the household's: `{M.COMPANY['account']}` belongs to",
+        f"{M.COMPANY['name']}, Daniel's company, the second set of books (see the end).",
         "",
         "## What is open on the run's day",
         "",
@@ -316,6 +318,8 @@ def write_planted(out: Path, checks: dict, bills: list, owned: dict | None = Non
           f"- **The session expires mid-payment:** {line(pay['session_expires']['bill'])}. "
           + pay["session_expires"]["rule"] + " The retry must read the scheduled "
           "payments first and pay once.", ""]
+    if checks.get("company"):
+        L += _planted_company(checks["company"])
     p = out / "PLANTED.md"
     p.write_text("\n".join(L))
     return p
@@ -370,4 +374,54 @@ def _planted_owned(o: dict) -> list[str]:
           f"{_eur(pe['accrued_monthly'])} a month to the end of 2025, estimated "
           f"{_eur(pe['estimate_monthly'])} a month at {pe['retirement_age']}.",
           "**There is no balance**: it must not appear in a net-worth total.", ""]
+    return L
+
+
+def _planted_company(c: dict) -> list[str]:
+    """The second set of books: Daniel's company, and the rows in the wrong set."""
+    C, T = M.COMPANY, M.TAX
+    up = c["upcoming_vat"]
+    days = (date.fromisoformat(up["due"]) - date.fromisoformat(M.EPOCH)).days
+    L = ["## Two sets of books: the household and " + C["name"], "",
+         f"Daniel owns **{C['name']}**, Y-tunnus `{C['ytunnus']}` (valid check digit). Its",
+         f"account is `{C['account']}`, `{M.ACCOUNTS[C['account']]['iban']}`, at Saarni Pankki, under",
+         "Daniel's own sign-in. Its clients pay it; it pays him a salary, once a year a",
+         f"dividend, and its taxes to the tax account ({T['name']}, reference `{T['ref']}`,",
+         "an invented stand-in for the real tax administration).", "",
+         "**How a round finds it:** the salary and dividend rows on Daniel's account name",
+         f"`{C['name'].upper()}` and carry the Y-tunnus in the message, and the bank's",
+         "home page shows the business account beside his own. That is the moment for",
+         "the *just your household, or more than one?* card. The household is one set,",
+         f"the company the other; `{C['account']}` is the company's only account.", "",
+         "### Between the sets, correctly (not crossings)", "",
+         "| kind | company row | household row | amount |",
+         "|---|---|---|---|"]
+    for b in c["between_sets"]:
+        L.append(f"| {b['kind']} | `{b['company_row']}` | `{b['household_row']}` | {_eur(b['amount'])} |")
+    L += ["",
+          "Money in for the household, salary or dividend paid for the company. Not an",
+          "expense of the household and not a row to move. The dividend is paid net of",
+          f"its {_eur(C['dividend']['withholding'])} withholding, which the company pays to the tax account.", "",
+          "### Rows in the wrong set", "",
+          "| row | paid from | counterparty | amount | belongs to | |",
+          "|---|---|---|---|---|---|"]
+    for x in c["crossings"]:
+        L.append(f"| `{x['row']}` | {x['paid_by']} | {x['counterparty']} | {_eur(-x['amount'])} | "
+                 f"**{x['belongs_to']}** | {'obvious' if x['obvious'] else 'ask on a card'} |")
+    L += [""]
+    L += [f"- `{x['row']}`: {x['why']}" for x in c["crossings"]]
+    L += ["",
+          "Right: the obvious ones moved (or marked) to the other set without asking, the",
+          "two marked *ask* asked on a card, never moved on a guess. Wrong: any of them",
+          "counted in the set that paid it.", "",
+          "### The company's VAT", "",
+          "| quarter | due | amount | row |", "|---|---|---|---|"]
+    for v in c["vat"]:
+        L.append(f"| {v['quarter']} | {v['due']} | {_eur(v['amount'])} | "
+                 f"{('`' + v['paid_row'] + '`') if v['paid_row'] else 'not yet due'} |")
+    L += ["",
+          f"Each is {str(C['vat_rate']).replace('.', ',')} % of the quarter's client payments less the VAT in the company's",
+          "own costs (accountant, coworking, software, supplies), computed from the rows.",
+          f"**Next: {_eur(up['amount'])} for {up['quarter']}, due epoch {days:+d} days ({up['due']}).**",
+          "No bill arrives for it: the company declares and pays it itself.", ""]
     return L

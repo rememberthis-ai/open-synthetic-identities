@@ -14,6 +14,20 @@
   "category": "Transport"
  },
  {
+  "id": "2025-10-01-saarni-yritys-01",
+  "date": "2025-10-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251001F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2025-10-02-kuusikko-joint-01",
   "date": "2025-10-02",
   "account": "kuusikko-joint",
@@ -87,29 +101,29 @@
   "id": "2025-10-03-saarni-daniel-01",
   "date": "2025-10-03",
   "account": "saarni-daniel",
-  "amount": 1930.3,
-  "kind": "TILISIIRTO",
-  "counterparty": "STUDIO HALLA OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 228",
-  "archive": "202510035C6BB89DAA",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2025-10-03-saarni-daniel-02",
-  "date": "2025-10-03",
-  "account": "saarni-daniel",
   "amount": -300.0,
   "kind": "TILISIIRTO",
   "counterparty": "KANERVA INVEST OY",
   "iban": "FI43 2109 0100 4488 12",
   "reference": "6620 77125",
   "message": "Kuukausisäästö",
-  "archive": "20251003DE347E937A",
+  "archive": "202510033C4FE3207D",
   "bill": "",
   "category": "Savings"
+ },
+ {
+  "id": "2025-10-03-saarni-yritys-01",
+  "date": "2025-10-03",
+  "account": "saarni-yritys",
+  "amount": 2895.45,
+  "kind": "TILISIIRTO",
+  "counterparty": "STUDIO HALLA OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 228",
+  "archive": "20251003480FC51FEF",
+  "bill": "",
+  "category": "Company: sales"
  },
  {
   "id": "2025-10-04-saarni-daniel-01",
@@ -138,6 +152,20 @@
   "archive": "202510057174E8BE28",
   "bill": "",
   "category": "Housing"
+ },
+ {
+  "id": "2025-10-06-saarni-yritys-01",
+  "date": "2025-10-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251006F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-10-09-saarni-daniel-01",
@@ -180,6 +208,34 @@
   "archive": "202510113B2D370654",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2025-10-12-saarni-yritys-01",
+  "date": "2025-10-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot syyskuu 2025",
+  "archive": "20251012376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2025-10-15-saarni-yritys-01",
+  "date": "2025-10-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202510152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-10-17-kuusikko-joint-01",
@@ -322,6 +378,34 @@
   "category": "Home"
  },
  {
+  "id": "2025-10-25-saarni-daniel-02",
+  "date": "2025-10-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka lokakuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20251025B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2025-10-25-saarni-yritys-01",
+  "date": "2025-10-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka lokakuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20251025D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
+ },
+ {
   "id": "2025-10-26-kuusikko-joint-01",
   "date": "2025-10-26",
   "account": "kuusikko-joint",
@@ -392,6 +476,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2025-10-28-saarni-yritys-01",
+  "date": "2025-10-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2025102890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2025-10-31-kuusikko-noora-01",
   "date": "2025-10-31",
   "account": "kuusikko-noora",
@@ -446,6 +544,20 @@
   "archive": "20251101BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2025-11-01-saarni-yritys-01",
+  "date": "2025-11-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251101F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-11-02-kuusikko-joint-01",
@@ -588,18 +700,32 @@
   "category": "Housing"
  },
  {
-  "id": "2025-11-05-saarni-daniel-01",
+  "id": "2025-11-05-saarni-yritys-01",
   "date": "2025-11-05",
-  "account": "saarni-daniel",
-  "amount": 1667.46,
+  "account": "saarni-yritys",
+  "amount": 2501.19,
   "kind": "TILISIIRTO",
   "counterparty": "STUDIO HALLA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 203",
-  "archive": "202511054F21E8ED7A",
+  "archive": "202511052DD49B5752",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
+ },
+ {
+  "id": "2025-11-06-saarni-yritys-01",
+  "date": "2025-11-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251106F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-11-07-kuusikko-joint-01",
@@ -714,6 +840,34 @@
   "category": "Groceries"
  },
  {
+  "id": "2025-11-12-saarni-yritys-01",
+  "date": "2025-11-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot lokakuu 2025",
+  "archive": "20251112376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2025-11-12-saarni-yritys-02",
+  "date": "2025-11-12",
+  "account": "saarni-yritys",
+  "amount": -1012.4,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Arvonlisävero 1.7.2025-30.9.2025",
+  "archive": "20251112B0E26015E2",
+  "bill": "",
+  "category": "Company: VAT"
+ },
+ {
   "id": "2025-11-13-kuusikko-joint-01",
   "date": "2025-11-13",
   "account": "kuusikko-joint",
@@ -768,6 +922,20 @@
   "archive": "2025111588ACDCFC93",
   "bill": "",
   "category": "Health"
+ },
+ {
+  "id": "2025-11-15-saarni-yritys-01",
+  "date": "2025-11-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202511152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-11-17-saarni-daniel-01",
@@ -910,18 +1078,46 @@
   "category": "Groceries"
  },
  {
-  "id": "2025-11-26-saarni-daniel-01",
-  "date": "2025-11-26",
+  "id": "2025-11-25-saarni-daniel-03",
+  "date": "2025-11-25",
   "account": "saarni-daniel",
-  "amount": 818.34,
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka marraskuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202511254EDB1EC64A",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2025-11-25-saarni-yritys-01",
+  "date": "2025-11-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka marraskuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20251125D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
+ },
+ {
+  "id": "2025-11-26-saarni-yritys-01",
+  "date": "2025-11-26",
+  "account": "saarni-yritys",
+  "amount": 1227.51,
   "kind": "TILISIIRTO",
   "counterparty": "PAPERIPUU KUSTANNUS OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 269",
-  "archive": "20251126BACEC5C04B",
+  "archive": "20251126CA6E5FDB61",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2025-11-27-kuusikko-joint-01",
@@ -1022,6 +1218,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2025-11-28-saarni-yritys-01",
+  "date": "2025-11-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2025112890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2025-11-29-saarni-daniel-01",
   "date": "2025-11-29",
   "account": "saarni-daniel",
@@ -1048,6 +1258,20 @@
   "archive": "20251201BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2025-12-01-saarni-yritys-01",
+  "date": "2025-12-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251201F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-12-02-kuusikko-joint-01",
@@ -1218,6 +1442,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2025-12-06-saarni-yritys-01",
+  "date": "2025-12-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20251206F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2025-12-07-kuusikko-joint-01",
   "date": "2025-12-07",
   "account": "kuusikko-joint",
@@ -1235,29 +1473,29 @@
   "id": "2025-12-09-saarni-daniel-01",
   "date": "2025-12-09",
   "account": "saarni-daniel",
-  "amount": 1044.83,
-  "kind": "TILISIIRTO",
-  "counterparty": "PAPERIPUU KUSTANNUS OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 203",
-  "archive": "20251209DA42885637",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2025-12-09-saarni-daniel-02",
-  "date": "2025-12-09",
-  "account": "saarni-daniel",
   "amount": -11.99,
   "kind": "KORTTIOSTO",
   "counterparty": "SAVELVIRTA MUSIIKKI",
   "iban": "",
   "reference": "",
   "message": "Card **** 7740",
-  "archive": "202512097A19A80547",
+  "archive": "2025120910658CE040",
   "bill": "",
   "category": "Subscriptions"
+ },
+ {
+  "id": "2025-12-09-saarni-yritys-01",
+  "date": "2025-12-09",
+  "account": "saarni-yritys",
+  "amount": 1567.24,
+  "kind": "TILISIIRTO",
+  "counterparty": "PAPERIPUU KUSTANNUS OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 203",
+  "archive": "2025120911ADDB22D6",
+  "bill": "",
+  "category": "Company: sales"
  },
  {
   "id": "2025-12-12-kuusikko-joint-01",
@@ -1288,6 +1526,20 @@
   "category": "Health"
  },
  {
+  "id": "2025-12-12-saarni-yritys-01",
+  "date": "2025-12-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot marraskuu 2025",
+  "archive": "20251212376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
   "id": "2025-12-13-kuusikko-joint-01",
   "date": "2025-12-13",
   "account": "kuusikko-joint",
@@ -1300,6 +1552,20 @@
   "archive": "20251213E50000BC23",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2025-12-15-saarni-yritys-01",
+  "date": "2025-12-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202512152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2025-12-19-saarni-daniel-01",
@@ -1358,6 +1624,20 @@
   "category": "Children"
  },
  {
+  "id": "2025-12-24-saarni-yritys-01",
+  "date": "2025-12-24",
+  "account": "saarni-yritys",
+  "amount": -76.44,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "2025122423D831E065",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2025-12-25-saarni-daniel-01",
   "date": "2025-12-25",
   "account": "saarni-daniel",
@@ -1370,6 +1650,34 @@
   "archive": "202512252CE7141A37",
   "bill": "kirkas-K202512",
   "category": "Home"
+ },
+ {
+  "id": "2025-12-25-saarni-daniel-02",
+  "date": "2025-12-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka joulukuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20251225B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2025-12-25-saarni-yritys-01",
+  "date": "2025-12-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka joulukuu 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20251225D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2025-12-26-kuusikko-joint-01",
@@ -1456,6 +1764,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2025-12-28-saarni-yritys-01",
+  "date": "2025-12-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2025122890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2025-12-30-kuusikko-joint-01",
   "date": "2025-12-30",
   "account": "kuusikko-joint",
@@ -1482,6 +1804,20 @@
   "archive": "20260101BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-01-01-saarni-yritys-01",
+  "date": "2026-01-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260101F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-01-02-kuusikko-joint-01",
@@ -1666,6 +2002,20 @@
   "category": "Eating out"
  },
  {
+  "id": "2026-01-06-saarni-yritys-01",
+  "date": "2026-01-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260106F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-01-08-kuusikko-joint-01",
   "date": "2026-01-08",
   "account": "kuusikko-joint",
@@ -1722,18 +2072,18 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-01-10-saarni-daniel-01",
+  "id": "2026-01-10-saarni-yritys-01",
   "date": "2026-01-10",
-  "account": "saarni-daniel",
-  "amount": 1421.62,
+  "account": "saarni-yritys",
+  "amount": 2132.44,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 200",
-  "archive": "20260110F44AC6D2A5",
+  "archive": "20260110C3EE81B288",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-01-12-saarni-daniel-01",
@@ -1748,6 +2098,34 @@
   "archive": "20260112CD6A157FFC",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-01-12-saarni-yritys-01",
+  "date": "2026-01-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot joulukuu 2025",
+  "archive": "20260112376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-01-15-saarni-yritys-01",
+  "date": "2026-01-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202601152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-01-16-kuusikko-joint-01",
@@ -1865,29 +2243,57 @@
   "id": "2026-01-25-saarni-daniel-01",
   "date": "2026-01-25",
   "account": "saarni-daniel",
-  "amount": 1770.8,
-  "kind": "TILISIIRTO",
-  "counterparty": "PAPERIPUU KUSTANNUS OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 253",
-  "archive": "20260125B307B28017",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-01-25-saarni-daniel-02",
-  "date": "2026-01-25",
-  "account": "saarni-daniel",
   "amount": -96.0,
   "kind": "TILISIIRTO",
   "counterparty": "SIIVOUSPALVELU KIRKAS OY",
   "iban": "FI50 1510 0045 5032 87",
   "reference": "5 50190 26017",
   "message": "",
-  "archive": "20260125D656ADDC7B",
+  "archive": "202601252CE7141A37",
   "bill": "kirkas-K202601",
   "category": "Home"
+ },
+ {
+  "id": "2026-01-25-saarni-daniel-02",
+  "date": "2026-01-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka tammikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260125B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-01-25-saarni-yritys-01",
+  "date": "2026-01-25",
+  "account": "saarni-yritys",
+  "amount": 2656.2,
+  "kind": "TILISIIRTO",
+  "counterparty": "PAPERIPUU KUSTANNUS OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 253",
+  "archive": "2026012517660FD173",
+  "bill": "",
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-01-25-saarni-yritys-02",
+  "date": "2026-01-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka tammikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202601254C5CBD13D1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-01-27-kuusikko-joint-01",
@@ -1958,6 +2364,20 @@
   "archive": "20260128CE25BB319E",
   "bill": "",
   "category": "Between accounts"
+ },
+ {
+  "id": "2026-01-28-saarni-yritys-01",
+  "date": "2026-01-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026012890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
  },
  {
   "id": "2026-01-29-kuusikko-joint-01",
@@ -2042,6 +2462,20 @@
   "archive": "20260201BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-02-01-saarni-yritys-01",
+  "date": "2026-02-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260201F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-02-02-kuusikko-joint-01",
@@ -2184,6 +2618,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-02-06-saarni-yritys-01",
+  "date": "2026-02-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260206F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-02-07-kuusikko-joint-01",
   "date": "2026-02-07",
   "account": "kuusikko-joint",
@@ -2215,29 +2663,29 @@
   "id": "2026-02-09-saarni-daniel-01",
   "date": "2026-02-09",
   "account": "saarni-daniel",
-  "amount": 2305.55,
-  "kind": "TILISIIRTO",
-  "counterparty": "KAISLIKKO MEDIA OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 213",
-  "archive": "20260209C488B4DA4A",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-02-09-saarni-daniel-02",
-  "date": "2026-02-09",
-  "account": "saarni-daniel",
   "amount": -11.99,
   "kind": "KORTTIOSTO",
   "counterparty": "SAVELVIRTA MUSIIKKI",
   "iban": "",
   "reference": "",
   "message": "Card **** 7740",
-  "archive": "202602097A19A80547",
+  "archive": "2026020910658CE040",
   "bill": "",
   "category": "Subscriptions"
+ },
+ {
+  "id": "2026-02-09-saarni-yritys-01",
+  "date": "2026-02-09",
+  "account": "saarni-yritys",
+  "amount": 3458.33,
+  "kind": "TILISIIRTO",
+  "counterparty": "KAISLIKKO MEDIA OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 213",
+  "archive": "202602090B87DFF59A",
+  "bill": "",
+  "category": "Company: sales"
  },
  {
   "id": "2026-02-10-kuusikko-joint-01",
@@ -2268,6 +2716,34 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-02-12-saarni-yritys-01",
+  "date": "2026-02-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot tammikuu 2026",
+  "archive": "20260212376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-02-12-saarni-yritys-02",
+  "date": "2026-02-12",
+  "account": "saarni-yritys",
+  "amount": -1489.16,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Arvonlisävero 1.10.2025-31.12.2025",
+  "archive": "202602123A13E790EB",
+  "bill": "",
+  "category": "Company: VAT"
+ },
+ {
   "id": "2026-02-13-kuusikko-joint-01",
   "date": "2026-02-13",
   "account": "kuusikko-joint",
@@ -2296,6 +2772,34 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-02-15-saarni-yritys-01",
+  "date": "2026-02-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202602152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-02-16-saarni-yritys-01",
+  "date": "2026-02-16",
+  "account": "saarni-yritys",
+  "amount": -105.64,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260216674227ADDA",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-02-17-kuusikko-joint-01",
   "date": "2026-02-17",
   "account": "kuusikko-joint",
@@ -2322,6 +2826,20 @@
   "archive": "20260217DD02E63319",
   "bill": "",
   "category": "Home"
+ },
+ {
+  "id": "2026-02-17-saarni-yritys-01",
+  "date": "2026-02-17",
+  "account": "saarni-yritys",
+  "amount": -64.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "KOTIKAMA ESPOO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260217583F069309",
+  "bill": "",
+  "category": "Crossing"
  },
  {
   "id": "2026-02-18-kuusikko-noora-01",
@@ -2411,32 +2929,18 @@
   "id": "2026-02-25-saarni-daniel-01",
   "date": "2026-02-25",
   "account": "saarni-daniel",
-  "amount": 1375.35,
-  "kind": "TILISIIRTO",
-  "counterparty": "KAISLIKKO MEDIA OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 219",
-  "archive": "20260225925FB4DF30",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-02-25-saarni-daniel-02",
-  "date": "2026-02-25",
-  "account": "saarni-daniel",
   "amount": -96.0,
   "kind": "TILISIIRTO",
   "counterparty": "SIIVOUSPALVELU KIRKAS OY",
   "iban": "FI50 1510 0045 5032 87",
   "reference": "5 50190 26020",
   "message": "",
-  "archive": "20260225D656ADDC7B",
+  "archive": "202602252CE7141A37",
   "bill": "kirkas-K202602",
   "category": "Home"
  },
  {
-  "id": "2026-02-25-saarni-daniel-03",
+  "id": "2026-02-25-saarni-daniel-02",
   "date": "2026-02-25",
   "account": "saarni-daniel",
   "amount": -16.87,
@@ -2445,9 +2949,51 @@
   "iban": "",
   "reference": "",
   "message": "Card **** 7740",
-  "archive": "202602259BD2274B24",
+  "archive": "20260225ADED26CBCE",
   "bill": "",
   "category": "Eating out"
+ },
+ {
+  "id": "2026-02-25-saarni-daniel-03",
+  "date": "2026-02-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka helmikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202602254EDB1EC64A",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-02-25-saarni-yritys-01",
+  "date": "2026-02-25",
+  "account": "saarni-yritys",
+  "amount": 2063.02,
+  "kind": "TILISIIRTO",
+  "counterparty": "KAISLIKKO MEDIA OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 219",
+  "archive": "20260225743753A1C4",
+  "bill": "",
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-02-25-saarni-yritys-02",
+  "date": "2026-02-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka helmikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202602254C5CBD13D1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-02-27-kuusikko-joint-01",
@@ -2534,6 +3080,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-02-28-saarni-yritys-01",
+  "date": "2026-02-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026022890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-03-01-kuusikko-noora-01",
   "date": "2026-03-01",
   "account": "kuusikko-noora",
@@ -2560,6 +3120,20 @@
   "archive": "202603015F5DB8D3EC",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-03-01-saarni-yritys-01",
+  "date": "2026-03-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260301F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-03-02-kuusikko-joint-01",
@@ -2702,6 +3276,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-03-06-saarni-yritys-01",
+  "date": "2026-03-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260306F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-03-07-kuusikko-joint-01",
   "date": "2026-03-07",
   "account": "kuusikko-joint",
@@ -2772,6 +3360,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-03-12-saarni-yritys-01",
+  "date": "2026-03-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot helmikuu 2026",
+  "archive": "20260312376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
   "id": "2026-03-13-kuusikko-joint-01",
   "date": "2026-03-13",
   "account": "kuusikko-joint",
@@ -2814,18 +3416,46 @@
   "category": "Eating out"
  },
  {
-  "id": "2026-03-15-saarni-daniel-01",
-  "date": "2026-03-15",
+  "id": "2026-03-14-saarni-daniel-01",
+  "date": "2026-03-14",
   "account": "saarni-daniel",
-  "amount": 808.29,
+  "amount": -649.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TIETOKONEKAUPPA BITTI",
+  "iban": "",
+  "reference": "",
+  "message": "Card **** 7740",
+  "archive": "2026031421AC4329CA",
+  "bill": "",
+  "category": "Crossing"
+ },
+ {
+  "id": "2026-03-15-saarni-yritys-01",
+  "date": "2026-03-15",
+  "account": "saarni-yritys",
+  "amount": 1212.43,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 277",
-  "archive": "202603153E04F4F698",
+  "archive": "202603157BE6829B0D",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-03-15-saarni-yritys-02",
+  "date": "2026-03-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "20260315677B8053DD",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-03-17-kuusikko-joint-01",
@@ -2954,6 +3584,34 @@
   "category": "Home"
  },
  {
+  "id": "2026-03-25-saarni-daniel-02",
+  "date": "2026-03-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka maaliskuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260325B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-03-25-saarni-yritys-01",
+  "date": "2026-03-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka maaliskuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260325D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
+ },
+ {
   "id": "2026-03-27-kuusikko-joint-01",
   "date": "2026-03-27",
   "account": "kuusikko-joint",
@@ -3038,6 +3696,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-03-28-saarni-yritys-01",
+  "date": "2026-03-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026032890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-03-31-kuusikko-noora-01",
   "date": "2026-03-31",
   "account": "kuusikko-noora",
@@ -3064,6 +3736,20 @@
   "archive": "20260401BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-04-01-saarni-yritys-01",
+  "date": "2026-04-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260401F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-04-02-kuusikko-joint-01",
@@ -3206,18 +3892,18 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-04-04-saarni-daniel-01",
+  "id": "2026-04-04-saarni-yritys-01",
   "date": "2026-04-04",
-  "account": "saarni-daniel",
-  "amount": 1909.73,
+  "account": "saarni-yritys",
+  "amount": 2864.6,
   "kind": "TILISIIRTO",
   "counterparty": "PAPERIPUU KUSTANNUS OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 215",
-  "archive": "20260404354DD7406E",
+  "archive": "2026040468EAEFC280",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-04-05-kuusikko-joint-01",
@@ -3248,6 +3934,34 @@
   "category": "Eating out"
  },
  {
+  "id": "2026-04-06-saarni-yritys-01",
+  "date": "2026-04-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260406F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-04-07-saarni-yritys-01",
+  "date": "2026-04-07",
+  "account": "saarni-yritys",
+  "amount": -135.33,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260407605D03BC79",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-04-09-saarni-daniel-01",
   "date": "2026-04-09",
   "account": "saarni-daniel",
@@ -3260,6 +3974,20 @@
   "archive": "2026040910658CE040",
   "bill": "",
   "category": "Subscriptions"
+ },
+ {
+  "id": "2026-04-09-saarni-yritys-01",
+  "date": "2026-04-09",
+  "account": "saarni-yritys",
+  "amount": -84.2,
+  "kind": "KORTTIOSTO",
+  "counterparty": "RUOKASATAMA TAPIOLANTIE",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "2026040906E2C4E33B",
+  "bill": "",
+  "category": "Crossing"
  },
  {
   "id": "2026-04-10-kuusikko-joint-01",
@@ -3290,18 +4018,46 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-04-15-saarni-daniel-01",
+  "id": "2026-04-12-saarni-yritys-01",
+  "date": "2026-04-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot maaliskuu 2026",
+  "archive": "20260412376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-04-15-saarni-yritys-01",
   "date": "2026-04-15",
-  "account": "saarni-daniel",
-  "amount": 777.11,
+  "account": "saarni-yritys",
+  "amount": 1165.67,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 280",
-  "archive": "20260415348AFF6A76",
+  "archive": "20260415269C4DBB39",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-04-15-saarni-yritys-02",
+  "date": "2026-04-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "20260415677B8053DD",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-04-16-saarni-daniel-01",
@@ -3430,6 +4186,34 @@
   "category": "Home"
  },
  {
+  "id": "2026-04-25-saarni-daniel-02",
+  "date": "2026-04-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka huhtikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260425B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-04-25-saarni-yritys-01",
+  "date": "2026-04-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka huhtikuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260425D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
+ },
+ {
   "id": "2026-04-27-kuusikko-joint-01",
   "date": "2026-04-27",
   "account": "kuusikko-joint",
@@ -3500,6 +4284,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-04-28-saarni-yritys-01",
+  "date": "2026-04-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026042890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-04-29-saarni-daniel-01",
   "date": "2026-04-29",
   "account": "saarni-daniel",
@@ -3540,6 +4338,20 @@
   "archive": "20260501F16F429668",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-05-01-saarni-yritys-01",
+  "date": "2026-05-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260501F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-05-02-kuusikko-joint-01",
@@ -3724,6 +4536,34 @@
   "category": "Eating out"
  },
  {
+  "id": "2026-05-06-saarni-yritys-01",
+  "date": "2026-05-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260506F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-05-06-saarni-yritys-02",
+  "date": "2026-05-06",
+  "account": "saarni-yritys",
+  "amount": -50.06,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "202605069A1A737BA2",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-05-07-kuusikko-joint-01",
   "date": "2026-05-07",
   "account": "kuusikko-joint",
@@ -3822,6 +4662,34 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-05-12-saarni-yritys-01",
+  "date": "2026-05-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot huhtikuu 2026",
+  "archive": "20260512376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-05-12-saarni-yritys-02",
+  "date": "2026-05-12",
+  "account": "saarni-yritys",
+  "amount": -2160.05,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Arvonlisävero 1.1.2026-31.3.2026",
+  "archive": "202605122F32C17C15",
+  "bill": "",
+  "category": "Company: VAT"
+ },
+ {
   "id": "2026-05-14-kuusikko-joint-01",
   "date": "2026-05-14",
   "account": "kuusikko-joint",
@@ -3848,6 +4716,20 @@
   "archive": "20260515172534DF8D",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-05-15-saarni-yritys-01",
+  "date": "2026-05-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202605152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-05-16-saarni-daniel-01",
@@ -3920,18 +4802,18 @@
   "category": "Pension and insurance"
  },
  {
-  "id": "2026-05-21-saarni-daniel-01",
+  "id": "2026-05-21-saarni-yritys-01",
   "date": "2026-05-21",
-  "account": "saarni-daniel",
-  "amount": 974.58,
+  "account": "saarni-yritys",
+  "amount": 1461.87,
   "kind": "TILISIIRTO",
   "counterparty": "STUDIO HALLA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 205",
-  "archive": "202605217DA89C01DC",
+  "archive": "202605213BD1E9F2C2",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-05-22-saarni-daniel-01",
@@ -3946,6 +4828,34 @@
   "archive": "2026052253DC81BF7C",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-05-22-saarni-daniel-02",
+  "date": "2026-05-22",
+  "account": "saarni-daniel",
+  "amount": 3700.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Osinko tilikaudelta 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "2026052234D6DA8FEB",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-05-22-saarni-yritys-01",
+  "date": "2026-05-22",
+  "account": "saarni-yritys",
+  "amount": -3700.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Osinko tilikaudelta 2025, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "2026052272F9FD9D9D",
+  "bill": "",
+  "category": "Company: dividend"
  },
  {
   "id": "2026-05-23-kuusikko-joint-01",
@@ -3993,29 +4903,29 @@
   "id": "2026-05-24-saarni-daniel-01",
   "date": "2026-05-24",
   "account": "saarni-daniel",
-  "amount": 1036.54,
-  "kind": "TILISIIRTO",
-  "counterparty": "KAISLIKKO MEDIA OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 210",
-  "archive": "2026052485C1391B0B",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-05-24-saarni-daniel-02",
-  "date": "2026-05-24",
-  "account": "saarni-daniel",
   "amount": -15.6,
   "kind": "KORTTIOSTO",
   "counterparty": "KAHVILA HUMALISTO",
   "iban": "",
   "reference": "",
   "message": "Card **** 7740",
-  "archive": "202605242C3101002C",
+  "archive": "20260524B246159ACD",
   "bill": "",
   "category": "Eating out"
+ },
+ {
+  "id": "2026-05-24-saarni-yritys-01",
+  "date": "2026-05-24",
+  "account": "saarni-yritys",
+  "amount": 1554.81,
+  "kind": "TILISIIRTO",
+  "counterparty": "KAISLIKKO MEDIA OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 210",
+  "archive": "20260524D9000C43E5",
+  "bill": "",
+  "category": "Company: sales"
  },
  {
   "id": "2026-05-25-saarni-daniel-01",
@@ -4030,6 +4940,34 @@
   "archive": "202605252CE7141A37",
   "bill": "kirkas-K202605",
   "category": "Home"
+ },
+ {
+  "id": "2026-05-25-saarni-daniel-02",
+  "date": "2026-05-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka toukokuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260525B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-05-25-saarni-yritys-01",
+  "date": "2026-05-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka toukokuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260525D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-05-27-kuusikko-joint-01",
@@ -4088,6 +5026,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-05-28-saarni-yritys-01",
+  "date": "2026-05-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026052890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-05-29-kuusikko-joint-01",
   "date": "2026-05-29",
   "account": "kuusikko-joint",
@@ -4128,6 +5080,20 @@
   "archive": "20260601BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-06-01-saarni-yritys-01",
+  "date": "2026-06-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260601F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-06-02-kuusikko-joint-01",
@@ -4298,18 +5264,32 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-06-06-saarni-daniel-01",
+  "id": "2026-06-06-saarni-yritys-01",
   "date": "2026-06-06",
-  "account": "saarni-daniel",
-  "amount": 1301.42,
+  "account": "saarni-yritys",
+  "amount": 1952.13,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 281",
-  "archive": "2026060692AC72421F",
+  "archive": "2026060641D90EAAC2",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-06-06-saarni-yritys-02",
+  "date": "2026-06-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260606E6C8CB8BF7",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-06-07-kuusikko-joint-01",
@@ -4340,6 +5320,20 @@
   "category": "Subscriptions"
  },
  {
+  "id": "2026-06-11-saarni-daniel-01",
+  "date": "2026-06-11",
+  "account": "saarni-daniel",
+  "amount": -186.4,
+  "kind": "KORTTIOSTO",
+  "counterparty": "RAVINTOLA VERKKOSAARI",
+  "iban": "",
+  "reference": "",
+  "message": "Card **** 7740",
+  "archive": "202606113ED891981E",
+  "bill": "",
+  "category": "Crossing"
+ },
+ {
   "id": "2026-06-12-kuusikko-joint-01",
   "date": "2026-06-12",
   "account": "kuusikko-joint",
@@ -4352,6 +5346,34 @@
   "archive": "20260612DE939B86B3",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-06-12-saarni-yritys-01",
+  "date": "2026-06-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot toukokuu 2026",
+  "archive": "20260612376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-06-12-saarni-yritys-02",
+  "date": "2026-06-12",
+  "account": "saarni-yritys",
+  "amount": -300.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Osingon ennakonpidätys toukokuu 2026",
+  "archive": "20260612AA7BEF2B72",
+  "bill": "",
+  "category": "Company: taxes"
  },
  {
   "id": "2026-06-13-kuusikko-joint-01",
@@ -4382,18 +5404,32 @@
   "category": "Eating out"
  },
  {
-  "id": "2026-06-14-saarni-daniel-01",
+  "id": "2026-06-14-saarni-yritys-01",
   "date": "2026-06-14",
-  "account": "saarni-daniel",
-  "amount": 923.02,
+  "account": "saarni-yritys",
+  "amount": 1384.53,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 226",
-  "archive": "2026061441BD7DE604",
+  "archive": "20260614838E1EE392",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-06-15-saarni-yritys-01",
+  "date": "2026-06-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202606152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-06-16-kuusikko-joint-01",
@@ -4508,6 +5544,34 @@
   "category": "Home"
  },
  {
+  "id": "2026-06-25-saarni-daniel-02",
+  "date": "2026-06-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka kesäkuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260625B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-06-25-saarni-yritys-01",
+  "date": "2026-06-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka kesäkuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260625D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
+ },
+ {
   "id": "2026-06-26-kuusikko-joint-01",
   "date": "2026-06-26",
   "account": "kuusikko-joint",
@@ -4592,6 +5656,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-06-28-saarni-yritys-01",
+  "date": "2026-06-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026062890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-07-01-kuusikko-joint-01",
   "date": "2026-07-01",
   "account": "kuusikko-joint",
@@ -4632,6 +5710,20 @@
   "archive": "202607015F5DB8D3EC",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-07-01-saarni-yritys-01",
+  "date": "2026-07-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260701F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-07-02-kuusikko-joint-01",
@@ -4802,6 +5894,20 @@
   "category": "Eating out"
  },
  {
+  "id": "2026-07-06-saarni-yritys-01",
+  "date": "2026-07-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260706F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-07-09-kuusikko-joint-01",
   "date": "2026-07-09",
   "account": "kuusikko-joint",
@@ -4870,6 +5976,48 @@
   "archive": "202607114843D55A5A",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-07-12-saarni-yritys-01",
+  "date": "2026-07-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot kesäkuu 2026",
+  "archive": "20260712376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-07-13-saarni-yritys-01",
+  "date": "2026-07-13",
+  "account": "saarni-yritys",
+  "amount": -46.26,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260713BEB1BCEDEC",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-07-15-saarni-yritys-01",
+  "date": "2026-07-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202607152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-07-17-kuusikko-joint-01",
@@ -4956,18 +6104,18 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-07-22-saarni-daniel-01",
+  "id": "2026-07-22-saarni-yritys-01",
   "date": "2026-07-22",
-  "account": "saarni-daniel",
-  "amount": 1744.86,
+  "account": "saarni-yritys",
+  "amount": 2617.29,
   "kind": "TILISIIRTO",
   "counterparty": "PAPERIPUU KUSTANNUS OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 293",
-  "archive": "202607226BFCEF39CF",
+  "archive": "202607225C64CC8CDA",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-07-24-saarni-daniel-01",
@@ -5001,29 +6149,57 @@
   "id": "2026-07-25-saarni-daniel-01",
   "date": "2026-07-25",
   "account": "saarni-daniel",
-  "amount": 2269.78,
-  "kind": "TILISIIRTO",
-  "counterparty": "PAPERIPUU KUSTANNUS OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 209",
-  "archive": "20260725DE0E072C80",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-07-25-saarni-daniel-02",
-  "date": "2026-07-25",
-  "account": "saarni-daniel",
   "amount": -96.0,
   "kind": "TILISIIRTO",
   "counterparty": "SIIVOUSPALVELU KIRKAS OY",
   "iban": "FI50 1510 0045 5032 87",
   "reference": "5 50190 26075",
   "message": "",
-  "archive": "20260725D656ADDC7B",
+  "archive": "202607252CE7141A37",
   "bill": "kirkas-K202607",
   "category": "Home"
+ },
+ {
+  "id": "2026-07-25-saarni-daniel-02",
+  "date": "2026-07-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka heinäkuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260725B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-07-25-saarni-yritys-01",
+  "date": "2026-07-25",
+  "account": "saarni-yritys",
+  "amount": 3404.67,
+  "kind": "TILISIIRTO",
+  "counterparty": "PAPERIPUU KUSTANNUS OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 209",
+  "archive": "202607250921185850",
+  "bill": "",
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-07-25-saarni-yritys-02",
+  "date": "2026-07-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka heinäkuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202607254C5CBD13D1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-07-27-kuusikko-joint-01",
@@ -5096,6 +6272,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-07-28-saarni-yritys-01",
+  "date": "2026-07-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026072890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-07-29-kuusikko-joint-01",
   "date": "2026-07-29",
   "account": "kuusikko-joint",
@@ -5164,6 +6354,20 @@
   "archive": "2026080110B9CD1A54",
   "bill": "",
   "category": "Eating out"
+ },
+ {
+  "id": "2026-08-01-saarni-yritys-01",
+  "date": "2026-08-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260801F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-08-02-kuusikko-joint-01",
@@ -5334,6 +6538,34 @@
   "category": "Eating out"
  },
  {
+  "id": "2026-08-06-saarni-yritys-01",
+  "date": "2026-08-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260806F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-08-06-saarni-yritys-02",
+  "date": "2026-08-06",
+  "account": "saarni-yritys",
+  "amount": -35.45,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260806BD626BAE4F",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-08-07-kuusikko-joint-01",
   "date": "2026-08-07",
   "account": "kuusikko-joint",
@@ -5362,18 +6594,18 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-08-08-saarni-daniel-01",
+  "id": "2026-08-08-saarni-yritys-01",
   "date": "2026-08-08",
-  "account": "saarni-daniel",
-  "amount": 1444.33,
+  "account": "saarni-yritys",
+  "amount": 2166.5,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 281",
-  "archive": "202608084F559062EB",
+  "archive": "2026080878E2446122",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-08-09-saarni-daniel-01",
@@ -5432,6 +6664,34 @@
   "category": "Health"
  },
  {
+  "id": "2026-08-12-saarni-yritys-01",
+  "date": "2026-08-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot heinäkuu 2026",
+  "archive": "20260812376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-08-12-saarni-yritys-02",
+  "date": "2026-08-12",
+  "account": "saarni-yritys",
+  "amount": -1912.45,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Arvonlisävero 1.4.2026-30.6.2026",
+  "archive": "20260812A3FF46EE09",
+  "bill": "",
+  "category": "Company: VAT"
+ },
+ {
   "id": "2026-08-14-saarni-daniel-01",
   "date": "2026-08-14",
   "account": "saarni-daniel",
@@ -5458,6 +6718,20 @@
   "archive": "202608153FBFF16B48",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-08-15-saarni-yritys-01",
+  "date": "2026-08-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202608152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-08-16-kuusikko-joint-01",
@@ -5530,6 +6804,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-08-21-saarni-yritys-01",
+  "date": "2026-08-21",
+  "account": "saarni-yritys",
+  "amount": -46.9,
+  "kind": "KORTTIOSTO",
+  "counterparty": "LASTENVAATE NAPERO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260821AF9A9A9183",
+  "bill": "",
+  "category": "Crossing"
+ },
+ {
   "id": "2026-08-22-kuusikko-joint-01",
   "date": "2026-08-22",
   "account": "kuusikko-joint",
@@ -5589,29 +6877,57 @@
   "id": "2026-08-25-saarni-daniel-01",
   "date": "2026-08-25",
   "account": "saarni-daniel",
-  "amount": 1609.09,
-  "kind": "TILISIIRTO",
-  "counterparty": "PAPERIPUU KUSTANNUS OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 241",
-  "archive": "20260825CA28B6F288",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-08-25-saarni-daniel-02",
-  "date": "2026-08-25",
-  "account": "saarni-daniel",
   "amount": -96.0,
   "kind": "TILISIIRTO",
   "counterparty": "SIIVOUSPALVELU KIRKAS OY",
   "iban": "FI50 1510 0045 5032 87",
   "reference": "5 50190 26088",
   "message": "",
-  "archive": "20260825D656ADDC7B",
+  "archive": "202608252CE7141A37",
   "bill": "kirkas-K202608",
   "category": "Home"
+ },
+ {
+  "id": "2026-08-25-saarni-daniel-02",
+  "date": "2026-08-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka elokuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260825B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-08-25-saarni-yritys-01",
+  "date": "2026-08-25",
+  "account": "saarni-yritys",
+  "amount": 2413.64,
+  "kind": "TILISIIRTO",
+  "counterparty": "PAPERIPUU KUSTANNUS OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 241",
+  "archive": "202608252A1F6791E1",
+  "bill": "",
+  "category": "Company: sales"
+ },
+ {
+  "id": "2026-08-25-saarni-yritys-02",
+  "date": "2026-08-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka elokuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "202608254C5CBD13D1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-08-27-kuusikko-joint-01",
@@ -5684,6 +7000,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-08-28-saarni-yritys-01",
+  "date": "2026-08-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026082890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-08-29-kuusikko-joint-01",
   "date": "2026-08-29",
   "account": "kuusikko-joint",
@@ -5738,6 +7068,20 @@
   "archive": "20260901BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-09-01-saarni-yritys-01",
+  "date": "2026-09-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260901F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-09-02-kuusikko-joint-01",
@@ -5880,6 +7224,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-09-06-saarni-yritys-01",
+  "date": "2026-09-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20260906F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-09-08-saarni-daniel-01",
   "date": "2026-09-08",
   "account": "saarni-daniel",
@@ -5911,29 +7269,29 @@
   "id": "2026-09-10-saarni-daniel-01",
   "date": "2026-09-10",
   "account": "saarni-daniel",
-  "amount": 2069.94,
-  "kind": "TILISIIRTO",
-  "counterparty": "KAISLIKKO MEDIA OY",
-  "iban": "",
-  "reference": "",
-  "message": "Lasku 251",
-  "archive": "2026091042235B4DA1",
-  "bill": "",
-  "category": "Money in"
- },
- {
-  "id": "2026-09-10-saarni-daniel-02",
-  "date": "2026-09-10",
-  "account": "saarni-daniel",
   "amount": -116.52,
   "kind": "KORTTIOSTO",
   "counterparty": "RUOKASATAMA ISO OMENATIE",
   "iban": "",
   "reference": "",
   "message": "Card **** 7740",
-  "archive": "2026091035F55A4EF7",
+  "archive": "20260910A7DFD2D8E2",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-09-10-saarni-yritys-01",
+  "date": "2026-09-10",
+  "account": "saarni-yritys",
+  "amount": 3104.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "KAISLIKKO MEDIA OY",
+  "iban": "",
+  "reference": "",
+  "message": "Lasku 251",
+  "archive": "2026091098600BF3B1",
+  "bill": "",
+  "category": "Company: sales"
  },
  {
   "id": "2026-09-11-saarni-daniel-01",
@@ -5964,6 +7322,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-09-12-saarni-yritys-01",
+  "date": "2026-09-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot elokuu 2026",
+  "archive": "20260912376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
   "id": "2026-09-13-kuusikko-noora-01",
   "date": "2026-09-13",
   "account": "kuusikko-noora",
@@ -5990,6 +7362,20 @@
   "archive": "202609155BA0FE7B95",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-09-15-saarni-yritys-01",
+  "date": "2026-09-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202609152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-09-18-saarni-daniel-01",
@@ -6048,6 +7434,20 @@
   "category": "Groceries"
  },
  {
+  "id": "2026-09-22-saarni-yritys-01",
+  "date": "2026-09-22",
+  "account": "saarni-yritys",
+  "amount": -120.38,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "202609227137697465",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
   "id": "2026-09-24-kuusikko-joint-01",
   "date": "2026-09-24",
   "account": "kuusikko-joint",
@@ -6102,6 +7502,34 @@
   "archive": "202609252CE7141A37",
   "bill": "kirkas-K202609",
   "category": "Home"
+ },
+ {
+  "id": "2026-09-25-saarni-daniel-02",
+  "date": "2026-09-25",
+  "account": "saarni-daniel",
+  "amount": 2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS ILLUSTRATION OY",
+  "iban": "FI16 7939 0070 4881 27",
+  "reference": "",
+  "message": "Palkka syyskuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260925B2CA76CE1D",
+  "bill": "",
+  "category": "Money in"
+ },
+ {
+  "id": "2026-09-25-saarni-yritys-01",
+  "date": "2026-09-25",
+  "account": "saarni-yritys",
+  "amount": -2000.0,
+  "kind": "PALKKA",
+  "counterparty": "BROOKS DANIEL",
+  "iban": "FI20 7939 0070 2144 18",
+  "reference": "",
+  "message": "Palkka syyskuu 2026, Brooks Illustration Oy, Y-tunnus 3412278-6",
+  "archive": "20260925D68430B8A1",
+  "bill": "",
+  "category": "Company: salary"
  },
  {
   "id": "2026-09-26-kuusikko-joint-01",
@@ -6188,6 +7616,20 @@
   "category": "Between accounts"
  },
  {
+  "id": "2026-09-28-saarni-yritys-01",
+  "date": "2026-09-28",
+  "account": "saarni-yritys",
+  "amount": -7.9,
+  "kind": "TILISIIRTO",
+  "counterparty": "SAARNI PANKKI",
+  "iban": "",
+  "reference": "",
+  "message": "Palvelumaksu, yritystili",
+  "archive": "2026092890526A8EB6",
+  "bill": "",
+  "category": "Company: costs"
+ },
+ {
   "id": "2026-10-01-kuusikko-noora-01",
   "date": "2026-10-01",
   "account": "kuusikko-noora",
@@ -6200,6 +7642,20 @@
   "archive": "20261001BC402CB0CB",
   "bill": "",
   "category": "Transport"
+ },
+ {
+  "id": "2026-10-01-saarni-yritys-01",
+  "date": "2026-10-01",
+  "account": "saarni-yritys",
+  "amount": -149.0,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TYOTILA LOUHI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20261001F62871EF88",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-10-02-kuusikko-joint-01",
@@ -6370,18 +7826,18 @@
   "category": "Housing"
  },
  {
-  "id": "2026-10-05-saarni-daniel-01",
+  "id": "2026-10-05-saarni-yritys-01",
   "date": "2026-10-05",
-  "account": "saarni-daniel",
-  "amount": 1007.11,
+  "account": "saarni-yritys",
+  "amount": 1510.67,
   "kind": "TILISIIRTO",
   "counterparty": "PAPERIPUU KUSTANNUS OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 291",
-  "archive": "2026100548262C2278",
+  "archive": "202610054BC3B057C0",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-10-06-kuusikko-noora-01",
@@ -6396,6 +7852,20 @@
   "archive": "20261006066723B9F1",
   "bill": "",
   "category": "Eating out"
+ },
+ {
+  "id": "2026-10-06-saarni-yritys-01",
+  "date": "2026-10-06",
+  "account": "saarni-yritys",
+  "amount": -23.99,
+  "kind": "KORTTIOSTO",
+  "counterparty": "PIIRTOPILVI PRO",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20261006F2FCB611D3",
+  "bill": "",
+  "category": "Company: costs, VAT"
  },
  {
   "id": "2026-10-07-kuusikko-joint-01",
@@ -6468,18 +7938,32 @@
   "category": "Groceries"
  },
  {
-  "id": "2026-10-13-saarni-daniel-01",
+  "id": "2026-10-12-saarni-yritys-01",
+  "date": "2026-10-12",
+  "account": "saarni-yritys",
+  "amount": -590.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "KANTOVIRASTO",
+  "iban": "FI61 2210 0055 0044 71",
+  "reference": "770 03412 27816",
+  "message": "Oma-aloitteiset verot syyskuu 2026",
+  "archive": "20261012376047D6C9",
+  "bill": "",
+  "category": "Company: taxes"
+ },
+ {
+  "id": "2026-10-13-saarni-yritys-01",
   "date": "2026-10-13",
-  "account": "saarni-daniel",
-  "amount": 1009.97,
+  "account": "saarni-yritys",
+  "amount": 1514.96,
   "kind": "TILISIIRTO",
   "counterparty": "KAISLIKKO MEDIA OY",
   "iban": "",
   "reference": "",
   "message": "Lasku 250",
-  "archive": "2026101366BD9DD27A",
+  "archive": "202610136F635005B7",
   "bill": "",
-  "category": "Money in"
+  "category": "Company: sales"
  },
  {
   "id": "2026-10-14-kuusikko-joint-01",
@@ -6494,5 +7978,33 @@
   "archive": "2026101494581C51A6",
   "bill": "",
   "category": "Groceries"
+ },
+ {
+  "id": "2026-10-14-saarni-yritys-01",
+  "date": "2026-10-14",
+  "account": "saarni-yritys",
+  "amount": -135.85,
+  "kind": "KORTTIOSTO",
+  "counterparty": "TAITEILIJATARVIKE PALETTI",
+  "iban": "",
+  "reference": "",
+  "message": "Yrityskortti **** 5521",
+  "archive": "20261014D13D60065F",
+  "bill": "",
+  "category": "Company: costs, VAT"
+ },
+ {
+  "id": "2026-10-15-saarni-yritys-01",
+  "date": "2026-10-15",
+  "account": "saarni-yritys",
+  "amount": -89.0,
+  "kind": "TILISIIRTO",
+  "counterparty": "TILITOIMISTO KIRJURI OY",
+  "iban": "FI05 1533 0000 7710 32",
+  "reference": "8804 12274",
+  "message": "Kirjanpito ja palkanlaskenta",
+  "archive": "202610152ADE5CDC5C",
+  "bill": "",
+  "category": "Company: costs, VAT"
  }
 ]

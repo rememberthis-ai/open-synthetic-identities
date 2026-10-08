@@ -10,8 +10,9 @@ python3 generate/gen_household_fi.py --seed 42     # the ledger and every view o
 python3 generate/check_household_fi_fixture.py     # reads it all back
 ```
 
-Noora Heikkilä (Finnish, salaried), Daniel Brooks (British, a freelance
-illustrator who pays his own pension insurance) and their daughter Aino, four.
+Noora Heikkilä (Finnish, salaried), Daniel Brooks (British, an illustrator with
+his own one-person company, who pays his own pension insurance) and their
+daughter Aino, four.
 **They write to the app in English; every bank, biller and mailbox writes to
 them in Finnish**, so a run in English has to read Finnish bills. The Berlin
 household (`../mindmymoney/`) stays for regression and for a German
@@ -42,13 +43,14 @@ days* means nine days after the run starts. `E2E_TODAY=YYYY-MM-DD` (or
 `portal.sh start --today YYYY-MM-DD`) fixes today, so a failed run can be
 replayed on the same dates.
 
-## The three accounts
+## The four accounts
 
 | file prefix | whose | dialect |
 |---|---|---|
 | `kuusikko-joint` | the joint account the bills are paid from; it receives the e-invoices | Kuusikko Pankki: Finnish headers, `;`, `dd.mm.yyyy`, `-412,00`, UTF-8, the counterparty's IBAN and the reference in their own columns |
 | `kuusikko-noora` | Noora's own account, same bank | the same |
 | `saarni-daniel` | Daniel's account at a second bank | Saarni Pankki, set to English: English headers, `d.m.yyyy`, `-1 350,00`, **Latin-1**, CRLF, a running balance |
+| `saarni-yritys` | **not the household's**: the business account of Daniel's company, Brooks Illustration Oy, under the same sign-in | the same as Daniel's |
 
 Every IBAN and every reference number carries valid check digits (Finnish
 national references with the 7-3-1 rule; RF creditor references for the
@@ -60,9 +62,31 @@ valid. The account numbers belong to nobody.
 Kuusikko Pankki, Saarni Pankki, Viestisilta (the digital mailbox), Kumpu Mail,
 Päiväkoti Pikkutikka, Virtaväylä Energia, Kuitulinja, Aallokko Mobile,
 Turvaranta Vakuutus, Peruskivi Eläkevakuutus, As Oy Kotikallio, Musiikkikoulu
-Sävelpolku, Siivouspalvelu Kirkas, Kanerva Invest, Yritysluettelo Nordic and the
-shops. None imitates a real Finnish bank, OmaPosti, Suomi.fi, an insurer, a
+Sävelpolku, Siivouspalvelu Kirkas, Kanerva Invest, Yritysluettelo Nordic, Brooks
+Illustration Oy, Kantovirasto, Tilitoimisto Kirjuri, Tietokonekauppa Bitti and
+the shops. None imitates a real Finnish bank, OmaPosti, Suomi.fi, an insurer, a
 pension company or a fund.
+
+## A second set of books: Daniel's company
+
+Mind My Money 0.2.0 keeps several sets of books (B7 in
+`docs/plans/MIND-MY-MONEY-0.2.0.md` in the monorepo). Daniel owns **Brooks
+Illustration Oy** (a valid Y-tunnus). Its clients pay `saarni-yritys`; it pays
+Daniel a salary every month and a dividend in May, its VAT every quarter and its
+payroll taxes every month to a tax account, its accountant, coworking desk,
+software and art supplies. The salary and dividend rows on Daniel's own account
+name the company and its Y-tunnus, which is how a round finds the second
+economy. Five rows are in the wrong set, both ways, two of them for the person
+to answer (`PLANTED.md`, *Two sets of books*; the records are
+`evidence/company.json`).
+
+The tax account, **Kantovirasto**, is invented and stands in for the real tax
+administration, as Berlin's Medienabgabe Zentralstelle stands in for the real
+broadcasting fee: no real authority is named in a statement row.
+
+Adding the company changed only Daniel's account (his clients' payments moved
+to the company, his salary and dividend arrived): the joint and Noora's exports
+are byte for byte what they were.
 
 ## What they own
 

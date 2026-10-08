@@ -25,6 +25,13 @@
    "holder": "Daniel Brooks",
    "iban": "FI20 7939 0070 2144 18",
    "opening": 4854.92
+  },
+  "saarni-yritys": {
+   "label": "Saarni Pankki, yritystili",
+   "bank": "Saarni Pankki",
+   "holder": "Brooks Illustration Oy",
+   "iban": "FI16 7939 0070 4881 27",
+   "opening": 9806.15
   }
  },
  "loan": {
@@ -47,7 +54,7 @@
    "daniel": {
     "name": "Daniel Brooks",
     "role": "adult",
-    "about": "British, a freelance illustrator, so he pays his own earnings-related pension insurance (YEL)"
+    "about": "British, an illustrator with his own one-person company, Brooks Illustration Oy, which pays him a salary; he pays his own earnings-related pension insurance (YEL)"
    },
    "aino": {
     "name": "Aino Heikkilä-Brooks",

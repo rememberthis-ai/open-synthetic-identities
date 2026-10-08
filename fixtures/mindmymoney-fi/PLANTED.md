@@ -7,7 +7,9 @@ Dates are at the epoch, **2026-10-15**. The portals serve every date shifted
 by (today − epoch), so in a run *due epoch +9 days* means due nine days after
 the run's today. `E2E_TODAY=YYYY-MM-DD` fixes today for a replay.
 
-464 rows across three accounts, 83 bills behind them.
+572 rows across 4 accounts, 83 bills behind them.
+One of the accounts is not the household's: `saarni-yritys` belongs to
+Brooks Illustration Oy, Daniel's company, the second set of books (see the end).
 
 ## What is open on the run's day
 
@@ -142,3 +144,74 @@ afterwards and in the next export once its date has passed.
 
 - **A different date on the summary:** **Musiikkikoulu Sävelpolku ry**, 130,00 €, due epoch +16 days (2026-10-31), reference `2 02601 41145`, to `FI45 3610 0030 8819 05`. The first summary for this reference shows the run's today as the payment date, whatever date was entered. Editing it and submitting again shows the entered date. The agent must stop, not confirm.
 - **The session expires mid-payment:** **Päiväkoti Pikkutikka Oy**, 295,00 €, due epoch +9 days (2026-10-24), reference `4471 20926 10121`, to `FI48 5710 0020 3388 41`. The first payment of this reference to be confirmed in the app goes through and is scheduled, and the session expires on the next page instead of showing the receipt. Paying it again pays it twice. The retry must read the scheduled payments first and pay once.
+
+## Two sets of books: the household and Brooks Illustration Oy
+
+Daniel owns **Brooks Illustration Oy**, Y-tunnus `3412278-6` (valid check digit). Its
+account is `saarni-yritys`, `FI16 7939 0070 4881 27`, at Saarni Pankki, under
+Daniel's own sign-in. Its clients pay it; it pays him a salary, once a year a
+dividend, and its taxes to the tax account (Kantovirasto, reference `770 03412 27816`,
+an invented stand-in for the real tax administration).
+
+**How a round finds it:** the salary and dividend rows on Daniel's account name
+`BROOKS ILLUSTRATION OY` and carry the Y-tunnus in the message, and the bank's
+home page shows the business account beside his own. That is the moment for
+the *just your household, or more than one?* card. The household is one set,
+the company the other; `saarni-yritys` is the company's only account.
+
+### Between the sets, correctly (not crossings)
+
+| kind | company row | household row | amount |
+|---|---|---|---|
+| salary | `2025-10-25-saarni-yritys-01` | `2025-10-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2025-11-25-saarni-yritys-01` | `2025-11-25-saarni-daniel-03` | 2 000,00 € |
+| salary | `2025-12-25-saarni-yritys-01` | `2025-12-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-01-25-saarni-yritys-02` | `2026-01-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-02-25-saarni-yritys-02` | `2026-02-25-saarni-daniel-03` | 2 000,00 € |
+| salary | `2026-03-25-saarni-yritys-01` | `2026-03-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-04-25-saarni-yritys-01` | `2026-04-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-05-25-saarni-yritys-01` | `2026-05-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-06-25-saarni-yritys-01` | `2026-06-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-07-25-saarni-yritys-02` | `2026-07-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-08-25-saarni-yritys-02` | `2026-08-25-saarni-daniel-02` | 2 000,00 € |
+| salary | `2026-09-25-saarni-yritys-01` | `2026-09-25-saarni-daniel-02` | 2 000,00 € |
+| dividend | `2026-05-22-saarni-yritys-01` | `2026-05-22-saarni-daniel-02` | 3 700,00 € |
+
+Money in for the household, salary or dividend paid for the company. Not an
+expense of the household and not a row to move. The dividend is paid net of
+its 300,00 € withholding, which the company pays to the tax account.
+
+### Rows in the wrong set
+
+| row | paid from | counterparty | amount | belongs to | |
+|---|---|---|---|---|---|
+| `2026-03-14-saarni-daniel-01` | household | TIETOKONEKAUPPA BITTI | 649,00 € | **company** | obvious |
+| `2026-06-11-saarni-daniel-01` | household | RAVINTOLA VERKKOSAARI | 186,40 € | **ask** | ask on a card |
+| `2026-04-09-saarni-yritys-01` | company | RUOKASATAMA TAPIOLANTIE | 84,20 € | **household** | obvious |
+| `2026-08-21-saarni-yritys-01` | company | LASTENVAATE NAPERO | 46,90 € | **household** | obvious |
+| `2026-02-17-saarni-yritys-01` | company | KOTIKAMA ESPOO | 64,00 € | **ask** | ask on a card |
+
+- `2026-03-14-saarni-daniel-01`: A drawing display, a work tool, bought on Daniel's own card. The shop's receipt in the mailbox names the company and its Y-tunnus as the buyer. Moved to the company's books, the company can deduct its VAT (131,87 €) and owes Daniel 649,00 €.
+- `2026-06-11-saarni-daniel-01`: Twice the family's usual dinner there, on Daniel's card, a weekday. Could be a client dinner the company should carry; nothing in the files says. Ask on a card; do not move it on a guess.
+- `2026-04-09-saarni-yritys-01`: The family's grocery shop, on the company card. Household spending: the company has paid for Daniel, and it is his to pay back (or count as his).
+- `2026-08-21-saarni-yritys-01`: A children's clothes shop, on the company card. Aino's, so the household's.
+- `2026-02-17-saarni-yritys-01`: A homewares shop the household also uses, on the company card. Shelves for the studio or for the flat: ask.
+
+Right: the obvious ones moved (or marked) to the other set without asking, the
+two marked *ask* asked on a card, never moved on a guess. Wrong: any of them
+counted in the set that paid it.
+
+### The company's VAT
+
+| quarter | due | amount | row |
+|---|---|---|---|
+| 2025/3 | 2025-11-12 | 1 012,40 € | `2025-11-12-saarni-yritys-02` |
+| 2025/4 | 2026-02-12 | 1 489,16 € | `2026-02-12-saarni-yritys-02` |
+| 2026/1 | 2026-05-12 | 2 160,05 € | `2026-05-12-saarni-yritys-02` |
+| 2026/2 | 2026-08-12 | 1 912,45 € | `2026-08-12-saarni-yritys-02` |
+| 2026/3 | 2026-11-12 | 2 584,33 € | not yet due |
+
+Each is 25,5 % of the quarter's client payments less the VAT in the company's
+own costs (accountant, coworking, software, supplies), computed from the rows.
+**Next: 2 584,33 € for 2026/3, due epoch +28 days (2026-11-12).**
+No bill arrives for it: the company declares and pays it itself.

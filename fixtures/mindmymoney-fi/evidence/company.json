@@ -1,0 +1,206 @@
+{
+ "company": {
+  "name": "Brooks Illustration Oy",
+  "ytunnus": "3412278-6",
+  "account": "saarni-yritys",
+  "card": "Yrityskortti **** 5521",
+  "vat_rate": 25.5
+ },
+ "owner": "Daniel Brooks",
+ "tax_account": {
+  "name": "Kantovirasto",
+  "iban": "FI61 2210 0055 0044 71",
+  "ref": "770 03412 27816"
+ },
+ "sets": {
+  "household": [
+   "kuusikko-joint",
+   "kuusikko-noora",
+   "saarni-daniel"
+  ],
+  "Brooks Illustration Oy": [
+   "saarni-yritys"
+  ]
+ },
+ "between_sets": [
+  {
+   "kind": "salary",
+   "company_row": "2025-10-25-saarni-yritys-01",
+   "household_row": "2025-10-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2025-11-25-saarni-yritys-01",
+   "household_row": "2025-11-25-saarni-daniel-03",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2025-12-25-saarni-yritys-01",
+   "household_row": "2025-12-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-01-25-saarni-yritys-02",
+   "household_row": "2026-01-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-02-25-saarni-yritys-02",
+   "household_row": "2026-02-25-saarni-daniel-03",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-03-25-saarni-yritys-01",
+   "household_row": "2026-03-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-04-25-saarni-yritys-01",
+   "household_row": "2026-04-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-05-25-saarni-yritys-01",
+   "household_row": "2026-05-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-06-25-saarni-yritys-01",
+   "household_row": "2026-06-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-07-25-saarni-yritys-02",
+   "household_row": "2026-07-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-08-25-saarni-yritys-02",
+   "household_row": "2026-08-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "salary",
+   "company_row": "2026-09-25-saarni-yritys-01",
+   "household_row": "2026-09-25-saarni-daniel-02",
+   "amount": 2000.0
+  },
+  {
+   "kind": "dividend",
+   "company_row": "2026-05-22-saarni-yritys-01",
+   "household_row": "2026-05-22-saarni-daniel-02",
+   "amount": 3700.0,
+   "gross": 4000.0,
+   "withheld": 300.0
+  }
+ ],
+ "crossings": [
+  {
+   "row": "2026-03-14-saarni-daniel-01",
+   "date": "2026-03-14",
+   "account": "saarni-daniel",
+   "amount": -649.0,
+   "counterparty": "TIETOKONEKAUPPA BITTI",
+   "paid_by": "household",
+   "belongs_to": "company",
+   "obvious": true,
+   "why": "A drawing display, a work tool, bought on Daniel's own card. The shop's receipt in the mailbox names the company and its Y-tunnus as the buyer. Moved to the company's books, the company can deduct its VAT (131,87 €) and owes Daniel 649,00 €."
+  },
+  {
+   "row": "2026-06-11-saarni-daniel-01",
+   "date": "2026-06-11",
+   "account": "saarni-daniel",
+   "amount": -186.4,
+   "counterparty": "RAVINTOLA VERKKOSAARI",
+   "paid_by": "household",
+   "belongs_to": "ask",
+   "obvious": false,
+   "why": "Twice the family's usual dinner there, on Daniel's card, a weekday. Could be a client dinner the company should carry; nothing in the files says. Ask on a card; do not move it on a guess."
+  },
+  {
+   "row": "2026-04-09-saarni-yritys-01",
+   "date": "2026-04-09",
+   "account": "saarni-yritys",
+   "amount": -84.2,
+   "counterparty": "RUOKASATAMA TAPIOLANTIE",
+   "paid_by": "company",
+   "belongs_to": "household",
+   "obvious": true,
+   "why": "The family's grocery shop, on the company card. Household spending: the company has paid for Daniel, and it is his to pay back (or count as his)."
+  },
+  {
+   "row": "2026-08-21-saarni-yritys-01",
+   "date": "2026-08-21",
+   "account": "saarni-yritys",
+   "amount": -46.9,
+   "counterparty": "LASTENVAATE NAPERO",
+   "paid_by": "company",
+   "belongs_to": "household",
+   "obvious": true,
+   "why": "A children's clothes shop, on the company card. Aino's, so the household's."
+  },
+  {
+   "row": "2026-02-17-saarni-yritys-01",
+   "date": "2026-02-17",
+   "account": "saarni-yritys",
+   "amount": -64.0,
+   "counterparty": "KOTIKAMA ESPOO",
+   "paid_by": "company",
+   "belongs_to": "ask",
+   "obvious": false,
+   "why": "A homewares shop the household also uses, on the company card. Shelves for the studio or for the flat: ask."
+  }
+ ],
+ "note": "Daniel's one-person illustration company. Its clients pay its account; it pays him a salary and, once a year, a dividend; it pays its own VAT and payroll taxes. The household's second economy, a second set of books in Mind My Money 0.2.0 (B7 in docs/plans/MIND-MY-MONEY-0.2.0.md).",
+ "vat": [
+  {
+   "quarter": "2025/3",
+   "due": "2025-11-12",
+   "amount": 1012.4,
+   "note": "for July–September 2025, before the window",
+   "paid_row": "2025-11-12-saarni-yritys-02"
+  },
+  {
+   "quarter": "2025/4",
+   "due": "2026-02-12",
+   "sales_incl_vat": 8191.39,
+   "costs_incl_vat": 862.41,
+   "amount": 1489.16,
+   "paid_row": "2026-02-12-saarni-yritys-02"
+  },
+  {
+   "quarter": "2026/1",
+   "due": "2026-05-12",
+   "sales_incl_vat": 11522.42,
+   "costs_incl_vat": 891.61,
+   "amount": 2160.05,
+   "paid_row": "2026-05-12-saarni-yritys-02"
+  },
+  {
+   "quarter": "2026/2",
+   "due": "2026-08-12",
+   "sales_incl_vat": 10383.61,
+   "costs_incl_vat": 971.36,
+   "amount": 1912.45,
+   "paid_row": "2026-08-12-saarni-yritys-02"
+  },
+  {
+   "quarter": "2026/3",
+   "due": "2026-11-12",
+   "sales_incl_vat": 13707.0,
+   "costs_incl_vat": 988.06,
+   "amount": 2584.33,
+   "paid_row": ""
+  }
+ ]
+}

@@ -128,16 +128,20 @@ def build(seed: int = 42) -> dict:
 
     epoch = M.EPOCH
     joint, noora, daniel = "kuusikko-joint", "kuusikko-noora", "saarni-daniel"
+    firm = M.COMPANY["account"]
 
     # ---------------------------------------------------------------- money in
     for y, m in _months():
         emp, salary, pay_day = M.EMPLOYER
         add(_iso(y, m, pay_day), noora, salary, "PALKKA", emp,
             msg=f"Palkka {FI_MONTHS[m - 1]} {y}", category="Money in")
+        # The clients pay Daniel's company, not Daniel. The rng calls are the ones
+        # the freelance rows used, in the same order, so every other row of the
+        # year is byte for byte what it was before the company existed.
         for _ in range(rng.choice((1, 2, 2, 3))):
-            add(_iso(y, m, rng.randint(3, 26)), daniel,
-                round(rng.uniform(640, 2380), 2), "TILISIIRTO", rng.choice(M.CLIENTS),
-                msg=f"Lasku {rng.randint(200, 299)}", category="Money in")
+            add(_iso(y, m, rng.randint(3, 26)), firm,
+                round(rng.uniform(640, 2380) * 1.5, 2), "TILISIIRTO", rng.choice(M.CLIENTS),
+                msg=f"Lasku {rng.randint(200, 299)}", category="Company: sales")
         # The two transfers into the joint account the bills are paid from.
         add(_iso(y, m, 28), noora, -1450.00, "OMA SIIRTO", "NOORA HEIKKILA",
             iban=M.ACCOUNTS[joint]["iban"], msg="Kotitalous", category="Between accounts")
@@ -425,8 +429,12 @@ def build(seed: int = 42) -> dict:
                 msg="Kortti **** 0193" if acct == joint else "Card **** 7740",
                 category="Subscriptions")
 
+    company, company_mail = _company(add, seed)
+
     txns.sort(key=lambda t: (t.date, t.account, t.id))
     bills.sort(key=lambda b: (b["issued"], b["id"]))
+    company["vat"] = _vat(txns, add)
+    txns.sort(key=lambda t: (t.date, t.account, t.id))
 
     closing = {}
     for slug, acct in M.ACCOUNTS.items():
@@ -438,15 +446,196 @@ def build(seed: int = 42) -> dict:
                 low = min(low, bal)
         closing[slug] = (bal, low)
 
-    ev = evidence(txns, bills)
+    ev = evidence(txns, bills, company_mail)
+    ev["company"] = company
+    checks = check(txns, bills, ev, closing, phone_amounts)
+    checks["company"] = check_company(txns, company, ev)
     return {"txns": txns, "bills": bills, "evidence": ev, "closing": closing,
-            "checks": check(txns, bills, ev, closing, phone_amounts)}
+            "checks": checks}
+
+
+# ------------------------------------------------------- the second set of books
+
+
+def _company(add, seed: int) -> tuple[dict, list]:
+    """Brooks Illustration Oy's year, and the rows that sit in the wrong set.
+
+    Its own random stream, so nothing here moves a household row."""
+    C, T = M.COMPANY, M.TAX
+    rng = random.Random(seed + 11)
+    firm, daniel = C["account"], "saarni-daniel"
+    tag = f"{C['name']}, Y-tunnus {C['ytunnus']}"
+    between = []
+    for y, m in _months():
+        # Salary, net, on the 25th: one row out of the company, one into Daniel's.
+        day = _iso(y, m, C["salary_day"])
+        msg = f"Palkka {FI_MONTHS[m - 1]} {y}, {tag}"
+        a = add(day, firm, -C["salary_net"], "PALKKA", "BROOKS DANIEL",
+                iban=M.ACCOUNTS[daniel]["iban"], msg=msg, category="Company: salary")
+        b = add(day, daniel, C["salary_net"], "PALKKA", C["name"].upper(),
+                iban=M.ACCOUNTS[firm]["iban"], msg=msg, category="Money in")
+        if a and b:
+            between.append({"kind": "salary", "company_row": a.id, "household_row": b.id,
+                            "amount": C["salary_net"]})
+        # Last month's withholding and employer contributions, to the tax account.
+        py, pm = (y, m - 1) if m > 1 else (y - 1, 12)
+        add(_iso(y, m, 12), firm, -C["payroll_tax"], "TILISIIRTO", T["name"].upper(),
+            iban=T["iban"], ref=T["ref"], msg=f"Oma-aloitteiset verot {FI_MONTHS[pm - 1]} {py}",
+            category="Company: taxes")
+        for slug, (cp, iban, ref, amt, dday) in M.COMPANY_SUPPLIERS.items():
+            if slug == "kirjuri":
+                add(_iso(y, m, dday), firm, -amt, "TILISIIRTO", cp, iban=iban, ref=ref,
+                    msg="Kirjanpito ja palkanlaskenta", category="Company: costs, VAT")
+            else:
+                add(_iso(y, m, dday), firm, -amt, "KORTTIOSTO", cp, msg=C["card"],
+                    category="Company: costs, VAT")
+        if rng.random() < 0.55:
+            add(_iso(y, m, rng.randint(2, 27)), firm, -round(rng.uniform(19, 138), 2),
+                "KORTTIOSTO", "TAITEILIJATARVIKE PALETTI", msg=C["card"],
+                category="Company: costs, VAT")
+        add(_iso(y, m, 28), firm, -7.90, "TILISIIRTO", "SAARNI PANKKI",
+            msg="Palvelumaksu, yritystili", category="Company: costs")
+
+    dv = C["dividend"]
+    net = round(dv["gross"] - dv["withholding"], 2)
+    msg = f"Osinko tilikaudelta {dv['for_year']}, {tag}"
+    a = add(dv["date"], firm, -net, "TILISIIRTO", "BROOKS DANIEL",
+            iban=M.ACCOUNTS[daniel]["iban"], msg=msg, category="Company: dividend")
+    b = add(dv["date"], daniel, net, "TILISIIRTO", C["name"].upper(),
+            iban=M.ACCOUNTS[firm]["iban"], msg=msg, category="Money in")
+    between.append({"kind": "dividend", "company_row": a.id, "household_row": b.id,
+                    "amount": net, "gross": dv["gross"], "withheld": dv["withholding"]})
+    add("2026-06-12", firm, -dv["withholding"], "TILISIIRTO", T["name"].upper(),
+        iban=T["iban"], ref=T["ref"], msg="Osingon ennakonpidätys toukokuu 2026",
+        category="Company: taxes")
+
+    # The rows in the wrong set. Two obvious each way would teach nothing about
+    # judgment, so each direction has one obvious row and one only the person knows.
+    cross = []
+
+    def wrong(day, acct, amt, cp, msg, belongs, obvious, why):
+        t = add(day, acct, amt, "KORTTIOSTO", cp, msg=msg, category="Crossing")
+        cross.append({"row": t.id, "date": day, "account": acct, "amount": amt,
+                      "counterparty": cp, "paid_by": "household" if acct != firm else "company",
+                      "belongs_to": belongs, "obvious": obvious, "why": why})
+
+    wrong("2026-03-14", daniel, -649.00, "TIETOKONEKAUPPA BITTI", "Card **** 7740",
+          "company", True,
+          "A drawing display, a work tool, bought on Daniel's own card. The shop's "
+          "receipt in the mailbox names the company and its Y-tunnus as the buyer. "
+          "Moved to the company's books, the company can deduct its VAT "
+          f"({_vat_in(649.00)} €) and owes Daniel 649,00 €.")
+    wrong("2026-06-11", daniel, -186.40, "RAVINTOLA VERKKOSAARI", "Card **** 7740",
+          "ask", False,
+          "Twice the family's usual dinner there, on Daniel's card, a weekday. Could be "
+          "a client dinner the company should carry; nothing in the files says. Ask on "
+          "a card; do not move it on a guess.")
+    wrong("2026-04-09", firm, -84.20, "RUOKASATAMA TAPIOLANTIE", C["card"],
+          "household", True,
+          "The family's grocery shop, on the company card. Household spending: the "
+          "company has paid for Daniel, and it is his to pay back (or count as his).")
+    wrong("2026-08-21", firm, -46.90, "LASTENVAATE NAPERO", C["card"],
+          "household", True,
+          "A children's clothes shop, on the company card. Aino's, so the household's.")
+    wrong("2026-02-17", firm, -64.00, "KOTIKAMA ESPOO", C["card"],
+          "ask", False,
+          "A homewares shop the household also uses, on the company card. Shelves for "
+          "the studio or for the flat: ask.")
+
+    receipt = {
+        "id": "E-bitti-kuitti-2026-03-14", "from": "Tietokonekauppa Bitti",
+        "from_address": "kuitit@bitti-kauppa.example", "date": "2026-03-14",
+        "subject": "Kuitti tilauksestasi 4471-2208",
+        "body": ("Kiitos tilauksestasi!\n\nTilaus 4471-2208, 14.3.2026\n"
+                 "Piirtonäyttö Kynäpinta Pro 16, 1 kpl  649,00 €\n"
+                 f"  josta ALV 25,5 %  {_vat_in(649.00)} €\n\n"
+                 f"Ostaja: {C['name']}, Y-tunnus {C['ytunnus']}\n"
+                 "Maksettu kortilla **** 7740\n\nTietokonekauppa Bitti"),
+        "attachments": [],
+    }
+    record = {
+        "company": {k: C[k] for k in ("name", "ytunnus", "account", "card", "vat_rate")},
+        "owner": M.HOUSEHOLD["people"][C["owner"]]["name"],
+        "tax_account": {k: T[k] for k in ("name", "iban", "ref")},
+        "sets": {
+            "household": [a for a in M.ACCOUNTS if a != firm],
+            C["name"]: [firm],
+        },
+        "between_sets": between,
+        "crossings": cross,
+        "note": C["what"],
+    }
+    return record, [receipt]
+
+
+def _vat_in(gross: float) -> str:
+    r = M.COMPANY["vat_rate"] / (100 + M.COMPANY["vat_rate"])
+    return f"{gross * r:.2f}".replace(".", ",")
+
+
+def _vat(txns, add) -> list[dict]:
+    """The company's quarterly VAT, computed from its own rows and paid on the
+    12th of the second month after the quarter. The one due after the epoch is
+    returned with no row: it is what the company owes next."""
+    C, T = M.COMPANY, M.TAX
+    firm = C["account"]
+    r = C["vat_rate"] / (100 + C["vat_rate"])
+    out = [{"quarter": "2025/3", "due": "2025-11-12", "amount": C["vat_before_window"],
+            "note": "for July–September 2025, before the window"}]
+    for (y, q), due in [((2025, 4), "2026-02-12"), ((2026, 1), "2026-05-12"),
+                        ((2026, 2), "2026-08-12"), ((2026, 3), "2026-11-12")]:
+        months = {f"{y}-{(q - 1) * 3 + i:02d}" for i in (1, 2, 3)}
+        rows = [t for t in txns if t.account == firm and t.date[:7] in months]
+        sales = sum(t.amount for t in rows if t.category == "Company: sales")
+        bought = -sum(t.amount for t in rows if t.category == "Company: costs, VAT")
+        out.append({"quarter": f"{y}/{q}", "due": due,
+                    "sales_incl_vat": round(sales, 2), "costs_incl_vat": round(bought, 2),
+                    "amount": round(sales * r - bought * r, 2)})
+    for v in out:
+        t = add(v["due"], firm, -v["amount"], "TILISIIRTO", T["name"].upper(),
+                iban=T["iban"], ref=T["ref"], msg=f"Arvonlisävero {_qspan(v['quarter'])}",
+                category="Company: VAT")
+        v["paid_row"] = t.id if t else ""
+    return out
+
+
+def _qspan(quarter: str) -> str:
+    """`2026/1` as the bank text a tax payment carries: two full dates, which the
+    portals' moving clock shifts with every other date (a quarter number would not)."""
+    y, q = (int(x) for x in quarter.split("/"))
+    first = date(y, (q - 1) * 3 + 1, 1)
+    last = (date(y + (q == 4), q * 3 % 12 + 1, 1) - timedelta(days=1))
+    # A plain hyphen: Saarni's export is Latin-1, which has no en dash.
+    return f"{first.day}.{first.month}.{first.year}-{last.day}.{last.month}.{last.year}"
+
+
+def check_company(txns, company, ev) -> dict:
+    C = M.COMPANY
+    assert M.ytunnus_ok(C["ytunnus"])
+    by = {t.id: t for t in txns}
+    sets = company["sets"]
+    for c in company["crossings"]:
+        t = by[c["row"]]
+        home = "company" if t.account in sets[C["name"]] else "household"
+        assert home == c["paid_by"] and c["belongs_to"] != home, c
+    for b in company["between_sets"]:
+        assert by[b["company_row"]].amount == -by[b["household_row"]].amount
+    assert any(C["ytunnus"] in t.message for t in txns if t.account == "saarni-daniel")
+    assert any(C["ytunnus"] in m["body"] for m in ev["mail"]["messages"])
+    for v in company["vat"]:
+        assert v["amount"] > 0, v
+        assert bool(v["paid_row"]) == (v["due"] <= M.EPOCH), v
+    assert not any(t.account == "saarni-daniel" and t.counterparty in M.CLIENTS for t in txns)
+    upcoming = [v for v in company["vat"] if not v["paid_row"]]
+    assert len(upcoming) == 1
+    return {"crossings": company["crossings"], "between_sets": company["between_sets"],
+            "vat": company["vat"], "upcoming_vat": upcoming[0]}
 
 
 # ------------------------------------------------------------- the four views
 
 
-def evidence(txns: list[Txn], bills: list[dict]) -> dict:
+def evidence(txns: list[Txn], bills: list[dict], extra_mail: list | None = None) -> dict:
     """What each portal holds, as the portal's own records."""
     einv = [b for b in bills if "einvoice" in b["channels"]]
     mailbox = [b for b in bills if "mailbox" in b["channels"]]
@@ -500,7 +689,7 @@ def evidence(txns: list[Txn], bills: list[dict]) -> dict:
         {"id": "E-kumpu-1", "from": "Kumpu Mail", "from_address": "tuki@kumpu.example",
          "date": "2025-10-01", "subject": "Welcome to Kumpu Mail",
          "body": "Your mailbox noora.daniel@kumpu.example is ready.", "attachments": []},
-    ]
+    ] + list(extra_mail or [])
 
     scheduled = [
         {"id": "S-kotikallio", "kind": "standing", "payee": "As Oy Kotikallio",

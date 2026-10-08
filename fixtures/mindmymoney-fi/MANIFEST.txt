@@ -2,6 +2,7 @@ PLANTED.md
 evidence/bills.json
 evidence/broker.json
 evidence/clock.json
+evidence/company.json
 evidence/einvoices.json
 evidence/ledger.json
 evidence/loan.json
@@ -52,3 +53,17 @@ statements/saarni-daniel-2026-07.csv
 statements/saarni-daniel-2026-08.csv
 statements/saarni-daniel-2026-09.csv
 statements/saarni-daniel-2026-10.csv
+statements/saarni-yritys-2025-10-01--2026-10-15.csv
+statements/saarni-yritys-2025-10.csv
+statements/saarni-yritys-2025-11.csv
+statements/saarni-yritys-2025-12.csv
+statements/saarni-yritys-2026-01.csv
+statements/saarni-yritys-2026-02.csv
+statements/saarni-yritys-2026-03.csv
+statements/saarni-yritys-2026-04.csv
+statements/saarni-yritys-2026-05.csv
+statements/saarni-yritys-2026-06.csv
+statements/saarni-yritys-2026-07.csv
+statements/saarni-yritys-2026-08.csv
+statements/saarni-yritys-2026-09.csv
+statements/saarni-yritys-2026-10.csv

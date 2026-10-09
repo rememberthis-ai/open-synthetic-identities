@@ -1,7 +1,8 @@
 # Open Synthetic Identities
 
 Fictional, fully synthetic example data for [Remember This](https://rememberthis.ai),
-[My Transcriber](https://mytranscriber.app), and [Clerk.AI](https://clerkai.eu).
+[My Transcriber](https://mytranscriber.app), [Clerk.AI](https://clerkai.eu), and
+[The Revenue Assistant](https://therevenueassistant.com).
 
 Every person, merchant, bank, company, and event in this dataset is **invented**. No
 real personal data, no real brands, no real financials. That makes it safe to use for:
@@ -33,6 +34,8 @@ open-synthetic-identities/
     clerkai/              # receipts (PNG), statements (CSV), period-close run state
     transcriber/          # audio fixtures + expected transcripts
     rememberthis/         # photo-set manifest, memo fixtures, Life Book states
+    revenueassistant/
+      dealmaker/          # an invented advisory's mail, CRM and folder, with an answer key
   shots/                  # per-brand screenshot shot-list manifests (capture rig)
 ```
 

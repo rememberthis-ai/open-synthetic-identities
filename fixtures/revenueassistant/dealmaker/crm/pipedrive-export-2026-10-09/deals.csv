@@ -1,0 +1,19 @@
+Deal - ID,Deal - Title,Deal - Organization,Deal - Contact person,Deal - Value,Deal - Currency,Deal - Pipeline,Deal - Stage,Deal - Status,Deal - Owner,Deal - Deal created,Deal - Won time,Deal - Lost time,Deal - Lost reason
+901,Birch - Fjell,Fjell Capital AS,Magnus Fjeld,,,Project Birch investors,Teaser sent,lost,Sofia Berglund,2026-01-15,,2026-07-12,Not our sector (keep for industrials)
+902,Harju add-on acquisition,Harju Logistics Oy,Petra Harju,150000,EUR,Mandates,Mandate signed,open,Johan Aalto,2026-01-15,,,
+903,Project Birch (sale of Kallio Foods),Kallio Foods Oy,Mari Kallio,600000,EUR,Mandates,In market,open,Johan Aalto,2026-05-12,,,
+904,Birch - Kivi,Kivi Family Office,Leena Kivi,,,Project Birch investors,Teaser sent,open,Johan Aalto,2026-01-15,,,
+905,Lumo Health Oy,Lumo Health Oy,Ville Kuosmanen,,,Mandates,Contact made,open,Sofia Berglund,2026-09-05,,,
+906,Merikoski referral agreement,Merikoski Bank,Tuomas Leino,,,Partners,Agreement signed,open,Sofia Berglund,2026-01-15,,,
+907,Mikael Rautio,,Mikael Rautio,,,Investor relations,Warm,open,Johan Aalto,2026-01-15,,,
+908,Nordic Pension Mutual,Nordic Pension Mutual,Kaisa Lehto,,,Investor relations,Long list,open,Sofia Berglund,2026-01-15,,,
+909,Nordvent Systems AB,Nordvent Systems AB,Camilla Nord,,,Mandates,Proposal made,open,Johan Aalto,2026-08-21,,,
+910,Okko Instruments Oy,Okko Instruments Oy,Sanna Okko,,,Mandates,Lead in,open,Sofia Berglund,2026-09-25,,,
+911,Oravala Software Oy,Oravala Software Oy,Petteri Oravala,,,Mandates,Lead in,open,Johan Aalto,2026-09-18,,,
+912,Pohjoisranta Dental Group,Pohjoisranta Dental Group,Laura Pohjoisranta,,,Mandates,Contact made,open,Johan Aalto,2026-01-15,,,
+913,Birch - Revontuli,Revontuli Growth Partners,Henrik Lund,,,Project Birch investors,Indicative offer,open,Sofia Berglund,2026-01-15,,,
+914,Ström Holding AB,Ström Holding AB,Anders Ström,,,Investor relations,Long list,open,Johan Aalto,2026-01-15,,,
+915,Tammela Steel Oy,Tammela Steel Oy,Jari Tammela,,,Mandates,Contact made,open,Johan Aalto,2026-09-22,,,
+916,Sale of Vaara Packaging,Vaara Packaging Oy,Antti Vaara,420000,EUR,Mandates,Closed,won,Johan Aalto,2026-01-15,2026-06-30,,
+917,Vesi minority raise,Vesi Analytics Oy,Oskari Vesi,80000,EUR,Mandates,Proposal made,lost,Johan Aalto,2026-01-15,,2026-04-30,Timing: revisit after 2026 accounts
+999,Sale of Harju Logistics (majority),Harju Logistics Oy,Petra Harju,380000,EUR,Mandates,Closed,won,Johan Aalto,2025-09-04,2026-03-31,,

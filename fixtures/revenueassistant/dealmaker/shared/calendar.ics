@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//made-up//lindgate deal-maker fixture//EN
+X-WR-CALNAME:Johan Aalto (with Sofia's shared calendar)
+BEGIN:VEVENT
+UID:lg0004@lindgate.example
+DTSTART:20260622T100000Z
+DTEND:20260622T110000Z
+SUMMARY:Project Birch kick-off with Kallio management
+ATTENDEE;CN=Mari Kallio:mailto:mari@kallio-foods.example
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0014@lindgate.example
+DTSTART:20260827T100000Z
+DTEND:20260827T110000Z
+SUMMARY:Project Birch weekly status
+ATTENDEE;CN=Mari Kallio:mailto:mari@kallio-foods.example
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0015@lindgate.example
+DTSTART:20260828T100000Z
+DTEND:20260828T110000Z
+SUMMARY:First meeting with Camilla Nord
+ATTENDEE;CN=Camilla Nord:mailto:camilla@nordvent.example
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0020@lindgate.example
+DTSTART:20260917T100000Z
+DTEND:20260917T110000Z
+SUMMARY:Met Petteri at Lindgate's sponsored table, Nordic Mid-Market Forum
+ATTENDEE;CN=Petteri Oravala:mailto:petteri@oravala.example
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0022@lindgate.example
+DTSTART:20260919T100000Z
+DTEND:20260919T110000Z
+SUMMARY:Call with Ville Kuosmanen
+ATTENDEE;CN=Ville Kuosmanen:mailto:ville@lumo-health.example
+ORGANIZER;CN=Sofia Berglund:mailto:sofia@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0028@lindgate.example
+DTSTART:20261001T100000Z
+DTEND:20261001T110000Z
+SUMMARY:Intro meeting with Jari Tammela
+ATTENDEE;CN=Jari Tammela:mailto:jari@tammela-steel.example
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0029@lindgate.example
+DTSTART:20261006T100000Z
+DTEND:20261006T110000Z
+SUMMARY:First meeting with Sanna Okko
+ATTENDEE;CN=Sanna Okko:mailto:sanna@okko-instruments.example
+ORGANIZER;CN=Sofia Berglund:mailto:sofia@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0030@lindgate.example
+DTSTART:20260608T080000Z
+SUMMARY:Partners' weekly
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0031@lindgate.example
+DTSTART:20260706T080000Z
+SUMMARY:Partners' weekly
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0032@lindgate.example
+DTSTART:20260914T080000Z
+SUMMARY:Partners' weekly
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+BEGIN:VEVENT
+UID:lg0033@lindgate.example
+DTSTART:20260916T080000Z
+SUMMARY:Nordic Mid-Market Forum (Lindgate sponsors a table)
+ORGANIZER;CN=Johan Aalto:mailto:johan@lindgate.example
+END:VEVENT
+END:VCALENDAR

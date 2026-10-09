@@ -1,0 +1,21 @@
+Person - ID,Person - Name,Person - Organization,Person - Email,Person - Owner,Person - Label
+501,Erik Brannvik,Brannvik Marine AB,erik@brannvik-marine.example,Johan Aalto,
+502,Elina Saari,Saari & Co,elina@saari-co.example,Johan Aalto,
+503,Magnus Fjeld,Fjell Capital AS,magnus@fjell-capital.example,Sofia Berglund,Investor
+504,Petra Harju,Harju Logistics Oy,petra@harju-logistics.example,Johan Aalto,
+505,Mari Kallio,Kallio Foods Oy,mari@kallio-foods.example,Johan Aalto,
+506,Leena Kivi,Kivi Family Office,leena@kivi-family.example,Johan Aalto,Investor
+507,Helmi Kuusi,Kuusi Robotics Oy,helmi@kuusi-robotics.example,Sofia Berglund,
+508,Ville Kuosmanen,Lumo Health Oy,ville@lumo-health.example,Sofia Berglund,
+509,Tuomas Leino,Merikoski Bank,tuomas@merikoski-bank.example,Sofia Berglund,
+510,Mikael Rautio,,mikael@rautio.example,Johan Aalto,Investor
+511,Kaisa Lehto,Nordic Pension Mutual,kaisa@npm-pension.example,Sofia Berglund,Investor
+512,Camilla Nord,Nordvent Systems AB,camilla@nordvent.example,Johan Aalto,
+513,Sanna Okko,Okko Instruments Oy,sanna@okko-instruments.example,Sofia Berglund,
+514,Petteri Oravala,Oravala Software Oy,petteri@oravala.example,Johan Aalto,
+515,Laura Pohjoisranta,Pohjoisranta Dental Group,laura@pohjoisranta-dental.example,Johan Aalto,
+516,Henrik Lund,Revontuli Growth Partners,henrik@revontuli-growth.example,Sofia Berglund,Investor
+517,Anders Ström,Ström Holding AB,anders@strom-holding.example,Johan Aalto,Investor
+518,Jari Tammela,Tammela Steel Oy,jari@tammela-steel.example,Johan Aalto,
+519,Antti Vaara,Vaara Packaging Oy,antti@vaara-packaging.example,Johan Aalto,
+520,Oskari Vesi,Vesi Analytics Oy,oskari@vesi-analytics.example,Johan Aalto,

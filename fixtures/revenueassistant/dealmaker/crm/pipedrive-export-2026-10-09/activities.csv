@@ -1,0 +1,26 @@
+Activity - ID,Activity - Type,Activity - Subject,Activity - Due date,Activity - Done,Activity - Deal,Activity - Person,Activity - Organization,Activity - Note,Activity - Assigned to user
+3001,Meeting,First meeting at their Lahti office,2025-08-21,Done,916,Antti Vaara,Vaara Packaging Oy,First meeting at their Lahti office; Antti is thinking about selling in 2026.,Johan Aalto
+3002,Meeting,First meeting with Petra in Tampere,2025-09-04,Done,999,Petra Harju,Harju Logistics Oy,First meeting with Petra in Tampere.,Johan Aalto
+3003,Task,Engagement letter signed for the sale of a majority stake,2025-09-25,Done,999,Petra Harju,Harju Logistics Oy,Engagement letter signed for the sale of a majority stake.,Johan Aalto
+3004,Task,Kick-off,2025-10-01,Done,999,Petra Harju,Harju Logistics Oy,Kick-off; buyer list agreed.,Johan Aalto
+3005,Task,Engagement letter signed for the sale of the company,2025-10-02,Done,916,Antti Vaara,Vaara Packaging Oy,Engagement letter signed for the sale of the company.,Johan Aalto
+3006,Task,Kick-off with management,2025-10-09,Done,916,Antti Vaara,Vaara Packaging Oy,Kick-off with management; data room opened.,Johan Aalto
+3007,Meeting,Dinner with Leena Kivi,2025-11-06,Done,904,Leena Kivi,Kivi Family Office,Dinner with Leena Kivi.,Johan Aalto
+3008,Meeting,Lunch with Elina,2025-11-18,Done,,Elina Saari,Saari & Co,Lunch with Elina; she advises founder-owned companies on ownership changes.,Johan Aalto
+3009,Meeting,Sofia met Henrik Lund at Revontuli's Stockholm office,2026-01-27,Done,913,Henrik Lund,Revontuli Growth Partners,Sofia met Henrik Lund at Revontuli's Stockholm office.,Sofia Berglund
+3010,Meeting,Sofia met Tuomas Leino at the bank's corporate desk,2026-02-10,Done,906,Tuomas Leino,Merikoski Bank,Sofia met Tuomas Leino at the bank's corporate desk.,Sofia Berglund
+3011,Meeting,Met Oskari at his office,2026-03-10,Done,917,Oskari Vesi,Vesi Analytics Oy,Met Oskari at his office.,Johan Aalto
+3012,Task,Kivi Family Office signed as co-investor alongside the buyer in the Harju transaction,2026-03-28,Done,904,Leena Kivi,Kivi Family Office,Kivi Family Office signed as co-investor alongside the buyer in the Harju transaction.,Johan Aalto
+3013,Task,Transaction closed,2026-03-31,Done,999,Petra Harju,Harju Logistics Oy,Transaction closed; majority stake sold to a Nordic buyer.,Johan Aalto
+3014,Task,Referral agreement signed: the bank passes small sell-side mandates for a fee share,2026-04-01,Done,906,Tuomas Leino,Merikoski Bank,Referral agreement signed: the bank passes small sell-side mandates for a fee share.,Sofia Berglund
+3015,Task,Oskari asked for a proposal for a minority raise,2026-04-02,Done,917,Oskari Vesi,Vesi Analytics Oy,Oskari asked for a proposal for a minority raise.,Johan Aalto
+3016,Task,Oskari: not now,2026-04-30,Done,917,Oskari Vesi,Vesi Analytics Oy,Oskari: not now; revisit after the 2026 accounts are out (March 2027).,Johan Aalto
+3017,Meeting,First meeting with Mari Kallio and the CFO in Turku,2026-05-12,Done,903,Mari Kallio,Kallio Foods Oy,First meeting with Mari Kallio and the CFO in Turku.,Johan Aalto
+3018,Meeting,Project Birch kick-off with Kallio management,2026-06-22,Done,903,Mari Kallio,Kallio Foods Oy,Project Birch kick-off with Kallio management.,Johan Aalto
+3019,Meeting,Project Birch weekly status,2026-08-27,Done,903,Mari Kallio,Kallio Foods Oy,Project Birch weekly status.,Johan Aalto
+3020,Meeting,First meeting with Camilla Nord,2026-08-28,Done,909,Camilla Nord,Nordvent Systems AB,First meeting with Camilla Nord.,Johan Aalto
+3021,Meeting,"Met Petteri at Lindgate's sponsored table, Nordic Mid-Market Forum",2026-09-17,Done,911,Petteri Oravala,Oravala Software Oy,"Met Petteri at Lindgate's sponsored table, Nordic Mid-Market Forum.",Johan Aalto
+3022,Meeting,Call with Ville Kuosmanen,2026-09-19,Done,905,Ville Kuosmanen,Lumo Health Oy,Call with Ville Kuosmanen.,Sofia Berglund
+3023,Meeting,Intro meeting with Jari Tammela,2026-10-01,Done,915,Jari Tammela,Tammela Steel Oy,Intro meeting with Jari Tammela.,Johan Aalto
+3024,Meeting,First meeting with Sanna Okko,2026-10-06,Done,910,Sanna Okko,Okko Instruments Oy,First meeting with Sanna Okko.,Sofia Berglund
+3025,Call,Follow up on the proposal,2026-10-14,To do,909,Camilla Nord,Nordvent Systems AB,,Johan Aalto

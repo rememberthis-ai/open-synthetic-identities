@@ -61,7 +61,7 @@ party("harju-logistics", "Harju Logistics Oy", "organisation", "customer", "team
       "introduced Tammela Steel (referred).",
       ("Petra Harju", "petra@harju-logistics.example", "CEO"), "Tampere, FI")
 party("tammela-steel", "Tammela Steel Oy", "organisation", "customer", "referrals", "johan",
-      "Came through Petra Harju's introduction (referrals, via harju-logistics); replied and met.",
+      "Came through Petra Harju's introduction (referrals, via harju-logistics); asked to meet, and met.",
       ("Jari Tammela", "jari@tammela-steel.example", "CEO"), "Hämeenlinna, FI")
 party("kallio-foods", "Kallio Foods Oy", "organisation", "customer", "team", "johan",
       "Johan's relationship; engagement letter signed in June and Project Birch kicked off (set_up). The deal "
@@ -164,7 +164,7 @@ e("2025-10-01", "harju-logistics", "set_up", "rec", "Kick-off; buyer list agreed
 e("2026-03-31", "harju-logistics", "outcome", "rec", "Transaction closed; majority stake sold to a Nordic buyer")
 e("2026-08-17", "harju-logistics", "reordered", "mail", "Petra asks Lindgate to run the add-on acquisition too; new engagement letter attached, signed")
 e("2026-09-21", "harju-logistics", "referred", "mail", "Petra introduces Jari Tammela of Tammela Steel, who is thinking about succession")
-e("2026-09-22", "tammela-steel", "replied", "mail", "Jari replies to Petra's introduction and asks for a meeting", via="harju-logistics")
+e("2026-09-22", "tammela-steel", "asked", "mail", "Jari replies to Petra's introduction and asks for a meeting", via="harju-logistics")
 e("2026-10-01", "tammela-steel", "met", "cal", "Intro meeting with Jari Tammela")
 # Kallio: Project Birch, the live sell-side mandate.
 e("2026-05-12", "kallio-foods", "met", "rec", "First meeting with Mari Kallio and the CFO in Turku")
@@ -223,7 +223,7 @@ SAID = {
     ("2026-06-30", "vaara-packaging", "outcome"): "Johan,\n\nThe money landed this morning and the deal is closed. Thank you, and Sofia too, for getting us there. Dinner is on me in August.\n\nAntti",
     ("2026-08-17", "harju-logistics", "reordered"): "Hi Johan,\n\nWe want to go ahead with the Lempäälä acquisition and we want you to run it, same terms as last time. Signed engagement letter attached.\n\nPetra",
     ("2026-09-21", "harju-logistics", "referred"): "Johan, meet Jari Tammela (cc). Jari is thinking about succession at Tammela Steel and I told him you are the people to talk to. Jari, Johan ran our sale last spring.\n\nPetra",
-    ("2026-09-22", "tammela-steel", "replied"): "Thanks Petra. Johan, could we meet in Hämeenlinna in the next couple of weeks?\n\nJari",
+    ("2026-09-22", "tammela-steel", "asked"): "Thanks Petra. Johan, could we meet in Hämeenlinna in the next couple of weeks?\n\nJari",
     ("2026-06-04", "kallio-foods", "asked_proposal"): "Johan,\n\nThe board met yesterday. Could you send us a proposal for running the sale of a majority stake? Fees, timeline, team.\n\nMari",
     ("2026-06-10", "kallio-foods", "wrote"): "Mari,\n\nOur proposal for Project Birch is attached: a retainer of EUR 8,000 a month and a success fee. Happy to walk the board through it.\n\nJohan",
     ("2026-06-16", "kallio-foods", "signed"): "Signed engagement letter attached. Let's get going.\n\nMari",
